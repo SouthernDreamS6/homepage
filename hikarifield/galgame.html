@@ -45,8 +45,22 @@
 			}
 			
 			.ownSell {
-				font-size: 16px;	/* 字体大小 */
+				font-size: 14px;	/* 字体大小 */
 				color: #7B7D7D;	/* 字体颜色 */
+				padding:0px 0;	/* 内边距 */
+				margin:0px 0;	/* 外边距 */
+			}
+			
+			.top {
+				font-size: 14px;	/* 字体大小 */
+				color: #7B7D7D;	/* 字体颜色 */
+				padding:0px 0;	/* 内边距 */
+				margin:0px 0;	/* 外边距 */
+			}
+			
+			.top_redfont {
+				font-size: 16px;	/* 字体大小 */
+				color: red;	/* 字体颜色 */
 				padding:0px 0;	/* 内边距 */
 				margin:0px 0;	/* 外边距 */
 			}
@@ -59,12 +73,12 @@
 		<table border="0" cellspacing="0" cellpadding="0">
 			<!--标题-->
 			<tr>
-				<th>游戏名称</th>
-				<th>HF促销最低价<br>代购/抽奖标价<br>代购价格为系统计算仅供参考<br>实际代购价格低于公示价<br>更新时间2024.03.24</th>
-				<th>Steam历史最低价<br>注意！受汇率影响<br>折合人民币售价仅供参考<br>更新时间2024.03.24<br>区域-价格</th>
-				<th>游戏ID<br>Steam商品ID</th>
-				<th>开发商</th>
-				<th>发售时间</th>
+				<th>游戏名称<p class="top">点击名称即可访问HF商城</p></th>
+				<th>HF促销最低价<p class="top">代购价格为系统计算仅供参考<br>实际代购价格低于公示价<br>且满100还有额外折扣</p>更新时间2024.03.24<br>代购/抽奖标价</th>
+				<th>Steam历史最低价<p class="top_redfont">注意！受汇率影响</p><p class="top">换算人民币价格仅供参考<br>此处未计算Steam余额等其他折扣</p>更新时间2024.03.24<br>区域-价格</th>
+				<th>游戏ID<p class="top">Steam商品ID</p></th>
+				<th>开发商<p class="top">部分社团资料较少<br>如有错误欢迎指正</p></th>
+				<th>发售时间<p class="top">此处时间采集于HF游戏介绍</p></th>
 			</tr>
 			<!--序号1-->
 			<tr>
@@ -743,27 +757,30 @@
 			</tr>
 		</table>
 		<script>
-		// 获取所有的HF促销最低价元素
-const hfSpecialOffers = document.querySelectorAll('.hfSpecialOffer');
-
-// 遍历每个元素，计算并更新价格
-hfSpecialOffers.forEach(offer => {
-  // 获取当前价格
-  const currentPrice = parseFloat(offer.textContent.replace('¥', ''));
-  
-  // 计算新价格
-  const purchasePrice = (currentPrice * 0.95).toFixed(2);
-  const raffleLinkPrice = (currentPrice * 0.8).toFixed(2);
-  const raffleKeyPrice = (currentPrice * 0.6).toFixed(2);
-  
-  // 创建新的价格显示元素
-  const newPrices = document.createElement('p');
-  newPrices.classList.add('ownSell');
-  newPrices.innerHTML = `代购¥${purchasePrice}<br>抽奖链接¥${raffleLinkPrice}，抽奖key¥${raffleKeyPrice}`;
-  
-  // 将新价格显示元素插入到DOM中
-  offer.closest('td').appendChild(newPrices);
-});
+			// 获取所有的HF促销最低价元素
+			const hfSpecialOffers = document.querySelectorAll('.hfSpecialOffer');
+			
+			// 遍历每个元素，计算并更新价格
+			hfSpecialOffers.forEach(offer => {
+				
+				// 获取当前价格
+				const currentPrice = parseFloat(offer.textContent.replace('¥', ''));
+				
+				// 根据价格确定折扣率
+				const discountRate = currentPrice > 30 ? 0.93 : 0.95;
+				// 计算新价格
+				const purchasePrice = (currentPrice * discountRate).toFixed(2);
+				const raffleLinkPrice = (currentPrice * 0.8).toFixed(2);
+				const raffleKeyPrice = (currentPrice * 0.6).toFixed(2);
+				
+				// 创建新的价格显示元素
+				const newPrices = document.createElement('p');
+				newPrices.classList.add('ownSell');
+				newPrices.innerHTML = `代购¥${purchasePrice}<br>抽奖链接¥${raffleLinkPrice}，抽奖key¥${raffleKeyPrice}`;
+				
+				// 将新价格显示元素插入到DOM中
+				offer.closest('td').appendChild(newPrices);
+			});
 
 		</script>
 	</body>
