@@ -67,6 +67,19 @@
 		</style>
 	</head>
 	<body>
+		<!-- 隐藏的音频元素用于播放 WAV文件 -->
+		<audio id="audioPlayer" src="./Ciallo～(∠・ω＜)⌒☆.wav" type="audio/x-ms-wma"></audio>
+		<script>
+			// 播放音频文件的函数
+			function playAudio() {
+				var audioPlayer = document.getElementById('audioPlayer');
+				audioPlayer.play();
+			}
+			
+			// 为 body 添加事件监听器，点击时播放音频
+			document.body.addEventListener('click', playAudio);
+		</script>
+		
 		<h1  align="center">本页信息收集于网络，如有错误联系</h1>
 		<h2  align="center">先H5单页凑合~等有时间了换VUE</h2>
 		<h3  align="center">其实不换也行👀</h3>
@@ -781,7 +794,6 @@
 				// 将新价格显示元素插入到DOM中
 				offer.closest('td').appendChild(newPrices);
 			});
-
 		</script>
 	</body>
 </html>
