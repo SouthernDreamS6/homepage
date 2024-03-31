@@ -3,70 +3,48 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>HF游戏史低价格表</title>
+		<link rel="stylesheet" href="./static/style.css?v=1.1">
 		<style type="text/css">
-			body {
-				font-weight: body;	/* 字体加粗 */
-				justify-content: center;
-				align-items: center;
-				margin: 0;
-				padding: 0;
-			}
-			table{
-				width: 100%; /* 表格宽度自适应 */
-				table-layout: fixed; /* 列宽固定 */
-				border-collapse: collapse;/*让靠在一起的单元格只显示一个边框，边框不进行叠加*/
-			}
 			
-			table tr th{
-				border: solid 1px #ccc;
-				height: 30px;
-				width: 200px;
-				background-color: #eee;
-				position: sticky;
-				top: 0;
-			}
-			
-			table tr td{
-				border: solid 1px #ccc;
-				height: 30px;
-				text-align: center;
-			}
-			
-			table tr:hover
-			{
-				background-color: red;/*hover:鼠标移上去就会变成红色*/
-			}
-			
-			.hfSpecialOffer {
-				font-size: 20px;	/* 字体大小 */
-				color: red;	/* 字体颜色 */
-				padding:0px 0;	/* 内边距 */
-				margin:0px 0;	/* 外边距 */
-			}
-			
-			.ownSell {
-				font-size: 14px;	/* 字体大小 */
-				color: #7B7D7D;	/* 字体颜色 */
-				padding:0px 0;	/* 内边距 */
-				margin:0px 0;	/* 外边距 */
-			}
-			
-			.top {
-				font-size: 14px;	/* 字体大小 */
-				color: #7B7D7D;	/* 字体颜色 */
-				padding:0px 0;	/* 内边距 */
-				margin:0px 0;	/* 外边距 */
-			}
-			
-			.top_redfont {
-				font-size: 16px;	/* 字体大小 */
-				color: red;	/* 字体颜色 */
-				padding:0px 0;	/* 内边距 */
-				margin:0px 0;	/* 外边距 */
-			}
 		</style>
 	</head>
 	<body>
+		<!-- 弹窗代码开始 -->
+		<div class="web_notice" onclick="closePopup('.web_notice');">
+			<div class="web_notice_box">
+				<h3 class="web_notice_title">! 公告/答疑 !</h3>
+				<h3 class="web_notice_title2">! 点击任意位置即可关闭 !</h3>
+				<div class="web_notice_content">
+					<p class="web_notice_content_1">注：以下是近期遇到的本页相关“名词”或其他疑问的解答。</p>
+					<p>问：什么是“HF促销最低价”？<br>答：“HF促销最低价”是指<a href="https://store.hikarifield.co.jp/">HIKARI FIELD</a>商城在售的视觉小说官方促销价历史最低的价格。</p>
+					<p>问：什么是“代购¥”？<br>答：“代购¥”是本人代为购买相关作品的价格。<br>（注！该价格仅在促销期间有效，价格仅供参考，在网页服务正常运作的情况下实际售价绝不高于公示价。）</p>
+					<p>问：什么是“抽奖链接¥”？<br>答：“抽奖链接¥”是指本人在HF积分抽奖中抽出作品的出售价。<br>（“抽奖链接¥”的前提1.该作品为HF抽奖产出的奖品，2.本人不需要该奖品）<br>注：“抽奖链接¥”非常驻出售，请关注本人🐟/贴吧相关信息。</p>
+					<p>问：什么是“抽奖key¥”？<br>答：“抽奖key¥”与链接性质差不多，不过只有SteamKEY<br>（“抽奖key¥”的前提1.该作品为HF抽奖产出的奖品，2.本人需要该奖品用于激活HF账号，但不需要该作品的steam激活码）<br>注：“抽抽奖key¥”非常驻出售，请关注本人🐟/贴吧相关信息。</p>
+					<p>问：待补充<br>答：待补充</p>
+					<p class="web_notice_content_1">以上就是对对于本页相关内容的答疑，如果还有其他问题欢迎联系我。</p>
+					<p>! 点击任意位置即可关闭 !</p>
+				</div>
+			</div>
+		</div>
+		<!-- 
+		<script>
+			function closePopup() {
+				document.querySelector('.web_notice').style.display = 'none';
+			}
+		</script>
+		-->
+		<script>
+			function closePopup(popupClass) {
+				const popup = document.querySelector(popupClass);
+				if (popup.style.display === 'none') {
+					popup.style.display = 'block'; // 点击展开
+				} else {
+					popup.style.display = 'none'; // 点击关闭
+				}
+			}
+		</script>
+		<!-- 弹窗代码结束 -->
+
 		<!-- 隐藏的音频元素用于播放 WAV文件 -->
 		<audio id="audioPlayer" src="./Ciallo～(∠・ω＜)⌒☆.wav" type="audio/x-ms-wma"></audio>
 		<script>
@@ -83,6 +61,9 @@
 		<h1  align="center">本页信息收集于网络，如有错误联系</h1>
 		<h2  align="center">先H5单页凑合~等有时间了换VUE</h2>
 		<h3  align="center">其实不换也行👀</h3>
+		<div style="text-align:center"><button onclick="document.querySelector('.web_notice').style.display = 'block';"
+                            data-anim="4" data-area-w="80%" data-area-h="90%" data-shade="false"
+                            class="kz-nav-btn btn btn-danger col-lg-4"><br>点击弹出公告/答疑<br><br>///</button></div>
 		<table border="0" cellspacing="0" cellpadding="0">
 			<!--标题-->
 			<tr>
