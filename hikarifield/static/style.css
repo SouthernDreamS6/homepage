@@ -38,6 +38,13 @@ table tr:hover{
 	margin:0px 0;	/* 外边距 */
 }
 
+.hfSLAM_CARD {
+	font-size: 20px;	/* 字体大小 */
+	color: orange;	/* 字体颜色 */
+	padding:0px 0;	/* 内边距 */
+	margin:0px 0;	/* 外边距 */
+}
+
 .ownSell {
 	font-size: 14px;	/* 字体大小 */
 	color: #7B7D7D;	/* 字体颜色 */
@@ -159,3 +166,5 @@ table tr:hover{
     color: #ff0000;
 }
 /* 弹窗网盘代码样式结束 */
+
+.switchTable { display: none; }
