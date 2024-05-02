@@ -1145,7 +1145,7 @@
 				const currentPrice = parseFloat(offer.textContent.replace('¥', ''));
 				
 				// 根据价格确定折扣率
-				const discountRate = currentPrice > 30 ? 0.93 : 0.95;
+				const discountRate = currentPrice > 30 ? 0.94 : 0.95;
 				// 计算新价格
 				const purchasePrice = (currentPrice * discountRate).toFixed(2);
 				const raffleLinkPrice = (currentPrice * 0.8).toFixed(2);
