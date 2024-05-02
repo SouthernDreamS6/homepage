@@ -1143,9 +1143,21 @@
 				
 				// 获取当前价格
 				const currentPrice = parseFloat(offer.textContent.replace('¥', ''));
+			
+				 // 根据价格确定折扣率
+        let discountRate;
+        let discountInfo;
+        if (currentPrice < 30) {
+            discountRate = 0.95;
+            discountInfo = '95折';
+        } else if (currentPrice >= 30 && currentPrice < 40) {
+            discountRate = 0.94;
+            discountInfo = '94折';
+        } else {
+            discountRate = 0.93;
+            discountInfo = '93折';
+        }
 				
-				// 根据价格确定折扣率
-				const discountRate = currentPrice > 30 ? 0.94 : 0.95;
 				// 计算新价格
 				const purchasePrice = (currentPrice * discountRate).toFixed(2);
 				const raffleLinkPrice = (currentPrice * 0.8).toFixed(2);
@@ -1154,7 +1166,7 @@
 				// 创建新的价格显示元素
 				const newPrices = document.createElement('p');
 				newPrices.classList.add('ownSell');
-				newPrices.innerHTML = `代购¥${purchasePrice}<br>抽奖链接¥${raffleLinkPrice}，抽奖key¥${raffleKeyPrice}`;
+				newPrices.innerHTML = `${discountInfo} 代购¥${purchasePrice}<br>抽奖链接¥${raffleLinkPrice}，抽奖key¥${raffleKeyPrice}`;
 				
 				// 将新价格显示元素插入到DOM中
 				offer.closest('td').appendChild(newPrices);
