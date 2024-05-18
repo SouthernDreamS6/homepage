@@ -422,9 +422,13 @@
         "steam_low_price_convert_to_cn": "约¥42.10"
       }
     },
-    "other_low_price": "【官方中日双文版】爱上火车 Last Run!! ＆ Vocal Complete Album【含DLsite限定特典】",
-    "other_low_price2": "原价330JPY,新用户优惠320JPY,实付10JPY",
-    "other_low_price_url":"/dlsite_maitetsu_lastrun.pdf",
+    "other_low_price": {
+      "other_low_price_title":"【官方中日双文版】爱上火车 Last Run!! ＆ Vocal Complete Album【含DLsite限定特典】",
+      "other_low_price_title_url":"https://www.dlsite.com/pro/work/=/product_id/VJ013196.html",
+      "other_low_price2": "原价330JPY，新用户优惠320JPY，实付10JPY",
+      "other_low_price_screenshot":"点击查看订单截图",
+      "other_low_price_screenshot_url":"./dlsite_maitetsu_lastrun.pdf"
+    },
     "game_publisher":{
       "game_publisher_name": "Lose",
       "game_publisher_nickname": "",
@@ -1099,9 +1103,13 @@
         "steam_low_price_convert_to_cn": "约¥57.13"
       }
     },
-    "other_low_price": "2023.08.03摩点众筹实体激活卡30r",
-    "other_low_price2": "同时期🐟均价30-35r",
-    "other_low_price3": "众筹已于2023.10.01结束",
+    "other_low_price": {
+      "other_low_price_title":"2023.08.03-2023.10.01摩点众筹实体激活卡30r",
+      "other_low_price_title_url":"https://zhongchou.modian.com/item/127745.html",
+      "other_low_price2": "同时期🐟均价30-35r",
+      "other_low_price_screenshot":"",
+      "other_low_price_screenshot_url":""
+    },
     "game_publisher":{
       "game_publisher_name": "Us:track",
       "game_publisher_nickname": "",
@@ -1182,7 +1190,13 @@
         "steam_low_price_convert_to_cn": "约¥63.36"
       }
     },
-    "other_low_price": "~",
+    "other_low_price": {
+      "other_low_price_title":"2023.12.14-2024.02.11摩点众筹实体激活卡30r",
+      "other_low_price_title_url":"https://zhongchou.modian.com/item/130095.html",
+      "other_low_price2": "同时期🐟均价30-35r",
+      "other_low_price_screenshot":"",
+      "other_low_price_screenshot_url":""
+    },
     "game_publisher":{
       "game_publisher_name": "Navel",
       "game_publisher_nickname": "",

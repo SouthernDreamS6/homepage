@@ -186,7 +186,7 @@
 					<!-- Steam价格 -->
 					<td v-show="show_steam_price">{{ item.steam_info.steam_prices.steamcn_low_price }}<br>{{ item.steam_info.steam_prices.steam_low_price }} {{ item.steam_info.steam_prices.steam_low_price_convert_to_cn }}</td>
 					<!-- 其他途径 -->
-					<td v-show="show_other_price">{{ item.other_low_price }}<br>{{ item.other_low_price2 }}<br>{{ item.other_low_price3 }}</td>
+					<td v-show="show_other_price"><a :href="item.other_low_price.other_low_price_title_url" target="_blank">{{ item.other_low_price.other_low_price_title }}</a><br>{{ item.other_low_price.other_low_price2 }}<br>{{ item.other_low_price.other_low_price3 }}<a :href="item.other_low_price.other_low_price_screenshot_url" target="_blank">{{ item.other_low_price.other_low_price_screenshot }}</a></td>
 					<!-- 游戏ID -->
 					<td v-show="show_game_id"><a :href="'https://steamdb.info/app/' + item.steam_info.steam_game_id" target="_blank">{{ item.steam_info.steam_game_id }}</a></td>
 					<!-- 开发商 -->
