@@ -143,15 +143,20 @@
 			<!-- 表格切换代码结束 -->
 		</div>
 
-		<div id="switchTable1" class="switchTable">
-			<button @click="show_game_img = !show_game_img">游戏预览图</button>
-			<button @click="show_game_name = !show_game_name">游戏名称</button>
-			<button @click="show_hf_price = !show_hf_price">HF价格</button>
-			<button @click="show_steam_price = !show_steam_price">Steam价格</button>
-			<button @click="show_other_price = !show_other_price">其他途径（默认隐藏）</button>
-			<button @click="show_game_id = !show_game_id">游戏ID</button>
-			<button @click="show_game_publisher = !show_game_publisher">开发商</button>
-			<button @click="show_release_time = !show_release_time">发售时间</button>
+		<div id="switchTable1" class="switchTable"><br><br>
+			<button @click="show_Console = !show_Console"><br>打开/关闭控制台<br>///</button>
+			<div v-show="show_Console">
+				<button @click="show_game_img = !show_game_img">游戏预览图</button>
+				<button @click="show_game_name = !show_game_name">游戏名称</button>
+				<button @click="show_hf_price = !show_hf_price">HF价格</button>
+				<button @click="show_steam_price = !show_steam_price">Steam价格</button>
+				<button @click="show_other_price = !show_other_price">其他途径<br>（默认隐藏）</button>
+				<button @click="show_game_id = !show_game_id">游戏ID</button>
+				<button @click="show_game_publisher = !show_game_publisher">开发商</button>
+				<button @click="show_release_time = !show_release_time">发售时间</button>
+			</div>
+			<br>
+			
 			<table border="0" cellspacing="0" cellpadding="0">
 				<!--标题-->
 				<tr>
@@ -167,7 +172,7 @@
 				<!--Galgame模板-->
 				<tr v-for="(item, index) in table_game">
 					<!-- 游戏预览图 -->
-					<td v-show="show_game_img"><img :src="'./public/images/galgames/' + item.hf_info.hf_game_id + '/header.jpg'" alt="item.hf_info.hf_game_id" height="300%" width="auto"></td>
+					<td v-show="show_game_img"><img :src="'./public/images/galgames/' + item.hf_info.hf_game_id + '/' + item.hf_info.hf_game_id + '.jpg'" alt="item.hf_info.hf_game_id" height="300%" width="auto"></td>
 					<!-- 游戏名称 -->
 					<td v-show="show_game_name"><a :href="'https://store.hikarifield.co.jp/shop/' + item.hf_info.hf_game_id" target="_blank">{{ item.game_name }}</a></td>
 					<!-- HF价格 -->
@@ -186,13 +191,16 @@
 			</table>
 		</div>
 
-		<div id="switchTable2" class="switchTable">
-			<button @click="show_audio_works_img = !show_audio_works_img">作品预览图</button>
-			<button @click="show_audio_works_name = !show_audio_works_name">作品名称</button>
-			<button @click="show_hf_audio_works_price = !show_hf_audio_works_price">HF价格</button>
-			<button @click="show_audio_works_id = !show_audio_works_id">SLAM CARD价格</button>
-			<button @click="show_audio_works_publisher = !show_audio_works_publisher">开发商</button>
-			<button @click="show_audio_works_release_time = !show_release_time">发售时间</button>
+		<div id="switchTable2" class="switchTable"><br><br>
+			<button @click="show_Console = !show_Console"><br>打开/关闭控制台<br>///</button>
+			<div v-show="show_Console">
+				<button @click="show_audio_works_img = !show_audio_works_img">作品预览图</button>
+				<button @click="show_audio_works_name = !show_audio_works_name">作品名称</button>
+				<button @click="show_hf_audio_works_price = !show_hf_audio_works_price">HF价格</button>
+				<button @click="show_audio_works_id = !show_audio_works_id">SLAM CARD价格</button>
+				<button @click="show_audio_works_publisher = !show_audio_works_publisher">开发商</button>
+				<button @click="show_audio_works_release_time = !show_release_time">发售时间</button>
+			</div>
 			<table border="0" cellspacing="0" cellpadding="0">
 				<!--标题-->
 				<tr>
@@ -282,6 +290,7 @@
 
 				const show_change_log = ref(false);
 				const show_QandA = ref(false);
+				const show_Console = ref(false);
 	  
 				// 异步加载JSON数据galgame_info.json
 				fetch(" ./galgame_info.json")
@@ -320,6 +329,7 @@
 				
 				  show_change_log,
 				  show_QandA,
+				  show_Console
 				};
 			  },
 			}).mount("#app");
