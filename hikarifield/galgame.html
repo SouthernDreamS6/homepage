@@ -142,6 +142,7 @@
 			<button onclick="showTable('switchTable4')"><br>黑名单<br><br>///</button>
 			<!-- 表格切换代码结束 -->
 		</div>
+
 		<div id="switchTable1" class="switchTable">
 			<button @click="show_game_img = !show_game_img">游戏预览图</button>
 			<button @click="show_game_name = !show_game_name">游戏名称</button>
@@ -164,9 +165,9 @@
 					<th v-show="show_release_time">发售时间<p class="top">此处时间采集于HF游戏介绍</p></th>
 				</tr>
 				<!--Galgame模板-->
-				<tr v-for="(item, index) in table">
+				<tr v-for="(item, index) in table_game">
 					<!-- 游戏预览图 -->
-					<td v-show="show_game_img"><img :src="'./public/images/' + item.hf_info.hf_game_id + '/header.jpg'" alt="item.hf_info.hf_game_id" height="300%" width="auto"></td>
+					<td v-show="show_game_img"><img :src="'./public/images/galgames/' + item.hf_info.hf_game_id + '/header.jpg'" alt="item.hf_info.hf_game_id" height="300%" width="auto"></td>
 					<!-- 游戏名称 -->
 					<td v-show="show_game_name"><a :href="'https://store.hikarifield.co.jp/shop/' + item.hf_info.hf_game_id" target="_blank">{{ item.game_name }}</a></td>
 					<!-- HF价格 -->
@@ -183,165 +184,43 @@
 					<td v-show="show_release_time">{{ item.release_time }}</td>
 				  </tr>
 			</table>
-		</div></div>
+		</div>
+
 		<div id="switchTable2" class="switchTable">
-		
-		<p class="hfSpecialOffer">等待更新</p>
-		
+			<button @click="show_audio_works_img = !show_audio_works_img">作品预览图</button>
+			<button @click="show_audio_works_name = !show_audio_works_name">作品名称</button>
+			<button @click="show_hf_audio_works_price = !show_hf_audio_works_price">HF价格</button>
+			<button @click="show_audio_works_id = !show_audio_works_id">SLAM CARD价格</button>
+			<button @click="show_audio_works_publisher = !show_audio_works_publisher">开发商</button>
+			<button @click="show_audio_works_release_time = !show_release_time">发售时间</button>
 			<table border="0" cellspacing="0" cellpadding="0">
 				<!--标题-->
 				<tr>
-					<th>作品名称<p class="top">点击名称即可访问HF商城</p></th>
-					<th>HF促销最低价<p class="top">代购价格为系统计算仅供参考<br>实际代购价格低于公示价<br>且满100还有额外折扣</p>更新时间2024.04.19<br>代购/抽奖标价</th>
-					<th>SLAM CARD折后价格<p class="top">更新时间2024.04.19</p></th>
-					<th>开发商<p class="top">部分社团资料较少<br>如有错误欢迎指正</p></th>
-					<th>发售时间<p class="top">此处时间采集于HF游戏介绍</p></th>
+					<th v-show="show_audio_works_img">作品预览图<p class="top">点击名称即可访问HF商城</p></th>
+					<th v-show="show_audio_works_name">作品名称<p class="top">点击名称即可访问HF商城</p></th>
+					<th v-show="show_hf_audio_works_price">HF价格<p class="top">代购价格为系统计算仅供参考<br>实际代购价格低于公示价<br>且满100还有额外折扣</p>更新时间2024.04.19<br>代购/抽奖标价</th>
+					<th v-show="show_audio_works_id">SLAM CARD价格<p class="top">更新时间2024.04.19</p></th>
+					<th v-show="show_audio_works_publisher">开发商<p class="top">部分社团资料较少<br>如有错误欢迎指正</p></th>
+					<th v-show="show_audio_works_release_time">发售时间<p class="top">此处时间采集于HF游戏介绍</p></th>
 				</tr>
 				<!--序号1-->
-				<tr>
+				<tr v-for="(item, index) in table_audio_works">
+					<!-- 游戏预览图 -->
+					<td v-show="show_audio_works_img"><img :src="'./public/images/audio_works/' + item.hf_audio_works_info.hf_audio_works_id + '/' + item.hf_audio_works_info.hf_audio_works_id + '.jpg'" alt="item.hf_audio_works_info.hf_audio_works_id" height="300%" width="auto"></td>
 					<!--游戏名称-->
-					<td><a href="https://store.hikarifield.co.jp/shop/ayakashi_sumi">妖异乡愁谭 · 赤赤熊 栖美</a></td>
+					<td v-show="show_audio_works_name"><a :href="'https://store.hikarifield.co.jp/shop/' + item.hf_audio_works_info.hf_audio_works_id" target="_blank">{{ item.audio_works_name }}</a></td>
+					<!--<td><a href="https://store.hikarifield.co.jp/shop/ayakashi_sumi">妖异乡愁谭 · 赤赤熊 栖美</a></td>
 					<!--HF促销最低价-->
 					<td><p class="hfSpecialOffer">¥13</p></td>
-					<!--SLAM CARD折后价格-->
+					<!--SLSLAM CARD价格格-->
 					<td><p class="hfSLAM_CARD">¥12</p></td>
 					<!--开发商-->
-					<td><a href="https://www.lose.jp/">Lose</a><br>已停止活动</td>
+					<td v-show="show_audio_works_publisher"><a :href="item.audio_works_publisher.audio_works_publisher_url" target="_blank">{{ item.audio_works_publisher.audio_works_publisher_name }}</a><!--<br>{{ item.audio_works_publisher_nickname }}--><br>{{ item.audio_works_publisher.audio_works_publisher_history }}</td>
 					<!--发售时间-->
-					<td>2022-03-11</td>
-				</tr>
-				<!--序号2-->
-				<tr>
-					<!--游戏名称-->
-					<td><a href="https://store.hikarifield.co.jp/shop/ayakashi_nana">妖异乡愁谭 · 七面颊 阿七</a></td>
-					<!--HF促销最低价-->
-					<td><p class="hfSpecialOffer">¥13</p></td>
-					<!--SLAM CARD折后价格-->
-					<td><p class="hfSLAM_CARD">¥12</p></td>
-					<!--开发商-->
-					<td><a href="https://www.lose.jp/">Lose</a><br>已停止活动</td>
-					<!--发售时间-->
-					<td>2022-03-11</td>
-				</tr>
-				<!--序号3-->
-				<tr>
-					<!--游戏名称-->
-					<td><a href="https://store.hikarifield.co.jp/shop/ayakashi_natsu">妖异乡愁谭 · 妹妹 夏叶</a></td>
-					<!--HF促销最低价-->
-					<td><p class="hfSpecialOffer">¥13</p></td>
-					<!--SLAM CARD折后价格-->
-					<td><p class="hfSLAM_CARD">¥12</p></td>
-					<!--开发商-->
-					<td><a href="https://www.lose.jp/">Lose</a><br>已停止活动</td>
-					<!--发售时间-->
-					<td>2022-03-11</td>
-				</tr>
-				<!--序号4-->
-				<tr>
-					<!--游戏名称-->
-					<td><a href="https://store.hikarifield.co.jp/shop/ayakashi_alice">妖异乡愁谭 · 青梅竹马 爱丽丝</a></td>
-					<!--HF促销最低价-->
-					<td><p class="hfSpecialOffer">¥13</p></td>
-					<!--SLAM CARD折后价格-->
-					<td><p class="hfSLAM_CARD">¥12</p></td>
-					<!--开发商-->
-					<td><a href="https://www.lose.jp/">Lose</a><br>已停止活动</td>
-					<!--发售时间-->
-					<td>2022-03-11</td>
-				</tr>
-				<!--序号5-->
-				<tr>
-					<!--游戏名称-->
-					<td><a href="https://store.hikarifield.co.jp/shop/ayakashi_hime">妖异乡愁谭 · 星辰姬宫 小始祖</a></td>
-					<!--HF促销最低价-->
-					<td><p class="hfSpecialOffer">¥13</p></td>
-					<!--SLAM CARD折后价格-->
-					<td><p class="hfSLAM_CARD">¥12</p></td>
-					<!--开发商-->
-					<td><a href="https://www.lose.jp/">Lose</a><br>已停止活动</td>
-					<!--发售时间-->
-					<td>2022-03-11</td>
-				</tr>
-				<!--序号6-->
-				<tr>
-					<!--游戏名称-->
-					<td><a href="https://store.hikarifield.co.jp/shop/chikuon_rail_beni">蓄音铁路 · 红</a></td>
-					<!--HF促销最低价-->
-					<td><p class="hfSpecialOffer">¥16</p></td>
-					<!--SLAM CARD折后价格-->
-					<td><p class="hfSLAM_CARD">¥15</p></td>
-					<!--开发商-->
-					<td><a href="https://www.lose.jp/">Lose</a><br>已停止活动</td>
-					<!--发售时间-->
-					<td>2023-09-05</td>
-				</tr>
-				<!--序号7-->
-				<tr>
-					<!--游戏名称-->
-					<td><a href="https://store.hikarifield.co.jp/shop/chikuon_rail_kiko">蓄音铁路 · 汽子</a></td>
-					<!--HF促销最低价-->
-					<td><p class="hfSpecialOffer">¥16</p></td>
-					<!--SLAM CARD折后价格-->
-					<td><p class="hfSLAM_CARD">¥15</p></td>
-					<!--开发商-->
-					<td><a href="https://www.lose.jp/">Lose</a><br>已停止活动</td>
-					<!--发售时间-->
-					<td>2023-09-05</td>
-				</tr>
-				<!--序号8-->
-				<tr>
-					<!--游戏名称-->
-					<td><a href="https://store.hikarifield.co.jp/shop/chikuon_rail_suika">蓄音铁路 · 西瓜</a></td>
-					<!--HF促销最低价-->
-					<td><p class="hfSpecialOffer">¥16</p></td>
-					<!--SLAM CARD折后价格-->
-					<td><p class="hfSLAM_CARD">¥15</p></td>
-					<!--开发商-->
-					<td><a href="https://www.lose.jp/">Lose</a><br>已停止活动</td>
-					<!--发售时间-->
-					<td>2023-09-05</td>
-				</tr>
-				<!--序号9-->
-				<tr>
-					<!--游戏名称-->
-					<td><a href="https://store.hikarifield.co.jp/shop/chikuon_rail_suzushiro">蓄音铁路 · 铃城</a></td>
-					<!--HF促销最低价-->
-					<td><p class="hfSpecialOffer">¥16</p></td>
-					<!--SLAM CARD折后价格-->
-					<td><p class="hfSLAM_CARD">¥15</p></td>
-					<!--开发商-->
-					<td><a href="https://www.lose.jp/">Lose</a><br>已停止活动</td>
-					<!--发售时间-->
-					<td>2023-09-05</td>
-				</tr>
-				<!--序号10-->
-				<tr>
-					<!--游戏名称-->
-					<td><a href="https://store.hikarifield.co.jp/shop/chikuon_rail_kaniko">蓄音铁路 · 蟹子</a></td>
-					<!--HF促销最低价-->
-					<td><p class="hfSpecialOffer">¥16</p></td>
-					<!--SLAM CARD折后价格-->
-					<td><p class="hfSLAM_CARD">¥15</p></td>
-					<!--开发商-->
-					<td><a href="https://www.lose.jp/">Lose</a><br>已停止活动</td>
-					<!--发售时间-->
-					<td>2023-09-05</td>
-				</tr>
-				<!--序号11-->
-				<tr>
-					<!--游戏名称-->
-					<td><a href="https://store.hikarifield.co.jp/shop/chikuon_rail_ran">蓄音铁路 · 兰</a></td>
-					<!--HF促销最低价-->
-					<td><p class="hfSpecialOffer">¥16</p></td>
-					<!--SLAM CARD折后价格-->
-					<td><p class="hfSLAM_CARD">¥15</p></td>
-					<!--开发商-->
-					<td><a href="https://www.lose.jp/">Lose</a><br>已停止活动</td>
-					<!--发售时间-->
-					<td>2023-09-05</td>
+					<td v-show="show_audio_works_release_time">{{ item.audio_works_release_time }}</td>
 				</tr>
 			</table>
-		</div>
+		</div></div>
 		<div id="switchTable3" class="switchTable">
 		
 		<p class="hfSpecialOffer">等待更新</p>
@@ -382,7 +261,8 @@
 	  
 			createApp({
 			  setup() {
-				const table = ref([]);
+				const table_game = ref([]);
+				const table_audio_works = ref([]);
 				const show_game_img =ref(true);
 				const show_game_name =ref(true);
 				const show_hf_price = ref(true);
@@ -391,19 +271,37 @@
 				const show_game_id = ref(true);
 				const show_game_publisher = ref(true);
 				const show_release_time = ref(true);
+
+				;
+				const show_audio_works_img = ref([]);
+				const show_audio_works_name = ref([]);
+				const show_hf_audio_works_price = ref([]);
+				const show_audio_works_id = ref([]);
+				const show_audio_works_publisher = ref([]);
+				const show_audio_works_release_time = ref([]);
+
 				const show_change_log = ref(false);
 				const show_QandA = ref(false);
 	  
-				// 异步加载JSON数据
+				// 异步加载JSON数据galgame_info.json
 				fetch(" ./galgame_info.json")
 				  .then((response) => response.json())
 				  .then((data) => {
-					table.value = data; // 将加载的数据赋值给table
+					table_game.value = data; // 将加载的数据赋值给table
 				  })
 				  .catch((error) => console.error("Error loading the JSON data:", error));
+				  
+				// 异步加载JSON数据audio_works_info.json
+				fetch("./audio_works_info.json")
+				.then((response) => response.json())
+				.then((data) => {
+					table_audio_works.value = data; // 将加载的数据赋值给table2
+				})
+				.catch((error) => console.error("Error loading the second JSON data:", error));
 	  
 				return {
-				  table,
+				  table_game,
+				  table_audio_works,
 				  show_game_img,
 				  show_game_name,
 				  show_hf_price,
@@ -412,6 +310,14 @@
 				  show_game_id,
 				  show_game_publisher,
 				  show_release_time,
+
+				  show_audio_works_img,
+				  show_audio_works_name,
+				  show_hf_audio_works_price,
+				  show_audio_works_id,
+				  show_audio_works_publisher,
+				  show_audio_works_release_time,
+				
 				  show_change_log,
 				  show_QandA,
 				};
