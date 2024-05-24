@@ -225,9 +225,9 @@
 				<button @click="show_audio_works_img = !show_audio_works_img">作品预览图</button>
 				<button @click="show_audio_works_name = !show_audio_works_name">作品名称</button>
 				<button @click="show_hf_audio_works_price = !show_hf_audio_works_price">HF价格</button>
-				<button @click="show_audio_works_id = !show_audio_works_id">SLAM CARD价格</button>
+				<button @click="show_hf_audio_works_SCprice = !show_hf_audio_works_SCprice">SLAM CARD价格</button>
 				<button @click="show_audio_works_publisher = !show_audio_works_publisher">开发商</button>
-				<button @click="show_audio_works_release_time = !show_release_time">发售时间</button>
+				<button @click="show_audio_works_release_time = !show_audio_works_release_time">发售时间</button>
 			</div>
 			<table border="0" cellspacing="0" cellpadding="0">
 				<!--标题-->
@@ -247,7 +247,7 @@
 							<br>且满100还有额外折扣</p>
 							更新时间2024.04.19
 							<br>代购/抽奖标价</th>
-					<th v-show="show_audio_works_id">
+					<th v-show="show_hf_audio_works_SCprice">
 						SLAM CARD价格
 						<p class="top">更新时间2024.04.19</p>
 					</th>
@@ -269,15 +269,14 @@
 						<a :href="'https://store.hikarifield.co.jp/shop/' + item.hf_audio_works_info.hf_audio_works_id" target="_blank">
 							{{ item.audio_works_name }}</a>
 						</td>
-					<!--<td><a href="https://store.hikarifield.co.jp/shop/ayakashi_sumi">妖异乡愁谭 · 赤赤熊 栖美</a></td>
 					<!--HF促销最低价-->
-					<td>
+					<td v-show="show_hf_audio_works_price">
 						<p class="hfSpecialOffer">{{ item.hf_audio_works_info.hf_audio_works_prices.hf_audio_works_now_price }}</p>
 						{{ item.hf_audio_works_info.hf_audio_works_prices.hf_audio_works_low_price }}
 						{{ item.hf_audio_works_info.hf_audio_works_prices.hf_audio_works_old_price }}
 					</td>
 					<!--SLSLAM CARD价格格-->
-					<td v-show="show_audio_works_id"><p class="hfSLAM_CARD">
+					<td v-show="show_hf_audio_works_SCprice"><p class="hfSLAM_CARD">
 						{{ item.hf_audio_works_info.hf_audio_works_prices.hf_audio_works_SLAM_CARD_low_price }}</p>
 					</td>
 					<!--开发商-->
@@ -350,7 +349,7 @@
 				const show_audio_works_img = ref([]);
 				const show_audio_works_name = ref([]);
 				const show_hf_audio_works_price = ref([]);
-				const show_audio_works_id = ref([]);
+				const show_hf_audio_works_SCprice = ref([]);
 				const show_audio_works_publisher = ref([]);
 				const show_audio_works_release_time = ref([]);
 
@@ -389,7 +388,7 @@
 				  show_audio_works_img,
 				  show_audio_works_name,
 				  show_hf_audio_works_price,
-				  show_audio_works_id,
+				  show_hf_audio_works_SCprice,
 				  show_audio_works_publisher,
 				  show_audio_works_release_time,
 				
