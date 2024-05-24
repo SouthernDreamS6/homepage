@@ -172,21 +172,49 @@
 				<!--Galgame模板-->
 				<tr v-for="(item, index) in table_game">
 					<!-- 游戏预览图 -->
-					<td v-show="show_game_img"><img :src="'./public/images/galgames/' + item.hf_info.hf_game_id + '/' + item.hf_info.hf_game_id + '.jpg'" alt="item.hf_info.hf_game_id" height="300%" width="auto"></td>
+					<td v-show="show_game_img">
+						<img :src="'./public/images/galgames/' + item.hf_info.hf_game_id + '/' + item.hf_info.hf_game_id + '.jpg'" alt="item.hf_info.hf_game_id" height="300%" width="auto">
+					</td>
 					<!-- 游戏名称 -->
-					<td v-show="show_game_name"><a :href="'https://store.hikarifield.co.jp/shop/' + item.hf_info.hf_game_id" target="_blank">{{ item.game_name }}</a></td>
+					<td v-show="show_game_name">
+						<a :href="'https://store.hikarifield.co.jp/shop/' + item.hf_info.hf_game_id" target="_blank">{{ item.game_name }}</a>
+					</td>
 					<!-- HF价格 -->
-					<td v-show="show_hf_price"><p class="hfSpecialOffer">{{ item.hf_info.hf_prices.hf_now_price }}</p>{{ item.hf_info.hf_prices.hf_low_price }} {{ item.hf_info.hf_prices.hf_old_price }}</td>
+					<td v-show="show_hf_price">
+						<p class="hfSpecialOffer">{{ item.hf_info.hf_prices.hf_now_price }}</p>
+						{{ item.hf_info.hf_prices.hf_low_price }} {{ item.hf_info.hf_prices.hf_old_price }}
+					</td>
 					<!-- Steam价格 -->
-					<td v-show="show_steam_price">{{ item.steam_info.steam_prices.steamcn_low_price }}<br>{{ item.steam_info.steam_prices.steam_low_price }} {{ item.steam_info.steam_prices.steam_low_price_convert_to_cn }}</td>
+					<td v-show="show_steam_price">
+						{{ item.steam_info.steam_prices.steamcn_low_price }}
+						<br>
+						{{ item.steam_info.steam_prices.steam_low_price }} {{ item.steam_info.steam_prices.steam_low_price_convert_to_cn }}
+					</td>
 					<!-- 其他途径 -->
-					<td v-show="show_other_price"><a :href="item.other_low_price.other_low_price_title_url" target="_blank">{{ item.other_low_price.other_low_price_title }}</a><br>{{ item.other_low_price.other_low_price2 }}<br>{{ item.other_low_price.other_low_price3 }}<a :href="item.other_low_price.other_low_price_screenshot_url" target="_blank">{{ item.other_low_price.other_low_price_screenshot }}</a></td>
+					<td v-show="show_other_price">
+						<a :href="item.other_low_price.other_low_price_title_url" target="_blank">{{ item.other_low_price.other_low_price_title }}</a>
+						<br>
+						{{ item.other_low_price.other_low_price2 }}
+						<br>
+						{{ item.other_low_price.other_low_price3 }}
+						<a :href="item.other_low_price.other_low_price_screenshot_url" target="_blank">{{ item.other_low_price.other_low_price_screenshot }}</a>
+					</td>
 					<!-- 游戏ID -->
-					<td v-show="show_game_id"><a :href="'https://steamdb.info/app/' + item.steam_info.steam_game_id" target="_blank">{{ item.steam_info.steam_game_id }}</a></td>
+					<td v-show="show_game_id">
+						<a :href="'https://steamdb.info/app/' + item.steam_info.steam_game_id" target="_blank">{{ item.steam_info.steam_game_id }}</a>
+					</td>
 					<!-- 开发商 -->
-					<td v-show="show_game_publisher"><a :href="item.game_publisher.game_publisher_url" target="_blank">{{ item.game_publisher.game_publisher_name }}</a><br>{{ item.game_publisher_nickname }}<br>{{ item.game_publisher.game_publisher_history }}</td>
+					<td v-show="show_game_publisher">
+						<a :href="item.game_publisher.game_publisher_url" target="_blank">{{ item.game_publisher.game_publisher_name }}</a>
+						<br>
+						{{ item.game_publisher_nickname }}
+						<br>
+						{{ item.game_publisher.game_publisher_history }}
+					</td>
 					<!-- 发售时间 -->
-					<td v-show="show_release_time">{{ item.release_time }}</td>
+					<td v-show="show_release_time">
+						{{ item.release_time }}
+					</td>
 				  </tr>
 			</table>
 		</div>
@@ -204,28 +232,66 @@
 			<table border="0" cellspacing="0" cellpadding="0">
 				<!--标题-->
 				<tr>
-					<th v-show="show_audio_works_img">作品预览图<p class="top">点击名称即可访问HF商城</p></th>
-					<th v-show="show_audio_works_name">作品名称<p class="top">点击名称即可访问HF商城</p></th>
-					<th v-show="show_hf_audio_works_price">HF价格<p class="top">代购价格为系统计算仅供参考<br>实际代购价格低于公示价<br>且满100还有额外折扣</p>更新时间2024.04.19<br>代购/抽奖标价</th>
-					<th v-show="show_audio_works_id">SLAM CARD价格<p class="top">更新时间2024.04.19</p></th>
-					<th v-show="show_audio_works_publisher">开发商<p class="top">部分社团资料较少<br>如有错误欢迎指正</p></th>
-					<th v-show="show_audio_works_release_time">发售时间<p class="top">此处时间采集于HF游戏介绍</p></th>
+					<th v-show="show_audio_works_img">
+						作品预览图
+						<p class="top">点击名称即可访问HF商城</p>
+					</th>
+					<th v-show="show_audio_works_name">
+						作品名称
+						<p class="top">点击名称即可访问HF商城</p>
+					</th>
+					<th v-show="show_hf_audio_works_price">
+						HF价格
+						<p class="top">代购价格为系统计算仅供参考
+							<br>实际代购价格低于公示价
+							<br>且满100还有额外折扣</p>
+							更新时间2024.04.19
+							<br>代购/抽奖标价</th>
+					<th v-show="show_audio_works_id">
+						SLAM CARD价格
+						<p class="top">更新时间2024.04.19</p>
+					</th>
+					<th v-show="show_audio_works_publisher">
+						开发商<p class="top">部分社团资料较少
+							<br>如有错误欢迎指正</p>
+						</th>
+					<th v-show="show_audio_works_release_time">
+						发售时间<p class="top">此处时间采集于HF游戏介绍</p>
+					</th>
 				</tr>
 				<!--序号1-->
 				<tr v-for="(item, index) in table_audio_works">
 					<!-- 游戏预览图 -->
-					<td v-show="show_audio_works_img"><img :src="'./public/images/audio_works/' + item.hf_audio_works_info.hf_audio_works_id + '/' + item.hf_audio_works_info.hf_audio_works_id + '.jpg'" alt="item.hf_audio_works_info.hf_audio_works_id" height="300%" width="auto"></td>
+					<td v-show="show_audio_works_img">
+						<img :src="'./public/images/audio_works/' + item.hf_audio_works_info.hf_audio_works_id + '/' + item.hf_audio_works_info.hf_audio_works_id + '.jpg'" alt="item.hf_audio_works_info.hf_audio_works_id" height="300%" width="auto"></td>
 					<!--游戏名称-->
-					<td v-show="show_audio_works_name"><a :href="'https://store.hikarifield.co.jp/shop/' + item.hf_audio_works_info.hf_audio_works_id" target="_blank">{{ item.audio_works_name }}</a></td>
+					<td v-show="show_audio_works_name">
+						<a :href="'https://store.hikarifield.co.jp/shop/' + item.hf_audio_works_info.hf_audio_works_id" target="_blank">
+							{{ item.audio_works_name }}</a>
+						</td>
 					<!--<td><a href="https://store.hikarifield.co.jp/shop/ayakashi_sumi">妖异乡愁谭 · 赤赤熊 栖美</a></td>
 					<!--HF促销最低价-->
-					<td><p class="hfSpecialOffer">¥13</p></td>
+					<td>
+						<p class="hfSpecialOffer">{{ item.hf_audio_works_info.hf_audio_works_prices.hf_audio_works_now_price }}</p>
+						{{ item.hf_audio_works_info.hf_audio_works_prices.hf_audio_works_low_price }}
+						{{ item.hf_audio_works_info.hf_audio_works_prices.hf_audio_works_old_price }}
+					</td>
 					<!--SLSLAM CARD价格格-->
-					<td><p class="hfSLAM_CARD">¥12</p></td>
+					<td v-show="show_audio_works_id"><p class="hfSLAM_CARD">
+						{{ item.hf_audio_works_info.hf_audio_works_prices.hf_audio_works_SLAM_CARD_low_price }}</p>
+					</td>
 					<!--开发商-->
-					<td v-show="show_audio_works_publisher"><a :href="item.audio_works_publisher.audio_works_publisher_url" target="_blank">{{ item.audio_works_publisher.audio_works_publisher_name }}</a><!--<br>{{ item.audio_works_publisher_nickname }}--><br>{{ item.audio_works_publisher.audio_works_publisher_history }}</td>
+					<td v-show="show_audio_works_publisher">
+						<a :href="item.audio_works_publisher.audio_works_publisher_url" target="_blank">
+							{{ item.audio_works_publisher.audio_works_publisher_name }}</a>
+							<!--<br>{{ item.audio_works_publisher_nickname }}-->
+							<br>
+							{{ item.audio_works_publisher.audio_works_publisher_history }}
+						</td>
 					<!--发售时间-->
-					<td v-show="show_audio_works_release_time">{{ item.audio_works_release_time }}</td>
+					<td v-show="show_audio_works_release_time">
+						{{ item.audio_works_release_time }}
+					</td>
 				</tr>
 			</table>
 		</div></div>
