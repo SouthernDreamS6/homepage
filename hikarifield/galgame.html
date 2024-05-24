@@ -276,8 +276,9 @@
 						{{ item.hf_audio_works_info.hf_audio_works_prices.hf_audio_works_old_price }}
 					</td>
 					<!--SLSLAM CARD价格格-->
-					<td v-show="show_hf_audio_works_SCprice"><p class="hfSLAM_CARD">
-						{{ item.hf_audio_works_info.hf_audio_works_prices.hf_audio_works_SLAM_CARD_low_price }}</p>
+					<td v-show="show_hf_audio_works_SCprice">
+						<p class="hfSpecialOffer">{{ item.hf_audio_works_info.hf_audio_works_prices.hf_audio_works_SLAM_CARD_now_price }}</p>
+						<p class="hfSLAM_CARD">{{ item.hf_audio_works_info.hf_audio_works_prices.hf_audio_works_SLAM_CARD_low_price }}</p>
 					</td>
 					<!--开发商-->
 					<td v-show="show_audio_works_publisher">
