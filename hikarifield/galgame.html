@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>HIKARIFIELD Helper (Beta)</title><!-- 添加favicon -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>HIKARIFIELD Helper (Beta)</title>
+		<!-- favicon图标 -->
 		<link rel="icon" type="image/x-icon" href=".public/favicon.ico">
+		<!-- CSS文件 -->
 		<link rel="stylesheet" href="./public/static/style.css?v=1.1">
 		<!-- Google AdSense 广告代码开始 -->
 		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9669247653381980"
@@ -55,255 +57,319 @@
 	</head>
 	<body>
 		<div id="app">
-		<!-- 弹窗代码开始 -->
-		<div class="web_notice" onclick="closePopup('.web_notice');">
-			<div class="web_notice_box">
-				<h3 class="web_notice_title">! 公告 !</h3>
-				<h3 class="web_notice_title2">! 点击任意位置即可关闭 !</h3>
-			</div>
-		</div>
-		
-		<!-- 
-		<script>
-			function closePopup() {
-				document.querySelector('.web_notice').style.display = 'none';
-			}
-		</script>
-		-->
-		<script>
-			function closePopup(popupClass) {
-				const popup = document.querySelector(popupClass);
-				if (popup.style.display === 'none') {
-					popup.style.display = 'block'; // 点击展开
-				} else {
-					popup.style.display = 'none'; // 点击关闭
-				}
-			}
-		</script>
-		<!-- 弹窗代码结束 -->
-
-		<!-- 隐藏的音频元素用于播放 WAV文件 -->
-		<audio id="audioPlayer" src="./Ciallo～(∠・ω＜)⌒☆.wav" type="audio/x-ms-wma"></audio>
-		<script>
-			// 播放音频文件的函数
-			function playAudio() {
-				var audioPlayer = document.getElementById('audioPlayer');
-				audioPlayer.play();
-			}
-			
-			// 为 body 添加事件监听器，点击时播放音频
-			document.body.addEventListener('click', playAudio);
-		</script>
-		
-		<h1 align="center">HIKARIFIELD Helper (Beta)</h1>
-		<h2 align="center">本页信息收集于网络，如有错误联系</h2>
-		<p align="center">点击按钮显示/隐藏</p>
-		<div style="text-align:center">
-			<button onclick="document.querySelector('.web_notice').style.display = 'block';"data-anim="4" data-area-w="80%" data-area-h="90%" data-shade="false"
-				class="kz-nav-btn btn btn-danger col-lg-4">
-				<br>查看公告<br><br>///
-			</button>
-			<button @click="show_change_log = !show_change_log"><br>更新日志<br><br>///</button>
-			<div v-show="show_change_log">
-				<br><br>
-				<button onclick="window.open('https://txc.qq.com/products/648445/change-log', '_blank');">在新窗口查看“更新日志”</button>
-				<br><br>
-				<iframe src="https://txc.qq.com/products/648445/change-log" width="80%" height="500vh"></iframe>
-			</div>
-			<button @click="show_QandA = !show_QandA"><br>答疑解惑<br><br>///</button>
-			<div v-show="show_QandA">
-				<div class="web_notice_content">
-					<p class="web_notice_content_1">注：以下是近期遇到的本页相关“名词”或其他疑问的解答。</p>
-					<p>问：什么是“HF促销历低”？<br>
-						答：“HF促销历低”是指<a href="https://store.hikarifield.co.jp/">HIKARI FIELD</a>商城在售的视觉小说官方促销价历史最低价格。</p>
-					<p>问：什么是“代购¥”？<br>
-						答：“代购¥”是本人代为购买相关作品的价格。<br>
-						（注！该价格仅在促销期间有效，价格仅供参考，当网页服务正常运作的情况下实际售价绝不高于公示价，请以实际情况为准。）</p>
-					<p>问：什么是“抽奖链接¥”？<br>
-						答：“抽奖链接¥”是指本人在HF积分抽奖中抽出作品的出售价。<br>
-						（“抽奖链接¥”的前提1.该作品为HF抽奖产出的奖品，2.本人不需要该奖品）<br>
-						注：“抽奖链接¥”非常驻出售，请关注本人🐟/贴吧相关信息。</p>
-					<p>问：什么是“抽奖key¥”？<br>
-						答：“抽奖key¥”与链接性质差不多，不过只有SteamKEY<br>
-						（“抽奖key¥”的前提1.该作品为HF抽奖产出的奖品，2.本人需要该奖品用于激活HF账号，但不需要该作品的steam激活码）<br>
-						注：“抽抽奖key¥”非常驻出售，请关注本人🐟/贴吧相关信息。</p>
-					<p>问：待补充<br>答：待补充</p>
-					<p class="web_notice_content_1">以上就是对对于本页相关内容的答疑，如果还有其他问题欢迎联系我。</p>
+			<!-- 弹窗代码开始 -->
+			<div class="web_notice" onclick="closePopup('.web_notice');">
+				<div class="web_notice_box">
+					<h3 class="web_notice_title">! 公告 !</h3>
+					<h3 class="web_notice_title2">! 点击任意位置即可关闭 !</h3>
 				</div>
 			</div>
-			<button onclick="window.open('https://txc.qq.com/products/648445/', '_blank');"><br>反馈/提议<br><br>///</button>
-			<br>
-			<script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/KPyrJ7PaGAO6zUUY/quote.js?theme=0&f=12"></script>
-			<br>
-			<!-- 表格切换代码开始 -->
-			<button onclick="showTable('switchTable1')"><br>视觉小说<br><br>///</button>
-			<button onclick="showTable('switchTable2')"><br>音声作品<br><br>///</button>
-			<button onclick="showTable('switchTable3')"><br>实物周边<br><br>///</button>
-			<button onclick="showTable('switchTable4')"><br>黑名单<br><br>///</button>
-			<!-- 表格切换代码结束 -->
-		</div>
+			<script>
+				function closePopup(popupClass) {
+					const popup = document.querySelector(popupClass);
+					if (popup.style.display === 'none') {
+						popup.style.display = 'block'; // 点击展开
+					} else {
+						popup.style.display = 'none'; // 点击关闭
+					}
+				}
+			</script>
+			<!-- 弹窗代码结束 -->
 
-		<div id="switchTable1" class="switchTable"><br><br>
-			<button @click="show_Console = !show_Console"><br>打开/关闭控制台<br>///</button>
-			<div v-show="show_Console">
-				<button @click="show_game_img = !show_game_img">游戏预览图</button>
-				<button @click="show_game_name = !show_game_name">游戏名称</button>
-				<button @click="show_hf_price = !show_hf_price">HF价格</button>
-				<button @click="show_steam_price = !show_steam_price">Steam价格</button>
-				<button @click="show_other_price = !show_other_price">其他途径<br>（默认隐藏）</button>
-				<button @click="show_game_id = !show_game_id">游戏ID</button>
-				<button @click="show_game_publisher = !show_game_publisher">开发商</button>
-				<button @click="show_release_time = !show_release_time">发售时间</button>
-			</div>
-			<br>
+			<!-- 隐藏的音频元素用于播放 WAV文件 -->
+			<audio id="audioPlayer" src="./Ciallo～(∠・ω＜)⌒☆.wav" type="audio/x-ms-wma"></audio>
+			<script>
+				// 播放音频文件的函数
+				function playAudio() {
+					var audioPlayer = document.getElementById('audioPlayer');
+					audioPlayer.play();
+				}
+				
+				// 为 body 添加事件监听器，点击时播放音频
+				document.body.addEventListener('click', playAudio);
+			</script>
 			
-			<table border="0" cellspacing="0" cellpadding="0">
-				<!--标题-->
-				<tr>
-					<th v-show="show_game_img">游戏预览图</p></th>
-					<th v-show="show_game_name">游戏名称<p class="top">点击名称即可访问HF商城</p></th>
-					<th v-show="show_hf_price">HF价格<p class="top">代购价格为系统计算仅供参考<br>实际代购价格低于公示价<br>且满100还有额外折扣</p>最后更新时间2024.05.31<br>代购/抽奖标价</th>
-					<th v-show="show_steam_price">Steam价格<p class="top_redfont">注意！受汇率影响</p><p class="top">换算人民币价格仅供参考<br>此处未计算Steam余额等其他折扣</p>最后更新时间2024.05.18<br>最后补充时间2024.05.18<br>区域-价格</th>
-					<th v-show="show_other_price">其他途径<p class="top">如有补充欢迎联系</p></th>
-					<th v-show="show_game_id">游戏ID<p class="top">Steam商品ID</p></th>
-					<th v-show="show_game_publisher">开发商<p class="top">部分社团资料较少<br>如有错误欢迎指正</p></th>
-					<th v-show="show_release_time">发售时间<p class="top">此处时间采集于HF游戏介绍</p></th>
-				</tr>
-				<!--Galgame模板-->
-				<tr v-for="(item, index) in table_game">
-					<!-- 游戏预览图 -->
-					<td v-show="show_game_img">
-						<img :src="'./public/images/galgames/' + item.hf_info.hf_game_id + '/' + item.hf_info.hf_game_id + '.jpg'" alt="item.hf_info.hf_game_id" height="300%" width="auto">
-					</td>
-					<!-- 游戏名称 -->
-					<td v-show="show_game_name">
-						<a :href="'https://store.hikarifield.co.jp/shop/' + item.hf_info.hf_game_id" target="_blank">{{ item.game_name }}</a>
-					</td>
-					<!-- HF价格 -->
-					<td v-show="show_hf_price">
-						<p class="hfSpecialOffer">{{ item.hf_info.hf_prices.hf_now_price }}</p>
-						{{ item.hf_info.hf_prices.hf_low_price }} {{ item.hf_info.hf_prices.hf_old_price }}
-					</td>
-					<!-- Steam价格 -->
-					<td v-show="show_steam_price">
-						{{ item.steam_info.steam_prices.steamcn_low_price }}
-						<br>
-						{{ item.steam_info.steam_prices.steam_low_price }} {{ item.steam_info.steam_prices.steam_low_price_convert_to_cn }}
-					</td>
-					<!-- 其他途径 -->
-					<td v-show="show_other_price">
-						<a :href="item.other_low_price.other_low_price_title_url" target="_blank">{{ item.other_low_price.other_low_price_title }}</a>
-						<br>
-						{{ item.other_low_price.other_low_price2 }}
-						<br>
-						{{ item.other_low_price.other_low_price3 }}
-						<a :href="item.other_low_price.other_low_price_screenshot_url" target="_blank">{{ item.other_low_price.other_low_price_screenshot }}</a>
-					</td>
-					<!-- 游戏ID -->
-					<td v-show="show_game_id">
-						<a :href="'https://steamdb.info/app/' + item.steam_info.steam_game_id" target="_blank">{{ item.steam_info.steam_game_id }}</a>
-					</td>
-					<!-- 开发商 -->
-					<td v-show="show_game_publisher">
-						<a :href="item.game_publisher.game_publisher_url" target="_blank">{{ item.game_publisher.game_publisher_name }}</a>
-						<br>
-						{{ item.game_publisher_nickname }}
-						<br>
-						{{ item.game_publisher.game_publisher_history }}
-					</td>
-					<!-- 发售时间 -->
-					<td v-show="show_release_time">
-						{{ item.release_time }}
-					</td>
-				  </tr>
-			</table>
-		</div>
-
-		<div id="switchTable2" class="switchTable"><br><br>
-			<button @click="show_Console = !show_Console"><br>打开/关闭控制台<br>///</button>
-			<div v-show="show_Console">
-				<button @click="show_audio_works_img = !show_audio_works_img">作品预览图</button>
-				<button @click="show_audio_works_name = !show_audio_works_name">作品名称</button>
-				<button @click="show_hf_audio_works_price = !show_hf_audio_works_price">HF价格</button>
-				<button @click="show_hf_audio_works_SCprice = !show_hf_audio_works_SCprice">SLAM CARD价格</button>
-				<button @click="show_audio_works_publisher = !show_audio_works_publisher">开发商</button>
-				<button @click="show_audio_works_release_time = !show_audio_works_release_time">发售时间</button>
+			<h1 align="center">HIKARIFIELD Helper (Beta)</h1>
+			<h2 align="center">本页信息收集于网络，如有错误联系</h2>
+			<p align="center">点击按钮显示/隐藏</p>
+			<div style="text-align:center">
+				<button onclick="document.querySelector('.web_notice').style.display = 'block';"data-anim="4" data-area-w="80%" data-area-h="90%" data-shade="false"
+					class="kz-nav-btn btn btn-danger col-lg-4">
+					<br>查看公告<br><br>///
+				</button>
+				<button @click="show_change_log = !show_change_log"><br>更新日志<br><br>///</button>
+				<div v-show="show_change_log">
+					<br><br>
+					<button onclick="window.open('https://txc.qq.com/products/648445/change-log', '_blank');">在新窗口查看“更新日志”</button>
+					<br><br>
+					<iframe src="https://txc.qq.com/products/648445/change-log" width="80%" height="500vh"></iframe>
+				</div>
+				<button @click="show_QandA = !show_QandA"><br>答疑解惑<br><br>///</button>
+				<div v-show="show_QandA">
+					<div class="web_notice_content">
+						<p class="web_notice_content_1">注：以下是近期遇到的本页相关“名词”或其他疑问的解答。</p>
+						<p>问：什么是“HF促销历低”？<br>
+							答：“HF促销历低”是指<a href="https://store.hikarifield.co.jp/">HIKARI FIELD</a>商城在售的视觉小说官方促销价历史最低价格。</p>
+						<p>问：什么是“代购¥”？<br>
+							答：“代购¥”是本人代为购买相关作品的价格。<br>
+							（注！该价格仅在促销期间有效，价格仅供参考，当网页服务正常运作的情况下实际售价绝不高于公示价，请以实际情况为准。）</p>
+						<p>问：什么是“抽奖链接¥”？<br>
+							答：“抽奖链接¥”是指本人在HF积分抽奖中抽出作品的出售价。<br>
+							（“抽奖链接¥”的前提1.该作品为HF抽奖产出的奖品，2.本人不需要该奖品）<br>
+							注：“抽奖链接¥”非常驻出售，请关注本人🐟/贴吧相关信息。</p>
+						<p>问：什么是“抽奖key¥”？<br>
+							答：“抽奖key¥”与链接性质差不多，不过只有SteamKEY<br>
+							（“抽奖key¥”的前提1.该作品为HF抽奖产出的奖品，2.本人需要该奖品用于激活HF账号，但不需要该作品的steam激活码）<br>
+							注：“抽抽奖key¥”非常驻出售，请关注本人🐟/贴吧相关信息。</p>
+						<p>问：待补充<br>答：待补充</p>
+						<p class="web_notice_content_1">以上就是对对于本页相关内容的答疑，如果还有其他问题欢迎联系我。</p>
+					</div>
+				</div>
+				<button onclick="window.open('https://txc.qq.com/products/648445/', '_blank');"><br>反馈/提议<br><br>///</button>
+				<br>
+				<script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/KPyrJ7PaGAO6zUUY/quote.js?theme=0&f=12"></script>
+				<br>
+				<!-- 表格切换代码开始 -->
+				<button onclick="showTable('switchTable1')"><br>视觉小说<br><br>///</button>
+				<button onclick="showTable('switchTable2')"><br>音声作品<br><br>///</button>
+				<button onclick="showTable('switchTable3')"><br>实物周边<br><br>///</button>
+				<button onclick="showTable('switchTable4')"><br>黑名单<br><br>///</button>
+				<!-- 表格切换代码结束 -->
 			</div>
-			<table border="0" cellspacing="0" cellpadding="0">
-				<!--标题-->
-				<tr>
-					<th v-show="show_audio_works_img">
-						作品预览图
-						<p class="top">点击名称即可访问HF商城</p>
-					</th>
-					<th v-show="show_audio_works_name">
-						作品名称
-						<p class="top">点击名称即可访问HF商城</p>
-					</th>
-					<th v-show="show_hf_audio_works_price">
-						HF价格
-						<p class="top">代购价格为系统计算仅供参考
-							<br>实际代购价格低于公示价
-							<br>且满100还有额外折扣</p>
-							更新时间2024.04.19
-							<br>代购/抽奖标价</th>
-					<th v-show="show_hf_audio_works_SCprice">
-						SLAM CARD价格
-						<p class="top">更新时间2024.04.19</p>
-					</th>
-					<th v-show="show_audio_works_publisher">
-						开发商<p class="top">部分社团资料较少
-							<br>如有错误欢迎指正</p>
-						</th>
-					<th v-show="show_audio_works_release_time">
-						发售时间<p class="top">此处时间采集于HF游戏介绍</p>
-					</th>
-				</tr>
-				<!--序号1-->
-				<tr v-for="(item, index) in table_audio_works">
-					<!-- 游戏预览图 -->
-					<td v-show="show_audio_works_img">
-						<img :src="'./public/images/audio_works/' + item.hf_audio_works_info.hf_audio_works_id + '/' + item.hf_audio_works_info.hf_audio_works_id + '.jpg'" alt="item.hf_audio_works_info.hf_audio_works_id" height="300%" width="auto"></td>
-					<!--游戏名称-->
-					<td v-show="show_audio_works_name">
-						<a :href="'https://store.hikarifield.co.jp/shop/' + item.hf_audio_works_info.hf_audio_works_id" target="_blank">
-							{{ item.audio_works_name }}</a>
+
+			<br><br>
+
+			<!-- 搜索框 -->
+			<div style="text-align:center; margin-bottom:20px;">
+				<input type="text" id="searchInput" placeholder="输入关键字搜索..." style="width: 300px; padding: 10px; margin-right: 10px;">
+				<button onclick="searchTables()">搜索</button>
+			</div>
+			
+			<!-- 搜索框JavaScript代码 -->
+			<script>
+			function searchTables() {
+				var input, filter, tables, tr, td, i, j, visible;
+				input = document.getElementById("searchInput");
+				filter = input.value.toUpperCase();
+				tables = document.getElementsByClassName("switchTable");
+				for (i = 0; i < tables.length; i++) {
+					tr = tables[i].getElementsByTagName("tr");
+					for (j = 1; j < tr.length; j++) { // 从1开始以跳过表头行
+						tr[j].style.display = "none"; // 默认隐藏所有行
+						td = tr[j].getElementsByTagName("td");
+						for (var k = 0; k < td.length; k++) {
+							if (td[k]) {
+								if (td[k].innerHTML.toUpperCase().indexOf(filter) > -1) {
+									tr[j].style.display = ""; // 如果找到关键字，显示该行
+									break; // 停止搜索其他单元格
+								}
+							}
+						}
+					}
+				}
+				}
+				</script>
+
+			<div id="switchTable1" class="switchTable"><br><br>
+				<button @click="show_Console = !show_Console"><br>打开/关闭控制台<br>///</button>
+				<div v-show="show_Console">
+					<button @click="show_game_img = !show_game_img">游戏预览图</button>
+					<button @click="show_game_name = !show_game_name">游戏名称</button>
+					<button @click="show_hf_price = !show_hf_price">HF价格</button>
+					<button @click="show_steam_price = !show_steam_price">Steam价格</button>
+					<button @click="show_other_price = !show_other_price">其他途径<br>（默认隐藏）</button>
+					<button @click="show_game_id = !show_game_id">游戏ID</button>
+					<button @click="show_game_publisher = !show_game_publisher">开发商</button>
+					<button @click="show_release_time = !show_release_time">发售时间</button>
+				</div>
+				<br>
+				
+				<table border="0" cellspacing="0" cellpadding="0">
+					<!--标题-->
+					<tr>
+						<th v-show="show_game_img">游戏预览图</th>
+						<th v-show="show_game_name">游戏名称<p class="top">点击名称即可访问HF商城</p></th>
+						<th v-show="show_hf_price">HF价格<br>更新时间2024.05.31</th>
+						<th v-show="show_steam_price">Steam价格<p class="top_redfont">注意！受汇率影响</p><p class="top">此处未计算Steam余额等其他折扣</p>更新时间2024.05.18</th>
+						<th v-show="show_other_price">其他途径<p class="top">如有补充欢迎联系</p></th>
+						<th v-show="show_game_id">游戏ID<p class="top">Steam商品ID</p></th>
+						<th v-show="show_game_publisher">开发商<p class="top">部分社团资料较少<br>如有错误欢迎指正</p></th>
+						<th v-show="show_release_time">发售时间<p class="top">此处时间采集于HF游戏介绍</p></th>
+					</tr>
+					<!--Galgame模板-->
+					<tr v-for="(item, index) in table_galgames">
+						<!-- 游戏预览图 -->
+						<td v-show="show_game_img" class="image-container">
+							<img :src="'./public/images/galgames/' + item.hf_info.hf_game_id + '/' + item.hf_info.hf_game_id + '.jpg'" alt="item.hf_info.hf_game_id" height="300%" width="auto">
 						</td>
-					<!--HF促销最低价-->
-					<td v-show="show_hf_audio_works_price">
-						<p class="hfSpecialOffer">{{ item.hf_audio_works_info.hf_audio_works_prices.hf_audio_works_now_price }}</p>
-						{{ item.hf_audio_works_info.hf_audio_works_prices.hf_audio_works_low_price }}
-						{{ item.hf_audio_works_info.hf_audio_works_prices.hf_audio_works_old_price }}
-					</td>
-					<!--SLSLAM CARD价格格-->
-					<td v-show="show_hf_audio_works_SCprice">
-						<p class="hfSpecialOffer">{{ item.hf_audio_works_info.hf_audio_works_prices.hf_audio_works_SLAM_CARD_now_price }}</p>
-						<p class="hfSLAM_CARD">{{ item.hf_audio_works_info.hf_audio_works_prices.hf_audio_works_SLAM_CARD_low_price }}</p>
-					</td>
-					<!--开发商-->
-					<td v-show="show_audio_works_publisher">
-						<a :href="item.audio_works_publisher.audio_works_publisher_url" target="_blank">
-							{{ item.audio_works_publisher.audio_works_publisher_name }}</a>
-							<!--<br>{{ item.audio_works_publisher_nickname }}-->
+						<!-- 游戏名称 -->
+						<td v-show="show_game_name">
+							<a :href="'https://store.hikarifield.co.jp/shop/' + item.hf_info.hf_game_id" target="_blank">{{ item.game_name }}</a>
+						</td>
+						<!-- HF价格 -->
+						<td v-show="show_hf_price">
+							<p class="hfSpecialOffer">{{ item.hf_info.hf_prices.hf_now_price }}</p>
+							{{ item.hf_info.hf_prices.hf_low_price }} {{ item.hf_info.hf_prices.hf_old_price }}
+						</td>
+						<!-- Steam价格 -->
+						<td v-show="show_steam_price">
+							{{ item.steam_info.steam_prices.steamcn_low_price }}
 							<br>
-							{{ item.audio_works_publisher.audio_works_publisher_history }}
+							{{ item.steam_info.steam_prices.steam_low_price }} {{ item.steam_info.steam_prices.steam_low_price_convert_to_cn }}
 						</td>
-					<!--发售时间-->
-					<td v-show="show_audio_works_release_time">
-						{{ item.audio_works_release_time }}
-					</td>
-				</tr>
-			</table>
-		</div></div>
-		<div id="switchTable3" class="switchTable">
-		
+						<!-- 其他途径 -->
+						<td v-show="show_other_price">
+							<a :href="item.other_low_price.other_low_price_title_url" target="_blank">{{ item.other_low_price.other_low_price_title }}</a>
+							<br>
+							{{ item.other_low_price.other_low_price2 }}
+							<br>
+							{{ item.other_low_price.other_low_price3 }}
+							<a :href="item.other_low_price.other_low_price_screenshot_url" target="_blank">{{ item.other_low_price.other_low_price_screenshot }}</a>
+						</td>
+						<!-- 游戏ID -->
+						<td v-show="show_game_id">
+							<a :href="'https://steamdb.info/app/' + item.steam_info.steam_game_id" target="_blank">{{ item.steam_info.steam_game_id }}</a>
+						</td>
+						<!-- 开发商 -->
+						<td v-show="show_game_publisher">
+							<a :href="item.game_publisher.game_publisher_url" target="_blank">{{ item.game_publisher.game_publisher_name }}</a>
+							<br>
+							{{ item.game_publisher_nickname }}
+							<br>
+							{{ item.game_publisher.game_publisher_history }}
+						</td>
+						<!-- 发售时间 -->
+						<td v-show="show_release_time">
+							{{ item.release_time }}
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div id="switchTable2" class="switchTable"><br><br>
+				<button @click="show_Console = !show_Console"><br>打开/关闭控制台<br>///</button>
+				<div v-show="show_Console">
+					<button @click="show_audio_works_img = !show_audio_works_img">作品预览图</button>
+					<button @click="show_audio_works_name = !show_audio_works_name">作品名称</button>
+					<button @click="show_hf_audio_works_price = !show_hf_audio_works_price">HF价格</button>
+					<button @click="show_hf_audio_works_SCprice = !show_hf_audio_works_SCprice">SLAM CARD价格</button>
+					<button @click="show_audio_works_publisher = !show_audio_works_publisher">开发商</button>
+					<button @click="show_audio_works_release_time = !show_audio_works_release_time">发售时间</button>
+				</div>
+				<table border="0" cellspacing="0" cellpadding="0">
+					<!--标题-->
+					<tr>
+						<th v-show="show_audio_works_img">作品预览图</th>
+						<th v-show="show_audio_works_name">作品名称<p class="top">点击名称即可访问HF商城</p></th>
+						<th v-show="show_hf_audio_works_price">HF价格<br>更新时间2024.04.19</th>
+						<th v-show="show_hf_audio_works_SCprice">SLAM CARD价格<br>更新时间2024.04.19</th>
+						<th v-show="show_audio_works_publisher">开发商<p class="top">部分社团资料较少<br>如有错误欢迎指正</p></th>
+						<th v-show="show_audio_works_release_time">发售时间<p class="top">此处时间采集于HF游戏介绍</p></th>
+					</tr>
+					<tr v-for="(item, index) in table_audio_works">
+						<!-- 游戏预览图 -->
+						<td v-show="show_audio_works_img" class="image-container">
+							<img :src="'./public/images/audio_works/' + item.hf_audio_works_info.hf_audio_works_id + '/' + item.hf_audio_works_info.hf_audio_works_id + '.jpg'" alt="item.hf_audio_works_info.hf_audio_works_id" height="300%" width="auto">
+						</td>
+						<!--游戏名称-->
+						<td v-show="show_audio_works_name">
+							<a :href="'https://store.hikarifield.co.jp/shop/' + item.hf_audio_works_info.hf_audio_works_id" target="_blank">{{ item.audio_works_name }}</a>
+						</td>
+						<!--HF促销最低价-->
+						<td v-show="show_hf_audio_works_price">
+							<p class="hfSpecialOffer">{{ item.hf_audio_works_info.hf_audio_works_prices.hf_audio_works_now_price }}</p>
+							{{ item.hf_audio_works_info.hf_audio_works_prices.hf_audio_works_low_price }}
+							{{ item.hf_audio_works_info.hf_audio_works_prices.hf_audio_works_old_price }}
+						</td>
+						<!--SLSLAM CARD价格格-->
+						<td v-show="show_hf_audio_works_SCprice">
+							<p class="hfSpecialOffer">{{ item.hf_audio_works_info.hf_audio_works_prices.hf_audio_works_SLAM_CARD_now_price }}</p>
+							<p class="hfSLAM_CARD">{{ item.hf_audio_works_info.hf_audio_works_prices.hf_audio_works_SLAM_CARD_low_price }}</p>
+						</td>
+						<!--开发商-->
+						<td v-show="show_audio_works_publisher">
+							<a :href="item.audio_works_publisher.audio_works_publisher_url" target="_blank">
+								{{ item.audio_works_publisher.audio_works_publisher_name }}</a>
+								<!--<br>{{ item.audio_works_publisher_nickname }}-->
+								<br>
+								{{ item.audio_works_publisher.audio_works_publisher_history }}
+							</td>
+						<!--发售时间-->
+						<td v-show="show_audio_works_release_time">
+							{{ item.audio_works_release_time }}
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div id="switchTable3" class="switchTable">
+				<p class="hfSpecialOffer">等待更新</p>
+				<button @click="show_Console = !show_Console"><br>打开/关闭控制台<br>///</button>
+				<div v-show="show_Console">
+					<button @click="show_goods_id = !show_goods_id">编号</button>
+					<button @click="show_goods_img = !show_goods_img">周边预览图</button>
+					<button @click="show_goods_name = !show_goods_name">周边名称</button>
+					<button @click="show_goods_price = !show_goods_price">价格</button>
+					<button @click="show_goods_goodsSize = !show_goods_goodsSize">产品规格</button>
+					<button @click="show_goods_stockStatus = !show_goods_stockStatus">库存状态</button>
+					<button @click="show_goods_workName = !show_goods_workName">所属作品</button>
+					<button @click="show_goods_salesTime = !show_goods_salesTime">销售时间</button>
+				</div>
+				<table border="0" cellspacing="0" cellpadding="0">
+					<!--标题-->
+					<tr>
+						<th v-show="show_goods_id">编号</th>
+						<th v-show="show_goods_img">周边预览图</th>
+						<th v-show="show_goods_name">周边名称<p class="top">点击名称即可访问HF商城</p></th>
+						<th v-show="show_goods_price">价格<br>更新时间2024.06.05<br>本次促销结束时间2024.06.17</th>
+						<th v-show="show_goods_goodsSize">产品规格</th>
+						<th v-show="show_goods_stockStatus">库存状态<br>更新时间2024.06.05</th>
+						<th v-show="show_goods_workName">所属作品</th>
+						<th v-show="show_goods_salesTime">销售时间<p class="top">此处时间采集于HF游戏介绍</p></th>
+					</tr>
+					<tr v-for="(item, index) in table_goods">
+						<!--编号-->
+						<td v-show="show_goods_id">
+							<p>{{ item.id }}</a>
+						</td>
+						<!-- 周边预览图 -->
+						<td v-show="show_goods_img" class="image-container">
+							<img :src="'./public/images/goods/' + item.imgUrl" alt="item.imgUrl" height="300%" width="auto">
+						</td>
+						<!--周边名称-->
+						<td v-show="show_goods_name">
+							<a :href="'https://store.hikarifield.co.jp/goods/' + item.id" target="_blank">{{ item.goodsName }}</a>
+						</td>
+						<!--价格-->
+						<td v-show="show_goods_price">
+							<p class="hfSpecialOffer">当前￥{{ item.price.nowPrice }}</p>
+							SC价￥{{ item.price.scPrice }}
+							<br>
+							史低价￥{{ item.price.lowPrice }}
+							<br>
+							原价￥{{ item.price.oldPrice }}
+						</td>
+						<!--产品规格-->
+						<td v-show="show_goods_goodsSize">
+							<p>{{ item.goodsSize }}</p>
+						</td>
+						<!--库存状态-->
+						<td v-show="show_goods_stockStatus">
+							<p>{{ item.stockStatus }}</p>
+						</td>
+						<!--所属作品-->
+						<td v-show="show_goods_workName">
+							<p>{{ item.workName }}</p>
+						</td>
+						<!--发售时间-->
+						<td v-show="show_goods_salesTime">
+							{{ item.salesTime }}
+						</td>
+					</tr>
+				</table>
+			</div>
+
+		</div>
+		<div id="switchTable4" class="switchTable">
 		<p class="hfSpecialOffer">等待更新</p>
-		
-			</table>
-		</div><div id="switchTable4" class="switchTable">
-		
-		<p class="hfSpecialOffer">等待更新</p>
-		
 			<table border="0" cellspacing="0" cellpadding="0">
 				<!--标题-->
 				<tr>
@@ -313,7 +379,6 @@
 					<th>其他信息</th>
 					<th>上榜时间<p class="top">本页收录时间</p></th>
 				</tr>
-				<!--序号1-->
 				<tr>
 					<!--小黑昵称-->
 					<td><p class="hfSLAM_CARD"nsjsjsj<br>易洋看我</p></td>
@@ -324,9 +389,8 @@
 					<!--其他信息-->
 					<td>IP属地:河南<br>贴吧曾用ID：嗷呜芜湖芜湖</td>
 					<!--上榜时间-->
-					<td>2023-04-03</td>
+					<td>2023.04.03</td>
 				</tr>
-				<!--序号2-->
 			</table>
 		</div>
 		<!-- vue3代码开始 -->
@@ -335,121 +399,87 @@
 	  
 			createApp({
 			  setup() {
-				const table_game = ref([]);
-				const table_audio_works = ref([]);
-				const show_game_img =ref(true);
-				const show_game_name =ref(true);
-				const show_hf_price = ref(true);
-				const show_steam_price = ref(true);
-				const show_other_price = ref(false);
-				const show_game_id = ref(true);
-				const show_game_publisher = ref(true);
-				const show_release_time = ref(true);
+				const table_galgames = ref([]);//“视觉小说”表格
+				const show_game_img =ref(true);//“视觉小说”游戏预览图
+				const show_game_name =ref(true);//“视觉小说”游戏名称
+				const show_hf_price = ref(true);//“视觉小说”HF价格
+				const show_steam_price = ref(true);//“视觉小说”Steam价格
+				const show_other_price = ref(false);//“视觉小说”其他途径
+				const show_game_id = ref(true);//“视觉小说”游戏ID
+				const show_game_publisher = ref(true);//“视觉小说”开发商
+				const show_release_time = ref(true);//“视觉小说”发售时间
 
-				;
-				const show_audio_works_img = ref([]);
-				const show_audio_works_name = ref([]);
-				const show_hf_audio_works_price = ref([]);
-				const show_hf_audio_works_SCprice = ref([]);
-				const show_audio_works_publisher = ref([]);
-				const show_audio_works_release_time = ref([]);
+				const table_audio_works = ref([]);//“音声作品”表格
+				const show_audio_works_img = ref([]);//“音声作品”作品预览图
+				const show_audio_works_name = ref([]);//“音声作品”作品名称
+				const show_hf_audio_works_price = ref([]);//“音声作品”HF价格
+				const show_hf_audio_works_SCprice = ref([]);//“音声作品”HF-SC价格
+				const show_audio_works_publisher = ref([]);//“音声作品”开发商
+				const show_audio_works_release_time = ref([]);//“音声作品”发售时间
 
-				const show_change_log = ref(false);
-				const show_QandA = ref(false);
-				const show_Console = ref(false);
+				const table_goods = ref([]);//“实物周边”表格
+				const show_goods_id = ref([]);//“实物周边”编号
+				const show_goods_img = ref([]);//“实物周边”周边预览图
+				const show_goods_name = ref([]);//“实物周边”周边名称
+				const show_goods_price = ref([]);//“实物周边”价格
+				const show_goods_goodsSize = ref([]);//“实物周边”产品规格
+				const show_goods_stockStatus = ref([]);//“实物周边”库存状态
+				const show_goods_workName = ref([]);//“实物周边”所属作品
+				const show_goods_salesTime = ref([]);//“实物周边”销售时间
+
+				const show_change_log = ref(false);//更新日志
+				const show_QandA = ref(false);//答疑解惑
+				const show_Console = ref(false);//控制台
 	  
-				// 异步加载JSON数据galgame_info.json
-				fetch(" ./galgame_info.json")
-				  .then((response) => response.json())
-				  .then((data) => {
-					table_game.value = data; // 将加载的数据赋值给table
-				  })
-				  .catch((error) => console.error("Error loading the JSON data:", error));
-				  
-				// 异步加载JSON数据audio_works_info.json
-				fetch("./audio_works_info.json")
-				.then((response) => response.json())
-				.then((data) => {
-					table_audio_works.value = data; // 将加载的数据赋值给table2
-				})
-				.catch((error) => console.error("Error loading the second JSON data:", error));
-	  
+				Promise.all([
+					fetch("./galgames_info.json").then(response => response.json()),
+					fetch("./audio_works_info.json").then(response => response.json()),
+					fetch("./goods_info.json").then(response => response.json())
+				]).then(([galgamesJsonData, audioWorksJsonData, goodsJsonData]) => {
+					table_galgames.value = galgamesJsonData;
+					table_audio_works.value = audioWorksJsonData;
+					table_goods.value = goodsJsonData;
+				}).catch(error => {
+					console.error("Error loading the JSON data:", error);
+				});
+
 				return {
-				  table_game,
-				  table_audio_works,
-				  show_game_img,
-				  show_game_name,
-				  show_hf_price,
-				  show_steam_price,
-				  show_other_price,
-				  show_game_id,
-				  show_game_publisher,
-				  show_release_time,
+					table_galgames,
+					show_game_img,
+					show_game_name,
+					show_hf_price,
+					show_steam_price,
+					show_other_price,
+					show_game_id,
+					show_game_publisher,
+					show_release_time,
 
-				  show_audio_works_img,
-				  show_audio_works_name,
-				  show_hf_audio_works_price,
-				  show_hf_audio_works_SCprice,
-				  show_audio_works_publisher,
-				  show_audio_works_release_time,
-				
-				  show_change_log,
-				  show_QandA,
-				  show_Console
+					table_audio_works,
+					show_audio_works_img,
+					show_audio_works_name,
+					show_hf_audio_works_price,
+					show_hf_audio_works_SCprice,
+					show_audio_works_publisher,
+					show_audio_works_release_time,
+					
+					table_goods,
+					show_goods_id,
+					show_goods_img,
+					show_goods_name,
+					show_goods_price,
+					show_goods_goodsSize,
+					show_goods_stockStatus,
+					show_goods_workName,
+					show_goods_salesTime,
+
+					show_change_log,
+					show_QandA,
+					show_Console
 				};
 			  },
 			}).mount("#app");
 		  </script>
 		  <!-- vue3代码结束 -->
-
-		<!-- 价格计算代码开始 -->
-
-		<!-- 
-		<script>
-			// 获取所有的HF促销最低价元素
-			const hfSpecialOffers = document.querySelectorAll('.hfSpecialOffer');
-			
-			// 遍历每个元素，计算并更新价格
-			hfSpecialOffers.forEach(offer => {
-				
-				// 获取当前价格
-				//const currentPrice = Number(item.hf_info.hf_prices.hf_now_price);
-				//const currentPrice = +item.hf_info.hf_prices.hf_now_price;
-				const currentPrice = parseFloat(offer.textContent.replace('当前¥', ''));
-			
-				 // 根据价格确定折扣率
-        let discountRate;
-        let discountInfo;
-        if (currentPrice < 30) {
-            discountRate = 0.95;
-            discountInfo = '95折';
-        } else if (currentPrice >= 30 && currentPrice < 40) {
-            discountRate = 0.94;
-            discountInfo = '94折';
-        } else {
-            discountRate = 0.93;
-            discountInfo = '93折';
-        }
-				
-				// 计算新价格
-				const purchasePrice = (currentPrice * discountRate).toFixed(2);
-				const raffleLinkPrice = (currentPrice * 0.8).toFixed(2);
-				const raffleKeyPrice = (currentPrice * 0.6).toFixed(2);
-				
-				// 创建新的价格显示元素
-				const newPrices = document.createElement('p');
-				newPrices.classList.add('ownSell');
-				newPrices.innerHTML = `${discountInfo} 代购¥${purchasePrice}<br>抽奖链接¥${raffleLinkPrice}，抽奖key¥${raffleKeyPrice}`;
-				
-				// 将新价格显示元素插入到DOM中
-				offer.closest('td').appendChild(newPrices);
-			});
-		</script>
-		 -->
-
-		<!-- 价格计算代码结束 -->
-
-
 		<!-- 表格切换代码开始 -->
 		<script>
 			function showTable(tableId) {
@@ -465,8 +495,6 @@
 			}
 		</script>
 		<!-- 表格切换代码结束 -->
-		
-		
 
 		<!-- google firebase - 开始 -->
 		<script type="module">
@@ -493,6 +521,5 @@
 		  const analytics = getAnalytics(app);
 		</script>
 		<!-- google firebase - 结束 -->
-		
 	</body>
 </html>
