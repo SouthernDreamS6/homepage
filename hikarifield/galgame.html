@@ -189,7 +189,7 @@
 					<tr>
 						<th v-show="show_game_img">游戏预览图</th>
 						<th v-show="show_game_name">游戏名称<p class="top">点击名称即可访问HF商城</p></th>
-						<th v-show="show_hf_price">HF价格<br>更新时间2024.05.31</th>
+						<th v-show="show_hf_price">HF价格<p class="top_redfont">代购折扣仅限一次先到先得</p><br>更新时间2024.06.14</th>
 						<th v-show="show_steam_price">Steam价格<p class="top_redfont">注意！受汇率影响</p><p class="top">此处未计算Steam余额等其他折扣</p>更新时间2024.05.18</th>
 						<th v-show="show_other_price">其他途径<p class="top">如有补充欢迎联系</p></th>
 						<th v-show="show_game_id">游戏ID<p class="top">Steam商品ID</p></th>
@@ -208,8 +208,9 @@
 						</td>
 						<!-- HF价格 -->
 						<td v-show="show_hf_price">
-							<p class="hfSpecialOffer">{{ item.hf_info.hf_prices.hf_now_price }}</p>
-							{{ item.hf_info.hf_prices.hf_low_price }} {{ item.hf_info.hf_prices.hf_old_price }}
+							<p class="hfSpecialOffer">当前¥{{ item.hf_info.hf_prices.hf_now_price }}</p>
+							史低¥{{ item.hf_info.hf_prices.hf_low_price }} 原价¥{{ item.hf_info.hf_prices.hf_old_price }}
+							礼品¥{{ item.hf_info.hf_prices.hf_gift_price }} 代购:{{ item.hf_info.hf_prices.hf_buyForYou_price }}
 						</td>
 						<!-- Steam价格 -->
 						<td v-show="show_steam_price">

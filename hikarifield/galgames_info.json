@@ -4,9 +4,11 @@
     "hf_info": {
       "hf_game_id": "tayutama2",
       "hf_prices": {
-        "hf_now_price": "当前¥21",
-        "hf_low_price": "史低¥21",
-        "hf_old_price": "原价¥78"
+        "hf_now_price": "21",
+        "hf_low_price": "21",
+        "hf_old_price": "78",
+        "hf_gift_price": "23",
+        "hf_buyForYou_price": "95折"
       }
     },
     "steam_info":{
@@ -31,9 +33,11 @@
     "hf_info": {
       "hf_game_id": "sakura_no_mori",
       "hf_prices": {
-        "hf_now_price": "当前¥21",
-        "hf_low_price": "史低¥21",
-        "hf_old_price": "原价¥78"
+        "hf_now_price": "21",
+        "hf_low_price": "21",
+        "hf_old_price": "78",
+        "hf_gift_price": "23",
+        "hf_buyForYou_price": "95折"
       }
     },
     "steam_info":{
@@ -58,9 +62,11 @@
     "hf_info": {
       "hf_game_id": "monobeno",
       "hf_prices": {
-        "hf_now_price": "当前¥21",
-        "hf_low_price": "史低¥21",
-        "hf_old_price": "原价¥78"
+        "hf_now_price": "21",
+        "hf_low_price": "21",
+        "hf_old_price": "78",
+        "hf_gift_price": "23",
+        "hf_buyForYou_price": "95折"
       }
     },
     "steam_info":{
@@ -85,9 +91,11 @@
     "hf_info": {
       "hf_game_id": "monobeno_happy_end",
       "hf_prices": {
-        "hf_now_price": "当前¥20",
-        "hf_low_price": "史低¥20",
-        "hf_old_price": "原价¥118"
+        "hf_now_price": "20",
+        "hf_low_price": "20",
+        "hf_old_price": "118",
+        "hf_gift_price": "34",
+        "hf_buyForYou_price": "94折"
       }
     },
     "steam_info":{
@@ -112,9 +120,11 @@
     "hf_info": {
       "hf_game_id": "hello_lady",
       "hf_prices": {
-        "hf_now_price": "当前¥23",
-        "hf_low_price": "史低¥23",
-        "hf_old_price": "原价¥78"
+        "hf_now_price": "23",
+        "hf_low_price": "23",
+        "hf_old_price": "78",
+        "hf_gift_price": "25",
+        "hf_buyForYou_price": "95折"
       }
     },
     "steam_info":{
@@ -139,9 +149,11 @@
     "hf_info": {
       "hf_game_id": "maitetsu_pure_station",
       "hf_prices": {
-        "hf_now_price": "当前¥24",
-        "hf_low_price": "史低¥24",
-        "hf_old_price": "原价¥78"
+        "hf_now_price": "24",
+        "hf_low_price": "24",
+        "hf_old_price": "78",
+        "hf_gift_price": "27",
+        "hf_buyForYou_price": "95折"
       }
     },
     "steam_info":{
@@ -166,9 +178,11 @@
     "hf_info": {
       "hf_game_id": "sakura_no_mori2",
       "hf_prices": {
-        "hf_now_price": "当前¥23",
-        "hf_low_price": "史低¥23",
-        "hf_old_price": "原价¥78"
+        "hf_now_price": "23",
+        "hf_low_price": "23",
+        "hf_old_price": "78",
+        "hf_gift_price": "26",
+        "hf_buyForYou_price": "95折"
       }
     },
     "steam_info":{
@@ -193,9 +207,11 @@
     "hf_info": {
       "hf_game_id": "hello_lady_nd",
       "hf_prices": {
-        "hf_now_price": "当前¥19",
-        "hf_low_price": "史低¥19",
-        "hf_old_price": "原价¥58"
+        "hf_now_price": "19",
+        "hf_low_price": "19",
+        "hf_old_price": "58",
+        "hf_gift_price": "21",
+        "hf_buyForYou_price": "95折"
       }
     },
     "steam_info":{
@@ -220,9 +236,11 @@
     "hf_info": {
       "hf_game_id": "tsukikage",
       "hf_prices": {
-        "hf_now_price": "当前¥22",
-        "hf_low_price": "史低¥22",
-        "hf_old_price": "原价¥68"
+        "hf_now_price": "22",
+        "hf_low_price": "22",
+        "hf_old_price": "68",
+        "hf_gift_price": "24",
+        "hf_buyForYou_price": "95折"
       }
     },
     "steam_info":{
@@ -247,9 +265,11 @@
     "hf_info": {
       "hf_game_id": "aokana",
       "hf_prices": {
-        "hf_now_price": "当前¥40",
-        "hf_low_price": "史低¥40",
-        "hf_old_price": "原价¥88"
+        "hf_now_price": "40",
+        "hf_low_price": "40",
+        "hf_old_price": "88",
+        "hf_gift_price": "44",
+        "hf_buyForYou_price": "93折"
       }
     },
     "steam_info":{
@@ -274,9 +294,11 @@
     "hf_info": {
       "hf_game_id": "alias_carnival",
       "hf_prices": {
-        "hf_now_price": "当前¥24",
-        "hf_low_price": "史低¥24",
-        "hf_old_price": "原价¥78"
+        "hf_now_price": "24",
+        "hf_low_price": "24",
+        "hf_old_price": "78",
+        "hf_gift_price": "27",
+        "hf_buyForYou_price": "95折"
       }
     },
     "steam_info":{
@@ -301,9 +323,11 @@
     "hf_info": {
       "hf_game_id": "natsunoiro",
       "hf_prices": {
-        "hf_now_price": "当前¥24",
-        "hf_low_price": "史低¥24",
-        "hf_old_price": "原价¥78"
+        "hf_now_price": "24",
+        "hf_low_price": "24",
+        "hf_old_price": "78",
+        "hf_gift_price": "27",
+        "hf_buyForYou_price": "95折"
       }
     },
     "steam_info":{
@@ -328,9 +352,11 @@
     "hf_info": {
       "hf_game_id": "senren_banka",
       "hf_prices": {
-        "hf_now_price": "当前¥45",
-        "hf_low_price": "史低¥45",
-        "hf_old_price": "原价¥88"
+        "hf_now_price": "45",
+        "hf_low_price": "45",
+        "hf_old_price": "88",
+        "hf_gift_price": "50",
+        "hf_buyForYou_price": "92折"
       }
     },
     "steam_info":{
@@ -355,9 +381,11 @@
     "hf_info": {
       "hf_game_id": "tryment_alpha",
       "hf_prices": {
-        "hf_now_price": "当前¥23",
-        "hf_low_price": "史低¥23",
-        "hf_old_price": "原价¥78"
+        "hf_now_price": "23",
+        "hf_low_price": "23",
+        "hf_old_price": "78",
+        "hf_gift_price": "25",
+        "hf_buyForYou_price": " 95折"
       }
     },
     "steam_info":{
@@ -382,9 +410,11 @@
     "hf_info": {
       "hf_game_id": "happiness2",
       "hf_prices": {
-        "hf_now_price": "当前¥24",
-        "hf_low_price": "史低¥24",
-        "hf_old_price": "原价¥58"
+        "hf_now_price": "24",
+        "hf_low_price": "24",
+        "hf_old_price": "58",
+        "hf_gift_price": "27",
+        "hf_buyForYou_price": "95折"
       }
     },
     "steam_info":{
@@ -409,9 +439,11 @@
     "hf_info": {
       "hf_game_id": "maitetsu_lastrun",
       "hf_prices": {
-        "hf_now_price": "当前¥35",
-        "hf_low_price": "史低¥35",
-        "hf_old_price": "原价¥118"
+        "hf_now_price": "35",
+        "hf_low_price": "35",
+        "hf_old_price": "118",
+        "hf_gift_price": "58",
+        "hf_buyForYou_price": "92折"
       }
     },
     "steam_info":{
@@ -442,9 +474,11 @@
     "hf_info": {
       "hf_game_id": "aokana_extra1",
       "hf_prices": {
-        "hf_now_price": "当前¥31",
-        "hf_low_price": "史低¥31",
-        "hf_old_price": "原价¥68"
+        "hf_now_price": "31",
+        "hf_low_price": "31",
+        "hf_old_price": "68",
+        "hf_gift_price": "34",
+        "hf_buyForYou_price": "94折"
       }
     },
     "steam_info":{
@@ -469,9 +503,11 @@
     "hf_info": {
       "hf_game_id": "riddle_joker",
       "hf_prices": {
-        "hf_now_price": "当前¥45",
-        "hf_low_price": "史低¥45",
-        "hf_old_price": "原价¥88"
+        "hf_now_price": "45",
+        "hf_low_price": "45",
+        "hf_old_price": "88",
+        "hf_gift_price": "50",
+        "hf_buyForYou_price": "92折"
       }
     },
     "steam_info":{
@@ -496,9 +532,11 @@
     "hf_info": {
       "hf_game_id": "relief",
       "hf_prices": {
-        "hf_now_price": "当前¥29",
-        "hf_low_price": "史低¥29",
-        "hf_old_price": "原价¥78"
+        "hf_now_price": "29",
+        "hf_low_price": "29",
+        "hf_old_price": "78",
+        "hf_gift_price": "32",
+        "hf_buyForYou_price": "94折"
       }
     },
     "steam_info":{
@@ -523,9 +561,11 @@
     "hf_info": {
       "hf_game_id": "kinkoi",
       "hf_prices": {
-        "hf_now_price": "当前¥46",
-        "hf_low_price": "史低¥46",
-        "hf_old_price": "原价¥78"
+        "hf_now_price": "46",
+        "hf_low_price": "46",
+        "hf_old_price": "78",
+        "hf_gift_price": "48",
+        "hf_buyForYou_price": "93折"
       }
     },
     "steam_info":{
@@ -550,9 +590,11 @@
     "hf_info": {
       "hf_game_id": "parquet",
       "hf_prices": {
-        "hf_now_price": "当前¥29",
-        "hf_low_price": "史低¥29",
-        "hf_old_price": "原价¥58"
+        "hf_now_price": "29",
+        "hf_low_price": "29",
+        "hf_old_price": "58",
+        "hf_gift_price": "32",
+        "hf_buyForYou_price": "94折"
       }
     },
     "steam_info":{
@@ -577,9 +619,11 @@
     "hf_info": {
       "hf_game_id": "honoguraki",
       "hf_prices": {
-        "hf_now_price": "当前¥25",
-        "hf_low_price": "史低¥25",
-        "hf_old_price": "原价¥58"
+        "hf_now_price": "25",
+        "hf_low_price": "25",
+        "hf_old_price": "58",
+        "hf_gift_price": "28",
+        "hf_buyForYou_price": "95折"
       }
     },
     "steam_info":{
@@ -604,9 +648,11 @@
     "hf_info": {
       "hf_game_id": "hello_lady_se",
       "hf_prices": {
-        "hf_now_price": "当前¥37",
-        "hf_low_price": "史低¥37",
-        "hf_old_price": "原价¥118"
+        "hf_now_price": "37",
+        "hf_low_price": "37",
+        "hf_old_price": "118",
+        "hf_gift_price": "73",
+        "hf_buyForYou_price": "92折"
       }
     },
     "steam_info":{
@@ -631,9 +677,11 @@
     "hf_info": {
       "hf_game_id": "madoki",
       "hf_prices": {
-        "hf_now_price": "当前¥32",
-        "hf_low_price": "史低¥32",
-        "hf_old_price": "原价¥78"
+        "hf_now_price": "32",
+        "hf_low_price": "32",
+        "hf_old_price": "78",
+        "hf_gift_price": "35",
+        "hf_buyForYou_price": "94折"
       }
     },
     "steam_info":{
@@ -658,9 +706,11 @@
     "hf_info": {
       "hf_game_id": "sekachu",
       "hf_prices": {
-        "hf_now_price": "当前¥31",
-        "hf_low_price": "史低¥31",
-        "hf_old_price": "原价¥78"
+        "hf_now_price": "31",
+        "hf_low_price": "31",
+        "hf_old_price": "78",
+        "hf_gift_price": "34",
+        "hf_buyForYou_price": "94折"
       }
     },
     "steam_info":{
@@ -685,9 +735,11 @@
     "hf_info": {
       "hf_game_id": "stella",
       "hf_prices": {
-        "hf_now_price": "当前¥53",
-        "hf_low_price": "史低¥53",
-        "hf_old_price": "原价¥88"
+        "hf_now_price": "53",
+        "hf_low_price": "53",
+        "hf_old_price": "88",
+        "hf_gift_price": "59",
+        "hf_buyForYou_price": "92折"
       }
     },
     "steam_info":{
@@ -712,9 +764,11 @@
     "hf_info": {
       "hf_game_id": "hananono",
       "hf_prices": {
-        "hf_now_price": "当前¥32",
-        "hf_low_price": "史低¥32",
-        "hf_old_price": "原价¥78"
+        "hf_now_price": "32",
+        "hf_low_price": "32",
+        "hf_old_price": "78",
+        "hf_gift_price": "36",
+        "hf_buyForYou_price": "94折"
       }
     },
     "steam_info":{
@@ -739,9 +793,11 @@
     "hf_info": {
       "hf_game_id": "magical_charming",
       "hf_prices": {
-        "hf_now_price": "当前¥29",
-        "hf_low_price": "史低¥29",
-        "hf_old_price": "原价¥58"
+        "hf_now_price": "29",
+        "hf_low_price": "29",
+        "hf_old_price": "58",
+        "hf_gift_price": "32",
+        "hf_buyForYou_price": "94折"
       }
     },
     "steam_info":{
@@ -766,9 +822,11 @@
     "hf_info": {
       "hf_game_id": "tsukiniyorisou",
       "hf_prices": {
-        "hf_now_price": "当前¥43",
-        "hf_low_price": "史低¥43",
-        "hf_old_price": "原价¥88"
+        "hf_now_price": "43",
+        "hf_low_price": "43",
+        "hf_old_price": "88",
+        "hf_gift_price": "54",
+        "hf_buyForYou_price": "92折"
       }
     },
     "steam_info":{
@@ -793,9 +851,11 @@
     "hf_info": {
       "hf_game_id": "kinkoigt",
       "hf_prices": {
-        "hf_now_price": "当前¥47",
-        "hf_low_price": "史低¥47",
-        "hf_old_price": "原价¥78"
+        "hf_now_price": "47",
+        "hf_low_price": "47",
+        "hf_old_price": "78",
+        "hf_gift_price": "49",
+        "hf_buyForYou_price": "93折"
       }
     },
     "steam_info":{
@@ -820,9 +880,11 @@
     "hf_info": {
       "hf_game_id": "yumahorome",
       "hf_prices": {
-        "hf_now_price": "当前¥34",
-        "hf_low_price": "史低¥34",
-        "hf_old_price": "原价¥78"
+        "hf_now_price": "34",
+        "hf_low_price": "34",
+        "hf_old_price": "78",
+        "hf_gift_price": "38",
+        "hf_buyForYou_price": "94折"
       }
     },
     "steam_info":{
@@ -847,9 +909,11 @@
     "hf_info": {
       "hf_game_id": "cross_concerto",
       "hf_prices": {
-        "hf_now_price": "当前¥35",
-        "hf_low_price": "史低¥35",
-        "hf_old_price": "原价¥78"
+        "hf_now_price": "35",
+        "hf_low_price": "35",
+        "hf_old_price": "78",
+        "hf_gift_price": "39",
+        "hf_buyForYou_price": "94折"
       }
     },
     "steam_info":{
@@ -874,9 +938,11 @@
     "hf_info": {
       "hf_game_id": "soratoto",
       "hf_prices": {
-        "hf_now_price": "当前¥26",
-        "hf_low_price": "史低¥26",
-        "hf_old_price": "原价¥58"
+        "hf_now_price": "26",
+        "hf_low_price": "26",
+        "hf_old_price": "58",
+        "hf_gift_price": "29",
+        "hf_buyForYou_price": "95折"
       }
     },
     "steam_info":{
@@ -901,9 +967,11 @@
     "hf_info": {
       "hf_game_id": "aonatsu",
       "hf_prices": {
-        "hf_now_price": "当前¥39",
-        "hf_low_price": "史低¥39",
-        "hf_old_price": "原价¥78"
+        "hf_now_price": "39",
+        "hf_low_price": "39",
+        "hf_old_price": "78",
+        "hf_gift_price": "43",
+        "hf_buyForYou_price": "93折"
       }
     },
     "steam_info":{
@@ -928,9 +996,11 @@
     "hf_info": {
       "hf_game_id": "aokana_extra2",
       "hf_prices": {
-        "hf_now_price": "当前¥70",
-        "hf_low_price": "史低¥51",
-        "hf_old_price": "原价¥78"
+        "hf_now_price": "51",
+        "hf_low_price": "51",
+        "hf_old_price": "78",
+        "hf_gift_price": "57",
+        "hf_buyForYou_price": "92折"
       }
     },
     "steam_info":{
@@ -955,9 +1025,11 @@
     "hf_info": {
       "hf_game_id": "future_radio",
       "hf_prices": {
-        "hf_now_price": "当前¥78",
-        "hf_low_price": "史低¥54",
-        "hf_old_price": "原价¥78"
+        "hf_now_price": "54",
+        "hf_low_price": "54",
+        "hf_old_price": "78",
+        "hf_gift_price": "54",
+        "hf_buyForYou_price": "92折"
       }
     },
     "steam_info":{
@@ -982,9 +1054,11 @@
     "hf_info": {
       "hf_game_id": "shuffle_ep2",
       "hf_prices": {
-        "hf_now_price": "当前¥42",
-        "hf_low_price": "史低¥42",
-        "hf_old_price": "原价¥88"
+        "hf_now_price": "42",
+        "hf_low_price": "42",
+        "hf_old_price": "88",
+        "hf_gift_price": "53",
+        "hf_buyForYou_price": "92折"
       }
     },
     "steam_info":{
@@ -1009,9 +1083,11 @@
     "hf_info": {
       "hf_game_id": "witch_garden",
       "hf_prices": {
-        "hf_now_price": "当前¥41",
-        "hf_low_price": "史低¥41",
-        "hf_old_price": "原价¥78"
+        "hf_now_price": "41",
+        "hf_low_price": "41",
+        "hf_old_price": "78",
+        "hf_gift_price": "46",
+        "hf_buyForYou_price": "93折"
       }
     },
     "steam_info":{
@@ -1036,9 +1112,11 @@
     "hf_info": {
       "hf_game_id": "alias_carnival_flowering_sky",
       "hf_prices": {
-        "hf_now_price": "当前¥43",
-        "hf_low_price": "史低¥43",
-        "hf_old_price": "原价¥78"
+        "hf_now_price": "43",
+        "hf_low_price": "43",
+        "hf_old_price": "78",
+        "hf_gift_price": "48",
+        "hf_buyForYou_price": "93折"
       }
     },
     "steam_info":{
@@ -1063,9 +1141,11 @@
     "hf_info": {
       "hf_game_id": "sothewitch",
       "hf_prices": {
-        "hf_now_price": "当前¥57",
-        "hf_low_price": "史低¥57",
-        "hf_old_price": "原价¥88"
+        "hf_now_price": "57",
+        "hf_low_price": "57",
+        "hf_old_price": "88",
+        "hf_gift_price": "63",
+        "hf_buyForYou_price": "92折"
       }
     },
     "steam_info":{
@@ -1090,9 +1170,11 @@
     "hf_info": {
       "hf_game_id": "koikake",
       "hf_prices": {
-        "hf_now_price": "当前¥57",
-        "hf_low_price": "史低¥57",
-        "hf_old_price": "原价¥88"
+        "hf_now_price": "57",
+        "hf_low_price": "57",
+        "hf_old_price": "88",
+        "hf_gift_price": "57",
+        "hf_buyForYou_price": "92折"
       }
     },
     "steam_info":{
@@ -1123,9 +1205,11 @@
     "hf_info": {
       "hf_game_id": "clover_days",
       "hf_prices": {
-        "hf_now_price": "当前¥55",
-        "hf_low_price": "史低¥55",
-        "hf_old_price": "原价¥78"
+        "hf_now_price": "55",
+        "hf_low_price": "55",
+        "hf_old_price": "78",
+        "hf_gift_price": "55",
+        "hf_buyForYou_price": "92折"
       }
     },
     "steam_info":{
@@ -1150,9 +1234,11 @@
     "hf_info": {
       "hf_game_id": "arcana",
       "hf_prices": {
-        "hf_now_price": "当前¥38",
-        "hf_low_price": "史低¥38",
-        "hf_old_price": "原价¥78"
+        "hf_now_price": "38",
+        "hf_low_price": "38",
+        "hf_old_price": "78",
+        "hf_gift_price": "50",
+        "hf_buyForYou_price": "92折"
       }
     },
     "steam_info":{
@@ -1177,9 +1263,11 @@
     "hf_info": {
       "hf_game_id": "otomeriron",
       "hf_prices": {
-        "hf_now_price": "当前¥50",
-        "hf_low_price": "史低¥50",
-        "hf_old_price": "原价¥88"
+        "hf_now_price": "50",
+        "hf_low_price": "50",
+        "hf_old_price": "88",
+        "hf_gift_price": "63",
+        "hf_buyForYou_price": "92折"
       }
     },
     "steam_info":{
@@ -1210,9 +1298,11 @@
     "hf_info": {
       "hf_game_id": "seikano",
       "hf_prices": {
-        "hf_now_price": "当前¥50",
-        "hf_low_price": "史低¥50",
-        "hf_old_price": "原价78¥"
+        "hf_now_price": "50",
+        "hf_low_price": "50",
+        "hf_old_price": "78",
+        "hf_gift_price": "56",
+        "hf_buyForYou_price": "92折"
       }
     },
     "steam_info":{
@@ -1237,9 +1327,11 @@
     "hf_info": {
       "hf_game_id": "making_lovers",
       "hf_prices": {
-        "hf_now_price": "当前¥65",
-        "hf_low_price": "史低¥65",
-        "hf_old_price": "原价¥88"
+        "hf_now_price": "65",
+        "hf_low_price": "65",
+        "hf_old_price": "88",
+        "hf_gift_price": "65",
+        "hf_buyForYou_price": "92折"
       }
     },
     "steam_info":{
@@ -1264,9 +1356,11 @@
     "hf_info": {
       "hf_game_id": "sorechiru",
       "hf_prices": {
-        "hf_now_price": "当前¥53",
-        "hf_low_price": "史低¥53",
-        "hf_old_price": "原价¥88"
+        "hf_now_price": "53",
+        "hf_low_price": "53",
+        "hf_old_price": "88",
+        "hf_gift_price": "66",
+        "hf_buyForYou_price": "92折"
       }
     },
     "steam_info":{
