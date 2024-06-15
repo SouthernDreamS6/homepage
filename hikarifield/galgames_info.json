@@ -19,6 +19,14 @@
         "steam_low_price_convert_to_cn": "约¥18.38"
       }
     },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://moetake.booth.pm/items/383623",
+        "isSafeFile": "因收费未测试",
+        "memo": "收费1,000 JPY"
+      }
+    },
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "Lump of Sugar",
@@ -46,6 +54,24 @@
         "steamcn_low_price": "国区￥23.40",
         "steam_low_price": "哈萨克斯坦780₸",
         "steam_low_price_convert_to_cn": "约¥12.69"
+      }
+    },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://appendingpulse.jp/dl/sakura_no_mori_patch/",
+        "isSafeFile": "暂未测试",
+        "memo": "官方补丁",
+        "fileNo1":{
+          "fileName": "ms22_patch_sc.7z",
+          "memo": "简体中文版补丁",
+          "haboMd5": "f927fbdf43e0d15a30a6eb515b2140fe"
+        },
+        "fileNo2":{
+          "fileName": "ms22_patch_tc.7z",
+          "memo": "繁体中文版补丁",
+          "haboMd5": "c4e8b2169013d445e34b5436987f148a"
+        }
       }
     },
     "other_low_price": "~",
@@ -77,6 +103,14 @@
         "steam_low_price_convert_to_cn": "约¥14.74"
       }
     },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://www.lose.jp/official/cnpatch",
+        "isSafeFile": "暂未测试",
+        "memo": "官方补丁"
+      }
+    },
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "Lose",
@@ -104,6 +138,14 @@
         "steamcn_low_price": "国区¥35.40",
         "steam_low_price": "印度₹209",
         "steam_low_price_convert_to_cn": "约¥18.12"
+      }
+    },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://www.lose.jp/official/cnpatch",
+        "isSafeFile": "暂未测试",
+        "memo": "官方补丁"
       }
     },
     "other_low_price": "~",
@@ -135,6 +177,14 @@
         "steam_low_price_convert_to_cn": "约¥19.33"
       }
     },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "http://www.akatsukiworks.com/support.html",
+        "isSafeFile": "暂未测试",
+        "memo": "官方补丁"
+      }
+    },
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "晓WORKS",
@@ -162,6 +212,14 @@
         "steamcn_low_price": "国区¥27.30",
         "steam_low_price": "印度₹199",
         "steam_low_price_convert_to_cn": "约¥17.25"
+      }
+    },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://www.lose.jp/official/cnpatch",
+        "isSafeFile": "暂未测试",
+        "memo": "官方补丁"
       }
     },
     "other_low_price": "~",
@@ -193,6 +251,14 @@
         "steam_low_price_convert_to_cn": "约¥16.21"
       }
     },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://appendingpulse.jp/dl/sakura_no_mori_2_patch/",
+        "isSafeFile": "暂未测试",
+        "memo": "官方补丁"
+      }
+    },
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "MOONSTONE",
@@ -220,6 +286,14 @@
         "steamcn_low_price": "国区¥21.46",
         "steam_low_price": "哈萨克斯坦888₸",
         "steam_low_price_convert_to_cn": "约¥14.45"
+      }
+    },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "http://www.akatsukiworks.com/support.html",
+        "isSafeFile": "暂未测试",
+        "memo": "官方补丁"
       }
     },
     "other_low_price": "~",
@@ -251,6 +325,14 @@
         "steam_low_price_convert_to_cn": "约14.24"
       }
     },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://vndb.org/v19964",
+        "isSafeFile": "暂未测试",
+        "memo": "未知"
+      }
+    },
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "Applique",
@@ -278,6 +360,14 @@
         "steamcn_low_price": "国区¥44",
         "steam_low_price": "俄罗斯459₽",
         "steam_low_price_convert_to_cn": "约¥36.43"
+      }
+    },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://patches.nekonyansoft.com/",
+        "isSafeFile": "暂未测试",
+        "memo": "未知"
       }
     },
     "other_low_price": "~",
@@ -309,6 +399,14 @@
         "steam_low_price_convert_to_cn": "约¥21.15"
       }
     },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "http://nanawind.jp/product/prj02/",
+        "isSafeFile": "暂未测试",
+        "memo": "官方补丁"
+      }
+    },
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "NanaWind",
@@ -336,6 +434,14 @@
         "steamcn_low_price": "国区¥26.52",
         "steam_low_price": "印度₹237",
         "steam_low_price_convert_to_cn": "约¥20.55"
+      }
+    },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://www.moon-stone.jp/product/ms18/",
+        "isSafeFile": "暂未测试",
+        "memo": "官方补丁"
       }
     },
     "other_low_price": "~",
@@ -367,6 +473,14 @@
         "steam_low_price_convert_to_cn": "约¥37.46"
       }
     },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://nekonyansoft.com/shop/product/28",
+        "isSafeFile": "暂未测试",
+        "memo": "未知"
+      }
+    },
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "YUZUSOFT",
@@ -394,6 +508,14 @@
         "steamcn_low_price": "国区¥25.74",
         "steam_low_price": "印度₹230",
         "steam_low_price_convert_to_cn": "约¥19.94"
+      }
+    },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "",
+        "isSafeFile": "无补丁文件",
+        "memo": "无补丁文件"
       }
     },
     "other_low_price": "~",
@@ -425,6 +547,14 @@
         "steam_low_price_convert_to_cn": ""
       }
     },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://windmill.suki.jp/product/happiness2/",
+        "isSafeFile": "暂未测试",
+        "memo": "官方补丁"
+      }
+    },
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "Windmill Oasis",
@@ -452,6 +582,14 @@
         "steamcn_low_price": "国区¥51.07",
         "steam_low_price": "乌克兰230₴",
         "steam_low_price_convert_to_cn": "约¥42.10"
+      }
+    },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://www.lose.jp/official/cnpatch",
+        "isSafeFile": "暂未测试",
+        "memo": "官方补丁"
       }
     },
     "other_low_price": {
@@ -489,6 +627,14 @@
         "steam_low_price_convert_to_cn": "约¥28.50"
       }
     },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://nekonyansoft.com/shop/product/37",
+        "isSafeFile": "暂未测试",
+        "memo": "未知"
+      }
+    },
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "sprite",
@@ -516,6 +662,14 @@
         "steamcn_low_price": "国区¥51.04",
         "steam_low_price": "俄罗斯532₽",
         "steam_low_price_convert_to_cn": "约¥42.23"
+      }
+    },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://nekonyansoft.com/shop/product/38",
+        "isSafeFile": "暂未测试",
+        "memo": "未知"
       }
     },
     "other_low_price": "~",
@@ -547,6 +701,14 @@
         "steam_low_price_convert_to_cn": "约¥28.26"
       }
     },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "http://rask-soft.com/product/first/relanguage/",
+        "isSafeFile": "暂未测试",
+        "memo": "官方补丁"
+      }
+    },
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "RASK",
@@ -574,6 +736,14 @@
         "steamcn_low_price": "国区¥49.14",
         "steam_low_price": "俄罗斯433₽",
         "steam_low_price_convert_to_cn": "约¥34.37"
+      }
+    },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://nekonyansoft.com/shop/product/41",
+        "isSafeFile": "暂未测试",
+        "memo": "未知"
       }
     },
     "other_low_price": "~",
@@ -605,6 +775,14 @@
         "steam_low_price_convert_to_cn": "约28.50"
       }
     },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "",
+        "isSafeFile": "无补丁文件",
+        "memo": "无补丁文件"
+      }
+    },
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "YUZUSOFTSOUR",
@@ -632,6 +810,14 @@
         "steamcn_low_price": "暂未在Steam发布",
         "steam_low_price": "",
         "steam_low_price_convert_to_cn": ""
+      }
+    },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://www.moon-stone.jp/product/ms24/",
+        "isSafeFile": "暂未测试",
+        "memo": "官方补丁"
       }
     },
     "other_low_price": "~",
@@ -663,6 +849,14 @@
         "steam_low_price_convert_to_cn": "约¥45.43"
       }
     },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://nekonyansoft.com/shop/product/45",
+        "isSafeFile": "暂未测试",
+        "memo": "未知"
+      }
+    },
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "晓WORKS",
@@ -690,6 +884,14 @@
         "steamcn_low_price": "国区¥28.44",
         "steam_low_price": "印度₹328",
         "steam_low_price_convert_to_cn": "约¥36.66"
+      }
+    },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://twitter.com/lumpofsuger/status/1489539225561276417",
+        "isSafeFile": "暂未测试",
+        "memo": "官方推特"
       }
     },
     "other_low_price": "~",
@@ -721,6 +923,14 @@
         "steam_low_price_convert_to_cn": "约¥28.44"
       }
     },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://twitter.com/lumpofsuger/status/1492075945489932289",
+        "isSafeFile": "暂未测试",
+        "memo": "官方推特"
+      }
+    },
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "Lump of Sugar",
@@ -748,6 +958,14 @@
         "steamcn_low_price": "国区¥88",
         "steam_low_price": "印度₹607",
         "steam_low_price_convert_to_cn": "约¥52.63"
+      }
+    },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://nekonyansoft.com/shop/product/47",
+        "isSafeFile": "暂未测试",
+        "memo": "未知"
       }
     },
     "other_low_price": "~",
@@ -779,6 +997,14 @@
         "steam_low_price_convert_to_cn": "约¥29.65"
       }
     },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://twitter.com/lumpofsuger/status/1527593806647787521",
+        "isSafeFile": "暂未测试",
+        "memo": "未知"
+      }
+    },
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "Applique",
@@ -806,6 +1032,14 @@
         "steamcn_low_price": "暂未在Steam发布",
         "steam_low_price": "",
         "steam_low_price_convert_to_cn": ""
+      }
+    },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://twitter.com/lumpofsuger/status/1527593806647787521",
+        "isSafeFile": "暂未测试",
+        "memo": "官方推特"
       }
     },
     "other_low_price": "~",
@@ -837,6 +1071,14 @@
         "steam_low_price_convert_to_cn": "约¥39.21"
       }
     },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://project-navel.com/",
+        "isSafeFile": "暂未测试",
+        "memo": "官方补丁"
+      }
+    },
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "Navel",
@@ -864,6 +1106,14 @@
         "steamcn_low_price": "国区¥54.60",
         "steam_low_price": "台湾NT$250",
         "steam_low_price_convert_to_cn": "约¥56.11"
+      }
+    },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://nekonyansoft.com/shop/product/48",
+        "isSafeFile": "暂未测试",
+        "memo": "未知"
       }
     },
     "other_low_price": "~",
@@ -895,6 +1145,14 @@
         "steam_low_price_convert_to_cn": "约¥27.70"
       }
     },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://twitter.com/lumpofsuger/status/1558030544478146560?s=19",
+        "isSafeFile": "暂未测试",
+        "memo": "官方推特"
+      }
+    },
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "Lump of Sugar",
@@ -922,6 +1180,14 @@
         "steamcn_low_price": "国区¥41.34",
         "steam_low_price": "俄罗斯359₽",
         "steam_low_price_convert_to_cn": "约¥28.50"
+      }
+    },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://vndb.org/v21647",
+        "isSafeFile": "暂未测试",
+        "memo": "未知"
       }
     },
     "other_low_price": "~",
@@ -953,6 +1219,14 @@
         "steam_low_price_convert_to_cn": "约¥15.63"
       }
     },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://twitter.com/BaristaLab_jp/status/1588471419654246402?s=19",
+        "isSafeFile": "暂未测试",
+        "memo": "官方推特"
+      }
+    },
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "Barista Lab",
@@ -980,6 +1254,14 @@
         "steamcn_low_price": "国区¥44.46",
         "steam_low_price": "印度₹432",
         "steam_low_price_convert_to_cn": "约¥37.46"
+      }
+    },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://vndb.org/v24702",
+        "isSafeFile": "暂未测试",
+        "memo": "未知"
       }
     },
     "other_low_price": "~",
@@ -1011,6 +1293,14 @@
         "steam_low_price_convert_to_cn": "约¥52.39"
       }
     },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://patches.nekonyansoft.com/",
+        "isSafeFile": "暂未测试",
+        "memo": "未知"
+      }
+    },
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "sprite",
@@ -1038,6 +1328,14 @@
         "steamcn_low_price": "国区¥54.60",
         "steam_low_price": "中国¥60.83",
         "steam_low_price_convert_to_cn": "约¥60.83"
+      }
+    },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://patches.nekonyansoft.com/",
+        "isSafeFile": "暂未测试",
+        "memo": "未知"
       }
     },
     "other_low_price": "~",
@@ -1069,6 +1367,14 @@
         "steam_low_price_convert_to_cn": "约¥46.15"
       }
     },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://project-navel.com/",
+        "isSafeFile": "暂未测试",
+        "memo": "官方补丁"
+      }
+    },
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "Navel",
@@ -1096,6 +1402,14 @@
         "steamcn_low_price": "国区¥48.36",
         "steam_low_price": "南亚$6.50",
         "steam_low_price_convert_to_cn": "约¥46.95"
+      }
+    },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://windmill.suki.jp/main.html",
+        "isSafeFile": "暂未测试",
+        "memo": "官方补丁"
       }
     },
     "other_low_price": "~",
@@ -1127,6 +1441,14 @@
         "steam_low_price_convert_to_cn": "约¥49.92"
       }
     },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "http://nanawind.jp/product/prj03/index.html",
+        "isSafeFile": "暂未测试",
+        "memo": "官方补丁"
+      }
+    },
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "NanaWind",
@@ -1156,6 +1478,14 @@
         "steam_low_price_convert_to_cn": "约¥63.20"
       }
     },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://vndb.org/v16044",
+        "isSafeFile": "暂未测试",
+        "memo": "未知"
+      }
+    },
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "YUZUSOFT",
@@ -1183,6 +1513,14 @@
         "steamcn_low_price": "国区¥58.08",
         "steam_low_price": "南亚$7.91",
         "steam_low_price_convert_to_cn": "约¥57.13"
+      }
+    },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "http://ustrack.amusecraft.com/top.html",
+        "isSafeFile": "暂未测试",
+        "memo": "官方补丁"
       }
     },
     "other_low_price": {
@@ -1220,6 +1558,14 @@
         "steam_low_price_convert_to_cn": "约¥56.16"
       }
     },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://patches.nekonyansoft.com/",
+        "isSafeFile": "暂未测试",
+        "memo": "未知"
+      }
+    },
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "ALcot",
@@ -1249,6 +1595,14 @@
         "steam_low_price_convert_to_cn": "约¥49.98"
       }
     },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://twitter.com/lumpofsuger/status/1705162727961010367",
+        "isSafeFile": "暂未测试",
+        "memo": "官方推特"
+      }
+    },
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "Lump of Sugar",
@@ -1276,6 +1630,14 @@
         "steamcn_low_price": "国区¥63.36",
         "steam_low_price": "中国¥63.36",
         "steam_low_price_convert_to_cn": "约¥63.36"
+      }
+    },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://project-navel.com/",
+        "isSafeFile": "暂未测试",
+        "memo": "官方补丁"
       }
     },
     "other_low_price": {
@@ -1313,6 +1675,14 @@
         "steam_low_price_convert_to_cn": "约¥56.77"
       }
     },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "",
+        "isSafeFile": "无补丁文件",
+        "memo": "无补丁文件"
+      }
+    },
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "ENTERGRAM",
@@ -1342,6 +1712,14 @@
         "steam_low_price_convert_to_cn": "约¥56.77"
       }
     },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://vndb.org/v21552",
+        "isSafeFile": "暂未测试",
+        "memo": "未知"
+      }
+    },
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "SMEE",
@@ -1369,6 +1747,14 @@
         "steamcn_low_price": "暂未在Steam发布",
         "steam_low_price": "",
         "steam_low_price_convert_to_cn": ""
+      }
+    },
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://project-navel.com/",
+        "isSafeFile": "暂未测试",
+        "memo": "官方补丁"
       }
     },
     "other_low_price": "~",
