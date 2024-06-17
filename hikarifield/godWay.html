@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>商品信息展示</title>
+</head>
+<body>
+  <div id="app">
+    <h1>安全提示（免责声明 Ver1.0）</h1>
+    <h2>请仔细阅读，然后下拉以查看额外内容。</h2>
+    <p>
+        本站不提供任何文件下载服务，以下链接内容与本站无关。
+        <br><br>我们已经尽可能检测相关内容的安全性，但请您务必仔细核对当前页面展示的文件哈希值（Hash）或MD5值及对应的检测报告和发布时间，以确保文件的完整性和安全性。
+        <br>如文件发生更新或其他变动，请自行检测安全性或联系我们以更新检测报告。
+        <br>如果相关链接失效或被劫持，请及时联系我们进行修改。
+        <br><br>我们对任何由本站链接或引用的第三方内容的准确性、安全性或合法性不承担任何责任。
+        <br>下载和使用任何文件前，请务必自行承担风险并采取适当的安全措施。
+        <br><br>整理和维护该站点仅出于对GalGame的热爱，故原则上我们不提供无偿服务。
+        <br>如果您有其他相关内容需要补充，也欢迎联系我们提供。
+        <br>带有官方属性或公认权威第三方社区中的内容将优先审核并靠前展示，网盘或私有站点将置于最下方。
+        <br>如遇到无法解决的问题您可以向我们发出合理请求，我们也十分乐意在空闲时间帮助每一位同好，但请不要试图以任何理由道德绑架我们。
+        <br><br>最后，愿我们共同发展和维护Galgame相关领域的美好发展。
+    </p>
+    <h1>作品信息</h1>
+    <div v-if="galgameInfo">
+      <h2>作品名称：{{ galgameInfo.game_name }}</h2>
+      <!-- 循环展示 godWay 信息 -->
+      <div v-for="(godWay, index) in galgameInfo.godWay" :key="index">
+        <h3>途径 {{ index + 1 }} 信息</h3>
+        <p><b>类型：</b>{{ godWay.fileType }}</p>
+        <p><b>属性：</b>{{ godWay.siteProperty }}</p>
+        <p><b>来源：</b>{{ godWay.origin }}</p>
+        <p><b>检测：</b>{{ godWay.isSafeFile }}</p>
+        <p><b>文件MD5：</b></p>
+        <div v-for="(md5, md5Index) in godWay.habo" :key="md5Index">
+          <p>·{{ md5.version }}：<a :href="'https://habo.qq.com/file/showdetail?md5=' + md5.md5" target="_blank">{{ md5.md5 }}</a></p>
+        </div>
+        <b>备注：</b><p v-for="(memo, memoIndex) in godWay.memo" :key="memoIndex">{{ memo }}</p>
+        
+        <a :href="godWay.url"><button>点击下载</button></a><br><br><br>
+      </div>
+    <div v-else>
+      <p>加载中...</p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  <script>
+    new Vue({
+      el: '#app',
+      data: {
+        galgameInfo: null
+      },
+      mounted() {
+        // 获取页面中的 hfGameId 参数值
+        const urlParams = new URLSearchParams(window.location.search);
+        const hfGameId = urlParams.get('hfGameId');
+
+        // 异步加载数据文件
+        fetch('./galgames_info.json')
+          .then(response => response.json())
+          .then(data => {
+            // 在数据中查找与 hfGameId 匹配的商品信息
+            this.galgameInfo = data.find(item => item.hf_info.hf_game_id === hfGameId);
+          })
+          .catch(error => {
+            console.error('Error fetching data:', error);
+          });
+      }
+    });
+  </script>
+</body>
+</html>

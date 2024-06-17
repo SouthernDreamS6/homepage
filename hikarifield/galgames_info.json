@@ -19,14 +19,26 @@
         "steam_low_price_convert_to_cn": "约¥18.38"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
+    "godWay":[
+      {
+        "fileType":"１８禁補丁",
+        "siteProperty":"BOOTH平台，暂不确定作者是否为官方",
+        "origin":"HIKARIFIELD官方推荐",
         "url": "https://moetake.booth.pm/items/383623",
         "isSafeFile": "因收费未测试",
-        "memo": "收费1,000 JPY"
+        "habo":[
+          {
+            "version":"",
+            "md5": "暂无"
+          }
+        ],
+        "memo": [
+          "付费补丁！！！",
+          "价格收费1,000 JPY",
+          "平台：BOOTH-日本一家提供给创作者开设商店、贩卖自己作品的平台。"
+        ]
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "Lump of Sugar",
@@ -56,24 +68,26 @@
         "steam_low_price_convert_to_cn": "约¥12.69"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
+    "godWay":[
+      {
+        "fileType":"场景剧情补丁（2019.02.01）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
         "url": "https://appendingpulse.jp/dl/sakura_no_mori_patch/",
-        "isSafeFile": "暂未测试",
-        "memo": "官方补丁",
-        "fileNo1":{
-          "fileName": "ms22_patch_sc.7z",
-          "memo": "简体中文版补丁",
-          "haboMd5": "f927fbdf43e0d15a30a6eb515b2140fe"
-        },
-        "fileNo2":{
-          "fileName": "ms22_patch_tc.7z",
-          "memo": "繁体中文版补丁",
-          "haboMd5": "c4e8b2169013d445e34b5436987f148a"
-        }
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简体中文版补丁",
+            "md5": "f927fbdf43e0d15a30a6eb515b2140fe"
+          },
+          {
+            "version":"繁体中文版补丁",
+            "md5": "c4e8b2169013d445e34b5436987f148a"
+          }
+        ],
+        "memo": []
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "MOONSTONE",
@@ -103,14 +117,26 @@
         "steam_low_price_convert_to_cn": "约¥14.74"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "https://www.lose.jp/official/cnpatch",
-        "isSafeFile": "暂未测试",
-        "memo": "官方补丁"
+    "godWay":[
+      {
+        "fileType":"场景剧情补丁（2019-01-25）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/mono_patch/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简体中文版",
+            "md5": "文件过大，无云端检测报告"
+          },
+          {
+            "version":"繁体中文版",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "Lose",
@@ -140,14 +166,40 @@
         "steam_low_price_convert_to_cn": "约¥18.12"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "https://www.lose.jp/official/cnpatch",
-        "isSafeFile": "暂未测试",
-        "memo": "官方补丁"
+    "godWay":[
+      {
+        "fileType":"场景剧情补丁（2019-01-25）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/monohe_patch/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简体中文版",
+            "md5": "文件过大，无云端检测报告"
+          },
+          {
+            "version":"繁体中文版",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
+      },
+      {
+        "fileType":"场景剧情补丁 Part.2",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/hv5pcu01ti5d/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简体中文版",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "Lose",
@@ -177,14 +229,40 @@
         "steam_low_price_convert_to_cn": "约¥19.33"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "http://www.akatsukiworks.com/support.html",
-        "isSafeFile": "暂未测试",
-        "memo": "官方补丁"
+    "godWay":[
+      {
+        "fileType":"修正パッチ ver.1.10（2014.04.12）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "http://www.akatsukiworks.com/support/h_patch_v1_10.zip",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"修正パッチ ver.1.10",
+            "md5": "3effa50ef40d65a19fa1f55e3573679e"
+          }
+        ],
+        "memo": []
+      },
+      {
+        "fileType":"18禁パッチ场景剧情补丁（2018.06.29）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "http://appendingpulse.jp/dl/1w18pftah6pg/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简体版补丁",
+            "md5": "文件过大，无云端检测报告"
+          },
+          {
+            "version":"繁体版补丁",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "晓WORKS",
@@ -214,14 +292,38 @@
         "steam_low_price_convert_to_cn": "约¥17.25"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "https://www.lose.jp/official/cnpatch",
-        "isSafeFile": "暂未测试",
-        "memo": "官方补丁"
+    "godWay":[
+      {
+        "fileType":"国际中文版场景剧情补丁（版本v1.2）（2022.02.15）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/kmh6uzw4/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"角色立绘补丁（2020.11.06）",
+            "md5": "4e20276d1ee161ceb5dbf3225327cc17"
+          },
+          {
+            "version":"国际中文版场景剧情补丁下载（v1.2）（2020.12.02）",
+            "md5": "文件过大，无云端检测报告"
+          },
+          {
+            "version":"追加剧情补丁01（2021.09.24）",
+            "md5": "文件过大，无云端检测报告"
+          },
+          {
+            "version":"追加剧情补丁02（2021.10.10）",
+            "md5": "e93cb1ce42f2ff692183beadfdccb52f"
+          },
+          {
+            "version":"追加剧情补丁03（2022.02.15）",
+            "md5": "4b70a5066508af5eddf1f1f9007e2e68"
+          }
+        ],
+        "memo": []
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "Lose",
@@ -251,14 +353,26 @@
         "steam_low_price_convert_to_cn": "约¥16.21"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
+    "godWay":[
+      {
+        "fileType":"场景剧情补丁（2019.3.15）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
         "url": "https://appendingpulse.jp/dl/sakura_no_mori_2_patch/",
-        "isSafeFile": "暂未测试",
-        "memo": "官方补丁"
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简体中文版补丁",
+            "md5": "b1484b17060daedfc486e70b862fb7ed"
+          },
+          {
+            "version":"繁体中文版补丁",
+            "md5": "76b9cbf9ad66ef9616c08c63372d1652"
+          }
+        ],
+        "memo": []
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "MOONSTONE",
@@ -288,14 +402,22 @@
         "steam_low_price_convert_to_cn": "约¥14.45"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "http://www.akatsukiworks.com/support.html",
-        "isSafeFile": "暂未测试",
-        "memo": "官方补丁"
+    "godWay":[
+      {
+        "fileType":"场景剧情补丁（2019.4.19）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "http://appendingpulse.jp/dl/hello_lady_nd/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简体中文/繁体中文通用版补丁",
+            "md5": "f8eb50d2291d4a5ae61b06f3ab2a5682"
+          }
+        ],
+        "memo": []
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "晓WORKS",
@@ -325,14 +447,24 @@
         "steam_low_price_convert_to_cn": "约14.24"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
+    "godWay":[
+      {
+        "fileType":"场景剧情补丁（2019.4.19）",
+        "siteProperty":"vndb",
+        "origin":"HIKARIFIELD官方推荐",
         "url": "https://vndb.org/v19964",
-        "isSafeFile": "暂未测试",
-        "memo": "未知"
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"",
+            "md5": ""
+          }
+        ],
+        "memo": [
+          "vndb-一个欧美的视觉小说资料站"
+        ]
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "Applique",
