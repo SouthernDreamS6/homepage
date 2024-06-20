@@ -4,11 +4,10 @@
     "hf_info": {
       "hf_game_id": "tayutama2",
       "hf_prices": {
-        "hf_now_price": "21",
+        "hf_now_price": "70",
         "hf_low_price": "21",
         "hf_old_price": "78",
-        "hf_gift_price": "23",
-        "hf_buyForYou_price": "95折"
+        "hf_gift_price": "70"
       }
     },
     "steam_info":{
@@ -26,12 +25,7 @@
         "origin":"HIKARIFIELD官方推荐",
         "url": "https://moetake.booth.pm/items/383623",
         "isSafeFile": "因收费未测试",
-        "habo":[
-          {
-            "version":"",
-            "md5": "暂无"
-          }
-        ],
+        "habo":[],
         "memo": [
           "付费补丁！！！",
           "价格收费1,000 JPY",
@@ -53,11 +47,10 @@
     "hf_info": {
       "hf_game_id": "sakura_no_mori",
       "hf_prices": {
-        "hf_now_price": "21",
+        "hf_now_price": "70",
         "hf_low_price": "21",
         "hf_old_price": "78",
-        "hf_gift_price": "23",
-        "hf_buyForYou_price": "95折"
+        "hf_gift_price": "70"
       }
     },
     "steam_info":{
@@ -102,11 +95,10 @@
     "hf_info": {
       "hf_game_id": "monobeno",
       "hf_prices": {
-        "hf_now_price": "21",
+        "hf_now_price": "70",
         "hf_low_price": "21",
         "hf_old_price": "78",
-        "hf_gift_price": "23",
-        "hf_buyForYou_price": "95折"
+        "hf_gift_price": "70"
       }
     },
     "steam_info":{
@@ -151,11 +143,10 @@
     "hf_info": {
       "hf_game_id": "monobeno_happy_end",
       "hf_prices": {
-        "hf_now_price": "20",
+        "hf_now_price": "71",
         "hf_low_price": "20",
         "hf_old_price": "118",
-        "hf_gift_price": "34",
-        "hf_buyForYou_price": "94折"
+        "hf_gift_price": "71"
       }
     },
     "steam_info":{
@@ -214,11 +205,10 @@
     "hf_info": {
       "hf_game_id": "hello_lady",
       "hf_prices": {
-        "hf_now_price": "23",
+        "hf_now_price": "70",
         "hf_low_price": "23",
         "hf_old_price": "78",
-        "hf_gift_price": "25",
-        "hf_buyForYou_price": "95折"
+        "hf_gift_price": "70"
       }
     },
     "steam_info":{
@@ -277,11 +267,10 @@
     "hf_info": {
       "hf_game_id": "maitetsu_pure_station",
       "hf_prices": {
-        "hf_now_price": "24",
+        "hf_now_price": "70",
         "hf_low_price": "24",
         "hf_old_price": "78",
-        "hf_gift_price": "27",
-        "hf_buyForYou_price": "95折"
+        "hf_gift_price": "70"
       }
     },
     "steam_info":{
@@ -294,34 +283,16 @@
     },
     "godWay":[
       {
-        "fileType":"国际中文版场景剧情补丁（版本v1.2）（2022.02.15）",
+        "fileType":"未发现爱上火车-Pure Station-补丁",
         "siteProperty":"官方补丁",
         "origin":"HIKARIFIELD官方推荐",
-        "url": "https://appendingpulse.jp/dl/kmh6uzw4/",
-        "isSafeFile": "未发现风险",
-        "habo":[
-          {
-            "version":"角色立绘补丁（2020.11.06）",
-            "md5": "4e20276d1ee161ceb5dbf3225327cc17"
-          },
-          {
-            "version":"国际中文版场景剧情补丁下载（v1.2）（2020.12.02）",
-            "md5": "文件过大，无云端检测报告"
-          },
-          {
-            "version":"追加剧情补丁01（2021.09.24）",
-            "md5": "文件过大，无云端检测报告"
-          },
-          {
-            "version":"追加剧情补丁02（2021.10.10）",
-            "md5": "e93cb1ce42f2ff692183beadfdccb52f"
-          },
-          {
-            "version":"追加剧情补丁03（2022.02.15）",
-            "md5": "4b70a5066508af5eddf1f1f9007e2e68"
-          }
-        ],
-        "memo": []
+        "url": ".lose.jp/official/cnpatch",
+        "isSafeFile": "未知",
+        "habo":[],
+        "memo": [
+          "HF官方给出的额外内容下载地址仅有爱上火车-Last Run!!-",
+          "未发现爱上火车-Pure Station-补丁"
+        ]
       }
     ],
     "other_low_price": "~",
@@ -338,11 +309,10 @@
     "hf_info": {
       "hf_game_id": "sakura_no_mori2",
       "hf_prices": {
-        "hf_now_price": "23",
+        "hf_now_price": "70",
         "hf_low_price": "23",
         "hf_old_price": "78",
-        "hf_gift_price": "26",
-        "hf_buyForYou_price": "95折"
+        "hf_gift_price": "70"
       }
     },
     "steam_info":{
@@ -387,11 +357,10 @@
     "hf_info": {
       "hf_game_id": "hello_lady_nd",
       "hf_prices": {
-        "hf_now_price": "19",
+        "hf_now_price": "52",
         "hf_low_price": "19",
         "hf_old_price": "58",
-        "hf_gift_price": "21",
-        "hf_buyForYou_price": "95折"
+        "hf_gift_price": "52"
       }
     },
     "steam_info":{
@@ -432,11 +401,10 @@
     "hf_info": {
       "hf_game_id": "tsukikage",
       "hf_prices": {
-        "hf_now_price": "22",
+        "hf_now_price": "61",
         "hf_low_price": "22",
         "hf_old_price": "68",
-        "hf_gift_price": "24",
-        "hf_buyForYou_price": "95折"
+        "hf_gift_price": "61"
       }
     },
     "steam_info":{
@@ -449,20 +417,22 @@
     },
     "godWay":[
       {
-        "fileType":"场景剧情补丁（2019.4.19）",
-        "siteProperty":"vndb",
+        "fileType":"「月影魅像-解放之羽-」场景剧情补丁（2019.7.26）",
+        "siteProperty":"官方补丁",
         "origin":"HIKARIFIELD官方推荐",
-        "url": "https://vndb.org/v19964",
+        "url": "https://appendingpulse.jp/dl/tsukikage_patch/",
         "isSafeFile": "未发现风险",
         "habo":[
           {
-            "version":"",
-            "md5": ""
+            "version":"简体中文补丁",
+            "md5": "文件过大，无云端检测报告"
+          },
+          {
+            "version":"繁体中文补丁",
+            "md5": "文件过大，无云端检测报告"
           }
         ],
-        "memo": [
-          "vndb-一个欧美的视觉小说资料站"
-        ]
+        "memo": []
       }
     ],
     "other_low_price": "~",
@@ -479,11 +449,10 @@
     "hf_info": {
       "hf_game_id": "aokana",
       "hf_prices": {
-        "hf_now_price": "40",
+        "hf_now_price": "79",
         "hf_low_price": "40",
         "hf_old_price": "88",
-        "hf_gift_price": "44",
-        "hf_buyForYou_price": "93折"
+        "hf_gift_price": "79"
       }
     },
     "steam_info":{
@@ -494,14 +463,24 @@
         "steam_low_price_convert_to_cn": "约¥36.43"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "https://patches.nekonyansoft.com/",
-        "isSafeFile": "暂未测试",
-        "memo": "未知"
+    "godWay":[
+      {
+        "fileType":"Aokana Perfect Edition 18+ Steam Patch",
+        "siteProperty":"NEKONYAN",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://cdn.nekonyansoft.com/patch/aokana/aokana_perfectedition+r18_patch.zip",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"Aokana Perfect Edition 18+ Steam Patch",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": [
+          "NEKONYAN-一个提供高质量的视觉小说本地化的第三方站点"
+        ]
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "sprite",
@@ -516,11 +495,10 @@
     "hf_info": {
       "hf_game_id": "alias_carnival",
       "hf_prices": {
-        "hf_now_price": "24",
+        "hf_now_price": "70",
         "hf_low_price": "24",
         "hf_old_price": "78",
-        "hf_gift_price": "27",
-        "hf_buyForYou_price": "95折"
+        "hf_gift_price": "70"
       }
     },
     "steam_info":{
@@ -531,14 +509,22 @@
         "steam_low_price_convert_to_cn": "约¥21.15"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "http://nanawind.jp/product/prj02/",
-        "isSafeFile": "暂未测试",
-        "memo": "官方补丁"
+    "godWay":[
+      {
+        "fileType":"「爱丽娅的明日盛典!」场景剧情补丁（2019.11.18）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/alias_carnival_steam_patch/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"Steam国际中文版补丁",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "NanaWind",
@@ -553,11 +539,10 @@
     "hf_info": {
       "hf_game_id": "natsunoiro",
       "hf_prices": {
-        "hf_now_price": "24",
+        "hf_now_price": "70",
         "hf_low_price": "24",
         "hf_old_price": "78",
-        "hf_gift_price": "27",
-        "hf_buyForYou_price": "95折"
+        "hf_gift_price": "70"
       }
     },
     "steam_info":{
@@ -568,14 +553,26 @@
         "steam_low_price_convert_to_cn": "约¥20.55"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "https://www.moon-stone.jp/product/ms18/",
-        "isSafeFile": "暂未测试",
-        "memo": "官方补丁"
+    "godWay":[
+      {
+        "fileType":"「追忆夏色年华」场景剧情补丁（2019.12.06）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/natsunoiro_steam_patch/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简体补丁",
+            "md5": "文件过大，无云端检测报告"
+          },
+          {
+            "version":"繁体补丁",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "MOONSTONE",
@@ -590,11 +587,10 @@
     "hf_info": {
       "hf_game_id": "senren_banka",
       "hf_prices": {
-        "hf_now_price": "45",
+        "hf_now_price": "79",
         "hf_low_price": "45",
         "hf_old_price": "88",
-        "hf_gift_price": "50",
-        "hf_buyForYou_price": "92折"
+        "hf_gift_price": "79"
       }
     },
     "steam_info":{
@@ -605,14 +601,24 @@
         "steam_low_price_convert_to_cn": "约¥37.46"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "https://nekonyansoft.com/shop/product/28",
-        "isSafeFile": "暂未测试",
-        "memo": "未知"
+    "godWay":[
+      {
+        "fileType":"Senren＊Banka 18+ Steam Patch",
+        "siteProperty":"NEKONYAN",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://cdn.nekonyansoft.com/patch/senren-banka/senrenbanka_r18patch.7z",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"Senren＊Banka 18+ Steam Patch",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": [
+          "NEKONYAN-一个提供高质量的视觉小说本地化的第三方站点"
+        ]
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "YUZUSOFT",
@@ -627,11 +633,10 @@
     "hf_info": {
       "hf_game_id": "tryment_alpha",
       "hf_prices": {
-        "hf_now_price": "23",
+        "hf_now_price": "70",
         "hf_low_price": "23",
         "hf_old_price": "78",
-        "hf_gift_price": "25",
-        "hf_buyForYou_price": " 95折"
+        "hf_gift_price": "70"
       }
     },
     "steam_info":{
@@ -642,14 +647,7 @@
         "steam_low_price_convert_to_cn": "约¥19.94"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "",
-        "isSafeFile": "无补丁文件",
-        "memo": "无补丁文件"
-      }
-    },
+    "godWay":[],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "TrymenT",
@@ -664,11 +662,10 @@
     "hf_info": {
       "hf_game_id": "happiness2",
       "hf_prices": {
-        "hf_now_price": "24",
+        "hf_now_price": "52",
         "hf_low_price": "24",
         "hf_old_price": "58",
-        "hf_gift_price": "27",
-        "hf_buyForYou_price": "95折"
+        "hf_gift_price": "52"
       }
     },
     "steam_info":{
@@ -679,14 +676,20 @@
         "steam_low_price_convert_to_cn": ""
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
+    "godWay":[
+      {
+        "fileType":"未找到相关内容",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
         "url": "https://windmill.suki.jp/product/happiness2/",
-        "isSafeFile": "暂未测试",
-        "memo": "官方补丁"
+        "isSafeFile": "未知",
+        "habo":[],
+        "memo": [
+          "HF官方给出的额外内容下载地址指向作品官网",
+          "但是我并未在官网发现相关内容的下载"
+        ]
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "Windmill Oasis",
@@ -701,11 +704,10 @@
     "hf_info": {
       "hf_game_id": "maitetsu_lastrun",
       "hf_prices": {
-        "hf_now_price": "35",
+        "hf_now_price": "71",
         "hf_low_price": "35",
         "hf_old_price": "118",
-        "hf_gift_price": "58",
-        "hf_buyForYou_price": "92折"
+        "hf_gift_price": "71"
       }
     },
     "steam_info":{
@@ -716,14 +718,38 @@
         "steam_low_price_convert_to_cn": "约¥42.10"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "https://www.lose.jp/official/cnpatch",
-        "isSafeFile": "暂未测试",
-        "memo": "官方补丁"
+    "godWay":[
+      {
+        "fileType":"国际中文版场景剧情补丁（版本v1.2）（2022.02.15）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/kmh6uzw4/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"角色立绘补丁（2020.11.06）",
+            "md5": "4e20276d1ee161ceb5dbf3225327cc17"
+          },
+          {
+            "version":"国际中文版场景剧情补丁下载（v1.2）（2020.12.02）",
+            "md5": "文件过大，无云端检测报告"
+          },
+          {
+            "version":"追加剧情补丁01（2021.09.24）",
+            "md5": "文件过大，无云端检测报告"
+          },
+          {
+            "version":"追加剧情补丁02（2021.10.10）",
+            "md5": "e93cb1ce42f2ff692183beadfdccb52f"
+          },
+          {
+            "version":"追加剧情补丁03（2022.02.15）",
+            "md5": "4b70a5066508af5eddf1f1f9007e2e68"
+          }
+        ],
+        "memo": []
       }
-    },
+    ],
     "other_low_price": {
       "other_low_price_title":"【官方中日双文版】爱上火车 Last Run!! ＆ Vocal Complete Album【含DLsite限定特典】",
       "other_low_price_title_url":"https://www.dlsite.com/pro/work/=/product_id/VJ013196.html",
@@ -744,11 +770,10 @@
     "hf_info": {
       "hf_game_id": "aokana_extra1",
       "hf_prices": {
-        "hf_now_price": "31",
+        "hf_now_price": "61",
         "hf_low_price": "31",
         "hf_old_price": "68",
-        "hf_gift_price": "34",
-        "hf_buyForYou_price": "94折"
+        "hf_gift_price": "61"
       }
     },
     "steam_info":{
@@ -759,14 +784,24 @@
         "steam_low_price_convert_to_cn": "约¥28.50"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "https://nekonyansoft.com/shop/product/37",
-        "isSafeFile": "暂未测试",
-        "memo": "未知"
+    "godWay":[
+      {
+        "fileType":"Aokana Extra1 18+ Steam Patch",
+        "siteProperty":"NEKONYAN",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://cdn.nekonyansoft.com/patch/aokana-ex1/aokana_extra1_18+_patch.7z",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"Aokana Extra1 18+ Steam Patch",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": [
+          "NEKONYAN-一个提供高质量的视觉小说本地化的第三方站点"
+        ]
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "sprite",
@@ -781,11 +816,10 @@
     "hf_info": {
       "hf_game_id": "riddle_joker",
       "hf_prices": {
-        "hf_now_price": "45",
+        "hf_now_price": "79",
         "hf_low_price": "45",
         "hf_old_price": "88",
-        "hf_gift_price": "50",
-        "hf_buyForYou_price": "92折"
+        "hf_gift_price": "79"
       }
     },
     "steam_info":{
@@ -796,14 +830,24 @@
         "steam_low_price_convert_to_cn": "约¥42.23"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "https://nekonyansoft.com/shop/product/38",
-        "isSafeFile": "暂未测试",
-        "memo": "未知"
+    "godWay":[
+      {
+        "fileType":"Riddle Joker 18+ Steam Patch",
+        "siteProperty":"NEKONYAN",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://cdn.nekonyansoft.com/patch/riddle-joker/riddlejoker_r18dlc.7z",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"Riddle Joker 18+ Steam Patch",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": [
+          "NEKONYAN-一个提供高质量的视觉小说本地化的第三方站点"
+        ]
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "YUZUSOFT",
@@ -818,11 +862,10 @@
     "hf_info": {
       "hf_game_id": "relief",
       "hf_prices": {
-        "hf_now_price": "29",
+        "hf_now_price": "70",
         "hf_low_price": "29",
         "hf_old_price": "78",
-        "hf_gift_price": "32",
-        "hf_buyForYou_price": "94折"
+        "hf_gift_price": "70"
       }
     },
     "steam_info":{
@@ -833,14 +876,22 @@
         "steam_low_price_convert_to_cn": "约¥28.26"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "http://rask-soft.com/product/first/relanguage/",
-        "isSafeFile": "暂未测试",
-        "memo": "官方补丁"
+    "godWay":[
+      {
+        "fileType":"Steam版场景剧情补丁（2021.02.26）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/5b25qvrz/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简、繁、日文通用补丁",
+            "md5": "9291ff84006e3645b598849a56214046"
+          }
+        ],
+        "memo": []
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "RASK",
@@ -855,11 +906,10 @@
     "hf_info": {
       "hf_game_id": "kinkoi",
       "hf_prices": {
-        "hf_now_price": "46",
+        "hf_now_price": "74",
         "hf_low_price": "46",
         "hf_old_price": "78",
-        "hf_gift_price": "48",
-        "hf_buyForYou_price": "93折"
+        "hf_gift_price": "74"
       }
     },
     "steam_info":{
@@ -870,14 +920,24 @@
         "steam_low_price_convert_to_cn": "约¥34.37"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "https://nekonyansoft.com/shop/product/41",
-        "isSafeFile": "暂未测试",
-        "memo": "未知"
+    "godWay":[
+      {
+        "fileType":"Kinkoi 18+ Steam Patch",
+        "siteProperty":"NEKONYAN",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://cdn.nekonyansoft.com/patch/kinkoi/kinkoi_r18dlc.rar",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"Kinkoi 18+ Steam Patch",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": [
+          "NEKONYAN-一个提供高质量的视觉小说本地化的第三方站点"
+        ]
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "SAGA PLANETS",
@@ -892,11 +952,10 @@
     "hf_info": {
       "hf_game_id": "parquet",
       "hf_prices": {
-        "hf_now_price": "29",
+        "hf_now_price": "52",
         "hf_low_price": "29",
         "hf_old_price": "58",
-        "hf_gift_price": "32",
-        "hf_buyForYou_price": "94折"
+        "hf_gift_price": "52"
       }
     },
     "steam_info":{
@@ -907,14 +966,7 @@
         "steam_low_price_convert_to_cn": "约28.50"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "",
-        "isSafeFile": "无补丁文件",
-        "memo": "无补丁文件"
-      }
-    },
+    "godWay":[],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "YUZUSOFTSOUR",
@@ -929,11 +981,10 @@
     "hf_info": {
       "hf_game_id": "honoguraki",
       "hf_prices": {
-        "hf_now_price": "25",
+        "hf_now_price": "52",
         "hf_low_price": "25",
         "hf_old_price": "58",
-        "hf_gift_price": "28",
-        "hf_buyForYou_price": "95折"
+        "hf_gift_price": "52"
       }
     },
     "steam_info":{
@@ -944,14 +995,26 @@
         "steam_low_price_convert_to_cn": ""
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "https://www.moon-stone.jp/product/ms24/",
-        "isSafeFile": "暂未测试",
-        "memo": "官方补丁"
+    "godWay":[
+      {
+        "fileType":"国际中文版场景剧情补丁（2021.12.17）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/ms24ryb4xe/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简体中文补丁",
+            "md5": "d034523b80c6abb1c9f0a90105bf298e"
+          },
+          {
+            "version":"繁体中文补丁",
+            "md5": "e94d625af72bc0d248a30915baf26ad3"
+          }
+        ],
+        "memo": []
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "MOONSTONE",
@@ -966,11 +1029,10 @@
     "hf_info": {
       "hf_game_id": "hello_lady_se",
       "hf_prices": {
-        "hf_now_price": "37",
+        "hf_now_price": "59",
         "hf_low_price": "37",
         "hf_old_price": "118",
-        "hf_gift_price": "73",
-        "hf_buyForYou_price": "92折"
+        "hf_gift_price": "118"
       }
     },
     "steam_info":{
@@ -981,14 +1043,24 @@
         "steam_low_price_convert_to_cn": "约¥45.43"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
+    "godWay":[
+      {
+        "fileType":"等待更新",
+        "siteProperty":"NEKONYAN",
+        "origin":"HIKARIFIELD官方推荐",
         "url": "https://nekonyansoft.com/shop/product/45",
-        "isSafeFile": "暂未测试",
-        "memo": "未知"
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"等待更新",
+            "md5": ""
+          }
+        ],
+        "memo": [
+          "NEKONYAN-一个提供高质量的视觉小说本地化的第三方站点"
+        ]
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "晓WORKS",
@@ -1003,11 +1075,10 @@
     "hf_info": {
       "hf_game_id": "madoki",
       "hf_prices": {
-        "hf_now_price": "32",
+        "hf_now_price": "70",
         "hf_low_price": "32",
         "hf_old_price": "78",
-        "hf_gift_price": "35",
-        "hf_buyForYou_price": "94折"
+        "hf_gift_price": "78"
       }
     },
     "steam_info":{
@@ -1018,14 +1089,22 @@
         "steam_low_price_convert_to_cn": "约¥36.66"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "https://twitter.com/lumpofsuger/status/1489539225561276417",
-        "isSafeFile": "暂未测试",
-        "memo": "官方推特"
+    "godWay":[
+      {
+        "fileType":"国际中文版场景剧情补丁（2022.02.04）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/madoxa4sh7m6/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"Steam版本简繁通用补丁",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "Lump of Sugar",
@@ -1040,11 +1119,10 @@
     "hf_info": {
       "hf_game_id": "sekachu",
       "hf_prices": {
-        "hf_now_price": "31",
+        "hf_now_price": "70",
         "hf_low_price": "31",
         "hf_old_price": "78",
-        "hf_gift_price": "34",
-        "hf_buyForYou_price": "94折"
+        "hf_gift_price": "78"
       }
     },
     "steam_info":{
@@ -1055,14 +1133,22 @@
         "steam_low_price_convert_to_cn": "约¥28.44"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "https://twitter.com/lumpofsuger/status/1492075945489932289",
-        "isSafeFile": "暂未测试",
-        "memo": "官方推特"
+    "godWay":[
+      {
+        "fileType":"国际中文版场景剧情补丁（2022.02.11）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/seka45xiwizh/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简繁通用补丁",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "Lump of Sugar",
@@ -1077,11 +1163,10 @@
     "hf_info": {
       "hf_game_id": "stella",
       "hf_prices": {
-        "hf_now_price": "53",
+        "hf_now_price": "79",
         "hf_low_price": "53",
         "hf_old_price": "88",
-        "hf_gift_price": "59",
-        "hf_buyForYou_price": "92折"
+        "hf_gift_price": "88"
       }
     },
     "steam_info":{
@@ -1094,7 +1179,7 @@
     },
     "godWay":{
       "hfWay":{
-        "origin":"HF官方推荐",
+        "origin":"等待更新",
         "url": "https://nekonyansoft.com/shop/product/47",
         "isSafeFile": "暂未测试",
         "memo": "未知"
@@ -1114,11 +1199,10 @@
     "hf_info": {
       "hf_game_id": "hananono",
       "hf_prices": {
-        "hf_now_price": "32",
+        "hf_now_price": "70",
         "hf_low_price": "32",
         "hf_old_price": "78",
-        "hf_gift_price": "36",
-        "hf_buyForYou_price": "94折"
+        "hf_gift_price": "78"
       }
     },
     "steam_info":{
@@ -1129,14 +1213,22 @@
         "steam_low_price_convert_to_cn": "约¥29.65"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "https://twitter.com/lumpofsuger/status/1527593806647787521",
-        "isSafeFile": "暂未测试",
-        "memo": "未知"
+    "godWay":[
+      {
+        "fileType":"国际中文版场景剧情补丁（1.01）（2022.04.23）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/hana0yz58wib/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简繁日通用补丁",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "Applique",
@@ -1151,11 +1243,10 @@
     "hf_info": {
       "hf_game_id": "magical_charming",
       "hf_prices": {
-        "hf_now_price": "29",
+        "hf_now_price": "52",
         "hf_low_price": "29",
         "hf_old_price": "58",
-        "hf_gift_price": "32",
-        "hf_buyForYou_price": "94折"
+        "hf_gift_price": "58"
       }
     },
     "steam_info":{
@@ -1166,14 +1257,22 @@
         "steam_low_price_convert_to_cn": ""
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "https://twitter.com/lumpofsuger/status/1527593806647787521",
-        "isSafeFile": "暂未测试",
-        "memo": "官方推特"
+    "godWay":[
+      {
+        "fileType":"国际中文版场景剧情补丁（2022.05.20）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/magi9uu2lkhi/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简繁通用补丁",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "Lump of Sugar",
@@ -1188,11 +1287,10 @@
     "hf_info": {
       "hf_game_id": "tsukiniyorisou",
       "hf_prices": {
-        "hf_now_price": "43",
+        "hf_now_price": "70",
         "hf_low_price": "43",
         "hf_old_price": "88",
-        "hf_gift_price": "54",
-        "hf_buyForYou_price": "92折"
+        "hf_gift_price": "88"
       }
     },
     "steam_info":{
@@ -1203,14 +1301,22 @@
         "steam_low_price_convert_to_cn": "约¥39.21"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "https://project-navel.com/",
-        "isSafeFile": "暂未测试",
-        "memo": "官方补丁"
+    "godWay":[
+      {
+        "fileType":"国际中文版场景剧情补丁（1.01）（2022.06.19）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "http://appendingpulse.jp/dl/tsuki3tyy6gv/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简繁日通用补丁",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "Navel",
@@ -1225,11 +1331,10 @@
     "hf_info": {
       "hf_game_id": "kinkoigt",
       "hf_prices": {
-        "hf_now_price": "47",
+        "hf_now_price": "74",
         "hf_low_price": "47",
         "hf_old_price": "78",
-        "hf_gift_price": "49",
-        "hf_buyForYou_price": "93折"
+        "hf_gift_price": "78"
       }
     },
     "steam_info":{
@@ -1240,14 +1345,24 @@
         "steam_low_price_convert_to_cn": "约¥56.11"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "https://nekonyansoft.com/shop/product/48",
-        "isSafeFile": "暂未测试",
-        "memo": "未知"
+    "godWay":[
+      {
+        "fileType":"Kinkoi: Golden Time 18+ Steam Patch",
+        "siteProperty":"NEKONYAN",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://cdn.nekonyansoft.com/patch/kinkoi-gt/kinkoigt_r18dlc.7z",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"Kinkoi: Golden Time 18+ Steam Patch",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": [
+          "NEKONYAN-一个提供高质量的视觉小说本地化的第三方站点"
+        ]
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "SAGA PLANETS",
@@ -1262,11 +1377,10 @@
     "hf_info": {
       "hf_game_id": "yumahorome",
       "hf_prices": {
-        "hf_now_price": "34",
+        "hf_now_price": "70",
         "hf_low_price": "34",
         "hf_old_price": "78",
-        "hf_gift_price": "38",
-        "hf_buyForYou_price": "94折"
+        "hf_gift_price": "78"
       }
     },
     "steam_info":{
@@ -1277,14 +1391,7 @@
         "steam_low_price_convert_to_cn": "约¥27.70"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "https://twitter.com/lumpofsuger/status/1558030544478146560?s=19",
-        "isSafeFile": "暂未测试",
-        "memo": "官方推特"
-      }
-    },
+    "godWay":[],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "Lump of Sugar",
@@ -1299,11 +1406,10 @@
     "hf_info": {
       "hf_game_id": "cross_concerto",
       "hf_prices": {
-        "hf_now_price": "35",
+        "hf_now_price": "70",
         "hf_low_price": "35",
         "hf_old_price": "78",
-        "hf_gift_price": "39",
-        "hf_buyForYou_price": "94折"
+        "hf_gift_price": "78"
       }
     },
     "steam_info":{
@@ -1314,14 +1420,22 @@
         "steam_low_price_convert_to_cn": "约¥28.50"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "https://vndb.org/v21647",
-        "isSafeFile": "暂未测试",
-        "memo": "未知"
+    "godWay":[
+      {
+        "fileType":"国际中文版场景剧情补丁（2022.09.23）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/cce7skxmu4s6/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简繁日通用补丁",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "Applique",
@@ -1336,11 +1450,10 @@
     "hf_info": {
       "hf_game_id": "soratoto",
       "hf_prices": {
-        "hf_now_price": "26",
+        "hf_now_price": "52",
         "hf_low_price": "26",
         "hf_old_price": "58",
-        "hf_gift_price": "29",
-        "hf_buyForYou_price": "95折"
+        "hf_gift_price": "58"
       }
     },
     "steam_info":{
@@ -1351,14 +1464,7 @@
         "steam_low_price_convert_to_cn": "约¥15.63"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "https://twitter.com/BaristaLab_jp/status/1588471419654246402?s=19",
-        "isSafeFile": "暂未测试",
-        "memo": "官方推特"
-      }
-    },
+    "godWay":[],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "Barista Lab",
@@ -1373,11 +1479,10 @@
     "hf_info": {
       "hf_game_id": "aonatsu",
       "hf_prices": {
-        "hf_now_price": "39",
+        "hf_now_price": "70",
         "hf_low_price": "39",
         "hf_old_price": "78",
-        "hf_gift_price": "43",
-        "hf_buyForYou_price": "93折"
+        "hf_gift_price": "78"
       }
     },
     "steam_info":{
@@ -1388,14 +1493,22 @@
         "steam_low_price_convert_to_cn": "约¥37.46"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "https://vndb.org/v24702",
-        "isSafeFile": "暂未测试",
-        "memo": "未知"
+    "godWay":[
+      {
+        "fileType":"国际中文版场景剧情补丁（2022.12.10）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/linedg0q09wv/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简繁通用补丁",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "GIGA / ENTERGRAM",
@@ -1410,11 +1523,10 @@
     "hf_info": {
       "hf_game_id": "aokana_extra2",
       "hf_prices": {
-        "hf_now_price": "51",
+        "hf_now_price": "70",
         "hf_low_price": "51",
         "hf_old_price": "78",
-        "hf_gift_price": "57",
-        "hf_buyForYou_price": "92折"
+        "hf_gift_price": "78"
       }
     },
     "steam_info":{
@@ -1425,14 +1537,24 @@
         "steam_low_price_convert_to_cn": "约¥52.39"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "https://patches.nekonyansoft.com/",
-        "isSafeFile": "暂未测试",
-        "memo": "未知"
+    "godWay":[
+      {
+        "fileType":"Aokana Extra2 18+ Steam Patch",
+        "siteProperty":"NEKONYAN",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://cdn.nekonyansoft.com/patch/aokana-ex2/aokanaex2_r18dlc.7z",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"Aokana Extra2 18+ Steam Patch",
+            "md5": "b61d2dfd3888b22eab7bf0a9b0be5ffe"
+          }
+        ],
+        "memo": [
+          "NEKONYAN-一个提供高质量的视觉小说本地化的第三方站点"
+        ]
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "sprite",
@@ -1447,11 +1569,10 @@
     "hf_info": {
       "hf_game_id": "future_radio",
       "hf_prices": {
-        "hf_now_price": "54",
+        "hf_now_price": "78",
         "hf_low_price": "54",
         "hf_old_price": "78",
-        "hf_gift_price": "54",
-        "hf_buyForYou_price": "92折"
+        "hf_gift_price": "78"
       }
     },
     "steam_info":{
@@ -1462,14 +1583,24 @@
         "steam_low_price_convert_to_cn": "约¥60.83"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "https://patches.nekonyansoft.com/",
-        "isSafeFile": "暂未测试",
-        "memo": "未知"
+    "godWay":[
+      {
+        "fileType":"The Future Radio and the Artificial Pigeons 18+ Steam Patch",
+        "siteProperty":"NEKONYAN",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://cdn.nekonyansoft.com/patch/futureradio/futureradio_r18_patch.zip",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"The Future Radio and the Artificial Pigeons 18+ Steam Patch",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": [
+          "NEKONYAN-一个提供高质量的视觉小说本地化的第三方站点"
+        ]
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "Laplacian",
@@ -1484,11 +1615,10 @@
     "hf_info": {
       "hf_game_id": "shuffle_ep2",
       "hf_prices": {
-        "hf_now_price": "42",
+        "hf_now_price": "70",
         "hf_low_price": "42",
         "hf_old_price": "88",
-        "hf_gift_price": "53",
-        "hf_buyForYou_price": "92折"
+        "hf_gift_price": "88"
       }
     },
     "steam_info":{
@@ -1499,14 +1629,17 @@
         "steam_low_price_convert_to_cn": "约¥46.15"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "https://project-navel.com/",
-        "isSafeFile": "暂未测试",
-        "memo": "官方补丁"
+    "godWay":[
+      {
+        "fileType":"等待更新",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://project-navel.com/shuffle/",
+        "isSafeFile": "未发现风险",
+        "habo":[],
+        "memo": []
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "Navel",
@@ -1521,11 +1654,10 @@
     "hf_info": {
       "hf_game_id": "witch_garden",
       "hf_prices": {
-        "hf_now_price": "41",
+        "hf_now_price": "70",
         "hf_low_price": "41",
         "hf_old_price": "78",
-        "hf_gift_price": "46",
-        "hf_buyForYou_price": "93折"
+        "hf_gift_price": "78"
       }
     },
     "steam_info":{
@@ -1536,14 +1668,17 @@
         "steam_low_price_convert_to_cn": "约¥46.95"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
+    "godWay":[
+      {
+        "fileType":"等待更新",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
         "url": "https://windmill.suki.jp/main.html",
-        "isSafeFile": "暂未测试",
-        "memo": "官方补丁"
+        "isSafeFile": "未发现风险",
+        "habo":[],
+        "memo": []
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "Windmill Oasis",
@@ -1558,11 +1693,10 @@
     "hf_info": {
       "hf_game_id": "alias_carnival_flowering_sky",
       "hf_prices": {
-        "hf_now_price": "43",
+        "hf_now_price": "70",
         "hf_low_price": "43",
         "hf_old_price": "78",
-        "hf_gift_price": "48",
-        "hf_buyForYou_price": "93折"
+        "hf_gift_price": "78"
       }
     },
     "steam_info":{
@@ -1573,14 +1707,22 @@
         "steam_low_price_convert_to_cn": "约¥49.92"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "http://nanawind.jp/product/prj03/index.html",
-        "isSafeFile": "暂未测试",
-        "memo": "官方补丁"
+    "godWay":[
+      {
+        "fileType":"国际中文版场景剧情补丁（2023.06.21）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/afs0z52pk1ge/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简体中文、繁体中文和日文版通用",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "NanaWind",
@@ -1595,11 +1737,10 @@
     "hf_info": {
       "hf_game_id": "sothewitch",
       "hf_prices": {
-        "hf_now_price": "57",
+        "hf_now_price": "79",
         "hf_low_price": "57",
         "hf_old_price": "88",
-        "hf_gift_price": "63",
-        "hf_buyForYou_price": "92折"
+        "hf_gift_price": "88"
       }
     },
     "steam_info":{
@@ -1610,14 +1751,22 @@
         "steam_low_price_convert_to_cn": "约¥63.20"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "https://vndb.org/v16044",
-        "isSafeFile": "暂未测试",
-        "memo": "未知"
+    "godWay":[
+      {
+        "fileType":"国际中文版场景剧情补丁（2023.08.12）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/sowit5nmo2nv/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简繁通用补丁",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "YUZUSOFT",
@@ -1632,11 +1781,10 @@
     "hf_info": {
       "hf_game_id": "koikake",
       "hf_prices": {
-        "hf_now_price": "57",
+        "hf_now_price": "88",
         "hf_low_price": "57",
         "hf_old_price": "88",
-        "hf_gift_price": "57",
-        "hf_buyForYou_price": "92折"
+        "hf_gift_price": "88"
       }
     },
     "steam_info":{
@@ -1647,14 +1795,22 @@
         "steam_low_price_convert_to_cn": "约¥57.13"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "http://ustrack.amusecraft.com/top.html",
-        "isSafeFile": "暂未测试",
-        "memo": "官方补丁"
+    "godWay":[
+      {
+        "fileType":"国际中文版场景剧情补丁（2023.08.06）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/koif5cn0nv2p/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简繁通用补丁",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
       }
-    },
+    ],
     "other_low_price": {
       "other_low_price_title":"2023.08.03-2023.10.01摩点众筹实体激活卡30r",
       "other_low_price_title_url":"https://zhongchou.modian.com/item/127745.html",
@@ -1675,11 +1831,10 @@
     "hf_info": {
       "hf_game_id": "clover_days",
       "hf_prices": {
-        "hf_now_price": "55",
+        "hf_now_price": "78",
         "hf_low_price": "55",
         "hf_old_price": "78",
-        "hf_gift_price": "55",
-        "hf_buyForYou_price": "92折"
+        "hf_gift_price": "78"
       }
     },
     "steam_info":{
@@ -1690,14 +1845,24 @@
         "steam_low_price_convert_to_cn": "约¥56.16"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "https://patches.nekonyansoft.com/",
-        "isSafeFile": "暂未测试",
-        "memo": "未知"
+    "godWay":[
+      {
+        "fileType":"Clover Day's 18+ Steam Patch",
+        "siteProperty":"NEKONYAN",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://cdn.nekonyansoft.com/patch/clover-days/clover-days-r18-patch.zip",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"Clover Day's 18+ Steam Patch",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": [
+          "NEKONYAN-一个提供高质量的视觉小说本地化的第三方站点"
+        ]
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "ALcot",
@@ -1712,11 +1877,10 @@
     "hf_info": {
       "hf_game_id": "arcana",
       "hf_prices": {
-        "hf_now_price": "38",
+        "hf_now_price": "59",
         "hf_low_price": "38",
         "hf_old_price": "78",
-        "hf_gift_price": "50",
-        "hf_buyForYou_price": "92折"
+        "hf_gift_price": "78"
       }
     },
     "steam_info":{
@@ -1727,14 +1891,7 @@
         "steam_low_price_convert_to_cn": "约¥49.98"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "https://twitter.com/lumpofsuger/status/1705162727961010367",
-        "isSafeFile": "暂未测试",
-        "memo": "官方推特"
-      }
-    },
+    "godWay":[],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "Lump of Sugar",
@@ -1749,11 +1906,10 @@
     "hf_info": {
       "hf_game_id": "otomeriron",
       "hf_prices": {
-        "hf_now_price": "50",
+        "hf_now_price": "70",
         "hf_low_price": "50",
         "hf_old_price": "88",
-        "hf_gift_price": "63",
-        "hf_buyForYou_price": "92折"
+        "hf_gift_price": "88"
       }
     },
     "steam_info":{
@@ -1792,11 +1948,10 @@
     "hf_info": {
       "hf_game_id": "seikano",
       "hf_prices": {
-        "hf_now_price": "50",
+        "hf_now_price": "70",
         "hf_low_price": "50",
         "hf_old_price": "78",
-        "hf_gift_price": "56",
-        "hf_buyForYou_price": "92折"
+        "hf_gift_price": "78"
       }
     },
     "steam_info":{
@@ -1807,14 +1962,7 @@
         "steam_low_price_convert_to_cn": "约¥56.77"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "",
-        "isSafeFile": "无补丁文件",
-        "memo": "无补丁文件"
-      }
-    },
+    "godWay":[],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "ENTERGRAM",
@@ -1829,11 +1977,10 @@
     "hf_info": {
       "hf_game_id": "making_lovers",
       "hf_prices": {
-        "hf_now_price": "65",
+        "hf_now_price": "88",
         "hf_low_price": "65",
         "hf_old_price": "88",
-        "hf_gift_price": "65",
-        "hf_buyForYou_price": "92折"
+        "hf_gift_price": "88"
       }
     },
     "steam_info":{
@@ -1844,14 +1991,22 @@
         "steam_low_price_convert_to_cn": "约¥56.77"
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "https://vndb.org/v21552",
-        "isSafeFile": "暂未测试",
-        "memo": "未知"
+    "godWay":[
+      {
+        "fileType":"版场景剧情补丁（2024.05.03）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/mak3dv97meb7/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简繁通用补丁",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
       }
-    },
+    ],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "SMEE",
@@ -1866,11 +2021,10 @@
     "hf_info": {
       "hf_game_id": "sorechiru",
       "hf_prices": {
-        "hf_now_price": "53",
+        "hf_now_price": "70",
         "hf_low_price": "53",
         "hf_old_price": "88",
-        "hf_gift_price": "66",
-        "hf_buyForYou_price": "92折"
+        "hf_gift_price": "88"
       }
     },
     "steam_info":{
@@ -1881,14 +2035,7 @@
         "steam_low_price_convert_to_cn": ""
       }
     },
-    "godWay":{
-      "hfWay":{
-        "origin":"HF官方推荐",
-        "url": "https://project-navel.com/",
-        "isSafeFile": "暂未测试",
-        "memo": "官方补丁"
-      }
-    },
+    "godWay":[],
     "other_low_price": "~",
     "game_publisher":{
       "game_publisher_name": "Navel",

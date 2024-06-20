@@ -190,7 +190,7 @@
 					<tr>
 						<th v-show="show_game_img">游戏预览图</th>
 						<th v-show="show_game_name">游戏名称<p class="top">点击名称即可访问HF商城</p></th>
-						<th v-show="show_hf_price">HF价格<p class="top_redfont">代购折扣仅限一次先到先得</p>更新时间2024.06.14<br>本次促销结束时间2024.06.17</th>
+						<th v-show="show_hf_price">HF价格<p class="top_redfont">代购折扣仅限一次先到先得</p>更新时间2024.06.20<br>本次促销结束时间2024.06.17</th>
 						<th v-show="show_steam_price">Steam价格<p class="top_redfont">注意！受汇率影响</p><p class="top">此处未计算Steam余额等其他折扣</p>更新时间2024.05.18</th>
 						<th v-show="show_other_price">其他途径<p class="top">如有补充欢迎联系</p></th>
 						<th v-show="show_godWay">仙人指路<p class="top_redfont">资源收集于网络<br>本站不提供任何下载服务</p><p class="top">如遇问题欢迎联系</p></th>
@@ -213,7 +213,7 @@
 							<p class="hfSpecialOffer">当前¥{{ item.hf_info.hf_prices.hf_now_price }}</p>
 							史低¥{{ item.hf_info.hf_prices.hf_low_price }} 原价¥{{ item.hf_info.hf_prices.hf_old_price }}
 							<br>
-							礼品¥{{ item.hf_info.hf_prices.hf_gift_price }} 代购:{{ item.hf_info.hf_prices.hf_buyForYou_price }}
+							礼品¥{{ item.hf_info.hf_prices.hf_gift_price }} {{ buyForYouPrice(item.hf_info.hf_prices.hf_gift_price) }}
 						</td>
 						<!-- Steam价格 -->
 						<td v-show="show_steam_price">
@@ -270,8 +270,8 @@
 					<tr>
 						<th v-show="show_audio_works_img">作品预览图</th>
 						<th v-show="show_audio_works_name">作品名称<p class="top">点击名称即可访问HF商城</p></th>
-						<th v-show="show_hf_audio_works_price">HF价格<br>更新时间2024.06.15<br>本次促销结束时间2024.06.17</th>
-						<th v-show="show_hf_audio_works_SCprice">SLAM CARD价格<br>更新时间2024.06.15</th>
+						<th v-show="show_hf_audio_works_price">HF价格<br>更新时间2024.06.20<br>本次促销结束时间2024.06.17</th>
+						<th v-show="show_hf_audio_works_SCprice">SLAM CARD价格<br>更新时间2024.06.20</th>
 						<th v-show="show_audio_works_publisher">开发商<p class="top">部分社团资料较少<br>如有错误欢迎指正</p></th>
 						<th v-show="show_audio_works_release_time">发售时间<p class="top">此处时间采集于HF游戏介绍</p></th>
 					</tr>
@@ -291,7 +291,7 @@
 							原价¥{{ item.hf_audio_works_info.hf_audio_works_prices.hf_audio_works_old_price }}
 							<br>
 							礼品¥{{ item.hf_audio_works_info.hf_audio_works_prices.hf_gift_price }}
-							代购:{{ item.hf_audio_works_info.hf_audio_works_prices.hf_buyForYou_price }}
+							{{ buyForYouPrice(item.hf_audio_works_info.hf_audio_works_prices.hf_gift_price) }}
 						</td>
 						<!--SLSLAM CARD价格格-->
 						<td v-show="show_hf_audio_works_SCprice">
@@ -408,7 +408,7 @@
 		</div>
 		<!-- vue3代码开始 -->
 		<script type="module">
-			import { createApp, ref } from "https://unpkg.com/vue@3/dist/vue.esm-browser.js";
+			import { createApp, ref, computed } from "https://unpkg.com/vue@3/dist/vue.esm-browser.js";
 	  
 			createApp({
 			  setup() {
@@ -446,6 +446,24 @@
 				const show_change_log = ref(false);//更新日志
 				const show_QandA = ref(false);//答疑解惑
 				const show_Console = ref(false);//控制台
+
+				//代购折扣计算
+				const buyForYouPrice = computed(() => (price) => {
+				if (price < 10) {
+					return "代购:97折";
+				} else if (price >= 10 && price < 20) {
+					return "代购:96折";
+				} else if (price >= 20 && price < 30) {
+					return "代购:95折";
+				} else if (price >= 30 && price < 40) {
+					return "代购:94折";
+				} else if (price >= 40 && price < 50) {
+					return "代购:93折";
+				} else {
+					return "代购:92折";
+				}
+				});
+
 				
 				Promise.all([
 					fetch("./galgames_info.json").then(response => response.json()),
@@ -493,7 +511,9 @@
 
 					show_change_log,
 					show_QandA,
-					show_Console
+					show_Console,
+
+					buyForYouPrice
 				};
 			  },
 			}).mount("#app");
