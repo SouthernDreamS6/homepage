@@ -190,7 +190,7 @@
 					<tr>
 						<th v-show="show_game_img">游戏预览图</th>
 						<th v-show="show_game_name">游戏名称<p class="top">点击名称即可访问HF商城</p></th>
-						<th v-show="show_hf_price">HF价格<p class="top_redfont">代购折扣仅限一次先到先得</p>更新时间2024.06.20<br>本次促销结束时间2024.06.17</th>
+						<th v-show="show_hf_price">HF价格<p class="top_redfont">代购折扣仅限一次先到先得</p>更新时间2024.06.28<br>本次促销结束时间2024.07.06</th>
 						<th v-show="show_steam_price">Steam价格<p class="top_redfont">注意！受汇率影响</p><p class="top">此处未计算Steam余额等其他折扣</p>更新时间2024.05.18</th>
 						<th v-show="show_other_price">其他途径<p class="top">如有补充欢迎联系</p></th>
 						<th v-show="show_godWay">仙人指路<p class="top_redfont">资源收集于网络<br>本站不提供任何下载服务</p><p class="top">如遇问题欢迎联系</p></th>
@@ -199,58 +199,50 @@
 						<th v-show="show_release_time">发售时间<p class="top">此处时间采集于HF游戏介绍</p></th>
 					</tr>
 					<!--Galgame模板-->
-					<tr v-for="(item, index) in table_galgames">
+                	<tr v-for="game in games" :key="game.id">
 						<!-- 游戏预览图 -->
 						<td v-show="show_game_img" class="image-container">
-							<img :src="imageServerUrl + './public/images/galgames/' + item.hf_info.hf_game_id + '/' + item.hf_info.hf_game_id + '.jpg'" alt="item.hf_info.hf_game_id" height="300%" width="auto">
+							<img :src="imageServerUrl + './public/images/galgames/' + game.id + '/' + game.id + '.jpg'" alt="game.id" height="300%" width="auto">
 						</td>
 						<!-- 游戏名称 -->
 						<td v-show="show_game_name">
-							<a :href="'https://store.hikarifield.co.jp/shop/' + item.hf_info.hf_game_id" target="_blank">{{ item.game_name }}</a>
+							<a :href="'https://store.hikarifield.co.jp/shop/' + game.id" target="_blank">{{ game.name }}</a>
 						</td>
 						<!-- HF价格 -->
 						<td v-show="show_hf_price">
-							<p class="hfSpecialOffer">当前¥{{ item.hf_info.hf_prices.hf_now_price }}</p>
-							史低¥{{ item.hf_info.hf_prices.hf_low_price }} 原价¥{{ item.hf_info.hf_prices.hf_old_price }}
+							<p class="hfSpecialOffer">当前¥{{ getPrice(game.id, 'now') }}</p>
+							史低¥{{ getPrice(game.id, 'low') }} 原价¥{{ getPrice(game.id, 'old') }}
 							<br>
-							礼品¥{{ item.hf_info.hf_prices.hf_gift_price }} {{ buyForYouPrice(item.hf_info.hf_prices.hf_gift_price) }}
+							礼品¥{{ getPrice(game.id, 'gift') }} {{ buyForYouPrice(getPrice(game.id, 'gift')) }}
 						</td>
 						<!-- Steam价格 -->
 						<td v-show="show_steam_price">
-							{{ item.steam_info.steam_prices.steamcn_low_price }}
+							国区￥{{steamInfo[game.id].prices.cnLow}}
 							<br>
-							{{ item.steam_info.steam_prices.steam_low_price }} {{ item.steam_info.steam_prices.steam_low_price_convert_to_cn }}
+							{{ steamInfo[game.id].prices.country }}{{ steamInfo[game.id].prices.low }}
 						</td>
 						<!-- 其他途径 -->
 						<td v-show="show_other_price">
-							<a :href="item.other_low_price.other_low_price_title_url" target="_blank">{{ item.other_low_price.other_low_price_title }}</a>
-							<br>
-							{{ item.other_low_price.other_low_price2 }}
-							<br>
-							{{ item.other_low_price.other_low_price3 }}
-							<a :href="item.other_low_price.other_low_price_screenshot_url" target="_blank">{{ item.other_low_price.other_low_price_screenshot }}</a>
+							功能代码重构中
 						</td>
 						<!-- 仙人指路 -->
 						<td v-show="show_godWay">
-							<a :href="'./godWay?hfGameId=' + item.hf_info.hf_game_id">
+							<a :href="'./godWay?hfGameId=' + game.id">
 							  <button>点击跳转</button>
 							</a>
 						</td>
 						<!-- 游戏ID -->
 						<td v-show="show_game_id">
-							<a :href="'https://steamdb.info/app/' + item.steam_info.steam_game_id" target="_blank">{{ item.steam_info.steam_game_id }}</a>
+							<a :href="'https://steamdb.info/app/' + steamInfo[game.id].appId" target="_blank">{{ steamInfo[game.id].appId }}</a>
 						</td>
 						<!-- 开发商 -->
 						<td v-show="show_game_publisher">
-							<a :href="item.game_publisher.game_publisher_url" target="_blank">{{ item.game_publisher.game_publisher_name }}</a>
-							<br>
-							{{ item.game_publisher_nickname }}
-							<br>
-							{{ item.game_publisher.game_publisher_history }}
+							{{ developers[game.developerId]?.developer.name || 'Unknown' }}
+							功能代码重构中
 						</td>
 						<!-- 发售时间 -->
 						<td v-show="show_release_time">
-							{{ item.release_time }}
+							{{ game.release_time }}
 						</td>
 					</tr>
 				</table>
@@ -446,6 +438,56 @@
 				const show_change_log = ref(false);//更新日志
 				const show_QandA = ref(false);//答疑解惑
 				const show_Console = ref(false);//控制台
+				
+                const games = ref([]);
+                const prices = ref({});
+                const godWay = ref({});
+                const steamInfo = ref({});
+				const developers = ref({});
+
+				const loadData = async () => {
+					try {
+						const [infoResponse, pricesResponse, steamInfoResponse, godWayResponse, developerResponse] = await Promise.all([
+							fetch("./public/json/galgames_info.json").then(response => response.json()),
+							fetch("./public/json/galgames_prices.json").then(response => response.json()),
+							fetch("./public/json/galgames_steamInfo.json").then(response => response.json()),
+							fetch("./public/json/galgames_godWay.json").then(response => response.json()),
+							fetch("./public/json/galgames_developer.json").then(response => response.json())
+						]);
+
+						games.value = infoResponse;
+						prices.value = pricesResponse.reduce((acc, curr) => {
+							acc[curr.id] = curr.prices;
+							return acc;
+						}, {});
+						godWay.value = godWayResponse.reduce((acc, curr) => {
+							acc[curr.id] = curr.godWay;
+							return acc;
+						}, {});
+						steamInfo.value = steamInfoResponse.reduce((acc, curr) => {
+							acc[curr.id] = curr.steamInfo;
+							return acc;
+						}, {});
+                        developers.value = developersResponse.reduce((acc, curr) => {
+                            acc[curr.developerId] = curr;
+                            return acc;
+                        }, {});
+
+						// Optionally, handle developers data
+					} catch (error) {
+						console.error("Error loading the JSON data:", error);
+					}
+				};
+
+				const getPrice = (id, type) => {
+					if (prices.value[id] && prices.value[id][type] && prices.value[id][type].length > 0) {
+						return prices.value[id][type][0].price;
+					}
+					return 'N/A';
+				};
+
+				// Fetch data on component mount
+				loadData();
 
 				//代购折扣计算
 				const buyForYouPrice = computed(() => (price) => {
@@ -513,7 +555,13 @@
 					show_QandA,
 					show_Console,
 
-					buyForYouPrice
+					buyForYouPrice,
+
+                    games,
+                    getPrice,
+                    godWay,
+                    steamInfo,
+                    developers
 				};
 			  },
 			}).mount("#app");

@@ -1,0 +1,566 @@
+[
+  {
+    "id": "tayutama2",
+    "name": "游魂2-you're the only one-",
+    "steamInfo":{
+      "appId": "552280",
+      "prices":{
+        "cnLow": "23.40",
+        "country": "印度",
+        "low": "₹212"
+      }
+    }
+  },
+  {
+    "id": "sakura_no_mori",
+    "name": "樱之杜†净梦者",
+    "steamInfo":{
+      "appId": "749520",
+      "prices":{
+        "cnLow": "23.40",
+        "country": "哈萨克斯坦",
+        "low": "780₸"
+      }
+    }
+  },
+  {
+    "id": "monobeno",
+    "name": "茂伸奇谈-Monobeno-",
+    "steamInfo":{
+      "appId": "758090",
+      "prices":{
+        "cnLow": "23.40",
+        "country": "印度",
+        "low": "₹170"
+      }
+    }
+  },
+  {
+    "id": "monobeno_happy_end",
+    "name": "茂伸奇谈-Happy End-",
+    "steamInfo":{
+      "appId": "831660",
+      "prices":{
+        "cnLow": "35.40",
+        "country": "印度",
+        "low": "₹209"
+      }
+    }
+  },
+  {
+    "id": "hello_lady",
+    "name": "淑女同萌！",
+    "steamInfo":{
+      "appId": "783120",
+      "prices":{
+        "cnLow": "24.96",
+        "country": "印度",
+        "low": "₹223"
+      }
+    }
+  },
+  {
+    "id": "maitetsu_pure_station",
+    "name": "爱上火车-Pure Station-",
+    "steamInfo":{
+      "appId": "880950",
+      "prices":{
+        "cnLow": "27.30",
+        "country": "印度",
+        "low": "₹199"
+      }
+    }
+  },
+  {
+    "id": "sakura_no_mori2",
+    "name": "樱之杜†净梦者2",
+    "steamInfo":{
+      "appId": "983150",
+      "prices":{
+        "cnLow": "25.74",
+        "country": "印度",
+        "low": "₹187"
+      }
+    }
+  },
+  {
+    "id": "hello_lady_nd",
+    "name": "淑女同萌！-New Division-",
+    "steamInfo":{
+      "appId": "1025070",
+      "prices":{
+        "cnLow": "21.46",
+        "country": "哈萨克斯坦",
+        "low": "888₸"
+      }
+    }
+  },
+  {
+    "id": "tsukikage",
+    "name": "月影魅像-解放之羽-",
+    "steamInfo":{
+      "appId": "1069230",
+      "prices":{
+        "cnLow": "23.80",
+        "country": "哈萨克斯坦",
+        "low": "875₸"
+      }
+    }
+  },
+  {
+    "id": "aokana",
+    "name": "苍之彼方的四重奏",
+    "steamInfo":{
+      "appId": "1044620",
+      "prices":{
+        "cnLow": "44",
+        "country": "俄罗斯",
+        "low": "459₽"
+      }
+    }
+  },
+  {
+    "id": "alias_carnival",
+    "name": "爱丽娅的明日盛典！（ALIA's Carnival!）",
+    "steamInfo":{
+      "appId": "1094530",
+      "prices":{
+        "cnLow": "27.30",
+        "country": "印度",
+        "low": "₹244"
+      }
+    }
+  },
+  {
+    "id": "natsunoiro",
+    "name": "追忆夏色年华",
+    "steamInfo":{
+      "appId": "1161190",
+      "prices":{
+        "cnLow": "26.52",
+        "country": "印度",
+        "low": "₹237"
+      }
+    }
+  },
+  {
+    "id": "senren_banka",
+    "name": "千恋＊万花",
+    "steamInfo":{
+      "appId": "1144400",
+      "prices":{
+        "cnLow": "50.16",
+        "country": "印度",
+        "low": "₹432"
+      }
+    }
+  },
+  {
+    "id": "tryment_alpha",
+    "name": "TrymenT ―献给渴望改变的你― Alpha篇",
+    "steamInfo":{
+      "appId": "1183260",
+      "prices":{
+        "cnLow": "25.74",
+        "country": "印度",
+        "low": "₹230"
+      }
+    }
+  },
+  {
+    "id": "happiness2",
+    "name": "Happiness！2 樱花盛典",
+    "steamInfo":{
+      "appId": "暂未在Steam发布",
+      "prices":{
+        "cnLow": "暂未在Steam发布",
+        "country": "",
+        "low": ""
+      }
+    }
+  },
+  {
+    "id": "maitetsu_lastrun",
+    "name": "爱上火车-Last Run!!-",
+    "steamInfo":{
+      "appId": "1434480",
+      "prices":{
+        "cnLow": "51.07",
+        "country": "乌克兰",
+        "low": "230₴"
+      }
+    }
+  },
+  {
+    "id": "aokana_extra1",
+    "name": "苍之彼方的四重奏 EXTRA1",
+    "steamInfo":{
+      "appId": "1340130",
+      "prices":{
+        "cnLow": "39.44",
+        "country": "俄罗斯",
+        "low": "359₽"
+      }
+    }
+  },
+  {
+    "id": "riddle_joker",
+    "name": "Riddle Joker",
+    "steamInfo":{
+      "appId": "1277930",
+      "prices":{
+        "cnLow": "51.04",
+        "country": "俄罗斯",
+        "low": "532₽"
+      }
+    }
+  },
+  {
+    "id": "relief",
+    "name": "Re:LieF 〜献给亲爱的你〜 Re:LanguagE",
+    "steamInfo":{
+      "appId": "1518770",
+      "prices":{
+        "cnLow": "33.54",
+        "country": "印度",
+        "low": "₹326"
+      }
+    }
+  },
+  {
+    "id": "kinkoi",
+    "name": "金辉恋曲四重奏",
+    "steamInfo":{
+      "appId": "1277940",
+      "prices":{
+        "cnLow": "49.14",
+        "country": "俄罗斯",
+        "low": "433₽"
+      }
+    }
+  },
+  {
+    "id": "parquet",
+    "name": "PARQUET",
+    "steamInfo":{
+      "appId": "1662840",
+      "prices":{
+        "cnLow": "33.64",
+        "country": "俄罗斯",
+        "low": "359₽"
+      }
+    }
+  },
+  {
+    "id": "honoguraki",
+    "name": "来自昏暗的时间尽头",
+    "steamInfo":{
+      "appId": "暂未在Steam发布",
+      "prices":{
+        "cnLow": "暂未在Steam发布",
+        "country": "",
+        "low": ""
+      }
+    }
+  },
+  {
+    "id": "hello_lady_se",
+    "name": "淑女同萌！-Superior Entelecheia-",
+    "steamInfo":{
+      "appId": "1751630",
+      "prices":{
+        "cnLow": "76.70",
+        "country": "印度",
+        "low": "₹524"
+      }
+    }
+  },
+  {
+    "id": "madoki",
+    "name": "雪境迷途遇仙踪",
+    "steamInfo":{
+      "appId": "1854980",
+      "prices":{
+        "cnLow": "28.44",
+        "country": "印度",
+        "low": "₹328"
+      }
+    }
+  },
+  {
+    "id": "sekachu",
+    "name": "在世界与世界的正中央",
+    "steamInfo":{
+      "appId": "1829650",
+      "prices":{
+        "cnLow": "36.66",
+        "country": "印度",
+        "low": "₹328"
+      }
+    }
+  },
+  {
+    "id": "stella",
+    "name": "星光咖啡馆与死神之蝶",
+    "steamInfo":{
+      "appId": "1829980",
+      "prices":{
+        "cnLow": "88",
+        "country": "印度",
+        "low": "₹607"
+      }
+    }
+  },
+  {
+    "id": "hananono",
+    "name": "五色浮影绽放于花之海洋",
+    "steamInfo":{
+      "appId": "1944250",
+      "prices":{
+        "cnLow": "38.22",
+        "country": "印度",
+        "low": "₹342"
+      }
+    }
+  },
+  {
+    "id": "magical_charming",
+    "name": "魔卡魅恋！",
+    "steamInfo":{
+      "appId": "暂未在Steam发布",
+      "prices":{
+        "cnLow": "暂未在Steam发布",
+        "country": "",
+        "low": ""
+      }
+    }
+  },
+  {
+    "id": "tsukiniyorisou",
+    "name": "近月少女的礼仪",
+    "steamInfo":{
+      "appId": "1776970",
+      "prices":{
+        "cnLow": "54.56",
+        "country": "俄罗斯",
+        "low": "494₽"
+      }
+    }
+  },
+  {
+    "id": "kinkoigt",
+    "name": "金辉恋曲四重奏 -Golden Time-",
+    "steamInfo":{
+      "appId": "1985260",
+      "prices":{
+        "cnLow": "54.60",
+        "country": "台湾",
+        "low": "NT$250"
+      }
+    }
+  },
+  {
+    "id": "yumahorome",
+    "name": "真愿朦幻馆～在时间暂停的洋馆里追寻明天的羔羊们～",
+    "steamInfo":{
+      "appId": "2066360",
+      "prices":{
+        "cnLow": "39",
+        "country": "俄罗斯",
+        "low": "349₽"
+      }
+    }
+  },
+  {
+    "id": "cross_concerto",
+    "name": "交汇协奏曲",
+    "steamInfo":{
+      "appId": "2109640",
+      "prices":{
+        "cnLow": "41.34",
+        "country": "俄罗斯",
+        "low": "359₽"
+      }
+    }
+  },
+  {
+    "id": "soratoto",
+    "name": "天空的蓝与白/如梭夏日",
+    "steamInfo":{
+      "appId": "2135500",
+      "prices":{
+        "cnLow": "30.74",
+        "country": "俄罗斯",
+        "low": "197₽"
+      }
+    }
+  },
+  {
+    "id": "aonatsu",
+    "name": "青夏轨迹",
+    "steamInfo":{
+      "appId": "2185770",
+      "prices":{
+        "cnLow": "44.46",
+        "country": "印度",
+        "low": "₹432"
+      }
+    }
+  },
+  {
+    "id": "aokana_extra2",
+    "name": "苍之彼方的四重奏 EXTRA2",
+    "steamInfo":{
+      "appId": "2206340",
+      "prices":{
+        "cnLow": "58.50",
+        "country": "俄罗斯",
+        "low": "660₽"
+      }
+    }
+  },
+  {
+    "id": "future_radio",
+    "name": "未来广播与人工鸽",
+    "steamInfo":{
+      "appId": "2156620",
+      "prices":{
+        "cnLow": "54.60",
+        "country": "中国",
+        "low": "60.83"
+      }
+    }
+  },
+  {
+    "id": "shuffle_ep2",
+    "name": "SHUFFLE! episode2 ～被神与魔同时盯上的男人～",
+    "steamInfo":{
+      "appId": "2321180",
+      "prices":{
+        "cnLow": "53.68",
+        "country": "南亚",
+        "low": "$6.39"
+      }
+    }
+  },
+  {
+    "name": "魔女的花园",
+    "id": "witch_garden",
+    "steamInfo":{
+      "appId": "2347380",
+      "prices":{
+        "cnLow": "48.36",
+        "country": "南亚",
+        "low": "$6.50"
+      }
+    }
+  },
+  {
+    "id": "alias_carnival_flowering_sky",
+    "name": "爱丽娅的明日盛典！Flowering Sky",
+    "steamInfo":{
+      "appId": "2425410",
+      "prices":{
+        "cnLow": "49.92",
+        "country": "中国",
+        "low": "49.92"
+      }
+    }
+  },
+  {
+    "id": "sothewitch",
+    "name": "魔女的夜宴",
+    "steamInfo":{
+      "appId": "2458530",
+      "prices":{
+        "cnLow": "64.24",
+        "country": "南亚",
+        "low": "$8.75"
+      }
+    }
+  },
+  {
+    "id": "koikake",
+    "name": "想要传达给你的爱恋",
+    "steamInfo":{
+      "appId": "2242710",
+      "prices":{
+        "cnLow": "58.08",
+        "country": "南亚",
+        "low": "$7.91"
+      }
+    }
+  },
+  {
+    "id": "clover_days",
+    "name": "幸运草的约定 Clover Days",
+    "steamInfo":{
+      "appId": "2430690",
+      "prices":{
+        "cnLow": "56.16",
+        "country": "中国",
+        "low": "56.16"
+      }
+    }
+  },
+  {
+    "id": "arcana",
+    "name": "炼爱秘仪",
+    "steamInfo":{
+      "appId": "2527460",
+      "prices":{
+        "cnLow": "51.48",
+        "country": "南亚",
+        "low": "$7.13"
+      }
+    }
+  },
+  {
+    "id": "otomeriron",
+    "name": "少女理论及其周边",
+    "steamInfo":{
+      "appId": "2567190",
+      "prices":{
+        "cnLow": "63.36",
+        "country": "中国",
+        "low": "63.36"
+      }
+    }
+  },
+  {
+    "id": "seikano",
+    "name": "制服女友",
+    "steamInfo":{
+      "appId": "2673490",
+      "prices":{
+        "cnLow": "58.50",
+        "country": "南亚",
+        "low": "$7.86"
+      }
+    }
+  },
+  {
+    "id": "making_lovers",
+    "name": "突然＊恋人（Making＊Lovers）全高清合集版",
+    "steamInfo":{
+      "appId": "2510810",
+      "prices":{
+        "cnLow": "66",
+        "country": "南亚",
+        "low": "$7.86"
+      }
+    }
+  },
+  {
+    "id": "sorechiru",
+    "name": "繁花落舞恋如樱-Re:BIRTH-",
+    "steamInfo":{
+      "appId": "2754170",
+      "prices":{
+        "cnLow": "66",
+        "country": "中国",
+        "low": "66"
+      }
+    }
+  }
+]

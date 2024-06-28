@@ -1,0 +1,310 @@
+[
+  {
+    "id": "tayutama2",
+    "name": "游魂2-you're the only one-",
+    "developerId": "lumpofsugar",
+    "release_time": "2016-12-09"
+  },
+  {
+    "id": "sakura_no_mori",
+    "name": "樱之杜†净梦者",
+    "developerId": "moonstone",
+    "release_time": "2017-12-29"
+  },
+  {
+    "id": "monobeno",
+    "name": "茂伸奇谈-Monobeno-",
+    "developerId": "lose",
+    "release_time": "2018-01-26"
+  },
+  {
+    "id": "monobeno_happy_end",
+    "name": "茂伸奇谈-Happy End-",
+    "developerId": "lose",
+    "release_time": "2018-05-22"
+  },
+  {
+    "id": "hello_lady",
+    "name": "淑女同萌！",
+    "developerId": "akatsukiworks",
+    "release_time": "2018-06-29"
+  },
+  {
+    "id": "maitetsu_pure_station",
+    "name": "爱上火车-Pure Station-",
+    "developerId": "lose",
+    "release_time": "2018-09-21"
+  },
+  {
+    "id": "sakura_no_mori2",
+    "name": "樱之杜†净梦者2",
+    "developerId": "moonstone",
+    "release_time": "2019-03-15"
+  },
+  {
+    "id": "hello_lady_nd",
+    "name": "淑女同萌！-New Division-",
+    "developerId": "akatsukiworks",
+    "release_time": "2019-04-19"
+  },
+  {
+    "id": "tsukikage",
+    "name": "月影魅像-解放之羽-",
+    "developerId": "applique",
+    "release_time": "2019-07-26"
+  },
+  {
+    "id": "aokana",
+    "name": "苍之彼方的四重奏",
+    "developerId": "sprite",
+    "release_time": "2019-09-28"
+  },
+  {
+    "id": "alias_carnival",
+    "name": "爱丽娅的明日盛典！（ALIA's Carnival!）",
+    "developerId": "nanawind",
+    "release_time": "2019-11-15"
+  },
+  {
+    "id": "natsunoiro",
+    "name": "追忆夏色年华",
+    "developerId": "moonstone",
+    "release_time": "2019-12-06"
+  },
+  {
+    "id": "senren_banka",
+    "name": "千恋＊万花",
+    "developerId": "yuzusoft",
+    "release_time": "2020-02-14"
+  },
+  {
+    "id": "tryment_alpha",
+    "name": "TrymenT ―献给渴望改变的你― Alpha篇",
+    "developerId": "tryment",
+    "release_time": "2020-02-20"
+  },
+  {
+    "id": "happiness2",
+    "name": "Happiness！2 樱花盛典",
+    "developerId": "windmill",
+    "release_time": "2020-04-24"
+  },
+  {
+    "id": "maitetsu_lastrun",
+    "name": "爱上火车-Last Run!!-",
+    "other_low_price": {
+      "other_low_price_title":"【官方中日双文版】爱上火车 Last Run!! ＆ Vocal Complete Album【含DLsite限定特典】",
+      "other_low_price_title_url":"https://www.dlsite.com/pro/work/=/product_id/VJ013196.html",
+      "other_low_price2": "原价330JPY，新用户优惠320JPY，实付10JPY",
+      "other_low_price_screenshot":"点击查看订单截图",
+      "other_low_price_screenshot_url":"./dlsite_maitetsu_lastrun.pdf"
+    },
+    "developerId": "lose",
+    "release_time": "2020-10-30"
+  },
+  {
+    "id": "aokana_extra1",
+    "name": "苍之彼方的四重奏 EXTRA1",
+    "developerId": "sprite",
+    "release_time": "2020-11-06"
+  },
+  {
+    "id": "riddle_joker",
+    "name": "Riddle Joker",
+    "developerId": "yuzusoft",
+    "release_time": "2020-12-18"
+  },
+  {
+    "id": "relief",
+    "name": "Re:LieF 〜献给亲爱的你〜 Re:LanguagE",
+    "developerId": "rask",
+    "release_time": "2021-02-26"
+  },
+  {
+    "id": "kinkoi",
+    "name": "金辉恋曲四重奏",
+    "developerId": "sagaplanets",
+    "release_time": "2021-06-11"
+  },
+  {
+    "id": "parquet",
+    "name": "PARQUET",
+    "developerId": "yuzusoftsour",
+    "release_time": "2021-08-27"
+  },
+  {
+    "id": "honoguraki",
+    "name": "来自昏暗的时间尽头",
+    "developerId": "moonstone",
+    "release_time": "2021-12-17"
+  },
+  {
+    "id": "hello_lady_se",
+    "name": "淑女同萌！-Superior Entelecheia-",
+    "developerId": "akatsukiworks",
+    "release_time": "2022-01-21"
+  },
+  {
+    "id": "madoki",
+    "name": "雪境迷途遇仙踪",
+    "developerId": "lumpofsugar",
+    "release_time": "2022-02-04"
+  },
+  {
+    "id": "sekachu",
+    "name": "在世界与世界的正中央",
+    "developerId": "lumpofsugar",
+    "release_time": "2022-02-11"
+  },
+  {
+    "id": "stella",
+    "name": "星光咖啡馆与死神之蝶",
+    "developerId": "yuzusoft",
+    "release_time": "2022-03-25"
+  },
+  {
+    "id": "hananono",
+    "name": "五色浮影绽放于花之海洋",
+    "developerId": "applique",
+    "release_time": "2022-04-22"
+  },
+  {
+    "id": "magical_charming",
+    "name": "魔卡魅恋！",
+    "developerId": "lumpofsugar",
+    "release_time": "2022-05-20"
+  },
+  {
+    "id": "tsukiniyorisou",
+    "name": "近月少女的礼仪",
+    "developerId": "navel",
+    "release_time": "2022-06-17"
+  },
+  {
+    "id": "kinkoigt",
+    "name": "金辉恋曲四重奏 -Golden Time-",
+    "developerId": "sagaplanets",
+    "release_time": "2022-07-15"
+  },
+  {
+    "id": "yumahorome",
+    "name": "真愿朦幻馆～在时间暂停的洋馆里追寻明天的羔羊们～",
+    "developerId": "lumpofsugar",
+    "release_time": "2022-08-12"
+  },
+  {
+    "id": "cross_concerto",
+    "name": "交汇协奏曲",
+    "developerId": "applique",
+    "release_time": "2022-09-23"
+  },
+  {
+    "id": "soratoto",
+    "name": "天空的蓝与白/如梭夏日",
+    "developerId": "baristalab",
+    "release_time": "2022-11-04"
+  },
+  {
+    "id": "aonatsu",
+    "name": "青夏轨迹",
+    "game_publisher":{
+      "game_publisher_name": "GIGA / ENTERGRAM",
+      "game_publisher_nickname": "",
+      "game_publisher_history": "",
+      "game_publisher_url": ""
+    },
+    "release_time": "2022-12-02"
+  },
+  {
+    "id": "aokana_extra2",
+    "name": "苍之彼方的四重奏 EXTRA2",
+    "developerId": "sprite",
+    "release_time": "2022-12-16"
+  },
+  {
+    "id": "future_radio",
+    "name": "未来广播与人工鸽",
+    "developerId": "laplacian",
+    "release_time": "2023-02-17"
+  },
+  {
+    "id": "shuffle_ep2",
+    "name": "SHUFFLE! episode2 ～被神与魔同时盯上的男人～",
+    "developerId": "navel",
+    "release_time": "2023-03-10"
+  },
+  {
+    "name": "魔女的花园",
+    "id": "witch_garden",
+    "developerId": "windmill",
+    "release_time": "2023-04-07"
+  },
+  {
+    "id": "alias_carnival_flowering_sky",
+    "name": "爱丽娅的明日盛典！Flowering Sky",
+    "developerId": "nanawind",
+    "release_time": "2023-06-21"
+  },
+  {
+    "id": "sothewitch",
+    "name": "魔女的夜宴",
+    "developerId": "yuzusoft",
+    "release_time": "2023-07-21"
+  },
+  {
+    "id": "koikake",
+    "name": "想要传达给你的爱恋",
+    "other_low_price": {
+      "other_low_price_title":"2023.08.03-2023.10.01摩点众筹实体激活卡30r",
+      "other_low_price_title_url":"https://zhongchou.modian.com/item/127745.html",
+      "other_low_price2": "同时期🐟均价30-35r",
+      "other_low_price_screenshot":"",
+      "other_low_price_screenshot_url":""
+    },
+    "developerId": "ustrack",
+    "release_time": "2023-08-04"
+  },
+  {
+    "id": "clover_days",
+    "name": "幸运草的约定 Clover Days",
+    "developerId": "alcot",
+    "release_time": "2023-08-18"
+  },
+  {
+    "id": "arcana",
+    "name": "炼爱秘仪",
+    "developerId": "lumpofsugar",
+    "release_time": "2023-09-22"
+  },
+  {
+    "id": "otomeriron",
+    "name": "少女理论及其周边",
+    "other_low_price": {
+      "other_low_price_title":"2023.12.14-2024.02.11摩点众筹实体激活卡30r",
+      "other_low_price_title_url":"https://zhongchou.modian.com/item/130095.html",
+      "other_low_price2": "同时期🐟均价30-35r",
+      "other_low_price_screenshot":"",
+      "other_low_price_screenshot_url":""
+    },
+    "developerId": "navel",
+    "release_time": "2023-12-15"
+  },
+  {
+    "id": "seikano",
+    "name": "制服女友",
+    "developerId": "entergram",
+    "release_time": "2024-03-08"
+  },
+  {
+    "id": "making_lovers",
+    "name": "突然＊恋人（Making＊Lovers）全高清合集版",
+    "developerId": "smee",
+    "release_time": "2024-04-19"
+  },
+  {
+    "id": "sorechiru",
+    "name": "繁花落舞恋如樱-Re:BIRTH-",
+    "developerId": "navel",
+    "release_time": "2024-05-31"
+  }
+]

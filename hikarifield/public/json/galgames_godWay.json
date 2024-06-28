@@ -1,0 +1,855 @@
+[
+  {
+    "id": "tayutama2",
+    "godWay":[
+      {
+        "fileType":"１８禁補丁",
+        "siteProperty":"BOOTH平台，暂不确定作者是否为官方",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://moetake.booth.pm/items/383623",
+        "isSafeFile": "因收费未测试",
+        "habo":[],
+        "memo": [
+          "付费补丁！！！",
+          "价格收费1,000 JPY",
+          "平台：BOOTH-日本一家提供给创作者开设商店、贩卖自己作品的平台。"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sakura_no_mori",
+    "godWay":[
+      {
+        "fileType":"场景剧情补丁（2019.02.01）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/sakura_no_mori_patch/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简体中文版补丁",
+            "md5": "f927fbdf43e0d15a30a6eb515b2140fe"
+          },
+          {
+            "version":"繁体中文版补丁",
+            "md5": "c4e8b2169013d445e34b5436987f148a"
+          }
+        ],
+        "memo": []
+      }
+    ]
+  },
+  {
+    "id": "monobeno",
+    "godWay":[
+      {
+        "fileType":"场景剧情补丁（2019-01-25）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/mono_patch/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简体中文版",
+            "md5": "文件过大，无云端检测报告"
+          },
+          {
+            "version":"繁体中文版",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
+      }
+    ]
+  },
+  {
+    "id": "monobeno_happy_end",
+    "godWay":[
+      {
+        "fileType":"场景剧情补丁（2019-01-25）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/monohe_patch/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简体中文版",
+            "md5": "文件过大，无云端检测报告"
+          },
+          {
+            "version":"繁体中文版",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
+      },
+      {
+        "fileType":"场景剧情补丁 Part.2",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/hv5pcu01ti5d/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简体中文版",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
+      }
+    ]
+  },
+  {
+    "id": "hello_lady",
+    "godWay":[
+      {
+        "fileType":"修正パッチ ver.1.10（2014.04.12）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "http://www.akatsukiworks.com/support/h_patch_v1_10.zip",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"修正パッチ ver.1.10",
+            "md5": "3effa50ef40d65a19fa1f55e3573679e"
+          }
+        ],
+        "memo": []
+      },
+      {
+        "fileType":"18禁パッチ场景剧情补丁（2018.06.29）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "http://appendingpulse.jp/dl/1w18pftah6pg/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简体版补丁",
+            "md5": "文件过大，无云端检测报告"
+          },
+          {
+            "version":"繁体版补丁",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
+      }
+    ]
+  },
+  {
+    "id": "maitetsu_pure_station",
+    "godWay":[
+      {
+        "fileType":"未发现爱上火车-Pure Station-补丁",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": ".lose.jp/official/cnpatch",
+        "isSafeFile": "未知",
+        "habo":[],
+        "memo": [
+          "HF官方给出的额外内容下载地址仅有爱上火车-Last Run!!-",
+          "未发现爱上火车-Pure Station-补丁"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sakura_no_mori2",
+    "godWay":[
+      {
+        "fileType":"场景剧情补丁（2019.3.15）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/sakura_no_mori_2_patch/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简体中文版补丁",
+            "md5": "b1484b17060daedfc486e70b862fb7ed"
+          },
+          {
+            "version":"繁体中文版补丁",
+            "md5": "76b9cbf9ad66ef9616c08c63372d1652"
+          }
+        ],
+        "memo": []
+      }
+    ] 
+  },
+  {
+    "id": "hello_lady_nd",
+    "godWay":[
+      {
+        "fileType":"场景剧情补丁（2019.4.19）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "http://appendingpulse.jp/dl/hello_lady_nd/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简体中文/繁体中文通用版补丁",
+            "md5": "f8eb50d2291d4a5ae61b06f3ab2a5682"
+          }
+        ],
+        "memo": []
+      }
+    ]
+  },
+  {
+    "id": "tsukikage",
+    "godWay":[
+      {
+        "fileType":"「月影魅像-解放之羽-」场景剧情补丁（2019.7.26）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/tsukikage_patch/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简体中文补丁",
+            "md5": "文件过大，无云端检测报告"
+          },
+          {
+            "version":"繁体中文补丁",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
+      }
+    ]
+  },
+  {
+    "id": "aokana",
+    "godWay":[
+      {
+        "fileType":"Aokana Perfect Edition 18+ Steam Patch",
+        "siteProperty":"NEKONYAN",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://cdn.nekonyansoft.com/patch/aokana/aokana_perfectedition+r18_patch.zip",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"Aokana Perfect Edition 18+ Steam Patch",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": [
+          "NEKONYAN-一个提供高质量的视觉小说本地化的第三方站点"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "alias_carnival",
+    "godWay":[
+      {
+        "fileType":"「爱丽娅的明日盛典!」场景剧情补丁（2019.11.18）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/alias_carnival_steam_patch/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"Steam国际中文版补丁",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
+      }
+    ]
+  },
+  {
+    "id": "natsunoiro",
+    "godWay":[
+      {
+        "fileType":"「追忆夏色年华」场景剧情补丁（2019.12.06）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/natsunoiro_steam_patch/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简体补丁",
+            "md5": "文件过大，无云端检测报告"
+          },
+          {
+            "version":"繁体补丁",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
+      }
+    ]
+  },
+  {
+    "id": "senren_banka",
+    "godWay":[
+      {
+        "fileType":"Senren＊Banka 18+ Steam Patch",
+        "siteProperty":"NEKONYAN",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://cdn.nekonyansoft.com/patch/senren-banka/senrenbanka_r18patch.7z",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"Senren＊Banka 18+ Steam Patch",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": [
+          "NEKONYAN-一个提供高质量的视觉小说本地化的第三方站点"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tryment_alpha",
+    "godWay":[]
+  },
+  {
+    "id": "happiness2",
+    "godWay":[
+      {
+        "fileType":"未找到相关内容",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://windmill.suki.jp/product/happiness2/",
+        "isSafeFile": "未知",
+        "habo":[],
+        "memo": [
+          "HF官方给出的额外内容下载地址指向作品官网",
+          "但是我并未在官网发现相关内容的下载"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "maitetsu_lastrun",
+    "godWay":[
+      {
+        "fileType":"国际中文版场景剧情补丁（版本v1.2）（2022.02.15）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/kmh6uzw4/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"角色立绘补丁（2020.11.06）",
+            "md5": "4e20276d1ee161ceb5dbf3225327cc17"
+          },
+          {
+            "version":"国际中文版场景剧情补丁下载（v1.2）（2020.12.02）",
+            "md5": "文件过大，无云端检测报告"
+          },
+          {
+            "version":"追加剧情补丁01（2021.09.24）",
+            "md5": "文件过大，无云端检测报告"
+          },
+          {
+            "version":"追加剧情补丁02（2021.10.10）",
+            "md5": "e93cb1ce42f2ff692183beadfdccb52f"
+          },
+          {
+            "version":"追加剧情补丁03（2022.02.15）",
+            "md5": "4b70a5066508af5eddf1f1f9007e2e68"
+          }
+        ],
+        "memo": []
+      }
+    ]
+  },
+  {
+    "id": "aokana_extra1",
+    "godWay":[
+      {
+        "fileType":"Aokana Extra1 18+ Steam Patch",
+        "siteProperty":"NEKONYAN",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://cdn.nekonyansoft.com/patch/aokana-ex1/aokana_extra1_18+_patch.7z",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"Aokana Extra1 18+ Steam Patch",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": [
+          "NEKONYAN-一个提供高质量的视觉小说本地化的第三方站点"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "riddle_joker",
+    "godWay":[
+      {
+        "fileType":"Riddle Joker 18+ Steam Patch",
+        "siteProperty":"NEKONYAN",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://cdn.nekonyansoft.com/patch/riddle-joker/riddlejoker_r18dlc.7z",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"Riddle Joker 18+ Steam Patch",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": [
+          "NEKONYAN-一个提供高质量的视觉小说本地化的第三方站点"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "relief",
+    "godWay":[
+      {
+        "fileType":"Steam版场景剧情补丁（2021.02.26）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/5b25qvrz/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简、繁、日文通用补丁",
+            "md5": "9291ff84006e3645b598849a56214046"
+          }
+        ],
+        "memo": []
+      }
+    ]
+  },
+  {
+    "id": "kinkoi",
+    "godWay":[
+      {
+        "fileType":"Kinkoi 18+ Steam Patch",
+        "siteProperty":"NEKONYAN",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://cdn.nekonyansoft.com/patch/kinkoi/kinkoi_r18dlc.rar",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"Kinkoi 18+ Steam Patch",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": [
+          "NEKONYAN-一个提供高质量的视觉小说本地化的第三方站点"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "parquet",
+    "godWay":[]
+  },
+  {
+    "id": "honoguraki",
+    "godWay":[
+      {
+        "fileType":"国际中文版场景剧情补丁（2021.12.17）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/ms24ryb4xe/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简体中文补丁",
+            "md5": "d034523b80c6abb1c9f0a90105bf298e"
+          },
+          {
+            "version":"繁体中文补丁",
+            "md5": "e94d625af72bc0d248a30915baf26ad3"
+          }
+        ],
+        "memo": []
+      }
+    ]
+  },
+  {
+    "id": "hello_lady_se",
+    "godWay":[
+      {
+        "fileType":"等待更新",
+        "siteProperty":"NEKONYAN",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://nekonyansoft.com/shop/product/45",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"等待更新",
+            "md5": ""
+          }
+        ],
+        "memo": [
+          "NEKONYAN-一个提供高质量的视觉小说本地化的第三方站点"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "madoki",
+    "godWay":[
+      {
+        "fileType":"国际中文版场景剧情补丁（2022.02.04）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/madoxa4sh7m6/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"Steam版本简繁通用补丁",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
+      }
+    ]
+  },
+  {
+    "id": "sekachu",
+    "godWay":[
+      {
+        "fileType":"国际中文版场景剧情补丁（2022.02.11）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/seka45xiwizh/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简繁通用补丁",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
+      }
+    ]
+  },
+  {
+    "id": "stella",
+    "godWay":{
+      "hfWay":{
+        "origin":"等待更新",
+        "url": "https://nekonyansoft.com/shop/product/47",
+        "isSafeFile": "暂未测试",
+        "memo": "未知"
+      }
+    }
+  },
+  {
+    "id": "hananono",
+    "godWay":[
+      {
+        "fileType":"国际中文版场景剧情补丁（1.01）（2022.04.23）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/hana0yz58wib/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简繁日通用补丁",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
+      }
+    ]
+  },
+  {
+    "id": "magical_charming",
+    "godWay":[
+      {
+        "fileType":"国际中文版场景剧情补丁（2022.05.20）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/magi9uu2lkhi/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简繁通用补丁",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
+      }
+    ]
+  },
+  {
+    "id": "tsukiniyorisou",
+    "godWay":[
+      {
+        "fileType":"国际中文版场景剧情补丁（1.01）（2022.06.19）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "http://appendingpulse.jp/dl/tsuki3tyy6gv/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简繁日通用补丁",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
+      }
+    ]
+  },
+  {
+    "id": "kinkoigt",
+    "godWay":[
+      {
+        "fileType":"Kinkoi: Golden Time 18+ Steam Patch",
+        "siteProperty":"NEKONYAN",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://cdn.nekonyansoft.com/patch/kinkoi-gt/kinkoigt_r18dlc.7z",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"Kinkoi: Golden Time 18+ Steam Patch",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": [
+          "NEKONYAN-一个提供高质量的视觉小说本地化的第三方站点"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yumahorome",
+    "godWay":[]
+  },
+  {
+    "id": "cross_concerto",
+    "godWay":[
+      {
+        "fileType":"国际中文版场景剧情补丁（2022.09.23）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/cce7skxmu4s6/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简繁日通用补丁",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
+      }
+    ]
+  },
+  {
+    "id": "soratoto",
+    "godWay":[]
+  },
+  {
+    "id": "aonatsu",
+    "godWay":[
+      {
+        "fileType":"国际中文版场景剧情补丁（2022.12.10）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/linedg0q09wv/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简繁通用补丁",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
+      }
+    ]
+  },
+  {
+    "id": "aokana_extra2",
+    "godWay":[
+      {
+        "fileType":"Aokana Extra2 18+ Steam Patch",
+        "siteProperty":"NEKONYAN",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://cdn.nekonyansoft.com/patch/aokana-ex2/aokanaex2_r18dlc.7z",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"Aokana Extra2 18+ Steam Patch",
+            "md5": "b61d2dfd3888b22eab7bf0a9b0be5ffe"
+          }
+        ],
+        "memo": [
+          "NEKONYAN-一个提供高质量的视觉小说本地化的第三方站点"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "future_radio",
+    "godWay":[
+      {
+        "fileType":"The Future Radio and the Artificial Pigeons 18+ Steam Patch",
+        "siteProperty":"NEKONYAN",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://cdn.nekonyansoft.com/patch/futureradio/futureradio_r18_patch.zip",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"The Future Radio and the Artificial Pigeons 18+ Steam Patch",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": [
+          "NEKONYAN-一个提供高质量的视觉小说本地化的第三方站点"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "shuffle_ep2",
+    "godWay":[
+      {
+        "fileType":"等待更新",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://project-navel.com/shuffle/",
+        "isSafeFile": "未发现风险",
+        "habo":[],
+        "memo": []
+      }
+    ]
+  },
+  {
+    "id": "witch_garden",
+    "godWay":[
+      {
+        "fileType":"等待更新",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://windmill.suki.jp/main.html",
+        "isSafeFile": "未发现风险",
+        "habo":[],
+        "memo": []
+      }
+    ]
+  },
+  {
+    "id": "alias_carnival_flowering_sky",
+    "godWay":[
+      {
+        "fileType":"国际中文版场景剧情补丁（2023.06.21）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/afs0z52pk1ge/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简体中文、繁体中文和日文版通用",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
+      }
+    ]
+  },
+  {
+    "id": "sothewitch",
+    "godWay":[
+      {
+        "fileType":"国际中文版场景剧情补丁（2023.08.12）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/sowit5nmo2nv/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简繁通用补丁",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
+      }
+    ]
+  },
+  {
+    "id": "koikake",
+    "godWay":[
+      {
+        "fileType":"国际中文版场景剧情补丁（2023.08.06）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/koif5cn0nv2p/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简繁通用补丁",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
+      }
+    ]
+  },
+  {
+    "id": "clover_days",
+    "godWay":[
+      {
+        "fileType":"Clover Day's 18+ Steam Patch",
+        "siteProperty":"NEKONYAN",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://cdn.nekonyansoft.com/patch/clover-days/clover-days-r18-patch.zip",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"Clover Day's 18+ Steam Patch",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": [
+          "NEKONYAN-一个提供高质量的视觉小说本地化的第三方站点"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "arcana",
+    "godWay":[]
+  },
+  {
+    "id": "otomeriron",
+    "godWay":{
+      "hfWay":{
+        "origin":"HF官方推荐",
+        "url": "https://project-navel.com/",
+        "isSafeFile": "暂未测试",
+        "memo": "官方补丁"
+      }
+    }
+  },
+  {
+    "id": "seikano",
+    "godWay":[]
+  },
+  {
+    "id": "making_lovers",
+    "godWay":[
+      {
+        "fileType":"版场景剧情补丁（2024.05.03）",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://appendingpulse.jp/dl/mak3dv97meb7/",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"简繁通用补丁",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
+      }
+    ]
+  },
+  {
+    "id": "sorechiru",
+    "godWay":[]
+  }
+]
