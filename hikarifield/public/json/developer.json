@@ -1,19 +1,28 @@
 [
   {
+    "developerId": "lumpofsugar",
+    "developer": {
+      "name": "Lump of Sugar",
+      "nickName": "",
+      "history": "原CIRCUS部分人员建立",
+      "url": "https://lumpofsugar.co.jp/"
+    }
+  },
+  {
     "developerId": "moonstone",
     "developer": {
       "name": "MOONSTONE",
       "nickName": "月石社",
-      "History": "原CIRCUS部分人员建立",
+      "history": "原CIRCUS部分人员建立",
       "url": "https://www.moon-stone.jp/"
     }
   },
   {
-    "developerId": "",
+    "developerId": "lose",
     "developer": {
       "name": "Lose",
       "nickName": "",
-      "History": "已停止活动",
+      "history": "已停止活动",
       "url": "https://www.lose.jp/"
     }
   },
@@ -22,7 +31,7 @@
     "developer": {
       "name": "晓WORKS",
       "nickName": "",
-      "History": "AKABEi_SOFT2旗下",
+      "history": "AKABEi_SOFT2旗下",
       "url": "http://akatsukiworks.com/"
     }
   },
@@ -31,7 +40,7 @@
     "developer": {
       "name": "Applique",
       "nickName": "",
-      "History": "隶属于AKABEiSOFT2",
+      "history": "隶属于AKABEiSOFT2",
       "url": "http://www.applique-soft.com/"
     }
   },
@@ -40,7 +49,7 @@
     "developer": {
       "name": "sprite",
       "nickName": "",
-      "History": "Rightway Co.,Ltd旗下有限公司Axcel所属",
+      "history": "Rightway Co.,Ltd旗下有限公司Axcel所属",
       "url": "https://sprite.net/"
     }
   },
@@ -49,7 +58,7 @@
     "developer": {
       "name": "NanaWind",
       "nickName": "",
-      "History": "Asuka Design（アスカデザイン）旗下",
+      "history": "Asuka Design（アスカデザイン）旗下",
       "url": "http://nanawind.jp/"
     }
   },
@@ -58,7 +67,7 @@
     "developer": {
       "name": "YUZUSOFT",
       "nickName": "柚子社",
-      "History": "",
+      "history": "",
       "url": "https://www.yuzu-soft.com/"
     }
   },
@@ -67,7 +76,7 @@
     "developer": {
       "name": "TrymenT",
       "nickName": "",
-      "History": "一般也可将其视作RASK作品",
+      "history": "一般也可将其视作RASK作品",
       "url": "https://re-tryment.com/"
     }
   },
@@ -76,7 +85,7 @@
     "developer": {
       "name": "Windmill Oasis",
       "nickName": "风车社",
-      "History": "ARES旗下",
+      "history": "ARES旗下",
       "url": "https://windmill.suki.jp/"
     }
   },
@@ -85,7 +94,7 @@
     "developer": {
       "name": "RASK",
       "nickName": "",
-      "History": "",
+      "history": "",
       "url": "http://rask-soft.com/"
     }
   },
@@ -94,7 +103,7 @@
     "developer": {
       "name": "SAGA PLANETS",
       "nickName": "",
-      "History": "曾属VISUAL ARTS旗下，2019年独立",
+      "history": "曾属VISUAL ARTS旗下，2019年独立",
       "url": "http://sagaplanets.product.co.jp/"
     }
   },
@@ -103,7 +112,7 @@
     "developer": {
       "name": "YUZUSOFTSOUR",
       "nickName": "",
-      "History": "YUZUSOFT的全年龄下品牌",
+      "history": "YUZUSOFT的全年龄下品牌",
       "url": "http://www.yuzusoft-sour.com/"
     }
   },
@@ -112,25 +121,16 @@
     "developer": {
       "name": "Barista Lab",
       "nickName": "",
-      "History": "",
+      "history": "",
       "url": "http://www.baristalab.jp/"
     }
   },
   {
-    "developerId": "",
+    "developerId": "gigaentergram",
     "developer": {
-      "name": "GIGA",
+      "name": "GGIGA / ENTERGRAMGA",
       "nickName": "",
-      "History": "",
-      "url": ""
-    }
-  },
-  {
-    "developerId": "entergram",
-    "developer": {
-      "name": "ENTERGRAM",
-      "nickName": "",
-      "History": "",
+      "history": "这里是两家工作室，具体信息没查到",
       "url": ""
     }
   },
@@ -139,7 +139,7 @@
     "developer": {
       "name": "Laplacian",
       "nickName": "",
-      "History": "",
+      "history": "",
       "url": "https://laplacian.jp/"
     }
   },
@@ -148,7 +148,7 @@
     "developer": {
       "name": "Us:track",
       "nickName": "",
-      "History": "AMUSE CRAFT公司旗下品牌",
+      "history": "AMUSE CRAFT公司旗下品牌",
       "url": "https://ustrack.amusecraft.com/"
     }
   },
@@ -157,7 +157,7 @@
     "developer": {
       "name": "ALcot",
       "nickName": "",
-      "History": "",
+      "history": "",
       "url": "http://www.alcot.biz/"
     }
   },
@@ -166,7 +166,7 @@
     "developer": {
       "name": "SMEE",
       "nickName": "",
-      "History": "于2007年成立，隶属于株式会社Robo Planning，作品以日常系恋爱喜剧系Gal男女主相声为主",
+      "history": "于2007年成立，隶属于株式会社Robo Planning，作品以日常系恋爱喜剧系Gal男女主相声为主",
       "url": "https://www.hook-net.jp/smee/"
     }
   },
@@ -175,7 +175,7 @@
     "developer": {
       "name": "Navel",
       "nickName": "",
-      "History": "原BasiL部分人员建立",
+      "history": "原BasiL部分人员建立",
       "url": "https://project-navel.com/"
     }
   }

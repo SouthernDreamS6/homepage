@@ -190,7 +190,7 @@
 					<tr>
 						<th v-show="show_game_img">游戏预览图</th>
 						<th v-show="show_game_name">游戏名称<p class="top">点击名称即可访问HF商城</p></th>
-						<th v-show="show_hf_price">HF价格<p class="top_redfont">代购折扣仅限一次先到先得</p>更新时间2024.06.28<br>本次促销结束时间2024.07.06</th>
+						<th v-show="show_hf_price">HF价格<p class="top_redfont">代购折扣仅限一次先到先得</p>更新时间2024.07.02<br>本次促销结束时间2024.07.06</th>
 						<th v-show="show_steam_price">Steam价格<p class="top_redfont">注意！受汇率影响</p><p class="top">此处未计算Steam余额等其他折扣</p>更新时间2024.05.18</th>
 						<th v-show="show_other_price">其他途径<p class="top">如有补充欢迎联系</p></th>
 						<th v-show="show_godWay">仙人指路<p class="top_redfont">资源收集于网络<br>本站不提供任何下载服务</p><p class="top">如遇问题欢迎联系</p></th>
@@ -199,27 +199,27 @@
 						<th v-show="show_release_time">发售时间<p class="top">此处时间采集于HF游戏介绍</p></th>
 					</tr>
 					<!--Galgame模板-->
-                	<tr v-for="game in games" :key="game.id">
+                	<tr v-for="galgames in galgames" :key="galgames.id">
 						<!-- 游戏预览图 -->
 						<td v-show="show_game_img" class="image-container">
-							<img :src="imageServerUrl + './public/images/galgames/' + game.id + '/' + game.id + '.jpg'" alt="game.id" height="300%" width="auto">
+							<img :src="imageServerUrl + './public/images/galgames/' + galgames.id + '/' + galgames.id + '.jpg'" alt="galgames.id" height="300%" width="auto">
 						</td>
 						<!-- 游戏名称 -->
 						<td v-show="show_game_name">
-							<a :href="'https://store.hikarifield.co.jp/shop/' + game.id" target="_blank">{{ game.name }}</a>
+							<a :href="'https://store.hikarifield.co.jp/shop/' + galgames.id" target="_blank">{{ galgames.name }}</a>
 						</td>
 						<!-- HF价格 -->
 						<td v-show="show_hf_price">
-							<p class="hfSpecialOffer">当前¥{{ getPrice(game.id, 'now') }}</p>
-							史低¥{{ getPrice(game.id, 'low') }} 原价¥{{ getPrice(game.id, 'old') }}
+							<p class="hfSpecialOffer">当前¥{{ getPrice(galgames.id, 'now') }}</p>
+							史低¥{{ getPrice(galgames.id, 'low') }} 原价¥{{ getPrice(galgames.id, 'old') }}
 							<br>
-							礼品¥{{ getPrice(game.id, 'gift') }} {{ buyForYouPrice(getPrice(game.id, 'gift')) }}
+							礼品¥{{ getPrice(galgames.id, 'gift') }} {{ buyForYouPrice(getPrice(galgames.id, 'gift')) }}
 						</td>
 						<!-- Steam价格 -->
 						<td v-show="show_steam_price">
-							国区￥{{steamInfo[game.id].prices.cnLow}}
+							国区￥{{steamInfo[galgames.id].prices.cnLow}}
 							<br>
-							{{ steamInfo[game.id].prices.country }}{{ steamInfo[game.id].prices.low }}
+							{{ steamInfo[galgames.id].prices.country }}{{ steamInfo[galgames.id].prices.low }}
 						</td>
 						<!-- 其他途径 -->
 						<td v-show="show_other_price">
@@ -227,22 +227,23 @@
 						</td>
 						<!-- 仙人指路 -->
 						<td v-show="show_godWay">
-							<a :href="'./godWay?hfGameId=' + game.id">
+							<a :href="'./godWay?hfGameId=' + galgames.id">
 							  <button>点击跳转</button>
 							</a>
 						</td>
 						<!-- 游戏ID -->
 						<td v-show="show_game_id">
-							<a :href="'https://steamdb.info/app/' + steamInfo[game.id].appId" target="_blank">{{ steamInfo[game.id].appId }}</a>
+							<a :href="'https://steamdb.info/app/' + steamInfo[galgames.id].appId" target="_blank">{{ steamInfo[galgames.id].appId }}</a>
 						</td>
 						<!-- 开发商 -->
 						<td v-show="show_game_publisher">
-							{{ developers[game.developerId]?.developer.name || 'Unknown' }}
-							功能代码重构中
+							<a :href="developers[galgames.developerId]?.url" target="_blank">{{ developers[galgames.developerId]?.name || 'N/A' }}</a>
+							<br>
+							{{ developers[galgames.developerId]?.history || '' }}
 						</td>
 						<!-- 发售时间 -->
 						<td v-show="show_release_time">
-							{{ game.release_time }}
+							{{ galgames.release_time }}
 						</td>
 					</tr>
 				</table>
@@ -257,50 +258,51 @@
 					<button @click="show_audio_works_publisher = !show_audio_works_publisher">开发商</button>
 					<button @click="show_audio_works_release_time = !show_audio_works_release_time">发售时间</button>
 				</div>
+
+
+				
 				<table border="0" cellspacing="0" cellpadding="0">
 					<!--标题-->
 					<tr>
 						<th v-show="show_audio_works_img">作品预览图</th>
 						<th v-show="show_audio_works_name">作品名称<p class="top">点击名称即可访问HF商城</p></th>
-						<th v-show="show_hf_audio_works_price">HF价格<br>更新时间2024.06.20<br>本次促销结束时间2024.06.17</th>
-						<th v-show="show_hf_audio_works_SCprice">SLAM CARD价格<br>更新时间2024.06.20</th>
+						<th v-show="show_hf_audio_works_price">HF价格<br>更新时间2024.07.02<br>本次促销结束时间2024.06.17</th>
+						<th v-show="show_hf_audio_works_SCprice">SLAM CARD价格<br>更新时间2024.07.02</th>
 						<th v-show="show_audio_works_publisher">开发商<p class="top">部分社团资料较少<br>如有错误欢迎指正</p></th>
 						<th v-show="show_audio_works_release_time">发售时间<p class="top">此处时间采集于HF游戏介绍</p></th>
 					</tr>
-					<tr v-for="(item, index) in table_audio_works">
+                	<tr v-for="audioWorks in audioWorks" :key="audioWorks.id">
 						<!-- 游戏预览图 -->
 						<td v-show="show_audio_works_img" class="image-container">
-							<img :src="imageServerUrl + './public/images/audio_works/' + item.hf_audio_works_info.hf_audio_works_id + '/' + item.hf_audio_works_info.hf_audio_works_id + '.jpg'" alt="item.hf_audio_works_info.hf_audio_works_id" height="300%" width="auto">
+							<img :src="imageServerUrl + './public/images/audio_works/' + audioWorks.id + '/' + audioWorks.id + '.jpg'" alt="audioWorks.id" height="300%" width="auto">
 						</td>
 						<!--游戏名称-->
 						<td v-show="show_audio_works_name">
-							<a :href="'https://store.hikarifield.co.jp/shop/' + item.hf_audio_works_info.hf_audio_works_id" target="_blank">{{ item.audio_works_name }}</a>
+							<a :href="'https://store.hikarifield.co.jp/shop/' + audioWorks.id" target="_blank">{{ audioWorks.name }}</a>
 						</td>
 						<!--HF促销最低价-->
 						<td v-show="show_hf_audio_works_price">
-							<p class="hfSpecialOffer">当前¥{{ item.hf_audio_works_info.hf_audio_works_prices.hf_audio_works_now_price }}</p>
-							史低¥{{ item.hf_audio_works_info.hf_audio_works_prices.hf_audio_works_low_price }}
-							原价¥{{ item.hf_audio_works_info.hf_audio_works_prices.hf_audio_works_old_price }}
+							<p class="hfSpecialOffer">当前¥{{ getAudioWorksPrice(audioWorks.id, 'now') }}</p>
+							史低¥{{ getAudioWorksPrice(audioWorks.id, 'low') }}
+							原价¥{{ getAudioWorksPrice(audioWorks.id, 'old') }}
 							<br>
-							礼品¥{{ item.hf_audio_works_info.hf_audio_works_prices.hf_gift_price }}
-							{{ buyForYouPrice(item.hf_audio_works_info.hf_audio_works_prices.hf_gift_price) }}
+							礼品¥{{ getAudioWorksPrice(audioWorks.id, 'gift') }}
+							{{ buyForYouPrice(getAudioWorksPrice(audioWorks.id, 'gift')) }}
 						</td>
-						<!--SLSLAM CARD价格格-->
+						<!--SLSLAM CARD价格-->
 						<td v-show="show_hf_audio_works_SCprice">
-							<p class="hfSpecialOffer">当前¥{{ item.hf_audio_works_info.hf_audio_works_prices.hf_audio_works_SLAM_CARD_now_price }}</p>
-							<p class="hfSLAM_CARD">史低¥{{ item.hf_audio_works_info.hf_audio_works_prices.hf_audio_works_SLAM_CARD_low_price }}</p>
+							<p class="hfSpecialOffer">当前¥{{ getAudioWorksPrice(audioWorks.id, 'scNow') }}</p>
+							<p class="hfSLAM_CARD">史低¥{{ getAudioWorksPrice(audioWorks.id, 'scLow') }}</p>
 						</td>
 						<!--开发商-->
 						<td v-show="show_audio_works_publisher">
-							<a :href="item.audio_works_publisher.audio_works_publisher_url" target="_blank">
-								{{ item.audio_works_publisher.audio_works_publisher_name }}</a>
-								<!--<br>{{ item.audio_works_publisher_nickname }}-->
-								<br>
-								{{ item.audio_works_publisher.audio_works_publisher_history }}
+							<a :href="developers[audioWorks.developerId]?.url" target="_blank">{{ developers[audioWorks.developerId]?.name || 'N/A' }}</a>
+							<br>
+							{{ developers[audioWorks.developerId]?.history || '' }}
 							</td>
 						<!--发售时间-->
 						<td v-show="show_audio_works_release_time">
-							{{ item.audio_works_release_time }}
+							{{ audioWorks.release_time }}
 						</td>
 					</tr>
 				</table>
@@ -439,37 +441,46 @@
 				const show_QandA = ref(false);//答疑解惑
 				const show_Console = ref(false);//控制台
 				
-                const games = ref([]);
+                const galgames = ref([]);
                 const prices = ref({});
                 const godWay = ref({});
                 const steamInfo = ref({});
+				const audioWorks = ref({});
+				const audioWorksPrices = ref({});
 				const developers = ref({});
 
 				const loadData = async () => {
 					try {
-						const [infoResponse, pricesResponse, steamInfoResponse, godWayResponse, developerResponse] = await Promise.all([
+						const [galgamesInfoResponse, galgamesPricesResponse, galgamesSteamInfoResponse, godWayResponse, audio_worksInfoResponse, audio_worksPricesResponse, developerResponse] = await Promise.all([
 							fetch("./public/json/galgames_info.json").then(response => response.json()),
 							fetch("./public/json/galgames_prices.json").then(response => response.json()),
 							fetch("./public/json/galgames_steamInfo.json").then(response => response.json()),
 							fetch("./public/json/galgames_godWay.json").then(response => response.json()),
-							fetch("./public/json/galgames_developer.json").then(response => response.json())
+							fetch("./public/json/audio_works_info.json").then(response => response.json()),
+							fetch("./public/json/audio_works_prices.json").then(response => response.json()),
+							fetch("./public/json/developer.json").then(response => response.json())
 						]);
 
-						games.value = infoResponse;
-						prices.value = pricesResponse.reduce((acc, curr) => {
+						galgames.value = galgamesInfoResponse;
+						prices.value = galgamesPricesResponse.reduce((acc, curr) => {
 							acc[curr.id] = curr.prices;
+							return acc;
+						}, {});
+						steamInfo.value = galgamesSteamInfoResponse.reduce((acc, curr) => {
+							acc[curr.id] = curr.steamInfo;
 							return acc;
 						}, {});
 						godWay.value = godWayResponse.reduce((acc, curr) => {
 							acc[curr.id] = curr.godWay;
 							return acc;
 						}, {});
-						steamInfo.value = steamInfoResponse.reduce((acc, curr) => {
-							acc[curr.id] = curr.steamInfo;
+						audioWorks.value = audio_worksInfoResponse;
+						audioWorksPrices.value = audio_worksPricesResponse.reduce((acc, curr) => {
+							acc[curr.id] = curr.prices;
 							return acc;
 						}, {});
-                        developers.value = developersResponse.reduce((acc, curr) => {
-                            acc[curr.developerId] = curr;
+                        developers.value = developerResponse.reduce((acc, curr) => {
+                            acc[curr.developerId] = curr.developer;
                             return acc;
                         }, {});
 
@@ -482,6 +493,15 @@
 				const getPrice = (id, type) => {
 					if (prices.value[id] && prices.value[id][type] && prices.value[id][type].length > 0) {
 						return prices.value[id][type][0].price;
+					}
+					return 'N/A';
+				};
+				const getAudioWorksPrice = (id, type) => {
+					if (
+						audioWorksPrices.value[id] && 
+						audioWorksPrices.value[id][type] && 
+						audioWorksPrices.value[id][type].length > 0) {
+						return audioWorksPrices.value[id][type][0].price;
 					}
 					return 'N/A';
 				};
@@ -557,10 +577,13 @@
 
 					buyForYouPrice,
 
-                    games,
+                    galgames,
                     getPrice,
                     godWay,
                     steamInfo,
+					audioWorks,
+					audioWorksPrices,
+					getAudioWorksPrice,
                     developers
 				};
 			  },

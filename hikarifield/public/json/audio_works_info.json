@@ -1,233 +1,68 @@
 [
-    {
-        "audio_works_name": "妖异乡愁谭 · 赤赤熊 栖美",
-        "hf_audio_works_info": {
-          "hf_audio_works_id": "ayakashi_sumi",
-          "hf_audio_works_prices": {
-            "hf_audio_works_now_price": "23",
-            "hf_audio_works_low_price": "12",
-            "hf_audio_works_old_price": "28",
-            "hf_gift_price": "24",
-            "hf_audio_works_SLAM_CARD_now_price": "23",
-            "hf_audio_works_SLAM_CARD_low_price": "12"
-          }
-        },
-        "audio_works_publisher":{
-          "audio_works_publisher_name": "Lose",
-          "audio_works_publisher_nickname": "",
-          "audio_works_publisher_history": "已停止活动",
-          "audio_works_publisher_url": "https://www.lose.jp/"
-        },
-        "audio_works_release_time": "2022-03-11"
-      },
-      {
-        "audio_works_name": "妖异乡愁谭 · 七面颊 阿七",
-        "hf_audio_works_info": {
-          "hf_audio_works_id": "ayakashi_nana",
-          "hf_audio_works_prices": {
-            "hf_audio_works_now_price": "23",
-            "hf_audio_works_low_price": "12",
-            "hf_audio_works_old_price": "28",
-            "hf_gift_price": "24",
-            "hf_audio_works_SLAM_CARD_now_price": "23",
-            "hf_audio_works_SLAM_CARD_low_price": "12"
-          }
-        },
-        "audio_works_publisher":{
-          "audio_works_publisher_name": "Lose",
-          "audio_works_publisher_nickname": "",
-          "audio_works_publisher_history": "已停止活动",
-          "audio_works_publisher_url": "https://www.lose.jp/"
-        },
-        "audio_works_release_time": "2022-03-11"
-      },
-      {
-        "audio_works_name": "妖异乡愁谭 · 妹妹 夏叶",
-        "hf_audio_works_info": {
-          "hf_audio_works_id": "ayakashi_natsu",
-          "hf_audio_works_prices": {
-            "hf_audio_works_now_price": "23",
-            "hf_audio_works_low_price": "12",
-            "hf_audio_works_old_price": "28",
-            "hf_gift_price": "24",
-            "hf_audio_works_SLAM_CARD_now_price": "23",
-            "hf_audio_works_SLAM_CARD_low_price": "12"
-          }
-        },
-        "audio_works_publisher":{
-          "audio_works_publisher_name": "Lose",
-          "audio_works_publisher_nickname": "",
-          "audio_works_publisher_history": "已停止活动",
-          "audio_works_publisher_url": "https://www.lose.jp/"
-        },
-        "audio_works_release_time": "2022-03-11"
-      },
-      {
-        "audio_works_name": "妖异乡愁谭 · 青梅竹马 爱丽丝",
-        "hf_audio_works_info": {
-          "hf_audio_works_id": "ayakashi_alice",
-          "hf_audio_works_prices": {
-            "hf_audio_works_now_price": "23",
-            "hf_audio_works_low_price": "12",
-            "hf_audio_works_old_price": "28",
-            "hf_gift_price": "24",
-            "hf_audio_works_SLAM_CARD_now_price": "23",
-            "hf_audio_works_SLAM_CARD_low_price": "12"
-          }
-        },
-        "audio_works_publisher":{
-          "audio_works_publisher_name": "Lose",
-          "audio_works_publisher_nickname": "",
-          "audio_works_publisher_history": "已停止活动",
-          "audio_works_publisher_url": "https://www.lose.jp/"
-        },
-        "audio_works_release_time": "2022-03-11"
-      },
-      {
-        "audio_works_name": "妖异乡愁谭 · 星辰姬宫 小始祖",
-        "hf_audio_works_info": {
-          "hf_audio_works_id": "ayakashi_hime",
-          "hf_audio_works_prices": {
-            "hf_audio_works_now_price": "23",
-            "hf_audio_works_low_price": "12",
-            "hf_audio_works_old_price": "28",
-            "hf_gift_price": "24",
-            "hf_audio_works_SLAM_CARD_now_price": "23",
-            "hf_audio_works_SLAM_CARD_low_price": "12"
-          }
-        },
-        "audio_works_publisher":{
-          "audio_works_publisher_name": "Lose",
-          "audio_works_publisher_nickname": "",
-          "audio_works_publisher_history": "已停止活动",
-          "audio_works_publisher_url": "https://www.lose.jp/"
-        },
-        "audio_works_release_time": "2022-03-11"
-      },
-      {
-        "audio_works_name": "蓄音铁路 · 红",
-        "hf_audio_works_info": {
-          "hf_audio_works_id": "chikuon_rail_beni",
-          "hf_audio_works_prices": {
-            "hf_audio_works_now_price": "23",
-            "hf_audio_works_low_price": "15",
-            "hf_audio_works_old_price": "28",
-            "hf_gift_price": "24",
-            "hf_audio_works_SLAM_CARD_now_price": "23",
-            "hf_audio_works_SLAM_CARD_low_price": "12"
-          }
-        },
-        "audio_works_publisher":{
-          "audio_works_publisher_name": "Lose",
-          "audio_works_publisher_nickname": "",
-          "audio_works_publisher_history": "已停止活动",
-          "audio_works_publisher_url": "https://www.lose.jp/"
-        },
-        "audio_works_release_time": "2023-09-05"
-      },
-      {
-        "audio_works_name": "蓄音铁路 · 汽子",
-        "hf_audio_works_info": {
-          "hf_audio_works_id": "chikuon_rail_kiko",
-          "hf_audio_works_prices": {
-            "hf_audio_works_now_price": "23",
-            "hf_audio_works_low_price": "15",
-            "hf_audio_works_old_price": "28",
-            "hf_gift_price": "24",
-            "hf_audio_works_SLAM_CARD_now_price": "23",
-            "hf_audio_works_SLAM_CARD_low_price": "12"
-          }
-        },
-        "audio_works_publisher":{
-          "audio_works_publisher_name": "Lose",
-          "audio_works_publisher_nickname": "",
-          "audio_works_publisher_history": "已停止活动",
-          "audio_works_publisher_url": "https://www.lose.jp/"
-        },
-        "audio_works_release_time": "2023-09-05"
-      },
-      {
-        "audio_works_name": "蓄音铁路 · 西瓜",
-        "hf_audio_works_info": {
-          "hf_audio_works_id": "chikuon_rail_suika",
-          "hf_audio_works_prices": {
-            "hf_audio_works_now_price": "23",
-            "hf_audio_works_low_price": "15",
-            "hf_audio_works_old_price": "28",
-            "hf_gift_price": "24",
-            "hf_audio_works_SLAM_CARD_now_price": "23",
-            "hf_audio_works_SLAM_CARD_low_price": "12"
-          }
-        },
-        "audio_works_publisher":{
-          "audio_works_publisher_name": "Lose",
-          "audio_works_publisher_nickname": "",
-          "audio_works_publisher_history": "已停止活动",
-          "audio_works_publisher_url": "https://www.lose.jp/"
-        },
-        "audio_works_release_time": "2023-09-05"
-      },
-      {
-        "audio_works_name": "蓄音铁路 · 铃城",
-        "hf_audio_works_info": {
-          "hf_audio_works_id": "chikuon_rail_suzushiro",
-          "hf_audio_works_prices": {
-            "hf_audio_works_now_price": "23",
-            "hf_audio_works_low_price": "15",
-            "hf_audio_works_old_price": "28",
-            "hf_gift_price": "24",
-            "hf_audio_works_SLAM_CARD_now_price": "23",
-            "hf_audio_works_SLAM_CARD_low_price": "12"
-          }
-        },
-        "audio_works_publisher":{
-          "audio_works_publisher_name": "Lose",
-          "audio_works_publisher_nickname": "",
-          "audio_works_publisher_history": "已停止活动",
-          "audio_works_publisher_url": "https://www.lose.jp/"
-        },
-        "audio_works_release_time": "2023-09-05"
-      },
-      {
-        "audio_works_name": "蓄音铁路 · 蟹子",
-        "hf_audio_works_info": {
-          "hf_audio_works_id": "chikuon_rail_kaniko",
-          "hf_audio_works_prices": {
-            "hf_audio_works_now_price": "23",
-            "hf_audio_works_low_price": "15",
-            "hf_audio_works_old_price": "28",
-            "hf_gift_price": "24",
-            "hf_audio_works_SLAM_CARD_now_price": "23",
-            "hf_audio_works_SLAM_CARD_low_price": "12"
-          }
-        },
-        "audio_works_publisher":{
-          "audio_works_publisher_name": "Lose",
-          "audio_works_publisher_nickname": "",
-          "audio_works_publisher_history": "已停止活动",
-          "audio_works_publisher_url": "https://www.lose.jp/"
-        },
-        "audio_works_release_time": "2023-09-05"
-      },
-      {
-        "audio_works_name": "蓄音铁路 · 兰",
-        "hf_audio_works_info": {
-          "hf_audio_works_id": "chikuon_rail_ran",
-          "hf_audio_works_prices": {
-            "hf_audio_works_now_price": "23",
-            "hf_audio_works_low_price": "15",
-            "hf_audio_works_old_price": "28",
-            "hf_gift_price": "24",
-            "hf_audio_works_SLAM_CARD_now_price": "23",
-            "hf_audio_works_SLAM_CARD_low_price": "12"
-          }
-        },
-        "audio_works_publisher":{
-          "audio_works_publisher_name": "Lose",
-          "audio_works_publisher_nickname": "",
-          "audio_works_publisher_history": "已停止活动",
-          "audio_works_publisher_url": "https://www.lose.jp/"
-        },
-        "audio_works_release_time": "2023-09-05"
-      }
+  {
+    "id": "ayakashi_sumi",
+    "name": "妖异乡愁谭 · 赤赤熊 栖美",
+    "developerId": "lose",
+    "release_time": "2022-03-11"
+  },
+  {
+    "id": "ayakashi_nana",
+    "name": "妖异乡愁谭 · 七面颊 阿七",
+    "developerId": "lose",
+    "release_time": "2022-03-11"
+  },
+  {
+    "id": "ayakashi_natsu",
+    "name": "妖异乡愁谭 · 妹妹 夏叶",
+    "developerId": "lose",
+    "release_time": "2022-03-11"
+  },
+  {
+    "id": "ayakashi_alice",
+    "name": "妖异乡愁谭 · 青梅竹马 爱丽丝",
+    "developerId": "lose",
+    "release_time": "2022-03-11"
+  },
+  {
+    "id": "ayakashi_hime",
+    "name": "妖异乡愁谭 · 星辰姬宫 小始祖",
+    "developerId": "lose",
+    "release_time": "2022-03-11"
+  },
+  {
+    "id": "chikuon_rail_beni",
+    "name": "蓄音铁路 · 红",
+    "developerId": "lose",
+    "release_time": "2023-09-05"
+  },
+  {
+    "id": "chikuon_rail_kiko",
+    "name": "蓄音铁路 · 汽子",
+    "developerId": "lose",
+    "release_time": "2023-09-05"
+  },
+  {
+    "id": "chikuon_rail_suika",
+    "name": "蓄音铁路 · 西瓜",
+    "developerId": "lose",
+    "release_time": "2023-09-05"
+  },
+  {
+    "id": "chikuon_rail_suzushiro",
+    "name": "蓄音铁路 · 铃城",
+    "developerId": "lose",
+    "release_time": "2023-09-05"
+  },
+  {
+    "id": "chikuon_rail_kaniko",
+    "name": "蓄音铁路 · 蟹子",
+    "developerId": "lose",
+    "release_time": "2023-09-05"
+  },
+  {
+    "id": "chikuon_rail_ran",
+    "name": "蓄音铁路 · 兰",
+    "developerId": "lose",
+    "release_time": "2023-09-05"
+  }
 ]
