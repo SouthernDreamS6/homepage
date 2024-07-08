@@ -42,7 +42,7 @@ function redirectToFastestServer() {
       // 跳转到响应时间最短的服务器
       setTimeout(() => {
         window.location.href = servers.find(server => server.name === results[0].server).url;
-      }, 5000); // 等待5秒
+      }, 3000); // 等待3秒
     })
     .catch(error => {
       console.error("Error checking servers:", error);
@@ -65,7 +65,7 @@ window.onload = redirectToFastestServer;
   <h1>欢迎访问HIKARIFIELD Helper(Beta)!!!</h1>
   <br>
   <h1>正在为您检测HIKARIFIELD Helper服务器响应速度...</h1>
-  <h2>系统将在5-15秒内为您连接到响应速度最快的服务器。
+  <h2>系统将在3-15秒内为您连接到响应速度最快的服务器。
   <br><br>
   您也可以点击下方按钮手动选择服务器。
 </h2>

@@ -1,6 +1,7 @@
 [
   {
     "id": "tayutama2",
+    "name": "游魂2-you're the only one-",
     "godWay":[
       {
         "fileType":"１８禁補丁",
@@ -19,6 +20,7 @@
   },
   {
     "id": "sakura_no_mori",
+    "name": "樱之杜†净梦者",
     "godWay":[
       {
         "fileType":"场景剧情补丁（2019.02.01）",
@@ -42,6 +44,7 @@
   },
   {
     "id": "monobeno",
+    "name": "茂伸奇谈-Monobeno-",
     "godWay":[
       {
         "fileType":"场景剧情补丁（2019-01-25）",
@@ -65,6 +68,7 @@
   },
   {
     "id": "monobeno_happy_end",
+    "name": "茂伸奇谈-Happy End-",
     "godWay":[
       {
         "fileType":"场景剧情补丁（2019-01-25）",
@@ -102,6 +106,7 @@
   },
   {
     "id": "hello_lady",
+    "name": "淑女同萌！",
     "godWay":[
       {
         "fileType":"修正パッチ ver.1.10（2014.04.12）",
@@ -139,6 +144,7 @@
   },
   {
     "id": "maitetsu_pure_station",
+    "name": "爱上火车-Pure Station-",
     "godWay":[
       {
         "fileType":"未发现爱上火车-Pure Station-补丁",
@@ -156,6 +162,7 @@
   },
   {
     "id": "sakura_no_mori2",
+    "name": "樱之杜†净梦者2",
     "godWay":[
       {
         "fileType":"场景剧情补丁（2019.3.15）",
@@ -179,6 +186,7 @@
   },
   {
     "id": "hello_lady_nd",
+    "name": "淑女同萌！-New Division-",
     "godWay":[
       {
         "fileType":"场景剧情补丁（2019.4.19）",
@@ -198,6 +206,7 @@
   },
   {
     "id": "tsukikage",
+    "name": "月影魅像-解放之羽-",
     "godWay":[
       {
         "fileType":"「月影魅像-解放之羽-」场景剧情补丁（2019.7.26）",
@@ -221,6 +230,7 @@
   },
   {
     "id": "aokana",
+    "name": "苍之彼方的四重奏",
     "godWay":[
       {
         "fileType":"Aokana Perfect Edition 18+ Steam Patch",
@@ -242,6 +252,7 @@
   },
   {
     "id": "alias_carnival",
+    "name": "爱丽娅的明日盛典！（ALIA's Carnival!）",
     "godWay":[
       {
         "fileType":"「爱丽娅的明日盛典!」场景剧情补丁（2019.11.18）",
@@ -261,6 +272,7 @@
   },
   {
     "id": "natsunoiro",
+    "name": "追忆夏色年华",
     "godWay":[
       {
         "fileType":"「追忆夏色年华」场景剧情补丁（2019.12.06）",
@@ -284,6 +296,7 @@
   },
   {
     "id": "senren_banka",
+    "name": "千恋＊万花",
     "godWay":[
       {
         "fileType":"Senren＊Banka 18+ Steam Patch",
@@ -305,10 +318,12 @@
   },
   {
     "id": "tryment_alpha",
+    "name": "TrymenT ―献给渴望改变的你― Alpha篇",
     "godWay":[]
   },
   {
     "id": "happiness2",
+    "name": "Happiness！2 樱花盛典",
     "godWay":[
       {
         "fileType":"未找到相关内容",
@@ -326,6 +341,7 @@
   },
   {
     "id": "maitetsu_lastrun",
+    "name": "爱上火车-Last Run!!-",
     "godWay":[
       {
         "fileType":"国际中文版场景剧情补丁（版本v1.2）（2022.02.15）",
@@ -361,6 +377,7 @@
   },
   {
     "id": "aokana_extra1",
+    "name": "苍之彼方的四重奏 EXTRA1",
     "godWay":[
       {
         "fileType":"Aokana Extra1 18+ Steam Patch",
@@ -382,6 +399,7 @@
   },
   {
     "id": "riddle_joker",
+    "name": "Riddle Joker",
     "godWay":[
       {
         "fileType":"Riddle Joker 18+ Steam Patch",
@@ -403,6 +421,7 @@
   },
   {
     "id": "relief",
+    "name": "Re:LieF 〜献给亲爱的你〜 Re:LanguagE",
     "godWay":[
       {
         "fileType":"Steam版场景剧情补丁（2021.02.26）",
@@ -422,6 +441,7 @@
   },
   {
     "id": "kinkoi",
+    "name": "金辉恋曲四重奏",
     "godWay":[
       {
         "fileType":"Kinkoi 18+ Steam Patch",
@@ -443,10 +463,12 @@
   },
   {
     "id": "parquet",
+    "name": "PARQUET",
     "godWay":[]
   },
   {
     "id": "honoguraki",
+    "name": "来自昏暗的时间尽头",
     "godWay":[
       {
         "fileType":"国际中文版场景剧情补丁（2021.12.17）",
@@ -470,6 +492,7 @@
   },
   {
     "id": "hello_lady_se",
+    "name": "淑女同萌！-Superior Entelecheia-",
     "godWay":[
       {
         "fileType":"等待更新",
@@ -491,6 +514,7 @@
   },
   {
     "id": "madoki",
+    "name": "雪境迷途遇仙踪",
     "godWay":[
       {
         "fileType":"国际中文版场景剧情补丁（2022.02.04）",
@@ -510,6 +534,7 @@
   },
   {
     "id": "sekachu",
+    "name": "在世界与世界的正中央",
     "godWay":[
       {
         "fileType":"国际中文版场景剧情补丁（2022.02.11）",
@@ -529,6 +554,7 @@
   },
   {
     "id": "stella",
+    "name": "星光咖啡馆与死神之蝶",
     "godWay":{
       "hfWay":{
         "origin":"等待更新",
@@ -540,6 +566,7 @@
   },
   {
     "id": "hananono",
+    "name": "五色浮影绽放于花之海洋",
     "godWay":[
       {
         "fileType":"国际中文版场景剧情补丁（1.01）（2022.04.23）",
@@ -559,6 +586,7 @@
   },
   {
     "id": "magical_charming",
+    "name": "魔卡魅恋！",
     "godWay":[
       {
         "fileType":"国际中文版场景剧情补丁（2022.05.20）",
@@ -578,6 +606,7 @@
   },
   {
     "id": "tsukiniyorisou",
+    "name": "近月少女的礼仪",
     "godWay":[
       {
         "fileType":"国际中文版场景剧情补丁（1.01）（2022.06.19）",
@@ -597,6 +626,7 @@
   },
   {
     "id": "kinkoigt",
+    "name": "金辉恋曲四重奏 -Golden Time-",
     "godWay":[
       {
         "fileType":"Kinkoi: Golden Time 18+ Steam Patch",
@@ -618,10 +648,12 @@
   },
   {
     "id": "yumahorome",
+    "name": "真愿朦幻馆～在时间暂停的洋馆里追寻明天的羔羊们～",
     "godWay":[]
   },
   {
     "id": "cross_concerto",
+    "name": "交汇协奏曲",
     "godWay":[
       {
         "fileType":"国际中文版场景剧情补丁（2022.09.23）",
@@ -641,10 +673,12 @@
   },
   {
     "id": "soratoto",
+    "name": "天空的蓝与白/如梭夏日",
     "godWay":[]
   },
   {
     "id": "aonatsu",
+    "name": "青夏轨迹",
     "godWay":[
       {
         "fileType":"国际中文版场景剧情补丁（2022.12.10）",
@@ -664,6 +698,7 @@
   },
   {
     "id": "aokana_extra2",
+    "name": "苍之彼方的四重奏 EXTRA2",
     "godWay":[
       {
         "fileType":"Aokana Extra2 18+ Steam Patch",
@@ -685,6 +720,7 @@
   },
   {
     "id": "future_radio",
+    "name": "未来广播与人工鸽",
     "godWay":[
       {
         "fileType":"The Future Radio and the Artificial Pigeons 18+ Steam Patch",
@@ -706,6 +742,7 @@
   },
   {
     "id": "shuffle_ep2",
+    "name": "SHUFFLE! episode2 ～被神与魔同时盯上的男人～",
     "godWay":[
       {
         "fileType":"等待更新",
@@ -720,6 +757,7 @@
   },
   {
     "id": "witch_garden",
+    "name": "魔女的花园",
     "godWay":[
       {
         "fileType":"等待更新",
@@ -734,6 +772,7 @@
   },
   {
     "id": "alias_carnival_flowering_sky",
+    "name": "爱丽娅的明日盛典！Flowering Sky",
     "godWay":[
       {
         "fileType":"国际中文版场景剧情补丁（2023.06.21）",
@@ -753,6 +792,7 @@
   },
   {
     "id": "sothewitch",
+    "name": "魔女的夜宴",
     "godWay":[
       {
         "fileType":"国际中文版场景剧情补丁（2023.08.12）",
@@ -772,6 +812,7 @@
   },
   {
     "id": "koikake",
+    "name": "想要传达给你的爱恋",
     "godWay":[
       {
         "fileType":"国际中文版场景剧情补丁（2023.08.06）",
@@ -791,6 +832,7 @@
   },
   {
     "id": "clover_days",
+    "name": "幸运草的约定 Clover Days",
     "godWay":[
       {
         "fileType":"Clover Day's 18+ Steam Patch",
@@ -812,10 +854,12 @@
   },
   {
     "id": "arcana",
+    "name": "炼爱秘仪",
     "godWay":[]
   },
   {
     "id": "otomeriron",
+    "name": "少女理论及其周边",
     "godWay":{
       "hfWay":{
         "origin":"HF官方推荐",
@@ -827,10 +871,12 @@
   },
   {
     "id": "seikano",
+    "name": "制服女友",
     "godWay":[]
   },
   {
     "id": "making_lovers",
+    "name": "突然＊恋人（Making＊Lovers）全高清合集版",
     "godWay":[
       {
         "fileType":"版场景剧情补丁（2024.05.03）",
@@ -850,6 +896,7 @@
   },
   {
     "id": "sorechiru",
+    "name": "繁花落舞恋如樱-Re:BIRTH-",
     "godWay":[]
   }
 ]

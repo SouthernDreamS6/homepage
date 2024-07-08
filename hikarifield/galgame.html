@@ -77,7 +77,7 @@
 			<!-- 弹窗代码结束 -->
 
 			<!-- 隐藏的音频元素用于播放 WAV文件 -->
-			<audio id="audioPlayer" src="./Ciallo～(∠・ω＜)⌒☆.wav" type="audio/x-ms-wma"></audio>
+			<audio id="audioPlayer" src="./public/Ciallo～(∠・ω＜)⌒☆.wav" type="audio/x-ms-wma"></audio>
 			<script>
 				// 播放音频文件的函数
 				function playAudio() {
@@ -190,8 +190,8 @@
 					<tr>
 						<th v-show="show_game_img">游戏预览图</th>
 						<th v-show="show_game_name">游戏名称<p class="top">点击名称即可访问HF商城</p></th>
-						<th v-show="show_hf_price">HF价格<p class="top_redfont">代购折扣仅限一次先到先得</p>更新时间2024.07.02<br>本次促销结束时间2024.07.06</th>
-						<th v-show="show_steam_price">Steam价格<p class="top_redfont">注意！受汇率影响</p><p class="top">此处未计算Steam余额等其他折扣</p>更新时间2024.05.18</th>
+						<th v-show="show_hf_price">HF价格<p class="top_redfont">代购折扣仅限一次先到先得</p>更新时间{{ galgamesTableUpdated }}<br>本次促销结束时间{{ galgamesDiscountEndTime }}</th>
+						<th v-show="show_steam_price">Steam价格<p class="top_redfont">注意！受汇率影响</p><p class="top">此处未计算Steam余额等其他折扣</p>更新时间{{ steamInfoUpdated }}</th>
 						<th v-show="show_other_price">其他途径<p class="top">如有补充欢迎联系</p></th>
 						<th v-show="show_godWay">仙人指路<p class="top_redfont">资源收集于网络<br>本站不提供任何下载服务</p><p class="top">如遇问题欢迎联系</p></th>
 						<th v-show="show_game_id">游戏ID<p class="top">Steam商品ID</p></th>
@@ -217,7 +217,7 @@
 						</td>
 						<!-- Steam价格 -->
 						<td v-show="show_steam_price">
-							国区￥{{steamInfo[galgames.id].prices.cnLow}}
+							国区¥{{steamInfo[galgames.id].prices.cnLow}}
 							<br>
 							{{ steamInfo[galgames.id].prices.country }}{{ steamInfo[galgames.id].prices.low }}
 						</td>
@@ -266,7 +266,7 @@
 					<tr>
 						<th v-show="show_audio_works_img">作品预览图</th>
 						<th v-show="show_audio_works_name">作品名称<p class="top">点击名称即可访问HF商城</p></th>
-						<th v-show="show_hf_audio_works_price">HF价格<br>更新时间2024.07.02<br>本次促销结束时间2024.07.06</th>
+						<th v-show="show_hf_audio_works_price">HF价格<br>更新时间{{ audioWorksTableUpdated }}<br>本次促销结束时间{{ audioWorksDiscountEndTime }}</th>
 						<th v-show="show_hf_audio_works_SCprice">SLAM CARD价格<br>更新时间2024.07.02</th>
 						<th v-show="show_audio_works_publisher">开发商<p class="top">部分社团资料较少<br>如有错误欢迎指正</p></th>
 						<th v-show="show_audio_works_release_time">发售时间<p class="top">此处时间采集于HF游戏介绍</p></th>
@@ -332,43 +332,45 @@
 						<th v-show="show_goods_workName">所属作品</th>
 						<th v-show="show_goods_salesTime">销售时间<p class="top">此处时间采集于HF游戏介绍</p></th>
 					</tr>
-					<tr v-for="(item, index) in table_goods">
+                	<tr v-for="goods in goods" :key="goods.id">
 						<!--编号-->
 						<td v-show="show_goods_id">
-							<p>{{ item.id }}</a>
+							<p>{{ goods.id }}</a>
 						</td>
 						<!-- 周边预览图 -->
 						<td v-show="show_goods_img" class="image-container">
-							<img :src="imageServerUrl + './public/images/goods/' + item.imgUrl" alt="item.imgUrl" height="300%" width="auto">
+							<img :src="imageServerUrl + './public/images/goods/' + goods.imgUrl" alt="goods.imgUrl" height="300%" width="auto">
 						</td>
 						<!--周边名称-->
 						<td v-show="show_goods_name">
-							<a :href="'https://store.hikarifield.co.jp/goods/' + item.id" target="_blank">{{ item.goodsName }}</a>
+							<a :href="'https://store.hikarifield.co.jp/goods/' + goods.id" target="_blank">{{ goods.goodsName }}</a>
 						</td>
 						<!--价格-->
 						<td v-show="show_goods_price">
-							<p class="hfSpecialOffer">当前￥{{ item.price.nowPrice }}</p>
-							SC价￥{{ item.price.scPrice }}
-							<br>
-							史低价￥{{ item.price.lowPrice }}
-							<br>
-							原价￥{{ item.price.oldPrice }}
+							<p class="hfSpecialOffer">
+								当前¥{{ goods.price.now[0].price }}
+							</p>
+								SC当前¥{{ goods.price.scNow[0].price }}
+								<br>
+								史低¥{{ goods.price.low[0].price }}
+								<br>
+								原价¥{{ goods.price.old[0].price }}
 						</td>
 						<!--产品规格-->
 						<td v-show="show_goods_goodsSize">
-							<p>{{ item.goodsSize }}</p>
+							<p>{{ goods.goodsSize }}</p>
 						</td>
 						<!--库存状态-->
 						<td v-show="show_goods_stockStatus">
-							<p>{{ item.stockStatus }}</p>
+							<p>{{ goods.stockStatus }}</p>
 						</td>
 						<!--所属作品-->
 						<td v-show="show_goods_workName">
-							<p>{{ item.workName }}</p>
+							<p>{{ goods.workName }}</p>
 						</td>
 						<!--发售时间-->
 						<td v-show="show_goods_salesTime">
-							{{ item.salesTime }}
+							{{ goods.salesTime }}
 						</td>
 					</tr>
 				</table>
@@ -390,7 +392,7 @@
 					<!--小黑昵称-->
 					<td><p class="hfSLAM_CARD"nsjsjsj<br>易洋看我</p></td>
 					<!--拉黑原因-->
-					<td><p class="hfSpecialOffer">诈骗</p><a href="./fuckman_tieba_nsjsjsj.pdf">点击查看相关截图</a></td>
+					<td><p class="hfSpecialOffer">诈骗</p><a href="./public/fuckman_tieba_nsjsjsj.pdf">点击查看相关截图</a></td>
 					<!--社交帐号-->
 					<td><a href="https://tieba.baidu.com/home/main?un=nsjsjsj&fr=pb&ie=utf-8&id=tb.1.711bf5da.wInZvxZcW7oUGUAinAnHiA">贴吧账号：nsjsjsj<br>贴吧ID：728763337</a><br>百度账号：易洋看我<br>QQ:1464167146</td>
 					<!--其他信息-->
@@ -406,9 +408,13 @@
 	  
 			createApp({
 			  setup() {
+				const galgamesTableUpdated = "2024.07.08";//视觉小说价格表更新时间
+				const galgamesDiscountEndTime = "2024.07.06";//视觉小说折扣结束时间
+				const steamInfoUpdated = "2024.05.18";//STEAM信息更新时间
+				const audioWorksTableUpdated = "2024.07.08";//音声作品价格表更新时间
+				const audioWorksDiscountEndTime = "2024.07.06";//音声作品折扣结束时间
 				const imageServerUrl = "https://image.hikarifield.aurorb.cn/";//图床
 
-				const table_galgames = ref([]);//“视觉小说”表格
 				const show_game_img =ref(true);//“视觉小说”游戏预览图
 				const show_game_name =ref(true);//“视觉小说”游戏名称
 				const show_hf_price = ref(true);//“视觉小说”HF价格
@@ -419,7 +425,6 @@
 				const show_game_publisher = ref(true);//“视觉小说”开发商
 				const show_release_time = ref(true);//“视觉小说”发售时间
 
-				const table_audio_works = ref([]);//“音声作品”表格
 				const show_audio_works_img = ref([]);//“音声作品”作品预览图
 				const show_audio_works_name = ref([]);//“音声作品”作品名称
 				const show_hf_audio_works_price = ref([]);//“音声作品”HF价格
@@ -427,7 +432,6 @@
 				const show_audio_works_publisher = ref([]);//“音声作品”开发商
 				const show_audio_works_release_time = ref([]);//“音声作品”发售时间
 
-				const table_goods = ref([]);//“实物周边”表格
 				const show_goods_id = ref([]);//“实物周边”编号
 				const show_goods_img = ref([]);//“实物周边”周边预览图
 				const show_goods_name = ref([]);//“实物周边”周边名称
@@ -447,17 +451,19 @@
                 const steamInfo = ref({});
 				const audioWorks = ref({});
 				const audioWorksPrices = ref({});
+				const goods = ref({});
 				const developers = ref({});
 
 				const loadData = async () => {
 					try {
-						const [galgamesInfoResponse, galgamesPricesResponse, galgamesSteamInfoResponse, godWayResponse, audio_worksInfoResponse, audio_worksPricesResponse, developerResponse] = await Promise.all([
+						const [galgamesInfoResponse, galgamesPricesResponse, galgamesSteamInfoResponse, godWayResponse, audio_worksInfoResponse, audio_worksPricesResponse, goodsInfoResponse, developerResponse] = await Promise.all([
 							fetch("./public/json/galgames_info.json").then(response => response.json()),
 							fetch("./public/json/galgames_prices.json").then(response => response.json()),
 							fetch("./public/json/galgames_steamInfo.json").then(response => response.json()),
 							fetch("./public/json/galgames_godWay.json").then(response => response.json()),
 							fetch("./public/json/audio_works_info.json").then(response => response.json()),
 							fetch("./public/json/audio_works_prices.json").then(response => response.json()),
+							fetch("./public/json/goods_info.json").then(response => response.json()),
 							fetch("./public/json/developer.json").then(response => response.json())
 						]);
 
@@ -479,6 +485,7 @@
 							acc[curr.id] = curr.prices;
 							return acc;
 						}, {});
+						goods.value = goodsInfoResponse;
                         developers.value = developerResponse.reduce((acc, curr) => {
                             acc[curr.developerId] = curr.developer;
                             return acc;
@@ -526,23 +533,14 @@
 				}
 				});
 
-				
-				Promise.all([
-					fetch("./galgames_info.json").then(response => response.json()),
-					fetch("./audio_works_info.json").then(response => response.json()),
-					fetch("./goods_info.json").then(response => response.json())
-				]).then(([galgamesJsonData, audioWorksJsonData, goodsJsonData]) => {
-					table_galgames.value = galgamesJsonData;
-					table_audio_works.value = audioWorksJsonData;
-					table_goods.value = goodsJsonData;
-				}).catch(error => {
-					console.error("Error loading the JSON data:", error);
-				});
-
-				return {
+return {
+					galgamesTableUpdated,
+					galgamesDiscountEndTime,
+					steamInfoUpdated,
+					audioWorksTableUpdated,
+					audioWorksDiscountEndTime,
 					imageServerUrl,
 
-					table_galgames,
 					show_game_img,
 					show_game_name,
 					show_hf_price,
@@ -553,7 +551,6 @@
 					show_game_publisher,
 					show_release_time,
 
-					table_audio_works,
 					show_audio_works_img,
 					show_audio_works_name,
 					show_hf_audio_works_price,
@@ -561,7 +558,6 @@
 					show_audio_works_publisher,
 					show_audio_works_release_time,
 					
-					table_goods,
 					show_goods_id,
 					show_goods_img,
 					show_goods_name,
@@ -584,6 +580,7 @@
 					audioWorks,
 					audioWorksPrices,
 					getAudioWorksPrice,
+					goods,
                     developers
 				};
 			  },

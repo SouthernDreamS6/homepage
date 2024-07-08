@@ -23,10 +23,10 @@
         <br><br>最后，愿我们共同发展和维护Galgame相关领域的美好发展。
     </p>
     <h1>作品信息</h1>
-    <div v-if="galgameInfo">
-      <h2>作品名称：{{ galgameInfo.game_name }}</h2>
+    <div v-if="galgame">
+      <h2>作品名称：{{ galgame.name }}</h2>
       <!-- 循环展示 godWay 信息 -->
-      <div v-for="(godWay, index) in galgameInfo.godWay" :key="index">
+      <div v-for="(godWay, index) in galgame.godWay" :key="index">
         <h3>途径 {{ index + 1 }} 信息</h3>
         <p><b>类型：</b>{{ godWay.fileType }}</p>
         <p><b>属性：</b>{{ godWay.siteProperty }}</p>
@@ -50,7 +50,7 @@
     new Vue({
       el: '#app',
       data: {
-        galgameInfo: null
+        galgame: null
       },
       mounted() {
         // 获取页面中的 hfGameId 参数值
@@ -58,11 +58,11 @@
         const hfGameId = urlParams.get('hfGameId');
 
         // 异步加载数据文件
-        fetch('./galgames_info.json')
+        fetch('./public/json/galgames_godWay.json')
           .then(response => response.json())
           .then(data => {
             // 在数据中查找与 hfGameId 匹配的商品信息
-            this.galgameInfo = data.find(item => item.hf_info.hf_game_id === hfGameId);
+            this.galgame = data.find(item => item.id === hfGameId);
           })
           .catch(error => {
             console.error('Error fetching data:', error);
