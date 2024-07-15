@@ -14,8 +14,8 @@ table{
 	
 table tr th{
 	border: solid 1px #ccc;
-	height: 30px;
-	width: 200px;
+	height: 10px;
+	width: 160px;
 	background-color: #eee;
 	position: sticky;
 	top: 0;
@@ -32,7 +32,7 @@ table tr:hover{
 }
 
 .hfSpecialOffer {
-	font-size: 20px;	/* 字体大小 */
+	font-size: 18px;	/* 字体大小 */
 	color: red;	/* 字体颜色 */
 	padding:0px 0;	/* 内边距 */
 	margin:0px 0;	/* 外边距 */
@@ -46,21 +46,21 @@ table tr:hover{
 }
 
 .ownSell {
-	font-size: 14px;	/* 字体大小 */
+	font-size: 12px;	/* 字体大小 */
 	color: #7B7D7D;	/* 字体颜色 */
 	padding:0px 0;	/* 内边距 */
 	margin:0px 0;	/* 外边距 */
 }
 
 .top {
-	font-size: 14px;	/* 字体大小 */
+	font-size: 12px;	/* 字体大小 */
 	color: #7B7D7D;	/* 字体颜色 */
 	padding:0px 0;	/* 内边距 */
 	margin:0px 0;	/* 外边距 */
 }
 
 .top_redfont {
-	font-size: 16px;	/* 字体大小 */
+	font-size: 14px;	/* 字体大小 */
 	color: red;	/* 字体颜色 */
 	padding:0px 0;	/* 内边距 */
 	margin:0px 0;	/* 外边距 */

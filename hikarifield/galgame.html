@@ -170,79 +170,98 @@
 				}
 				</script>
 
+			<!--“视觉小说”表格-->
 			<div id="switchTable1" class="switchTable"><br><br>
+				<!--表格列控制台-->
 				<button @click="show_Console = !show_Console"><br>打开/关闭控制台<br>///</button>
 				<div v-show="show_Console">
-					<button @click="show_game_img = !show_game_img">游戏预览图</button>
-					<button @click="show_game_name = !show_game_name">游戏名称</button>
-					<button @click="show_hf_price = !show_hf_price">HF价格</button>
-					<button @click="show_steam_price = !show_steam_price">Steam价格</button>
-					<button @click="show_other_price = !show_other_price">其他途径<br>（默认隐藏）</button>
-					<button @click="show_godWay = !show_godWay">仙人指路<br>（默认隐藏）</button>
-					<button @click="show_game_id = !show_game_id">游戏ID</button>
-					<button @click="show_game_publisher = !show_game_publisher">开发商</button>
-					<button @click="show_release_time = !show_release_time">发售时间</button>
+					<button @click="showGalgamesImg = !showGalgamesImg">游戏预览图</button>
+					<button @click="showGalgamesName = !showGalgamesName">游戏名称</button>
+					<button @click="showGalgamesHFPrices = !showGalgamesHFPrices">HF价格</button>
+					<button @click="showGalgamesSteamPrices = !showGalgamesSteamPrices">Steam价格</button>
+					<button @click="showGalgamesBuyForYouPrices = !showGalgamesBuyForYouPrices">代购价格</button>
+					<button @click="showGalgamesOtherPrices = !showGalgamesOtherPrices">其他途径<br>（默认隐藏）</button>
+					<button @click="showGalgamesGodWay = !showGalgamesGodWay">仙人指路<br>（默认隐藏）</button>
+					<button @click="showSteamAppId = !showSteamAppId">游戏ID</button>
+					<button @click="showGalgamesDeveloper = !showGalgamesDeveloper">开发商</button>
+					<button @click="showGalgamesReleaseTime = !showGalgamesReleaseTime">发售时间</button>
 				</div>
 				<br>
 				
 				<table border="0" cellspacing="0" cellpadding="0">
 					<!--标题-->
 					<tr>
-						<th v-show="show_game_img">游戏预览图</th>
-						<th v-show="show_game_name">游戏名称<p class="top">点击名称即可访问HF商城</p></th>
-						<th v-show="show_hf_price">HF价格<p class="top_redfont">代购折扣仅限一次先到先得</p>更新时间{{ galgamesTableUpdated }}<br>本次促销结束时间{{ galgamesDiscountEndTime }}</th>
-						<th v-show="show_steam_price">Steam价格<p class="top_redfont">注意！受汇率影响</p><p class="top">此处未计算Steam余额等其他折扣</p>更新时间{{ steamInfoUpdated }}</th>
-						<th v-show="show_other_price">其他途径<p class="top">如有补充欢迎联系</p></th>
-						<th v-show="show_godWay">仙人指路<p class="top_redfont">资源收集于网络<br>本站不提供任何下载服务</p><p class="top">如遇问题欢迎联系</p></th>
-						<th v-show="show_game_id">游戏ID<p class="top">Steam商品ID</p></th>
-						<th v-show="show_game_publisher">开发商<p class="top">部分社团资料较少<br>如有错误欢迎指正</p></th>
-						<th v-show="show_release_time">发售时间<p class="top">此处时间采集于HF游戏介绍</p></th>
+						<th v-show="showGalgamesImg">游戏预览图</th>
+						<th v-show="showGalgamesName">游戏名称<p class="top">点击名称即可访问HF商城</p></th>
+						<th v-show="showGalgamesHFPrices">HF价格<br>更新时间{{ galgamesTableUpdated }}<br>本次促销结束时间{{ galgamesDiscountEndTime }}</th>
+						<th v-show="showGalgamesSteamPrices">Steam价格<p class="top_redfont">注意！受汇率影响</p><p class="top">此处未计算Steam余额等其他折扣</p>更新时间{{ steamInfoUpdated }}</th>
+						<th v-show="showGalgamesBuyForYouPrices">代购价格<p class="top_redfont">2024.6.1HF修改赠送规则<br>史低代购仅限一次先到先得</p></th>
+						<th v-show="showGalgamesOtherPrices">其他途径<p class="top">如有补充欢迎联系</p></th>
+						<th v-show="showGalgamesGodWay">仙人指路<p class="top_redfont">资源收集于网络<br>本站不提供任何下载服务</p><p class="top">如遇问题欢迎联系</p></th>
+						<th v-show="showSteamAppId">游戏ID<p class="top">Steam商品ID</p></th>
+						<th v-show="showGalgamesDeveloper">开发商<p class="top">部分社团资料较少<br>如有错误欢迎指正</p></th>
+						<th v-show="showGalgamesReleaseTime">发售时间<p class="top">此处时间采集于HF游戏介绍</p></th>
 					</tr>
-					<!--Galgame模板-->
+					<!--Galgames模板-->
                 	<tr v-for="galgames in galgames" :key="galgames.id">
 						<!-- 游戏预览图 -->
-						<td v-show="show_game_img" class="image-container">
+						<td v-show="showGalgamesImg" class="image-container">
 							<img :src="imageServerUrl + './public/images/galgames/' + galgames.id + '/' + galgames.id + '.jpg'" alt="galgames.id" height="300%" width="auto">
 						</td>
 						<!-- 游戏名称 -->
-						<td v-show="show_game_name">
+						<td v-show="showGalgamesName">
 							<a :href="'https://store.hikarifield.co.jp/shop/' + galgames.id" target="_blank">{{ galgames.name }}</a>
 						</td>
 						<!-- HF价格 -->
-						<td v-show="show_hf_price">
+						<td v-show="showGalgamesHFPrices">
 							<p class="hfSpecialOffer">当前¥{{ getPrice(galgames.id, 'now') }}</p>
 							史低¥{{ getPrice(galgames.id, 'low') }} 原价¥{{ getPrice(galgames.id, 'old') }}
 							<br>
-							礼品¥{{ getPrice(galgames.id, 'gift') }} {{ buyForYouPrice(getPrice(galgames.id, 'gift')) }}
+							礼品¥{{ getPrice(galgames.id, 'gift') }}
 						</td>
 						<!-- Steam价格 -->
-						<td v-show="show_steam_price">
+						<td v-show="showGalgamesSteamPrices">
 							国区¥{{steamInfo[galgames.id].prices.cnLow}}
 							<br>
 							{{ steamInfo[galgames.id].prices.country }}{{ steamInfo[galgames.id].prices.low }}
 						</td>
+						<!-- 代购价格 -->
+						<td v-show="showGalgamesBuyForYouPrices">
+							代购礼链：
+							<br>
+							<del>
+							首单¥{{ formatDecimal(getPrice(galgames.id, 'low') * 0.01 * buyForYouPrice(getPrice(galgames.id, 'low'))) }}
+							(¥{{ getPrice(galgames.id, 'low') }} {{ buyForYouPrice(getPrice(galgames.id, 'low')) }}折)
+							</del>
+							<p>
+								<span class="hfSpecialOffer">
+								当前¥{{ formatDecimal(getPrice(galgames.id, 'now') * 0.01 * buyForYouPrice(getPrice(galgames.id, 'now'))) }}
+								</span>
+								(¥{{ getPrice(galgames.id, 'now') }} {{ buyForYouPrice(getPrice(galgames.id, 'now')) }}折)
+							</p>
+						</td>
 						<!-- 其他途径 -->
-						<td v-show="show_other_price">
+						<td v-show="showGalgamesOtherPrices">
 							功能代码重构中
 						</td>
 						<!-- 仙人指路 -->
-						<td v-show="show_godWay">
+						<td v-show="showGalgamesGodWay">
 							<a :href="'./godWay?hfGameId=' + galgames.id">
 							  <button>点击跳转</button>
 							</a>
 						</td>
 						<!-- 游戏ID -->
-						<td v-show="show_game_id">
+						<td v-show="showSteamAppId">
 							<a :href="'https://steamdb.info/app/' + steamInfo[galgames.id].appId" target="_blank">{{ steamInfo[galgames.id].appId }}</a>
 						</td>
 						<!-- 开发商 -->
-						<td v-show="show_game_publisher">
+						<td v-show="showGalgamesDeveloper">
 							<a :href="developers[galgames.developerId]?.url" target="_blank">{{ developers[galgames.developerId]?.name || 'N/A' }}</a>
 							<br>
 							{{ developers[galgames.developerId]?.history || '' }}
 						</td>
 						<!-- 发售时间 -->
-						<td v-show="show_release_time">
+						<td v-show="showGalgamesReleaseTime">
 							{{ galgames.release_time }}
 						</td>
 					</tr>
@@ -251,57 +270,71 @@
 			<div id="switchTable2" class="switchTable"><br><br>
 				<button @click="show_Console = !show_Console"><br>打开/关闭控制台<br>///</button>
 				<div v-show="show_Console">
-					<button @click="show_audio_works_img = !show_audio_works_img">作品预览图</button>
-					<button @click="show_audio_works_name = !show_audio_works_name">作品名称</button>
-					<button @click="show_hf_audio_works_price = !show_hf_audio_works_price">HF价格</button>
-					<button @click="show_hf_audio_works_SCprice = !show_hf_audio_works_SCprice">SLAM CARD价格</button>
-					<button @click="show_audio_works_publisher = !show_audio_works_publisher">开发商</button>
-					<button @click="show_audio_works_release_time = !show_audio_works_release_time">发售时间</button>
+					<button @click="showAudioWorksImg = !showAudioWorksImg">作品预览图</button>
+					<button @click="showAudioWorksName = !showAudioWorksName">作品名称</button>
+					<button @click="showAudioWorksHFPrices = !showAudioWorksHFPrices">HF价格</button>
+					<button @click="showAudioWorksSCPrices = !showAudioWorksSCPrices">SLAM CARD价格</button>
+					<button @click="showAudioWorksBuyForYouPrices = !showAudioWorksBuyForYouPrices">代购价格</button>
+					<button @click="showAudioWorksDeveloper = !showAudioWorksDeveloper">开发商</button>
+					<button @click="showAudioWorksReleaseTime = !showAudioWorksReleaseTime">发售时间</button>
 				</div>
-
-
 				
 				<table border="0" cellspacing="0" cellpadding="0">
 					<!--标题-->
 					<tr>
-						<th v-show="show_audio_works_img">作品预览图</th>
-						<th v-show="show_audio_works_name">作品名称<p class="top">点击名称即可访问HF商城</p></th>
-						<th v-show="show_hf_audio_works_price">HF价格<br>更新时间{{ audioWorksTableUpdated }}<br>本次促销结束时间{{ audioWorksDiscountEndTime }}</th>
-						<th v-show="show_hf_audio_works_SCprice">SLAM CARD价格<br>更新时间2024.07.02</th>
-						<th v-show="show_audio_works_publisher">开发商<p class="top">部分社团资料较少<br>如有错误欢迎指正</p></th>
-						<th v-show="show_audio_works_release_time">发售时间<p class="top">此处时间采集于HF游戏介绍</p></th>
+						<th v-show="showAudioWorksImg">作品预览图</th>
+						<th v-show="showAudioWorksName">作品名称<p class="top">点击名称即可访问HF商城</p></th>
+						<th v-show="showAudioWorksHFPrices">HF价格<br>更新时间{{ audioWorksTableUpdated }}<br>本次促销结束时间{{ audioWorksDiscountEndTime }}</th>
+						<th v-show="showAudioWorksSCPrices">SLAM CARD价格<br>更新时间2024.07.02</th>
+						<th v-show="showAudioWorksBuyForYouPrices">代购价格<p class="top_redfont">2024.6.1HF修改赠送规则<br>史低代购仅限一次先到先得</p></th>
+						<th v-show="showAudioWorksDeveloper">开发商<p class="top">部分社团资料较少<br>如有错误欢迎指正</p></th>
+						<th v-show="showAudioWorksReleaseTime">发售时间<p class="top">此处时间采集于HF游戏介绍</p></th>
 					</tr>
                 	<tr v-for="audioWorks in audioWorks" :key="audioWorks.id">
 						<!-- 游戏预览图 -->
-						<td v-show="show_audio_works_img" class="image-container">
+						<td v-show="showAudioWorksImg" class="image-container">
 							<img :src="imageServerUrl + './public/images/audio_works/' + audioWorks.id + '/' + audioWorks.id + '.jpg'" alt="audioWorks.id" height="300%" width="auto">
 						</td>
 						<!--游戏名称-->
-						<td v-show="show_audio_works_name">
+						<td v-show="showAudioWorksName">
 							<a :href="'https://store.hikarifield.co.jp/shop/' + audioWorks.id" target="_blank">{{ audioWorks.name }}</a>
 						</td>
 						<!--HF促销最低价-->
-						<td v-show="show_hf_audio_works_price">
+						<td v-show="showAudioWorksHFPrices">
 							<p class="hfSpecialOffer">当前¥{{ getAudioWorksPrice(audioWorks.id, 'now') }}</p>
 							史低¥{{ getAudioWorksPrice(audioWorks.id, 'low') }}
 							原价¥{{ getAudioWorksPrice(audioWorks.id, 'old') }}
 							<br>
 							礼品¥{{ getAudioWorksPrice(audioWorks.id, 'gift') }}
-							{{ buyForYouPrice(getAudioWorksPrice(audioWorks.id, 'gift')) }}
 						</td>
 						<!--SLSLAM CARD价格-->
-						<td v-show="show_hf_audio_works_SCprice">
+						<td v-show="showAudioWorksSCPrices">
 							<p class="hfSpecialOffer">当前¥{{ getAudioWorksPrice(audioWorks.id, 'scNow') }}</p>
 							<p class="hfSLAM_CARD">史低¥{{ getAudioWorksPrice(audioWorks.id, 'scLow') }}</p>
 						</td>
+						<!-- 代购价格 -->
+						<td v-show="showAudioWorksBuyForYouPrices">
+							代购礼链：
+							<br>
+							<del>
+							首单¥{{ getAudioWorksPrice(audioWorks.id, 'low') * 0.01 * buyForYouPrice(getAudioWorksPrice(audioWorks.id, 'low')) }}
+							(¥{{ getAudioWorksPrice(audioWorks.id, 'low') }} {{ buyForYouPrice(getAudioWorksPrice(audioWorks.id, 'low')) }}折)
+							</del>
+							<p>
+								<span class="hfSpecialOffer">
+								当前¥{{ getAudioWorksPrice(audioWorks.id, 'now') * 0.01 * buyForYouPrice(getAudioWorksPrice(audioWorks.id, 'now')) }}
+								</span>
+								(¥{{ getAudioWorksPrice(audioWorks.id, 'now') }} {{ buyForYouPrice(getAudioWorksPrice(audioWorks.id, 'now')) }}折)
+							</p>
+						</td>
 						<!--开发商-->
-						<td v-show="show_audio_works_publisher">
+						<td v-show="showAudioWorksDeveloper">
 							<a :href="developers[audioWorks.developerId]?.url" target="_blank">{{ developers[audioWorks.developerId]?.name || 'N/A' }}</a>
 							<br>
 							{{ developers[audioWorks.developerId]?.history || '' }}
 							</td>
 						<!--发售时间-->
-						<td v-show="show_audio_works_release_time">
+						<td v-show="showAudioWorksReleaseTime">
 							{{ audioWorks.release_time }}
 						</td>
 					</tr>
@@ -415,22 +448,24 @@
 				const audioWorksDiscountEndTime = "2024.07.06";//音声作品折扣结束时间
 				const imageServerUrl = "https://image.hikarifield.aurorb.cn/";//图床
 
-				const show_game_img =ref(true);//“视觉小说”游戏预览图
-				const show_game_name =ref(true);//“视觉小说”游戏名称
-				const show_hf_price = ref(true);//“视觉小说”HF价格
-				const show_steam_price = ref(true);//“视觉小说”Steam价格
-				const show_other_price = ref(false);//“视觉小说”其他途径
-				const show_godWay = ref(false);//“视觉小说”仙人指路
-				const show_game_id = ref(true);//“视觉小说”游戏ID
-				const show_game_publisher = ref(true);//“视觉小说”开发商
-				const show_release_time = ref(true);//“视觉小说”发售时间
+				const showGalgamesImg =ref(true);//“视觉小说”游戏预览图
+				const showGalgamesName =ref(true);//“视觉小说”游戏名称
+				const showGalgamesHFPrices = ref(true);//“视觉小说”HF价格
+				const showGalgamesSteamPrices = ref(true);//“视觉小说”Steam价格
+				const showGalgamesBuyForYouPrices = ref(true);//“视觉小说”代购价格
+				const showGalgamesOtherPrices = ref(false);//“视觉小说”其他途径
+				const showGalgamesGodWay = ref(false);//“视觉小说”仙人指路
+				const showSteamAppId = ref(true);//“视觉小说”游戏ID
+				const showGalgamesDeveloper = ref(true);//“视觉小说”开发商
+				const showGalgamesReleaseTime = ref(true);//“视觉小说”发售时间
 
-				const show_audio_works_img = ref([]);//“音声作品”作品预览图
-				const show_audio_works_name = ref([]);//“音声作品”作品名称
-				const show_hf_audio_works_price = ref([]);//“音声作品”HF价格
-				const show_hf_audio_works_SCprice = ref([]);//“音声作品”HF-SC价格
-				const show_audio_works_publisher = ref([]);//“音声作品”开发商
-				const show_audio_works_release_time = ref([]);//“音声作品”发售时间
+				const showAudioWorksImg = ref([]);//“音声作品”作品预览图
+				const showAudioWorksName = ref([]);//“音声作品”作品名称
+				const showAudioWorksHFPrices = ref([]);//“音声作品”HF价格
+				const showAudioWorksSCPrices = ref([]);//“音声作品”HF-SC价格
+				const showAudioWorksBuyForYouPrices = ref([]);//“音声作品”代购价格
+				const showAudioWorksDeveloper = ref([]);//“音声作品”开发商
+				const showAudioWorksReleaseTime = ref([]);//“音声作品”发售时间
 
 				const show_goods_id = ref([]);//“实物周边”编号
 				const show_goods_img = ref([]);//“实物周边”周边预览图
@@ -519,19 +554,25 @@
 				//代购折扣计算
 				const buyForYouPrice = computed(() => (price) => {
 				if (price < 10) {
-					return "代购:97折";
+					return "97";
 				} else if (price >= 10 && price < 20) {
-					return "代购:96折";
+					return "96";
 				} else if (price >= 20 && price < 30) {
-					return "代购:95折";
+					return "95";
 				} else if (price >= 30 && price < 40) {
-					return "代购:94折";
+					return "94";
 				} else if (price >= 40 && price < 50) {
-					return "代购:93折";
+					return "93";
 				} else {
-					return "代购:92折";
+					return "92";
 				}
 				});
+
+
+
+				const formatDecimal = (number) => {
+				return number.toFixed(2);
+				};
 
 return {
 					galgamesTableUpdated,
@@ -541,22 +582,24 @@ return {
 					audioWorksDiscountEndTime,
 					imageServerUrl,
 
-					show_game_img,
-					show_game_name,
-					show_hf_price,
-					show_steam_price,
-					show_other_price,
-					show_godWay,
-					show_game_id,
-					show_game_publisher,
-					show_release_time,
+					showGalgamesImg,
+					showGalgamesName,
+					showGalgamesHFPrices,
+					showGalgamesSteamPrices,
+					showGalgamesBuyForYouPrices,
+					showGalgamesOtherPrices,
+					showGalgamesGodWay,
+					showSteamAppId,
+					showGalgamesDeveloper,
+					showGalgamesReleaseTime,
 
-					show_audio_works_img,
-					show_audio_works_name,
-					show_hf_audio_works_price,
-					show_hf_audio_works_SCprice,
-					show_audio_works_publisher,
-					show_audio_works_release_time,
+					showAudioWorksImg,
+					showAudioWorksName,
+					showAudioWorksHFPrices,
+					showAudioWorksSCPrices,
+					showAudioWorksBuyForYouPrices,
+					showAudioWorksDeveloper,
+					showAudioWorksReleaseTime,
 					
 					show_goods_id,
 					show_goods_img,
@@ -572,6 +615,7 @@ return {
 					show_Console,
 
 					buyForYouPrice,
+					formatDecimal,
 
                     galgames,
                     getPrice,
