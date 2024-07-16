@@ -359,9 +359,9 @@
 						<th v-show="show_goods_id">编号</th>
 						<th v-show="show_goods_img">周边预览图</th>
 						<th v-show="show_goods_name">周边名称<p class="top">点击名称即可访问HF商城</p></th>
-						<th v-show="show_goods_price">价格<br>更新时间2024.06.05<br>本次促销结束时间2024.06.17</th>
+						<th v-show="show_goods_price">价格<br>更新时间{{ goodsTableUpdated }}<br>本次促销结束时间{{ goodsDiscountEndTime }}</th>
 						<th v-show="show_goods_goodsSize">产品规格</th>
-						<th v-show="show_goods_stockStatus">库存状态<br>更新时间2024.06.05</th>
+						<th v-show="show_goods_stockStatus">库存状态</th>
 						<th v-show="show_goods_workName">所属作品</th>
 						<th v-show="show_goods_salesTime">销售时间<p class="top">此处时间采集于HF游戏介绍</p></th>
 					</tr>
@@ -381,13 +381,13 @@
 						<!--价格-->
 						<td v-show="show_goods_price">
 							<p class="hfSpecialOffer">
-								当前¥{{ goods.price.now[0].price }}
+								当前¥{{ goods.prices.now[0].price }}
 							</p>
-								SC当前¥{{ goods.price.scNow[0].price }}
+								SC当前¥{{ goods.prices.scNow[0].price }}
 								<br>
-								史低¥{{ goods.price.low[0].price }}
+								史低¥{{ goods.prices.low[0].price }}
 								<br>
-								原价¥{{ goods.price.old[0].price }}
+								原价¥{{ goods.prices.old[0].price }}
 						</td>
 						<!--产品规格-->
 						<td v-show="show_goods_goodsSize">
@@ -441,11 +441,13 @@
 	  
 			createApp({
 			  setup() {
-				const galgamesTableUpdated = "2024.07.08";//视觉小说价格表更新时间
+				const galgamesTableUpdated = "2024.07.16";//视觉小说价格表更新时间
 				const galgamesDiscountEndTime = "2024.07.06";//视觉小说折扣结束时间
 				const steamInfoUpdated = "2024.05.18";//STEAM信息更新时间
-				const audioWorksTableUpdated = "2024.07.08";//音声作品价格表更新时间
+				const audioWorksTableUpdated = "2024.07.16";//音声作品价格表更新时间
 				const audioWorksDiscountEndTime = "2024.07.06";//音声作品折扣结束时间
+				const goodsTableUpdated = "2024.07.16";//实物周边价格表更新时间
+				const goodsDiscountEndTime = "2024.07.06";//实物周边折扣结束时间
 				const imageServerUrl = "https://image.hikarifield.aurorb.cn/";//图床
 
 				const showGalgamesImg =ref(true);//“视觉小说”游戏预览图
@@ -580,6 +582,8 @@ return {
 					steamInfoUpdated,
 					audioWorksTableUpdated,
 					audioWorksDiscountEndTime,
+					goodsTableUpdated,
+					goodsDiscountEndTime,
 					imageServerUrl,
 
 					showGalgamesImg,
