@@ -898,5 +898,25 @@
     "id": "sorechiru",
     "name": "繁花落舞恋如樱-Re:BIRTH-",
     "godWay":[]
+  },
+  {
+    "id": "parfait_remake",
+    "name": "纯爱咖啡厅~帕露菲重制版~",
+    "godWay":[
+      {
+        "fileType":"STEAM版下载游戏增值内容",
+        "siteProperty":"官方补丁",
+        "origin":"HIKARIFIELD官方推荐",
+        "url": "https://extended.hikarifield.co.jp/parfait/parfait_extended_contents.7z",
+        "isSafeFile": "未发现风险",
+        "habo":[
+          {
+            "version":"STEAM版下载游戏增值内容",
+            "md5": "文件过大，无云端检测报告"
+          }
+        ],
+        "memo": []
+      }
+    ]
   }
 ]

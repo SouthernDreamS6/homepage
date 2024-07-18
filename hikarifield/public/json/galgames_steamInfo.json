@@ -562,5 +562,17 @@
         "low": "66"
       }
     }
+  },
+  {
+    "id": "parfait_remake",
+    "name": "纯爱咖啡厅~帕露菲重制版~",
+    "steamInfo":{
+      "appId": "2947220",
+      "prices":{
+        "cnLow": "未发售",
+        "country": "未发售",
+        "low": "未发售"
+      }
+    }
   }
 ]
