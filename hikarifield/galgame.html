@@ -235,9 +235,9 @@
 							</del>
 							<p>
 								<span class="hfSpecialOffer">
-								当前¥{{ formatDecimal(getPrice(galgames.id, 'now') * 0.01 * buyForYouPrice(getPrice(galgames.id, 'now'))) }}
+								当前¥{{ formatDecimal(getPrice(galgames.id, 'gift') * 0.01 * buyForYouPrice(getPrice(galgames.id, 'gift'))) }}
 								</span>
-								(¥{{ getPrice(galgames.id, 'now') }} {{ buyForYouPrice(getPrice(galgames.id, 'now')) }}折)
+								(¥{{ getPrice(galgames.id, 'gift') }} {{ buyForYouPrice(getPrice(galgames.id, 'gift')) }}折)
 							</p>
 						</td>
 						<!-- 其他途径 -->
@@ -441,13 +441,13 @@
 	  
 			createApp({
 			  setup() {
-				const galgamesTableUpdated = "2024.07.16";//视觉小说价格表更新时间
-				const galgamesDiscountEndTime = "2024.07.06";//视觉小说折扣结束时间
+				const galgamesTableUpdated = "2024.07.19";//视觉小说价格表更新时间
+				const galgamesDiscountEndTime = "2024.08.04";//视觉小说折扣结束时间
 				const steamInfoUpdated = "2024.05.18";//STEAM信息更新时间
-				const audioWorksTableUpdated = "2024.07.16";//音声作品价格表更新时间
-				const audioWorksDiscountEndTime = "2024.07.06";//音声作品折扣结束时间
+				const audioWorksTableUpdated = "2024.07.19";//音声作品价格表更新时间
+				const audioWorksDiscountEndTime = "2024.08.04";//音声作品折扣结束时间
 				const goodsTableUpdated = "2024.07.16";//实物周边价格表更新时间
-				const goodsDiscountEndTime = "2024.07.06";//实物周边折扣结束时间
+				const goodsDiscountEndTime = "2024.08.04";//实物周边折扣结束时间
 				const imageServerUrl = "https://image.hikarifield.aurorb.cn/";//图床
 
 				const showGalgamesImg =ref(true);//“视觉小说”游戏预览图
