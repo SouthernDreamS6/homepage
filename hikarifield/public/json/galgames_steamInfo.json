@@ -569,9 +569,9 @@
     "steamInfo":{
       "appId": "2947220",
       "prices":{
-        "cnLow": "未发售",
-        "country": "未发售",
-        "low": "未发售"
+        "cnLow": "58.50",
+        "country": "中国",
+        "low": "58.50"
       }
     }
   }
