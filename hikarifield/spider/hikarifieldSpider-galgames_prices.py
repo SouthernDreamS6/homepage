@@ -107,7 +107,8 @@ product_ids = [
     "otomeriron",
     "seikano",
     "making_lovers",
-    "sorechiru"
+    "sorechiru",
+    "parfait_remake"
 ]
 
 # 爬取站点数据并与./galgames_prices.json变量中的对应数据做对比

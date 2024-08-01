@@ -33,3 +33,4 @@ coverage
 
 # 重要禁止上传文件
 cookie.txt
+steamdbSpider.py

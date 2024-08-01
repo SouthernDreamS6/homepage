@@ -574,5 +574,17 @@
         "low": "58.50"
       }
     }
+  },
+  {
+    "id": "haruyome",
+    "name": "献给蔚蓝之海的新娘",
+    "steamInfo":{
+      "appId": "000000",
+      "prices":{
+        "cnLow": "暂未在Steam发布",
+        "country": "暂未在Steam发布",
+        "low": "暂未在Steam发布"
+      }
+    }
   }
 ]

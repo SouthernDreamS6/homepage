@@ -141,7 +141,7 @@
 
 			<!-- 搜索框 -->
 			<div style="text-align:center; margin-bottom:20px;">
-				<input type="text" id="searchInput" placeholder="输入关键字搜索..." style="width: 300px; padding: 10px; margin-right: 10px;">
+				<input type="text" id="searchInput" placeholder="输入关键字搜索...如名称、国家、开发商、时间等" style="width: 300px; padding: 10px; margin-right: 10px;">
 				<button onclick="searchTables()">搜索</button>
 			</div>
 			
@@ -178,11 +178,10 @@
 					<button @click="showGalgamesImg = !showGalgamesImg">游戏预览图</button>
 					<button @click="showGalgamesName = !showGalgamesName">游戏名称</button>
 					<button @click="showGalgamesHFPrices = !showGalgamesHFPrices">HF价格</button>
-					<button @click="showGalgamesSteamPrices = !showGalgamesSteamPrices">Steam价格</button>
+					<button @click="showGalgamesSteamInfo = !showGalgamesSteamInfo">Steam价格</button>
 					<button @click="showGalgamesBuyForYouPrices = !showGalgamesBuyForYouPrices">代购价格</button>
 					<button @click="showGalgamesOtherPrices = !showGalgamesOtherPrices">其他途径<br>（默认隐藏）</button>
 					<button @click="showGalgamesGodWay = !showGalgamesGodWay">仙人指路<br>（默认隐藏）</button>
-					<button @click="showSteamAppId = !showSteamAppId">游戏ID</button>
 					<button @click="showGalgamesDeveloper = !showGalgamesDeveloper">开发商</button>
 					<button @click="showGalgamesReleaseTime = !showGalgamesReleaseTime">发售时间</button>
 				</div>
@@ -194,11 +193,10 @@
 						<th v-show="showGalgamesImg">游戏预览图</th>
 						<th v-show="showGalgamesName">游戏名称<p class="top">点击名称即可访问HF商城</p></th>
 						<th v-show="showGalgamesHFPrices">HF价格<br>更新时间{{ galgamesTableUpdated }}<br>本次促销结束时间{{ galgamesDiscountEndTime }}</th>
-						<th v-show="showGalgamesSteamPrices">Steam价格<p class="top_redfont">注意！受汇率影响</p><p class="top">此处未计算Steam余额等其他折扣</p>更新时间{{ steamInfoUpdated }}</th>
+						<th v-show="showGalgamesSteamInfo">Steam信息<p class="top_redfont">注意！受汇率影响</p><p class="top">此处未计算Steam余额等其他折扣</p>更新时间{{ steamInfoUpdated }}</th>
 						<th v-show="showGalgamesBuyForYouPrices">代购价格<p class="top_redfont">2024.6.1HF修改赠送规则<br>史低代购仅限一次先到先得</p></th>
 						<th v-show="showGalgamesOtherPrices">其他途径<p class="top">如有补充欢迎联系</p></th>
 						<th v-show="showGalgamesGodWay">仙人指路<p class="top_redfont">资源收集于网络<br>本站不提供任何下载服务</p><p class="top">如遇问题欢迎联系</p></th>
-						<th v-show="showSteamAppId">游戏ID<p class="top">Steam商品ID</p></th>
 						<th v-show="showGalgamesDeveloper">开发商<p class="top">部分社团资料较少<br>如有错误欢迎指正</p></th>
 						<th v-show="showGalgamesReleaseTime">发售时间<p class="top">此处时间采集于HF游戏介绍</p></th>
 					</tr>
@@ -219,11 +217,17 @@
 							<br>
 							礼品¥{{ getPrice(galgames.id, 'gift') }}
 						</td>
-						<!-- Steam价格 -->
-						<td v-show="showGalgamesSteamPrices">
-							国区¥{{steamInfo[galgames.id].prices.cnLow}}
+						<!-- Steam信息 -->
+						<td v-show="showGalgamesSteamInfo">
+							ID：<a :href="'https://steamdb.info/app/' + steamInfo[galgames.id].appId" target="_blank">{{ steamInfo[galgames.id].appId }}</a>
 							<br>
-							{{ steamInfo[galgames.id].prices.country }}{{ steamInfo[galgames.id].prices.low }}
+							国区史低¥{{steamInfo[galgames.id].prices.cnLow}}
+							<br>
+							{{ steamInfo[galgames.id].prices.country }}史低{{ steamInfo[galgames.id].prices.low }}
+							<br>
+							<a :href="'#' + galgames.id">
+								<button>查看更多信息（正在编写中）</button>
+							</a>
 						</td>
 						<!-- 代购价格 -->
 						<td v-show="showGalgamesBuyForYouPrices">
@@ -249,10 +253,6 @@
 							<a :href="'./godWay?hfGameId=' + galgames.id">
 							  <button>点击跳转</button>
 							</a>
-						</td>
-						<!-- 游戏ID -->
-						<td v-show="showSteamAppId">
-							<a :href="'https://steamdb.info/app/' + steamInfo[galgames.id].appId" target="_blank">{{ steamInfo[galgames.id].appId }}</a>
 						</td>
 						<!-- 开发商 -->
 						<td v-show="showGalgamesDeveloper">
@@ -441,23 +441,22 @@
 	  
 			createApp({
 			  setup() {
-				const galgamesTableUpdated = "2024.07.19";//视觉小说价格表更新时间
+				const galgamesTableUpdated = "2024.08.01";//视觉小说价格表更新时间
 				const galgamesDiscountEndTime = "2024.08.04";//视觉小说折扣结束时间
 				const steamInfoUpdated = "2024.05.18";//STEAM信息更新时间
-				const audioWorksTableUpdated = "2024.07.19";//音声作品价格表更新时间
+				const audioWorksTableUpdated = "2024.08.01";//音声作品价格表更新时间
 				const audioWorksDiscountEndTime = "2024.08.04";//音声作品折扣结束时间
-				const goodsTableUpdated = "2024.07.16";//实物周边价格表更新时间
+				const goodsTableUpdated = "2024.08.01";//实物周边价格表更新时间
 				const goodsDiscountEndTime = "2024.08.04";//实物周边折扣结束时间
 				const imageServerUrl = "https://image.hikarifield.aurorb.cn/";//图床
 
 				const showGalgamesImg =ref(true);//“视觉小说”游戏预览图
 				const showGalgamesName =ref(true);//“视觉小说”游戏名称
 				const showGalgamesHFPrices = ref(true);//“视觉小说”HF价格
-				const showGalgamesSteamPrices = ref(true);//“视觉小说”Steam价格
+				const showGalgamesSteamInfo = ref(true);//“视觉小说”Steam信息
 				const showGalgamesBuyForYouPrices = ref(true);//“视觉小说”代购价格
 				const showGalgamesOtherPrices = ref(false);//“视觉小说”其他途径
 				const showGalgamesGodWay = ref(false);//“视觉小说”仙人指路
-				const showSteamAppId = ref(true);//“视觉小说”游戏ID
 				const showGalgamesDeveloper = ref(true);//“视觉小说”开发商
 				const showGalgamesReleaseTime = ref(true);//“视觉小说”发售时间
 
@@ -589,11 +588,10 @@ return {
 					showGalgamesImg,
 					showGalgamesName,
 					showGalgamesHFPrices,
-					showGalgamesSteamPrices,
+					showGalgamesSteamInfo,
 					showGalgamesBuyForYouPrices,
 					showGalgamesOtherPrices,
 					showGalgamesGodWay,
-					showSteamAppId,
 					showGalgamesDeveloper,
 					showGalgamesReleaseTime,
 
