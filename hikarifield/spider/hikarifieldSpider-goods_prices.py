@@ -106,12 +106,7 @@ for product_id in range(1, 61):
             goods_name_with_status = title_tag.get_text(separator=" ", strip=True)
             stock_status_tag = title_tag.find("span", class_="badge presale bg-success")
             
-            # 如果找不到特定的类组合，再尝试查找通用的 "badge" 类
-            if not stock_status_tag:
-                stock_status_tag = title_tag.find("span", class_="badge")
-            
-            stock_status = stock_status_tag.get_text(strip=True) if stock_status_tag else "N/A"
-            
+            stock_status = stock_status_tag.get_text(strip=True) 
             # 商品名称可能在前面，库存状态可能在后面，这里假设库存状态标签存在并且出现在名称后面
             if stock_status != "N/A":
                 goods_name = goods_name_with_status.replace(stock_status, "").strip()
@@ -121,8 +116,6 @@ for product_id in range(1, 61):
             
             product_info["goodsName"] = goods_name
             print("商品名称:", goods_name)
-            print("库存状态:", stock_status)
-    
             
             # 检查是否需要插入新数据
             if jsonPrices["stockStatus"] != stock_status:

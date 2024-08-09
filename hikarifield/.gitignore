@@ -33,4 +33,7 @@ coverage
 
 # 重要禁止上传文件
 cookie.txt
+
+# 正在构建的半成品
 steamdbSpider.py
+/public/html/
