@@ -228,6 +228,8 @@
 						<td v-show="showGalgamesSteamInfo">
 							ID：<a :href="'https://steamdb.info/app/' + steamInfo[galgames.id].appId" target="_blank">{{ steamInfo[galgames.id].appId }}</a>
 							<br>
+							PY参考价：<a :href="'https://steampy.com/cdkDetail?name=cn&gameId=' + steamInfo[galgames.id].steamPy.gameId" target="_blank">¥{{ steamInfo[galgames.id].steamPy.prices }}</a>
+							<br>
 							国区史低¥{{steamInfo[galgames.id].prices.cnLow}}
 							<br>
 							{{ steamInfo[galgames.id].prices.country }}史低{{ steamInfo[galgames.id].prices.low }}
