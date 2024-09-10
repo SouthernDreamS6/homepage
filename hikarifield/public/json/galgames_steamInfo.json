@@ -782,5 +782,21 @@
         "prices":"38.00"
       }
     }
+  },
+  {
+    "id": "hitme",
+    "name": "你的眼眸命中我心头",
+    "steamInfo":{
+      "appId": "2947240",
+      "prices":{
+        "cnLow": "未发售",
+        "country": "未发售",
+        "low": "未发售"
+      },
+      "steamPy":{
+        "gameId":"000000",
+        "prices":"未发售"
+      }
+    }
   }
 ]
