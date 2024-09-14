@@ -789,13 +789,13 @@
     "steamInfo":{
       "appId": "2947240",
       "prices":{
-        "cnLow": "未发售",
-        "country": "未发售",
-        "low": "未发售"
+        "cnLow": "58.5",
+        "country": "南亚",
+        "low": "$7.86"
       },
       "steamPy":{
-        "gameId":"000000",
-        "prices":"未发售"
+        "gameId":"846974348966236160",
+        "prices":"39"
       }
     }
   }
