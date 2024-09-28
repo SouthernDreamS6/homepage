@@ -453,9 +453,9 @@
     "steamInfo":{
       "appId": "1776970",
       "prices":{
-        "cnLow": "54.56",
+        "cnLow": "51.04",
         "country": "俄罗斯",
-        "low": "494₽"
+        "low": "462 ₽"
       },
       "steamPy":{
         "gameId":"550171057152069632",
@@ -469,9 +469,9 @@
     "steamInfo":{
       "appId": "1985260",
       "prices":{
-        "cnLow": "54.60",
+        "cnLow": "49.14",
         "country": "台湾",
-        "low": "NT$250"
+        "low": "NT$ 225"
       },
       "steamPy":{
         "gameId":"560309891932098560",
@@ -485,9 +485,9 @@
     "steamInfo":{
       "appId": "2066360",
       "prices":{
-        "cnLow": "39",
+        "cnLow": "37.44",
         "country": "俄罗斯",
-        "low": "349₽"
+        "low": "335 ₽"
       },
       "steamPy":{
         "gameId":"570455845922410496",
@@ -501,9 +501,9 @@
     "steamInfo":{
       "appId": "2109640",
       "prices":{
-        "cnLow": "41.34",
+        "cnLow": "36.66",
         "country": "俄罗斯",
-        "low": "359₽"
+        "low": "319 ₽"
       },
       "steamPy":{
         "gameId":"585677549309267968",
@@ -517,9 +517,9 @@
     "steamInfo":{
       "appId": "2135500",
       "prices":{
-        "cnLow": "30.74",
+        "cnLow": "29.00",
         "country": "俄罗斯",
-        "low": "197₽"
+        "low": "186 ₽"
       },
       "steamPy":{
         "gameId":"600897605009936384",
@@ -533,9 +533,9 @@
     "steamInfo":{
       "appId": "2185770",
       "prices":{
-        "cnLow": "44.46",
+        "cnLow": "41.34",
         "country": "印度",
-        "low": "₹432"
+        "low": "₹402"
       },
       "steamPy":{
         "gameId":"611052463931265024",
@@ -549,9 +549,9 @@
     "steamInfo":{
       "appId": "2206340",
       "prices":{
-        "cnLow": "58.50",
+        "cnLow": "56.94",
         "country": "俄罗斯",
-        "low": "660₽"
+        "low": "642 ₽"
       },
       "steamPy":{
         "gameId":"616119468564680704",
@@ -565,9 +565,9 @@
     "steamInfo":{
       "appId": "2156620",
       "prices":{
-        "cnLow": "54.60",
+        "cnLow": "52.26",
         "country": "中国",
-        "low": "60.83"
+        "low": "¥ 52.26"
       },
       "steamPy":{
         "gameId":"638954774204518400",
@@ -581,9 +581,9 @@
     "steamInfo":{
       "appId": "2321180",
       "prices":{
-        "cnLow": "53.68",
+        "cnLow": "50.16",
         "country": "南亚",
-        "low": "$6.39"
+        "low": "$5.97"
       },
       "steamPy":{
         "gameId":"646557853678571520",
@@ -597,9 +597,9 @@
     "steamInfo":{
       "appId": "2347380",
       "prices":{
-        "cnLow": "48.36",
+        "cnLow": "44.46",
         "country": "南亚",
-        "low": "$6.50"
+        "low": "$5.97"
       },
       "steamPy":{
         "gameId":"656715574277050368",
@@ -613,9 +613,9 @@
     "steamInfo":{
       "appId": "2425410",
       "prices":{
-        "cnLow": "49.92",
+        "cnLow": "46.80",
         "country": "中国",
-        "low": "49.92"
+        "low": "¥ 46.80"
       },
       "steamPy":{
         "gameId":"683889322356641792",
@@ -629,9 +629,9 @@
     "steamInfo":{
       "appId": "2458530",
       "prices":{
-        "cnLow": "64.24",
+        "cnLow": "60.72",
         "country": "南亚",
-        "low": "$8.75"
+        "low": "$8.27"
       },
       "steamPy":{
         "gameId":"694754872695721984",
@@ -645,9 +645,9 @@
     "steamInfo":{
       "appId": "2242710",
       "prices":{
-        "cnLow": "58.08",
+        "cnLow": "31.68",
         "country": "南亚",
-        "low": "$7.91"
+        "low": "$4.31"
       },
       "steamPy":{
         "gameId":"699828899625832448",
@@ -661,9 +661,9 @@
     "steamInfo":{
       "appId": "2430690",
       "prices":{
-        "cnLow": "56.16",
+        "cnLow": "54.60",
         "country": "中国",
-        "low": "56.16"
+        "low": "¥ 54.60"
       },
       "steamPy":{
         "gameId":"704903361123586048",
@@ -677,9 +677,9 @@
     "steamInfo":{
       "appId": "2527460",
       "prices":{
-        "cnLow": "51.48",
+        "cnLow": "49.14",
         "country": "南亚",
-        "low": "$7.13"
+        "low": "$6.60"
       },
       "steamPy":{
         "gameId":"717589331333615616",
@@ -693,9 +693,9 @@
     "steamInfo":{
       "appId": "2567190",
       "prices":{
-        "cnLow": "63.36",
+        "cnLow": "59.84",
         "country": "中国",
-        "low": "63.36"
+        "low": "¥ 59.84"
       },
       "steamPy":{
         "gameId":"748036359255494656",
@@ -709,9 +709,9 @@
     "steamInfo":{
       "appId": "2673490",
       "prices":{
-        "cnLow": "58.50",
+        "cnLow": "54.60",
         "country": "南亚",
-        "low": "$7.86"
+        "low": "$7.34"
       },
       "steamPy":{
         "gameId":"787529900369121280",
@@ -725,9 +725,9 @@
     "steamInfo":{
       "appId": "2510810",
       "prices":{
-        "cnLow": "66",
+        "cnLow": "62.48",
         "country": "南亚",
-        "low": "$7.86"
+        "low": "$7.44"
       },
       "steamPy":{
         "gameId":"793689251735670784",
@@ -741,9 +741,9 @@
     "steamInfo":{
       "appId": "2754170",
       "prices":{
-        "cnLow": "66",
+        "cnLow": "62.48",
         "country": "中国",
-        "low": "66"
+        "low": "¥ 62.48"
       },
       "steamPy":{
         "gameId":"811444914251370496",
@@ -757,9 +757,9 @@
     "steamInfo":{
       "appId": "2947220",
       "prices":{
-        "cnLow": "58.50",
-        "country": "中国",
-        "low": "58.50"
+        "cnLow": "56.16",
+        "country": "南亚",
+        "low": "$8.63"
       },
       "steamPy":{
         "gameId":"826664493458132992",
