@@ -109,7 +109,9 @@ product_ids = [
     "making_lovers",
     "sorechiru",
     "parfait_remake",
-    "haruyome"
+    "haruyome",
+    "hitme",
+    "kakenuke"
 ]
 
 # 爬取站点数据并与./galgames_prices.json变量中的对应数据做对比
