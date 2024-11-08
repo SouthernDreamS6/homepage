@@ -803,15 +803,31 @@
     "id": "kakenuke",
     "name": "绽放★青春全力向前冲！",
     "steamInfo":{
-      "appId": "000",
+      "appId": "3027620",
       "prices":{
-        "cnLow": "0",
-        "country": "AAA",
-        "low": "$0"
+        "cnLow": "62.4",
+        "country": "南亚",
+        "low": "$8.39"
       },
       "steamPy":{
-        "gameId":"000",
-        "prices":"0"
+        "gameId":"859641792100831232",
+        "prices":"48.5"
+      }
+    }
+  },
+  {
+    "id": "selectoblige",
+    "name": "天选庶民的真命之选",
+    "steamInfo":{
+      "appId": "2947250",
+      "prices":{
+        "cnLow": "58.5",
+        "country": "南亚",
+        "low": "$7.86"
+      },
+      "steamPy":{
+        "gameId":"867252421691183104",
+        "prices":"50.9"
       }
     }
   }
