@@ -1,0 +1,86 @@
+{
+    "id": "018d937f-3d3b-708a-8a70-7af2b44a4da4",
+    "slug": "senren-banka",
+    "title": "Senren＊Banka",
+    "type": "game",
+    "mature": true,
+    "assets": {
+        "boxart": "https://assets.isthereanydeal.com/018d937f-3d3b-708a-8a70-7af2b44a4da4/boxart.jpg?t=1724440807",
+        "banner145": "https://assets.isthereanydeal.com/018d937f-3d3b-708a-8a70-7af2b44a4da4/banner145.jpg?t=1724440807",
+        "banner300": "https://assets.isthereanydeal.com/018d937f-3d3b-708a-8a70-7af2b44a4da4/banner300.jpg?t=1724440807",
+        "banner400": "https://assets.isthereanydeal.com/018d937f-3d3b-708a-8a70-7af2b44a4da4/banner400.jpg?t=1724440807",
+        "banner600": "https://assets.isthereanydeal.com/018d937f-3d3b-708a-8a70-7af2b44a4da4/banner600.jpg?t=1724440808"
+    },
+    "earlyAccess": false,
+    "achievements": true,
+    "tradingCards": true,
+    "appid": 1144400,
+    "tags": [
+        "Visual Novel",
+        "NSFW",
+        "Dating Sim",
+        "Anime",
+        "Casual"
+    ],
+    "releaseDate": "2020-02-14",
+    "developers": [
+        {
+            "id": 10313,
+            "name": "Yuzusoft"
+        }
+    ],
+    "publishers": [
+        {
+            "id": 11034,
+            "name": "NekoNyan Ltd., HIKARI FIELD"
+        },
+        {
+            "id": 18815,
+            "name": "HIKARI FIELD"
+        },
+        {
+            "id": 26450,
+            "name": "NekoNyan Ltd."
+        }
+    ],
+    "reviews": [
+        {
+            "score": 99,
+            "source": "Steam",
+            "count": 23780,
+            "url": "https://store.steampowered.com/app/1144400/"
+        },
+        {
+            "score": null,
+            "source": "Metascore",
+            "count": 1,
+            "url": "https://metacritic.com/game/senren-banka/critic-reviews/?platform=pc"
+        },
+        {
+            "score": 88,
+            "source": "Metacritic User Score",
+            "count": 3,
+            "url": "https://metacritic.com/game/senren-banka/user-reviews/?platform=pc"
+        },
+        {
+            "score": null,
+            "source": "OpenCritic",
+            "count": 4,
+            "url": "https://opencritic.com/game/9347/senren-banka"
+        }
+    ],
+    "stats": {
+        "rank": 8360,
+        "waitlisted": 1849,
+        "collected": 618
+    },
+    "players": {
+        "recent": 545,
+        "day": 791,
+        "week": 840,
+        "peak": 2887
+    },
+    "urls": {
+        "game": "https://isthereanydeal.com/game/senren-banka/"
+    }
+}

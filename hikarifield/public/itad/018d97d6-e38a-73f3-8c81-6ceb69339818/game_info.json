@@ -1,0 +1,59 @@
+{
+    "id": "018d97d6-e38a-73f3-8c81-6ceb69339818",
+    "slug": "aonatsu-line-fhd-edition",
+    "title": "Aonatsu Line FHD Edition",
+    "type": "game",
+    "mature": false,
+    "assets": {
+        "boxart": "https://assets.isthereanydeal.com/018d97d6-e38a-73f3-8c81-6ceb69339818/boxart.jpg",
+        "banner145": "https://assets.isthereanydeal.com/018d97d6-e38a-73f3-8c81-6ceb69339818/banner145.jpg",
+        "banner300": "https://assets.isthereanydeal.com/018d97d6-e38a-73f3-8c81-6ceb69339818/banner300.jpg",
+        "banner400": "https://assets.isthereanydeal.com/018d97d6-e38a-73f3-8c81-6ceb69339818/banner400.jpg",
+        "banner600": "https://assets.isthereanydeal.com/018d97d6-e38a-73f3-8c81-6ceb69339818/banner600.jpg"
+    },
+    "earlyAccess": false,
+    "achievements": true,
+    "tradingCards": true,
+    "appid": 2185770,
+    "tags": [
+        "Casual",
+        "Adventure",
+        "Interactive Fiction",
+        "Dating Sim",
+        "Word Game"
+    ],
+    "releaseDate": "2022-12-02",
+    "developers": [
+        {
+            "id": 11331,
+            "name": "GIGA"
+        },
+        {
+            "id": 64602,
+            "name": "Entergram"
+        }
+    ],
+    "publishers": [],
+    "reviews": [
+        {
+            "score": 92,
+            "source": "Steam",
+            "count": 583,
+            "url": "https://store.steampowered.com/app/2185770/"
+        }
+    ],
+    "stats": {
+        "rank": 74696,
+        "waitlisted": 1,
+        "collected": 31
+    },
+    "players": {
+        "recent": 4,
+        "day": 9,
+        "week": 9,
+        "peak": 384
+    },
+    "urls": {
+        "game": "https://isthereanydeal.com/game/aonatsu-line-fhd-edition/"
+    }
+}

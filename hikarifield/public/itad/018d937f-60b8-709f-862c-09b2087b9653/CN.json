@@ -1,0 +1,63 @@
+[
+    {
+        "id": "018d937f-60b8-709f-862c-09b2087b9653",
+        "historyLow": {
+            "all": {
+                "amount": 62.22,
+                "amountInt": 6222,
+                "currency": "CNY"
+            },
+            "y1": {
+                "amount": 62.22,
+                "amountInt": 6222,
+                "currency": "CNY"
+            },
+            "m3": {
+                "amount": 88,
+                "amountInt": 8800,
+                "currency": "CNY"
+            }
+        },
+        "deals": [
+            {
+                "shop": {
+                    "id": 35,
+                    "name": "GOG"
+                },
+                "price": {
+                    "amount": 88,
+                    "amountInt": 8800,
+                    "currency": "CNY"
+                },
+                "regular": {
+                    "amount": 88,
+                    "amountInt": 8800,
+                    "currency": "CNY"
+                },
+                "cut": 0,
+                "voucher": null,
+                "storeLow": {
+                    "amount": 62.22,
+                    "amountInt": 6222,
+                    "currency": "CNY"
+                },
+                "flag": null,
+                "drm": [
+                    {
+                        "id": 1000,
+                        "name": "Drm Free"
+                    }
+                ],
+                "platforms": [
+                    {
+                        "id": 1,
+                        "name": "Windows"
+                    }
+                ],
+                "timestamp": "2024-02-22T22:07:40+01:00",
+                "expiry": null,
+                "url": "https://itad.link/018d9386-388a-7006-b655-5223d2e9623c/"
+            }
+        ]
+    }
+]

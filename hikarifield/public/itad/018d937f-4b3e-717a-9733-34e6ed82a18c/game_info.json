@@ -1,0 +1,60 @@
+{
+    "id": "018d937f-4b3e-717a-9733-34e6ed82a18c",
+    "slug": "re-lief-shin-ainaru-anata-e",
+    "title": "Re: LieF ~ Shin'ainaru Anata e~",
+    "type": "game",
+    "mature": false,
+    "assets": {
+        "boxart": "https://assets.isthereanydeal.com/018d937f-4b3e-717a-9733-34e6ed82a18c/boxart.jpg",
+        "banner145": "https://assets.isthereanydeal.com/018d937f-4b3e-717a-9733-34e6ed82a18c/banner145.jpg",
+        "banner300": "https://assets.isthereanydeal.com/018d937f-4b3e-717a-9733-34e6ed82a18c/banner300.jpg",
+        "banner400": "https://assets.isthereanydeal.com/018d937f-4b3e-717a-9733-34e6ed82a18c/banner400.jpg",
+        "banner600": "https://assets.isthereanydeal.com/018d937f-4b3e-717a-9733-34e6ed82a18c/banner600.jpg"
+    },
+    "earlyAccess": false,
+    "achievements": false,
+    "tradingCards": true,
+    "appid": 1518770,
+    "tags": [
+        "Casual",
+        "Adventure",
+        "Visual Novel",
+        "Anime",
+        "Interactive Fiction"
+    ],
+    "releaseDate": "2021-02-26",
+    "developers": [
+        {
+            "id": 38083,
+            "name": "RASK"
+        }
+    ],
+    "publishers": [
+        {
+            "id": 18815,
+            "name": "HIKARI FIELD"
+        }
+    ],
+    "reviews": [
+        {
+            "score": 93,
+            "source": "Steam",
+            "count": 584,
+            "url": "https://store.steampowered.com/app/1518770/"
+        }
+    ],
+    "stats": {
+        "rank": 32349,
+        "waitlisted": 385,
+        "collected": 182
+    },
+    "players": {
+        "recent": 7,
+        "day": 17,
+        "week": 19,
+        "peak": 166
+    },
+    "urls": {
+        "game": "https://isthereanydeal.com/game/re-lief-shin-ainaru-anata-e/"
+    }
+}

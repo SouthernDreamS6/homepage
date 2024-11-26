@@ -1,0 +1,60 @@
+{
+    "id": "018d937f-0c4d-71ff-8adc-6a1befa69240",
+    "slug": "monobeno",
+    "title": "Monobeno",
+    "type": "game",
+    "mature": false,
+    "assets": {
+        "boxart": "https://assets.isthereanydeal.com/018d937f-0c4d-71ff-8adc-6a1befa69240/boxart.jpg",
+        "banner145": "https://assets.isthereanydeal.com/018d937f-0c4d-71ff-8adc-6a1befa69240/banner145.jpg",
+        "banner300": "https://assets.isthereanydeal.com/018d937f-0c4d-71ff-8adc-6a1befa69240/banner300.jpg",
+        "banner400": "https://assets.isthereanydeal.com/018d937f-0c4d-71ff-8adc-6a1befa69240/banner400.jpg",
+        "banner600": "https://assets.isthereanydeal.com/018d937f-0c4d-71ff-8adc-6a1befa69240/banner600.jpg"
+    },
+    "earlyAccess": false,
+    "achievements": false,
+    "tradingCards": true,
+    "appid": 758090,
+    "tags": [
+        "Adventure",
+        "Anime",
+        "Visual Novel",
+        "Sexual Content",
+        "Nudity"
+    ],
+    "releaseDate": "2018-01-26",
+    "developers": [
+        {
+            "id": 23129,
+            "name": "Lose"
+        }
+    ],
+    "publishers": [
+        {
+            "id": 18815,
+            "name": "HIKARI FIELD"
+        }
+    ],
+    "reviews": [
+        {
+            "score": 94,
+            "source": "Steam",
+            "count": 490,
+            "url": "https://store.steampowered.com/app/758090/"
+        }
+    ],
+    "stats": {
+        "rank": 39356,
+        "waitlisted": 293,
+        "collected": 147
+    },
+    "players": {
+        "recent": 1,
+        "day": 1,
+        "week": 4,
+        "peak": 23
+    },
+    "urls": {
+        "game": "https://isthereanydeal.com/game/monobeno/"
+    }
+}

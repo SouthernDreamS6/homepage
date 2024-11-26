@@ -1,0 +1,55 @@
+{
+    "id": "018d97ae-3bde-72e5-b87c-fd7ed7baa090",
+    "slug": "hana-no-no-ni-saku-utakata-no-fhd-edition",
+    "title": "Hana no No ni Saku Utakata no FHD Edition",
+    "type": "game",
+    "mature": false,
+    "assets": {
+        "boxart": "https://assets.isthereanydeal.com/018d97ae-3bde-72e5-b87c-fd7ed7baa090/boxart.jpg",
+        "banner145": "https://assets.isthereanydeal.com/018d97ae-3bde-72e5-b87c-fd7ed7baa090/banner145.jpg",
+        "banner300": "https://assets.isthereanydeal.com/018d97ae-3bde-72e5-b87c-fd7ed7baa090/banner300.jpg",
+        "banner400": "https://assets.isthereanydeal.com/018d97ae-3bde-72e5-b87c-fd7ed7baa090/banner400.jpg",
+        "banner600": "https://assets.isthereanydeal.com/018d97ae-3bde-72e5-b87c-fd7ed7baa090/banner600.jpg"
+    },
+    "earlyAccess": false,
+    "achievements": true,
+    "tradingCards": true,
+    "appid": 1944250,
+    "tags": [
+        "Casual",
+        "Adventure",
+        "Visual Novel",
+        "Interactive Fiction",
+        "Drama"
+    ],
+    "releaseDate": "2022-04-22",
+    "developers": [
+        {
+            "id": 33025,
+            "name": "Applique"
+        }
+    ],
+    "publishers": [],
+    "reviews": [
+        {
+            "score": 94,
+            "source": "Steam",
+            "count": 298,
+            "url": "https://store.steampowered.com/app/1944250/"
+        }
+    ],
+    "stats": {
+        "rank": 74662,
+        "waitlisted": 1,
+        "collected": 33
+    },
+    "players": {
+        "recent": 4,
+        "day": 9,
+        "week": 15,
+        "peak": 204
+    },
+    "urls": {
+        "game": "https://isthereanydeal.com/game/hana-no-no-ni-saku-utakata-no-fhd-edition/"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "id": "018d937f-35ca-7030-82ff-d091b46c5ba0",
+    "slug": "monobeno-happy-end",
+    "title": "Monobeno-HAPPY END",
+    "type": "game",
+    "mature": false,
+    "assets": {
+        "boxart": "https://assets.isthereanydeal.com/018d937f-35ca-7030-82ff-d091b46c5ba0/boxart.jpg",
+        "banner145": "https://assets.isthereanydeal.com/018d937f-35ca-7030-82ff-d091b46c5ba0/banner145.jpg",
+        "banner300": "https://assets.isthereanydeal.com/018d937f-35ca-7030-82ff-d091b46c5ba0/banner300.jpg",
+        "banner400": "https://assets.isthereanydeal.com/018d937f-35ca-7030-82ff-d091b46c5ba0/banner400.jpg",
+        "banner600": "https://assets.isthereanydeal.com/018d937f-35ca-7030-82ff-d091b46c5ba0/banner600.jpg"
+    },
+    "earlyAccess": false,
+    "achievements": false,
+    "tradingCards": true,
+    "appid": 831660,
+    "tags": [
+        "Adventure",
+        "Visual Novel",
+        "Sexual Content",
+        "Cute",
+        "Anime"
+    ],
+    "releaseDate": "2019-01-25",
+    "developers": [
+        {
+            "id": 23129,
+            "name": "Lose"
+        }
+    ],
+    "publishers": [],
+    "reviews": [
+        {
+            "score": 92,
+            "source": "Steam",
+            "count": 366,
+            "url": "https://store.steampowered.com/app/831660/"
+        }
+    ],
+    "stats": {
+        "rank": 65838,
+        "waitlisted": 8,
+        "collected": 188
+    },
+    "players": {
+        "recent": 7,
+        "day": 10,
+        "week": 11,
+        "peak": 26
+    },
+    "urls": {
+        "game": "https://isthereanydeal.com/game/monobeno-happy-end/"
+    }
+}

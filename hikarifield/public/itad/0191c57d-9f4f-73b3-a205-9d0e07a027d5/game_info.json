@@ -1,0 +1,53 @@
+{
+    "id": "0191c57d-9f4f-73b3-a205-9d0e07a027d5",
+    "slug": "parfait-remake-fhd-edition",
+    "title": "Parfait Remake FHD Edition",
+    "type": "game",
+    "mature": false,
+    "assets": {},
+    "earlyAccess": false,
+    "achievements": true,
+    "tradingCards": false,
+    "appid": 2947220,
+    "tags": [
+        "Casual",
+        "Adventure",
+        "Interactive Fiction",
+        "Dating Sim",
+        "Visual Novel"
+    ],
+    "releaseDate": "2024-07-19",
+    "developers": [
+        {
+            "id": 11331,
+            "name": "GIGA"
+        },
+        {
+            "id": 64602,
+            "name": "Entergram"
+        }
+    ],
+    "publishers": [],
+    "reviews": [
+        {
+            "score": 91,
+            "source": "Steam",
+            "count": 103,
+            "url": "https://store.steampowered.com/app/2947220/"
+        }
+    ],
+    "stats": {
+        "rank": 74965,
+        "waitlisted": 0,
+        "collected": 7
+    },
+    "players": {
+        "recent": 4,
+        "day": 4,
+        "week": 10,
+        "peak": 54
+    },
+    "urls": {
+        "game": "https://isthereanydeal.com/game/parfait-remake-fhd-edition/"
+    }
+}

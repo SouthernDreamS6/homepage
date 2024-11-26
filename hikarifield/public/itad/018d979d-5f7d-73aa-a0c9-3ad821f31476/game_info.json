@@ -1,0 +1,55 @@
+{
+    "id": "018d979d-5f7d-73aa-a0c9-3ad821f31476",
+    "slug": "tsuki-ni-yorisou-otome-no-sahou-fhd-fullvoice-edition",
+    "title": "Tsuki ni Yorisou Otome no Sahou FHD -FullVoice Edition",
+    "type": "game",
+    "mature": false,
+    "assets": {
+        "boxart": "https://assets.isthereanydeal.com/018d979d-5f7d-73aa-a0c9-3ad821f31476/boxart.jpg",
+        "banner145": "https://assets.isthereanydeal.com/018d979d-5f7d-73aa-a0c9-3ad821f31476/banner145.jpg",
+        "banner300": "https://assets.isthereanydeal.com/018d979d-5f7d-73aa-a0c9-3ad821f31476/banner300.jpg",
+        "banner400": "https://assets.isthereanydeal.com/018d979d-5f7d-73aa-a0c9-3ad821f31476/banner400.jpg",
+        "banner600": "https://assets.isthereanydeal.com/018d979d-5f7d-73aa-a0c9-3ad821f31476/banner600.jpg"
+    },
+    "earlyAccess": false,
+    "achievements": true,
+    "tradingCards": true,
+    "appid": 1776970,
+    "tags": [
+        "Visual Novel",
+        "Word Game",
+        "Story Rich",
+        "Female Protagonist",
+        "Casual"
+    ],
+    "releaseDate": "2022-06-17",
+    "developers": [
+        {
+            "id": 39929,
+            "name": "Navel"
+        }
+    ],
+    "publishers": [],
+    "reviews": [
+        {
+            "score": 97,
+            "source": "Steam",
+            "count": 2473,
+            "url": "https://store.steampowered.com/app/1776970/"
+        }
+    ],
+    "stats": {
+        "rank": 74544,
+        "waitlisted": 3,
+        "collected": 35
+    },
+    "players": {
+        "recent": 75,
+        "day": 110,
+        "week": 123,
+        "peak": 678
+    },
+    "urls": {
+        "game": "https://isthereanydeal.com/game/tsuki-ni-yorisou-otome-no-sahou-fhd-fullvoice-edition/"
+    }
+}

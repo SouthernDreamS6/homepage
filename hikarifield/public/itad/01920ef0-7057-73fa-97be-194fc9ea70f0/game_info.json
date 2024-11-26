@@ -1,0 +1,49 @@
+{
+    "id": "01920ef0-7057-73fa-97be-194fc9ea70f0",
+    "slug": "kakenuke-seishun-sparking",
+    "title": "Kakenuke★Seishun Sparking!",
+    "type": "game",
+    "mature": false,
+    "assets": {},
+    "earlyAccess": false,
+    "achievements": true,
+    "tradingCards": true,
+    "appid": 3027620,
+    "tags": [
+        "Visual Novel",
+        "Romance",
+        "Story Rich",
+        "Funny",
+        "Cute"
+    ],
+    "releaseDate": "2024-10-18",
+    "developers": [
+        {
+            "id": 28307,
+            "name": "Saga Planets"
+        }
+    ],
+    "publishers": [],
+    "reviews": [
+        {
+            "score": 95,
+            "source": "Steam",
+            "count": 60,
+            "url": "https://store.steampowered.com/app/3027620/"
+        }
+    ],
+    "stats": {
+        "rank": 74842,
+        "waitlisted": 7,
+        "collected": 8
+    },
+    "players": {
+        "recent": 32,
+        "day": 44,
+        "week": 56,
+        "peak": 207
+    },
+    "urls": {
+        "game": "https://isthereanydeal.com/game/kakenuke-seishun-sparking/"
+    }
+}

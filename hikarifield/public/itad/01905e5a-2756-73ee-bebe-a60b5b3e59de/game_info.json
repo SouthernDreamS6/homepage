@@ -1,0 +1,60 @@
+{
+    "id": "01905e5a-2756-73ee-bebe-a60b5b3e59de",
+    "slug": "haruka-ao-no-hanayome-ni",
+    "title": "Haruka Ao no Hanayome ni",
+    "type": "game",
+    "mature": false,
+    "assets": {
+        "boxart": "https://assets.isthereanydeal.com/01905e5a-2756-73ee-bebe-a60b5b3e59de/boxart.jpg?t=1723198814",
+        "banner145": "https://assets.isthereanydeal.com/01905e5a-2756-73ee-bebe-a60b5b3e59de/banner145.jpg?t=1723198814",
+        "banner300": "https://assets.isthereanydeal.com/01905e5a-2756-73ee-bebe-a60b5b3e59de/banner300.jpg?t=1723198814",
+        "banner400": "https://assets.isthereanydeal.com/01905e5a-2756-73ee-bebe-a60b5b3e59de/banner400.jpg?t=1723198814",
+        "banner600": "https://assets.isthereanydeal.com/01905e5a-2756-73ee-bebe-a60b5b3e59de/banner600.jpg?t=1723198815"
+    },
+    "earlyAccess": false,
+    "achievements": false,
+    "tradingCards": true,
+    "appid": 2947230,
+    "tags": [
+        "Casual",
+        "Adventure",
+        "Dating Sim",
+        "Visual Novel",
+        "Interactive Fiction"
+    ],
+    "releaseDate": "2024-08-09",
+    "developers": [
+        {
+            "id": 10309,
+            "name": "Lump of Sugar"
+        }
+    ],
+    "publishers": [
+        {
+            "id": 18815,
+            "name": "HIKARI FIELD"
+        }
+    ],
+    "reviews": [
+        {
+            "score": 98,
+            "source": "Steam",
+            "count": 74,
+            "url": "https://store.steampowered.com/app/2947230/"
+        }
+    ],
+    "stats": {
+        "rank": 66779,
+        "waitlisted": 81,
+        "collected": 22
+    },
+    "players": {
+        "recent": 5,
+        "day": 6,
+        "week": 11,
+        "peak": 96
+    },
+    "urls": {
+        "game": "https://isthereanydeal.com/game/haruka-ao-no-hanayome-ni/"
+    }
+}

@@ -1,0 +1,97 @@
+[
+    {
+        "id": "018d937f-4873-73e9-aabf-ee3adca536b7",
+        "historyLow": {
+            "all": {
+                "amount": 45.5,
+                "amountInt": 4550,
+                "currency": "TRY"
+            },
+            "y1": {
+                "amount": 299.99,
+                "amountInt": 29999,
+                "currency": "TRY"
+            },
+            "m3": {
+                "amount": 351.97,
+                "amountInt": 35197,
+                "currency": "TRY"
+            }
+        },
+        "deals": [
+            {
+                "shop": {
+                    "id": 61,
+                    "name": "Steam"
+                },
+                "price": {
+                    "amount": 358.99,
+                    "amountInt": 35899,
+                    "currency": "TRY"
+                },
+                "regular": {
+                    "amount": 619.19,
+                    "amountInt": 61919,
+                    "currency": "TRY"
+                },
+                "cut": 42,
+                "voucher": null,
+                "storeLow": {
+                    "amount": 45.5,
+                    "amountInt": 4550,
+                    "currency": "TRY"
+                },
+                "flag": null,
+                "drm": [],
+                "platforms": [
+                    {
+                        "id": 1,
+                        "name": "Windows"
+                    }
+                ],
+                "timestamp": "2024-11-11T19:21:07+01:00",
+                "expiry": "2024-11-18T19:00:00+01:00",
+                "url": "https://itad.link/018d9386-b9b3-70cc-b6b4-6b208856e9d9/"
+            },
+            {
+                "shop": {
+                    "id": 35,
+                    "name": "GOG"
+                },
+                "price": {
+                    "amount": 1204.31,
+                    "amountInt": 120431,
+                    "currency": "TRY"
+                },
+                "regular": {
+                    "amount": 1204.31,
+                    "amountInt": 120431,
+                    "currency": "TRY"
+                },
+                "cut": 0,
+                "voucher": null,
+                "storeLow": {
+                    "amount": 424.19,
+                    "amountInt": 42419,
+                    "currency": "TRY"
+                },
+                "flag": null,
+                "drm": [
+                    {
+                        "id": 1000,
+                        "name": "Drm Free"
+                    }
+                ],
+                "platforms": [
+                    {
+                        "id": 1,
+                        "name": "Windows"
+                    }
+                ],
+                "timestamp": "2024-02-22T22:07:27+01:00",
+                "expiry": null,
+                "url": "https://itad.link/018d9386-b9b3-70cc-b6b4-6b2088a7cdf7/"
+            }
+        ]
+    }
+]

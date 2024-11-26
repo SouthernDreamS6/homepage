@@ -1,0 +1,97 @@
+[
+    {
+        "id": "018d937e-fa57-7217-8f92-74a1846666d1",
+        "historyLow": {
+            "all": {
+                "amount": 14.99,
+                "amountInt": 1499,
+                "currency": "EUR"
+            },
+            "y1": {
+                "amount": 16.01,
+                "amountInt": 1601,
+                "currency": "EUR"
+            },
+            "m3": {
+                "amount": 16.01,
+                "amountInt": 1601,
+                "currency": "EUR"
+            }
+        },
+        "deals": [
+            {
+                "shop": {
+                    "id": 42,
+                    "name": "IndieGala Store"
+                },
+                "price": {
+                    "amount": 16.01,
+                    "amountInt": 1601,
+                    "currency": "EUR"
+                },
+                "regular": {
+                    "amount": 33.99,
+                    "amountInt": 3399,
+                    "currency": "EUR"
+                },
+                "cut": 53,
+                "voucher": null,
+                "storeLow": {
+                    "amount": 16.01,
+                    "amountInt": 1601,
+                    "currency": "EUR"
+                },
+                "flag": "S",
+                "drm": [
+                    {
+                        "id": 61,
+                        "name": "Steam"
+                    }
+                ],
+                "platforms": [
+                    {
+                        "id": 1,
+                        "name": "Windows"
+                    }
+                ],
+                "timestamp": "2024-11-12T15:40:38+01:00",
+                "expiry": null,
+                "url": "https://itad.link/0193209a-a185-71f7-a657-d33ff4357b87/"
+            },
+            {
+                "shop": {
+                    "id": 61,
+                    "name": "Steam"
+                },
+                "price": {
+                    "amount": 16.99,
+                    "amountInt": 1699,
+                    "currency": "EUR"
+                },
+                "regular": {
+                    "amount": 33.99,
+                    "amountInt": 3399,
+                    "currency": "EUR"
+                },
+                "cut": 50,
+                "voucher": null,
+                "storeLow": {
+                    "amount": 14.99,
+                    "amountInt": 1499,
+                    "currency": "EUR"
+                },
+                "flag": null,
+                "drm": [],
+                "platforms": [
+                    {
+                        "id": 1,
+                        "name": "Windows"
+                    }
+                ],
+                "timestamp": "2024-11-11T19:20:55+01:00",
+                "expiry": "2024-11-18T19:00:00+01:00",
+                "url": "https://itad.link/018d9386-2416-719d-bd6d-c5fc574c50ec/"
+            }
+        ]
+    }
+]

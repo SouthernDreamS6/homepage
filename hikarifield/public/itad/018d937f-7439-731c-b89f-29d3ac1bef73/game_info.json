@@ -1,0 +1,60 @@
+{
+    "id": "018d937f-7439-731c-b89f-29d3ac1bef73",
+    "slug": "arcana-alchemia",
+    "title": "Arcana Alchemia",
+    "type": "game",
+    "mature": false,
+    "assets": {
+        "boxart": "https://assets.isthereanydeal.com/018d937f-7439-731c-b89f-29d3ac1bef73/boxart.jpg?t=1719552309",
+        "banner145": "https://assets.isthereanydeal.com/018d937f-7439-731c-b89f-29d3ac1bef73/banner145.jpg?t=1719552310",
+        "banner300": "https://assets.isthereanydeal.com/018d937f-7439-731c-b89f-29d3ac1bef73/banner300.jpg?t=1719552310",
+        "banner400": "https://assets.isthereanydeal.com/018d937f-7439-731c-b89f-29d3ac1bef73/banner400.jpg?t=1719552310",
+        "banner600": "https://assets.isthereanydeal.com/018d937f-7439-731c-b89f-29d3ac1bef73/banner600.jpg?t=1719552310"
+    },
+    "earlyAccess": false,
+    "achievements": false,
+    "tradingCards": true,
+    "appid": 2527460,
+    "tags": [
+        "Casual",
+        "Visual Novel",
+        "Adventure",
+        "Dating Sim",
+        "Cute"
+    ],
+    "releaseDate": "2023-09-22",
+    "developers": [
+        {
+            "id": 10309,
+            "name": "Lump of Sugar"
+        }
+    ],
+    "publishers": [
+        {
+            "id": 18815,
+            "name": "HIKARI FIELD"
+        }
+    ],
+    "reviews": [
+        {
+            "score": 93,
+            "source": "Steam",
+            "count": 47,
+            "url": "https://store.steampowered.com/app/2527460/"
+        }
+    ],
+    "stats": {
+        "rank": 58719,
+        "waitlisted": 126,
+        "collected": 44
+    },
+    "players": {
+        "recent": 1,
+        "day": 3,
+        "week": 5,
+        "peak": 76
+    },
+    "urls": {
+        "game": "https://isthereanydeal.com/game/arcana-alchemia/"
+    }
+}

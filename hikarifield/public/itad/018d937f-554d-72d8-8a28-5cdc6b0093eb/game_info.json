@@ -1,0 +1,90 @@
+{
+    "id": "018d937f-554d-72d8-8a28-5cdc6b0093eb",
+    "slug": "parquet",
+    "title": "Parquet",
+    "type": "game",
+    "mature": false,
+    "assets": {
+        "boxart": "https://assets.isthereanydeal.com/018d937f-554d-72d8-8a28-5cdc6b0093eb/boxart.jpg?t=1724449801",
+        "banner145": "https://assets.isthereanydeal.com/018d937f-554d-72d8-8a28-5cdc6b0093eb/banner145.jpg?t=1724449802",
+        "banner300": "https://assets.isthereanydeal.com/018d937f-554d-72d8-8a28-5cdc6b0093eb/banner300.jpg?t=1724449802",
+        "banner400": "https://assets.isthereanydeal.com/018d937f-554d-72d8-8a28-5cdc6b0093eb/banner400.jpg?t=1724449802",
+        "banner600": "https://assets.isthereanydeal.com/018d937f-554d-72d8-8a28-5cdc6b0093eb/banner600.jpg?t=1724449802"
+    },
+    "earlyAccess": false,
+    "achievements": true,
+    "tradingCards": false,
+    "appid": 1662840,
+    "tags": [
+        "Visual Novel",
+        "Anime",
+        "Romance",
+        "Story Rich",
+        "Casual"
+    ],
+    "releaseDate": "2021-08-27",
+    "developers": [
+        {
+            "id": 10313,
+            "name": "Yuzusoft"
+        },
+        {
+            "id": 28309,
+            "name": "YUZUSOFTSOUR"
+        }
+    ],
+    "publishers": [
+        {
+            "id": 11034,
+            "name": "NekoNyan Ltd., HIKARI FIELD"
+        },
+        {
+            "id": 18815,
+            "name": "HIKARI FIELD"
+        },
+        {
+            "id": 26450,
+            "name": "NekoNyan Ltd."
+        }
+    ],
+    "reviews": [
+        {
+            "score": 95,
+            "source": "Steam",
+            "count": 1594,
+            "url": "https://store.steampowered.com/app/1662840/"
+        },
+        {
+            "score": null,
+            "source": "Metascore",
+            "count": 1,
+            "url": "https://metacritic.com/game/parquet/critic-reviews/?platform=pc"
+        },
+        {
+            "score": null,
+            "source": "Metacritic User Score",
+            "count": 1,
+            "url": "https://metacritic.com/game/parquet/user-reviews/?platform=pc"
+        },
+        {
+            "score": null,
+            "source": "OpenCritic",
+            "count": 1,
+            "url": "https://opencritic.com/game/11914/parquet"
+        }
+    ],
+    "stats": {
+        "rank": 20740,
+        "waitlisted": 670,
+        "collected": 205
+    },
+    "players": {
+        "recent": 5,
+        "day": 7,
+        "week": 11,
+        "peak": 896
+    },
+    "urls": {
+        "game": "https://isthereanydeal.com/game/parquet/"
+    }
+}

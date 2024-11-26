@@ -1,0 +1,62 @@
+{
+    "id": "018d937e-fa57-7217-8f92-74a1846666d1",
+    "slug": "aokana",
+    "title": "Aokana",
+    "type": "game",
+    "mature": false,
+    "assets": {
+        "banner145": "https://assets.isthereanydeal.com/018d937e-fa57-7217-8f92-74a1846666d1/banner145.jpg?t=1731420614",
+        "banner300": "https://assets.isthereanydeal.com/018d937e-fa57-7217-8f92-74a1846666d1/banner300.jpg?t=1731420614",
+        "banner400": "https://assets.isthereanydeal.com/018d937e-fa57-7217-8f92-74a1846666d1/banner400.jpg?t=1731420614"
+    },
+    "earlyAccess": false,
+    "achievements": true,
+    "tradingCards": true,
+    "appid": 1044620,
+    "tags": [
+        "Visual Novel",
+        "Anime",
+        "Casual",
+        "Adventure",
+        "Story Rich"
+    ],
+    "releaseDate": "2019-09-27",
+    "developers": [
+        {
+            "id": 26450,
+            "name": "NekoNyan Ltd."
+        },
+        {
+            "id": 28310,
+            "name": "sprite"
+        }
+    ],
+    "publishers": [
+        {
+            "id": 26450,
+            "name": "NekoNyan Ltd."
+        }
+    ],
+    "reviews": [
+        {
+            "score": 97,
+            "source": "Steam",
+            "count": 4225,
+            "url": "https://store.steampowered.com/app/1044620/"
+        }
+    ],
+    "stats": {
+        "rank": 52229,
+        "waitlisted": 88,
+        "collected": 244
+    },
+    "players": {
+        "recent": 95,
+        "day": 111,
+        "week": 123,
+        "peak": 394
+    },
+    "urls": {
+        "game": "https://isthereanydeal.com/game/aokana/"
+    }
+}

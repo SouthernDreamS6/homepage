@@ -1,0 +1,55 @@
+{
+    "id": "018d96d1-bf16-7032-8016-efa7ee737581",
+    "slug": "tryment-ima-o-kaetai-to-negau-anata-e-alpha-hen",
+    "title": "TrymenT -Ima o Kaetai to Negau Anata e- AlphA Hen",
+    "type": "game",
+    "mature": false,
+    "assets": {
+        "boxart": "https://assets.isthereanydeal.com/018d96d1-bf16-7032-8016-efa7ee737581/boxart.jpg",
+        "banner145": "https://assets.isthereanydeal.com/018d96d1-bf16-7032-8016-efa7ee737581/banner145.jpg",
+        "banner300": "https://assets.isthereanydeal.com/018d96d1-bf16-7032-8016-efa7ee737581/banner300.jpg",
+        "banner400": "https://assets.isthereanydeal.com/018d96d1-bf16-7032-8016-efa7ee737581/banner400.jpg",
+        "banner600": "https://assets.isthereanydeal.com/018d96d1-bf16-7032-8016-efa7ee737581/banner600.jpg"
+    },
+    "earlyAccess": false,
+    "achievements": false,
+    "tradingCards": true,
+    "appid": 1183260,
+    "tags": [
+        "Casual",
+        "Adventure",
+        "Visual Novel",
+        "Anime",
+        "Story Rich"
+    ],
+    "releaseDate": "2020-02-20",
+    "developers": [
+        {
+            "id": 36451,
+            "name": "TrymenT"
+        }
+    ],
+    "publishers": [],
+    "reviews": [
+        {
+            "score": 91,
+            "source": "Steam",
+            "count": 557,
+            "url": "https://store.steampowered.com/app/1183260/"
+        }
+    ],
+    "stats": {
+        "rank": 74321,
+        "waitlisted": 1,
+        "collected": 49
+    },
+    "players": {
+        "recent": 5,
+        "day": 7,
+        "week": 10,
+        "peak": 169
+    },
+    "urls": {
+        "game": "https://isthereanydeal.com/game/tryment-ima-o-kaetai-to-negau-anata-e-alpha-hen/"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "id": "018d937f-639e-7391-bb98-9285de62c502",
+    "slug": "yumahorome",
+    "title": "Yumahorome",
+    "type": "game",
+    "mature": false,
+    "assets": {
+        "boxart": "https://assets.isthereanydeal.com/018d937f-639e-7391-bb98-9285de62c502/boxart.jpg",
+        "banner145": "https://assets.isthereanydeal.com/018d937f-639e-7391-bb98-9285de62c502/banner145.jpg",
+        "banner300": "https://assets.isthereanydeal.com/018d937f-639e-7391-bb98-9285de62c502/banner300.jpg",
+        "banner400": "https://assets.isthereanydeal.com/018d937f-639e-7391-bb98-9285de62c502/banner400.jpg",
+        "banner600": "https://assets.isthereanydeal.com/018d937f-639e-7391-bb98-9285de62c502/banner600.jpg"
+    },
+    "earlyAccess": false,
+    "achievements": false,
+    "tradingCards": true,
+    "appid": 2066360,
+    "tags": [
+        "Casual",
+        "Adventure",
+        "Visual Novel",
+        "Interactive Fiction",
+        "2D Platformer"
+    ],
+    "releaseDate": "2022-08-12",
+    "developers": [
+        {
+            "id": 10309,
+            "name": "Lump of Sugar"
+        }
+    ],
+    "publishers": [],
+    "reviews": [
+        {
+            "score": 84,
+            "source": "Steam",
+            "count": 129,
+            "url": "https://store.steampowered.com/app/2066360/"
+        }
+    ],
+    "stats": {
+        "rank": 74247,
+        "waitlisted": 0,
+        "collected": 54
+    },
+    "players": {
+        "recent": 5,
+        "day": 5,
+        "week": 5,
+        "peak": 117
+    },
+    "urls": {
+        "game": "https://isthereanydeal.com/game/yumahorome/"
+    }
+}

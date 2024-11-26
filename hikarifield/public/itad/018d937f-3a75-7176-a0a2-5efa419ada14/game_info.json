@@ -1,0 +1,60 @@
+{
+    "id": "018d937f-3a75-7176-a0a2-5efa419ada14",
+    "slug": "alias-carnival",
+    "title": "ALIA's CARNIVAL！",
+    "type": "game",
+    "mature": false,
+    "assets": {
+        "boxart": "https://assets.isthereanydeal.com/018d937f-3a75-7176-a0a2-5efa419ada14/boxart.jpg",
+        "banner145": "https://assets.isthereanydeal.com/018d937f-3a75-7176-a0a2-5efa419ada14/banner145.jpg",
+        "banner300": "https://assets.isthereanydeal.com/018d937f-3a75-7176-a0a2-5efa419ada14/banner300.jpg",
+        "banner400": "https://assets.isthereanydeal.com/018d937f-3a75-7176-a0a2-5efa419ada14/banner400.jpg",
+        "banner600": "https://assets.isthereanydeal.com/018d937f-3a75-7176-a0a2-5efa419ada14/banner600.jpg"
+    },
+    "earlyAccess": false,
+    "achievements": true,
+    "tradingCards": true,
+    "appid": 1094530,
+    "tags": [
+        "Casual",
+        "Adventure",
+        "Sexual Content",
+        "Visual Novel",
+        "Nudity"
+    ],
+    "releaseDate": "2019-11-15",
+    "developers": [
+        {
+            "id": 33786,
+            "name": "NanaWind"
+        }
+    ],
+    "publishers": [
+        {
+            "id": 18815,
+            "name": "HIKARI FIELD"
+        }
+    ],
+    "reviews": [
+        {
+            "score": 96,
+            "source": "Steam",
+            "count": 481,
+            "url": "https://store.steampowered.com/app/1094530/"
+        }
+    ],
+    "stats": {
+        "rank": 34195,
+        "waitlisted": 340,
+        "collected": 212
+    },
+    "players": {
+        "recent": 10,
+        "day": 10,
+        "week": 12,
+        "peak": 93
+    },
+    "urls": {
+        "game": "https://isthereanydeal.com/game/alias-carnival/"
+    }
+}

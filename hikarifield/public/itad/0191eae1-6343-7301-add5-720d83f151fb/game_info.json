@@ -1,0 +1,53 @@
+{
+    "id": "0191eae1-6343-7301-add5-720d83f151fb",
+    "slug": "kimi-no-hitomi-ni-hit-me-fhd-edition",
+    "title": "Kimi no Hitomi ni Hit Me FHD Edition",
+    "type": "game",
+    "mature": false,
+    "assets": {},
+    "earlyAccess": false,
+    "achievements": true,
+    "tradingCards": true,
+    "appid": 2947240,
+    "tags": [
+        "Casual",
+        "Adventure",
+        "Dating Sim",
+        "Interactive Fiction",
+        "Anime"
+    ],
+    "releaseDate": "2024-09-13",
+    "developers": [
+        {
+            "id": 11331,
+            "name": "GIGA"
+        },
+        {
+            "id": 64602,
+            "name": "Entergram"
+        }
+    ],
+    "publishers": [],
+    "reviews": [
+        {
+            "score": 92,
+            "source": "Steam",
+            "count": 113,
+            "url": "https://store.steampowered.com/app/2947240/"
+        }
+    ],
+    "stats": {
+        "rank": 74965,
+        "waitlisted": 0,
+        "collected": 7
+    },
+    "players": {
+        "recent": 11,
+        "day": 26,
+        "week": 32,
+        "peak": 144
+    },
+    "urls": {
+        "game": "https://isthereanydeal.com/game/kimi-no-hitomi-ni-hit-me-fhd-edition/"
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "id": "018d937f-464f-73c6-8572-9af419a6f1a2",
+    "slug": "maitetsu-pure-station",
+    "title": "Maitetsu:Pure Station",
+    "type": "game",
+    "mature": false,
+    "assets": {
+        "boxart": "https://assets.isthereanydeal.com/018d937f-464f-73c6-8572-9af419a6f1a2/boxart.jpg",
+        "banner145": "https://assets.isthereanydeal.com/018d937f-464f-73c6-8572-9af419a6f1a2/banner145.jpg",
+        "banner300": "https://assets.isthereanydeal.com/018d937f-464f-73c6-8572-9af419a6f1a2/banner300.jpg",
+        "banner400": "https://assets.isthereanydeal.com/018d937f-464f-73c6-8572-9af419a6f1a2/banner400.jpg",
+        "banner600": "https://assets.isthereanydeal.com/018d937f-464f-73c6-8572-9af419a6f1a2/banner600.jpg"
+    },
+    "earlyAccess": false,
+    "achievements": true,
+    "tradingCards": true,
+    "appid": 880950,
+    "tags": [
+        "Sexual Content",
+        "Anime",
+        "Visual Novel",
+        "Mature",
+        "Nudity"
+    ],
+    "releaseDate": "2018-09-21",
+    "developers": [
+        {
+            "id": 23129,
+            "name": "Lose"
+        }
+    ],
+    "publishers": [
+        {
+            "id": 18815,
+            "name": "HIKARI FIELD"
+        }
+    ],
+    "reviews": [
+        {
+            "score": 96,
+            "source": "Steam",
+            "count": 3056,
+            "url": "https://store.steampowered.com/app/880950/"
+        },
+        {
+            "score": 63,
+            "source": "OpenCritic",
+            "count": 4,
+            "url": "https://opencritic.com/game/8883/maitetsu-pure-station"
+        }
+    ],
+    "stats": {
+        "rank": 31956,
+        "waitlisted": 370,
+        "collected": 227
+    },
+    "players": {
+        "recent": 19,
+        "day": 23,
+        "week": 34,
+        "peak": 321
+    },
+    "urls": {
+        "game": "https://isthereanydeal.com/game/maitetsu-pure-station/"
+    }
+}

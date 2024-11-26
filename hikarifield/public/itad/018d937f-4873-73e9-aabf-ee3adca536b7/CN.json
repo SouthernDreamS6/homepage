@@ -1,0 +1,97 @@
+[
+    {
+        "id": "018d937f-4873-73e9-aabf-ee3adca536b7",
+        "historyLow": {
+            "all": {
+                "amount": 50.12,
+                "amountInt": 5012,
+                "currency": "CNY"
+            },
+            "y1": {
+                "amount": 50.12,
+                "amountInt": 5012,
+                "currency": "CNY"
+            },
+            "m3": {
+                "amount": 51.04,
+                "amountInt": 5104,
+                "currency": "CNY"
+            }
+        },
+        "deals": [
+            {
+                "shop": {
+                    "id": 61,
+                    "name": "Steam"
+                },
+                "price": {
+                    "amount": 51.04,
+                    "amountInt": 5104,
+                    "currency": "CNY"
+                },
+                "regular": {
+                    "amount": 88,
+                    "amountInt": 8800,
+                    "currency": "CNY"
+                },
+                "cut": 42,
+                "voucher": null,
+                "storeLow": {
+                    "amount": 51.04,
+                    "amountInt": 5104,
+                    "currency": "CNY"
+                },
+                "flag": "H",
+                "drm": [],
+                "platforms": [
+                    {
+                        "id": 1,
+                        "name": "Windows"
+                    }
+                ],
+                "timestamp": "2024-11-11T19:20:11+01:00",
+                "expiry": "2024-11-18T19:00:00+01:00",
+                "url": "https://itad.link/018d9386-b9b3-70cc-b6b4-6b208856e9d9/"
+            },
+            {
+                "shop": {
+                    "id": 35,
+                    "name": "GOG"
+                },
+                "price": {
+                    "amount": 88,
+                    "amountInt": 8800,
+                    "currency": "CNY"
+                },
+                "regular": {
+                    "amount": 88,
+                    "amountInt": 8800,
+                    "currency": "CNY"
+                },
+                "cut": 0,
+                "voucher": null,
+                "storeLow": {
+                    "amount": 50.12,
+                    "amountInt": 5012,
+                    "currency": "CNY"
+                },
+                "flag": null,
+                "drm": [
+                    {
+                        "id": 1000,
+                        "name": "Drm Free"
+                    }
+                ],
+                "platforms": [
+                    {
+                        "id": 1,
+                        "name": "Windows"
+                    }
+                ],
+                "timestamp": "2024-02-22T22:07:44+01:00",
+                "expiry": null,
+                "url": "https://itad.link/018d9386-b9b3-70cc-b6b4-6b2088a7cdf7/"
+            }
+        ]
+    }
+]

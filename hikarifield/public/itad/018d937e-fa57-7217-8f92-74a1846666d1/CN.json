@@ -1,0 +1,97 @@
+[
+    {
+        "id": "018d937e-fa57-7217-8f92-74a1846666d1",
+        "historyLow": {
+            "all": {
+                "amount": 44,
+                "amountInt": 4400,
+                "currency": "CNY"
+            },
+            "y1": {
+                "amount": 44,
+                "amountInt": 4400,
+                "currency": "CNY"
+            },
+            "m3": {
+                "amount": 44,
+                "amountInt": 4400,
+                "currency": "CNY"
+            }
+        },
+        "deals": [
+            {
+                "shop": {
+                    "id": 61,
+                    "name": "Steam"
+                },
+                "price": {
+                    "amount": 44,
+                    "amountInt": 4400,
+                    "currency": "CNY"
+                },
+                "regular": {
+                    "amount": 88,
+                    "amountInt": 8800,
+                    "currency": "CNY"
+                },
+                "cut": 50,
+                "voucher": null,
+                "storeLow": {
+                    "amount": 44,
+                    "amountInt": 4400,
+                    "currency": "CNY"
+                },
+                "flag": "H",
+                "drm": [],
+                "platforms": [
+                    {
+                        "id": 1,
+                        "name": "Windows"
+                    }
+                ],
+                "timestamp": "2024-11-11T19:20:07+01:00",
+                "expiry": "2024-11-18T19:00:00+01:00",
+                "url": "https://itad.link/018d9386-2416-719d-bd6d-c5fc574c50ec/"
+            },
+            {
+                "shop": {
+                    "id": 42,
+                    "name": "IndieGala Store"
+                },
+                "price": {
+                    "amount": 119.26,
+                    "amountInt": 11926,
+                    "currency": "CNY"
+                },
+                "regular": {
+                    "amount": 253.06,
+                    "amountInt": 25306,
+                    "currency": "CNY"
+                },
+                "cut": 53,
+                "voucher": null,
+                "storeLow": {
+                    "amount": 119.25,
+                    "amountInt": 11925,
+                    "currency": "CNY"
+                },
+                "flag": "S",
+                "drm": [
+                    {
+                        "id": 61,
+                        "name": "Steam"
+                    }
+                ],
+                "platforms": [
+                    {
+                        "id": 1,
+                        "name": "Windows"
+                    }
+                ],
+                "timestamp": "2024-11-12T15:40:38+01:00",
+                "expiry": null,
+                "url": "https://itad.link/0193209a-a185-71f7-a657-d33ff4357b87/"
+            }
+        ]
+    }
+]

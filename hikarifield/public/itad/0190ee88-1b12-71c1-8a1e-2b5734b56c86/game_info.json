@@ -1,0 +1,58 @@
+{
+    "id": "0190ee88-1b12-71c1-8a1e-2b5734b56c86",
+    "slug": "select-oblige",
+    "title": "Select Oblige",
+    "type": "game",
+    "mature": false,
+    "assets": {
+        "banner145": "https://assets.isthereanydeal.com/0190ee88-1b12-71c1-8a1e-2b5734b56c86/banner145.jpg?t=1731074706",
+        "banner300": "https://assets.isthereanydeal.com/0190ee88-1b12-71c1-8a1e-2b5734b56c86/banner300.jpg?t=1731074706",
+        "banner400": "https://assets.isthereanydeal.com/0190ee88-1b12-71c1-8a1e-2b5734b56c86/banner400.jpg?t=1731074706"
+    },
+    "earlyAccess": false,
+    "achievements": true,
+    "tradingCards": true,
+    "appid": 2947250,
+    "tags": [
+        "Casual",
+        "Adventure",
+        "Dating Sim",
+        "Visual Novel",
+        "2D Platformer"
+    ],
+    "releaseDate": "2024-11-08",
+    "developers": [
+        {
+            "id": 19377,
+            "name": "madosoft"
+        }
+    ],
+    "publishers": [
+        {
+            "id": 18815,
+            "name": "HIKARI FIELD"
+        }
+    ],
+    "reviews": [
+        {
+            "score": 84,
+            "source": "Steam",
+            "count": 13,
+            "url": "https://store.steampowered.com/app/2947250/"
+        }
+    ],
+    "stats": {
+        "rank": 56795,
+        "waitlisted": 152,
+        "collected": 22
+    },
+    "players": {
+        "recent": 145,
+        "day": 213,
+        "week": 335,
+        "peak": 335
+    },
+    "urls": {
+        "game": "https://isthereanydeal.com/game/select-oblige/"
+    }
+}

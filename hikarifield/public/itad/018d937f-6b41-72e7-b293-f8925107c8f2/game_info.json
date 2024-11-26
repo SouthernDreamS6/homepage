@@ -1,0 +1,55 @@
+{
+    "id": "018d937f-6b41-72e7-b293-f8925107c8f2",
+    "slug": "future-radio",
+    "title": "Future Radio",
+    "type": "game",
+    "mature": false,
+    "assets": {
+        "boxart": "https://assets.isthereanydeal.com/018d937f-6b41-72e7-b293-f8925107c8f2/boxart.jpg",
+        "banner145": "https://assets.isthereanydeal.com/018d937f-6b41-72e7-b293-f8925107c8f2/banner145.jpg",
+        "banner300": "https://assets.isthereanydeal.com/018d937f-6b41-72e7-b293-f8925107c8f2/banner300.jpg",
+        "banner400": "https://assets.isthereanydeal.com/018d937f-6b41-72e7-b293-f8925107c8f2/banner400.jpg",
+        "banner600": "https://assets.isthereanydeal.com/018d937f-6b41-72e7-b293-f8925107c8f2/banner600.jpg"
+    },
+    "earlyAccess": false,
+    "achievements": true,
+    "tradingCards": true,
+    "appid": 2156620,
+    "tags": [
+        "Mystery",
+        "Visual Novel",
+        "Story Rich",
+        "Adventure",
+        "Romance"
+    ],
+    "releaseDate": "2023-02-17",
+    "developers": [
+        {
+            "id": 28306,
+            "name": "Laplacian"
+        }
+    ],
+    "publishers": [],
+    "reviews": [
+        {
+            "score": 88,
+            "source": "Steam",
+            "count": 106,
+            "url": "https://store.steampowered.com/app/2156620/"
+        }
+    ],
+    "stats": {
+        "rank": 45053,
+        "waitlisted": 257,
+        "collected": 58
+    },
+    "players": {
+        "recent": 2,
+        "day": 4,
+        "week": 4,
+        "peak": 81
+    },
+    "urls": {
+        "game": "https://isthereanydeal.com/game/future-radio/"
+    }
+}

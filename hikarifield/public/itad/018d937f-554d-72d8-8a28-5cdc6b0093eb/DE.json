@@ -1,0 +1,97 @@
+[
+    {
+        "id": "018d937f-554d-72d8-8a28-5cdc6b0093eb",
+        "historyLow": {
+            "all": {
+                "amount": 8.39,
+                "amountInt": 839,
+                "currency": "EUR"
+            },
+            "y1": {
+                "amount": 8.39,
+                "amountInt": 839,
+                "currency": "EUR"
+            },
+            "m3": {
+                "amount": 9.06,
+                "amountInt": 906,
+                "currency": "EUR"
+            }
+        },
+        "deals": [
+            {
+                "shop": {
+                    "id": 61,
+                    "name": "Steam"
+                },
+                "price": {
+                    "amount": 9.06,
+                    "amountInt": 906,
+                    "currency": "EUR"
+                },
+                "regular": {
+                    "amount": 16.49,
+                    "amountInt": 1649,
+                    "currency": "EUR"
+                },
+                "cut": 45,
+                "voucher": null,
+                "storeLow": {
+                    "amount": 9.06,
+                    "amountInt": 906,
+                    "currency": "EUR"
+                },
+                "flag": "S",
+                "drm": [],
+                "platforms": [
+                    {
+                        "id": 1,
+                        "name": "Windows"
+                    }
+                ],
+                "timestamp": "2024-11-11T19:21:00+01:00",
+                "expiry": "2024-11-18T19:00:00+01:00",
+                "url": "https://itad.link/018d9386-aa87-7099-b6e9-de2376732c70/"
+            },
+            {
+                "shop": {
+                    "id": 35,
+                    "name": "GOG"
+                },
+                "price": {
+                    "amount": 13.99,
+                    "amountInt": 1399,
+                    "currency": "EUR"
+                },
+                "regular": {
+                    "amount": 13.99,
+                    "amountInt": 1399,
+                    "currency": "EUR"
+                },
+                "cut": 0,
+                "voucher": null,
+                "storeLow": {
+                    "amount": 8.39,
+                    "amountInt": 839,
+                    "currency": "EUR"
+                },
+                "flag": null,
+                "drm": [
+                    {
+                        "id": 1000,
+                        "name": "Drm Free"
+                    }
+                ],
+                "platforms": [
+                    {
+                        "id": 1,
+                        "name": "Windows"
+                    }
+                ],
+                "timestamp": "2024-02-22T22:06:20+01:00",
+                "expiry": null,
+                "url": "https://itad.link/018d9386-aa87-7099-b6e9-de2376d0e0e9/"
+            }
+        ]
+    }
+]

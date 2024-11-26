@@ -1,0 +1,86 @@
+{
+    "id": "018d937f-4873-73e9-aabf-ee3adca536b7",
+    "slug": "riddle-joker",
+    "title": "Riddle Joker",
+    "type": "game",
+    "mature": true,
+    "assets": {
+        "boxart": "https://assets.isthereanydeal.com/018d937f-4873-73e9-aabf-ee3adca536b7/boxart.jpg?t=1724440809",
+        "banner145": "https://assets.isthereanydeal.com/018d937f-4873-73e9-aabf-ee3adca536b7/banner145.jpg?t=1724440809",
+        "banner300": "https://assets.isthereanydeal.com/018d937f-4873-73e9-aabf-ee3adca536b7/banner300.jpg?t=1724440809",
+        "banner400": "https://assets.isthereanydeal.com/018d937f-4873-73e9-aabf-ee3adca536b7/banner400.jpg?t=1724440810",
+        "banner600": "https://assets.isthereanydeal.com/018d937f-4873-73e9-aabf-ee3adca536b7/banner600.jpg?t=1724440810"
+    },
+    "earlyAccess": false,
+    "achievements": true,
+    "tradingCards": true,
+    "appid": 1277930,
+    "tags": [
+        "Visual Novel",
+        "Sexual Content",
+        "Romance",
+        "Cute",
+        "Dating Sim"
+    ],
+    "releaseDate": "2020-12-18",
+    "developers": [
+        {
+            "id": 10313,
+            "name": "Yuzusoft"
+        }
+    ],
+    "publishers": [
+        {
+            "id": 11034,
+            "name": "NekoNyan Ltd., HIKARI FIELD"
+        },
+        {
+            "id": 18815,
+            "name": "HIKARI FIELD"
+        },
+        {
+            "id": 26450,
+            "name": "NekoNyan Ltd."
+        }
+    ],
+    "reviews": [
+        {
+            "score": 98,
+            "source": "Steam",
+            "count": 4571,
+            "url": "https://store.steampowered.com/app/1277930/"
+        },
+        {
+            "score": null,
+            "source": "Metascore",
+            "count": 1,
+            "url": "https://metacritic.com/game/riddle-joker/critic-reviews/?platform=pc"
+        },
+        {
+            "score": null,
+            "source": "Metacritic User Score",
+            "count": 1,
+            "url": "https://metacritic.com/game/riddle-joker/user-reviews/?platform=pc"
+        },
+        {
+            "score": null,
+            "source": "OpenCritic",
+            "count": 1,
+            "url": "https://opencritic.com/game/11037/riddle-joker"
+        }
+    ],
+    "stats": {
+        "rank": 11098,
+        "waitlisted": 1394,
+        "collected": 360
+    },
+    "players": {
+        "recent": 196,
+        "day": 267,
+        "week": 270,
+        "peak": 712
+    },
+    "urls": {
+        "game": "https://isthereanydeal.com/game/riddle-joker/"
+    }
+}

@@ -1,0 +1,58 @@
+[
+    {
+        "id": "018d96d1-bf16-7032-8016-efa7ee737581",
+        "historyLow": {
+            "all": {
+                "amount": 7.99,
+                "amountInt": 799,
+                "currency": "EUR"
+            },
+            "y1": {
+                "amount": 7.99,
+                "amountInt": 799,
+                "currency": "EUR"
+            },
+            "m3": {
+                "amount": 7.99,
+                "amountInt": 799,
+                "currency": "EUR"
+            }
+        },
+        "deals": [
+            {
+                "shop": {
+                    "id": 61,
+                    "name": "Steam"
+                },
+                "price": {
+                    "amount": 7.99,
+                    "amountInt": 799,
+                    "currency": "EUR"
+                },
+                "regular": {
+                    "amount": 24.99,
+                    "amountInt": 2499,
+                    "currency": "EUR"
+                },
+                "cut": 68,
+                "voucher": null,
+                "storeLow": {
+                    "amount": 7.99,
+                    "amountInt": 799,
+                    "currency": "EUR"
+                },
+                "flag": "H",
+                "drm": [],
+                "platforms": [
+                    {
+                        "id": 1,
+                        "name": "Windows"
+                    }
+                ],
+                "timestamp": "2024-11-09T17:15:24+01:00",
+                "expiry": "2024-11-19T17:00:00+01:00",
+                "url": "https://itad.link/018d9386-e9f4-7169-a876-1d66c793aef9/"
+            }
+        ]
+    }
+]

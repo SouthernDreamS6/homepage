@@ -1,0 +1,60 @@
+{
+    "id": "018d937f-6ba6-71f3-a6f7-6dc73dcb9c18",
+    "slug": "shuffle-episode-2-kami-ni-mo-akuma-ni-mo-nerawareteiru-otoko",
+    "title": "SHUFFLE! Episode 2 ~Kami ni mo Akuma ni mo Nerawareteiru Otoko~",
+    "type": "game",
+    "mature": false,
+    "assets": {
+        "boxart": "https://assets.isthereanydeal.com/018d937f-6ba6-71f3-a6f7-6dc73dcb9c18/boxart.jpg",
+        "banner145": "https://assets.isthereanydeal.com/018d937f-6ba6-71f3-a6f7-6dc73dcb9c18/banner145.jpg",
+        "banner300": "https://assets.isthereanydeal.com/018d937f-6ba6-71f3-a6f7-6dc73dcb9c18/banner300.jpg",
+        "banner400": "https://assets.isthereanydeal.com/018d937f-6ba6-71f3-a6f7-6dc73dcb9c18/banner400.jpg",
+        "banner600": "https://assets.isthereanydeal.com/018d937f-6ba6-71f3-a6f7-6dc73dcb9c18/banner600.jpg"
+    },
+    "earlyAccess": false,
+    "achievements": false,
+    "tradingCards": true,
+    "appid": 2321180,
+    "tags": [
+        "Visual Novel",
+        "2D Platformer",
+        "Interactive Fiction",
+        "Dating Sim",
+        "2D"
+    ],
+    "releaseDate": "2023-03-10",
+    "developers": [
+        {
+            "id": 39929,
+            "name": "Navel"
+        }
+    ],
+    "publishers": [
+        {
+            "id": 18815,
+            "name": "HIKARI FIELD"
+        }
+    ],
+    "reviews": [
+        {
+            "score": 91,
+            "source": "Steam",
+            "count": 71,
+            "url": "https://store.steampowered.com/app/2321180/"
+        }
+    ],
+    "stats": {
+        "rank": 51075,
+        "waitlisted": 189,
+        "collected": 57
+    },
+    "players": {
+        "recent": 3,
+        "day": 3,
+        "week": 4,
+        "peak": 82
+    },
+    "urls": {
+        "game": "https://isthereanydeal.com/game/shuffle-episode-2-kami-ni-mo-akuma-ni-mo-nerawareteiru-otoko/"
+    }
+}

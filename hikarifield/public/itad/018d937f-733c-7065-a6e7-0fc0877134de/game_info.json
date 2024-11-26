@@ -1,0 +1,55 @@
+{
+    "id": "018d937f-733c-7065-a6e7-0fc0877134de",
+    "slug": "sanoba-witch-fhd-edition",
+    "title": "Sanoba Witch FHD Edition",
+    "type": "game",
+    "mature": false,
+    "assets": {
+        "boxart": "https://assets.isthereanydeal.com/018d937f-733c-7065-a6e7-0fc0877134de/boxart.jpg",
+        "banner145": "https://assets.isthereanydeal.com/018d937f-733c-7065-a6e7-0fc0877134de/banner145.jpg",
+        "banner300": "https://assets.isthereanydeal.com/018d937f-733c-7065-a6e7-0fc0877134de/banner300.jpg",
+        "banner400": "https://assets.isthereanydeal.com/018d937f-733c-7065-a6e7-0fc0877134de/banner400.jpg",
+        "banner600": "https://assets.isthereanydeal.com/018d937f-733c-7065-a6e7-0fc0877134de/banner600.jpg"
+    },
+    "earlyAccess": false,
+    "achievements": true,
+    "tradingCards": true,
+    "appid": 2458530,
+    "tags": [
+        "Sexual Content",
+        "FPS",
+        "Hentai",
+        "Dating Sim",
+        "Visual Novel"
+    ],
+    "releaseDate": "2023-07-21",
+    "developers": [
+        {
+            "id": 10313,
+            "name": "Yuzusoft"
+        }
+    ],
+    "publishers": [],
+    "reviews": [
+        {
+            "score": 98,
+            "source": "Steam",
+            "count": 5198,
+            "url": "https://store.steampowered.com/app/2458530/"
+        }
+    ],
+    "stats": {
+        "rank": 74013,
+        "waitlisted": 2,
+        "collected": 58
+    },
+    "players": {
+        "recent": 423,
+        "day": 564,
+        "week": 564,
+        "peak": 1026
+    },
+    "urls": {
+        "game": "https://isthereanydeal.com/game/sanoba-witch-fhd-edition/"
+    }
+}

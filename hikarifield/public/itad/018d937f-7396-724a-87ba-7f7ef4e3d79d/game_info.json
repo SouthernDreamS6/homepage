@@ -1,0 +1,55 @@
+{
+    "id": "018d937f-7396-724a-87ba-7f7ef4e3d79d",
+    "slug": "koi-x-shin-ai-kanojo-fhd-edition",
+    "title": "Koi x Shin Ai Kanojo FHD Edition",
+    "type": "game",
+    "mature": false,
+    "assets": {
+        "boxart": "https://assets.isthereanydeal.com/018d937f-7396-724a-87ba-7f7ef4e3d79d/boxart.jpg",
+        "banner145": "https://assets.isthereanydeal.com/018d937f-7396-724a-87ba-7f7ef4e3d79d/banner145.jpg",
+        "banner300": "https://assets.isthereanydeal.com/018d937f-7396-724a-87ba-7f7ef4e3d79d/banner300.jpg",
+        "banner400": "https://assets.isthereanydeal.com/018d937f-7396-724a-87ba-7f7ef4e3d79d/banner400.jpg",
+        "banner600": "https://assets.isthereanydeal.com/018d937f-7396-724a-87ba-7f7ef4e3d79d/banner600.jpg"
+    },
+    "earlyAccess": false,
+    "achievements": true,
+    "tradingCards": true,
+    "appid": 2242710,
+    "tags": [
+        "Casual",
+        "Adventure",
+        "Visual Novel",
+        "Dating Sim",
+        "Sexual Content"
+    ],
+    "releaseDate": "2023-08-04",
+    "developers": [
+        {
+            "id": 66209,
+            "name": "Us:track"
+        }
+    ],
+    "publishers": [],
+    "reviews": [
+        {
+            "score": 91,
+            "source": "Steam",
+            "count": 777,
+            "url": "https://store.steampowered.com/app/2242710/"
+        }
+    ],
+    "stats": {
+        "rank": 74296,
+        "waitlisted": 1,
+        "collected": 50
+    },
+    "players": {
+        "recent": 34,
+        "day": 34,
+        "week": 44,
+        "peak": 273
+    },
+    "urls": {
+        "game": "https://isthereanydeal.com/game/koi-x-shin-ai-kanojo-fhd-edition/"
+    }
+}

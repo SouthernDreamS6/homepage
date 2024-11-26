@@ -1,0 +1,60 @@
+{
+    "id": "018d937f-4818-71e9-8370-c6b5862bb3da",
+    "slug": "maitetsu-last-run",
+    "title": "Maitetsu:Last Run!!",
+    "type": "package",
+    "mature": false,
+    "assets": {
+        "boxart": "https://assets.isthereanydeal.com/018d937f-4818-71e9-8370-c6b5862bb3da/boxart.jpg?t=1725092419",
+        "banner145": "https://assets.isthereanydeal.com/018d937f-4818-71e9-8370-c6b5862bb3da/banner145.jpg?t=1725092420",
+        "banner300": "https://assets.isthereanydeal.com/018d937f-4818-71e9-8370-c6b5862bb3da/banner300.jpg?t=1725092420",
+        "banner400": "https://assets.isthereanydeal.com/018d937f-4818-71e9-8370-c6b5862bb3da/banner400.jpg?t=1725092420",
+        "banner600": "https://assets.isthereanydeal.com/018d937f-4818-71e9-8370-c6b5862bb3da/banner600.jpg?t=1725092420"
+    },
+    "earlyAccess": false,
+    "achievements": true,
+    "tradingCards": true,
+    "appid": 1434480,
+    "tags": [
+        "Sexual Content",
+        "Visual Novel",
+        "Anime",
+        "Casual",
+        "Cute"
+    ],
+    "releaseDate": "2020-10-30",
+    "developers": [
+        {
+            "id": 23129,
+            "name": "Lose"
+        }
+    ],
+    "publishers": [
+        {
+            "id": 18815,
+            "name": "HIKARI FIELD"
+        }
+    ],
+    "reviews": [
+        {
+            "score": 98,
+            "source": "Steam",
+            "count": 3693,
+            "url": "https://store.steampowered.com/app/1434480/"
+        }
+    ],
+    "stats": {
+        "rank": 23046,
+        "waitlisted": 504,
+        "collected": 362
+    },
+    "players": {
+        "recent": 91,
+        "day": 124,
+        "week": 161,
+        "peak": 426
+    },
+    "urls": {
+        "game": "https://isthereanydeal.com/game/maitetsu-last-run/"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "id": "018d937f-3864-73b0-977a-6c1ec9471821",
+    "slug": "tsukikage-no-simulacre-kaihou-no-hane",
+    "title": "Tsukikage no Simulacre:Kaihou no Hane",
+    "type": "game",
+    "mature": false,
+    "assets": {
+        "boxart": "https://assets.isthereanydeal.com/018d937f-3864-73b0-977a-6c1ec9471821/boxart.jpg",
+        "banner145": "https://assets.isthereanydeal.com/018d937f-3864-73b0-977a-6c1ec9471821/banner145.jpg",
+        "banner300": "https://assets.isthereanydeal.com/018d937f-3864-73b0-977a-6c1ec9471821/banner300.jpg",
+        "banner400": "https://assets.isthereanydeal.com/018d937f-3864-73b0-977a-6c1ec9471821/banner400.jpg",
+        "banner600": "https://assets.isthereanydeal.com/018d937f-3864-73b0-977a-6c1ec9471821/banner600.jpg"
+    },
+    "earlyAccess": false,
+    "achievements": true,
+    "tradingCards": true,
+    "appid": 1069230,
+    "tags": [
+        "Visual Novel",
+        "Sexual Content",
+        "Adventure",
+        "Anime",
+        "Casual"
+    ],
+    "releaseDate": "2019-07-26",
+    "developers": [
+        {
+            "id": 33025,
+            "name": "Applique"
+        }
+    ],
+    "publishers": [],
+    "reviews": [
+        {
+            "score": 97,
+            "source": "Steam",
+            "count": 2782,
+            "url": "https://store.steampowered.com/app/1069230/"
+        }
+    ],
+    "stats": {
+        "rank": 73948,
+        "waitlisted": 3,
+        "collected": 58
+    },
+    "players": {
+        "recent": 8,
+        "day": 19,
+        "week": 19,
+        "peak": 161
+    },
+    "urls": {
+        "game": "https://isthereanydeal.com/game/tsukikage-no-simulacre-kaihou-no-hane/"
+    }
+}

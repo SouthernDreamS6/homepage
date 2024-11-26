@@ -1,0 +1,80 @@
+{
+    "id": "018d937f-60b8-709f-862c-09b2087b9653",
+    "slug": "cafe-stella-and-the-reapers-butterflies",
+    "title": "Café Stella and the Reaper's Butterflies",
+    "type": "game",
+    "mature": true,
+    "assets": {
+        "boxart": "https://assets.isthereanydeal.com/018d937f-60b8-709f-862c-09b2087b9653/boxart.jpg?t=1724440813",
+        "banner145": "https://assets.isthereanydeal.com/018d937f-60b8-709f-862c-09b2087b9653/banner145.jpg?t=1724440814",
+        "banner300": "https://assets.isthereanydeal.com/018d937f-60b8-709f-862c-09b2087b9653/banner300.jpg?t=1724440814",
+        "banner400": "https://assets.isthereanydeal.com/018d937f-60b8-709f-862c-09b2087b9653/banner400.jpg?t=1724440814",
+        "banner600": "https://assets.isthereanydeal.com/018d937f-60b8-709f-862c-09b2087b9653/banner600.jpg?t=1724440815"
+    },
+    "earlyAccess": false,
+    "achievements": false,
+    "tradingCards": false,
+    "appid": 1829980,
+    "tags": [
+        "Visual Novel",
+        "Romance",
+        "Sexual Content",
+        "Story Rich",
+        "Choices Matter"
+    ],
+    "releaseDate": "2022-03-25",
+    "developers": [
+        {
+            "id": 10313,
+            "name": "Yuzusoft"
+        }
+    ],
+    "publishers": [
+        {
+            "id": 11034,
+            "name": "NekoNyan Ltd., HIKARI FIELD"
+        },
+        {
+            "id": 18815,
+            "name": "HIKARI FIELD"
+        },
+        {
+            "id": 26450,
+            "name": "NekoNyan Ltd."
+        }
+    ],
+    "reviews": [
+        {
+            "score": 98,
+            "source": "Steam",
+            "count": 3546,
+            "url": "https://store.steampowered.com/app/1829980/"
+        },
+        {
+            "score": null,
+            "source": "Metacritic User Score",
+            "count": 1,
+            "url": "https://metacritic.com/game/cafe-stella-and-the-reapers-butterflies/user-reviews/?platform=pc"
+        },
+        {
+            "score": null,
+            "source": "OpenCritic",
+            "count": 2,
+            "url": "https://opencritic.com/game/13097/caf-stella-and-the-reapers-butterflies"
+        }
+    ],
+    "stats": {
+        "rank": 20521,
+        "waitlisted": 717,
+        "collected": 129
+    },
+    "players": {
+        "recent": 203,
+        "day": 295,
+        "week": 295,
+        "peak": 1265
+    },
+    "urls": {
+        "game": "https://isthereanydeal.com/game/cafe-stella-and-the-reapers-butterflies/"
+    }
+}

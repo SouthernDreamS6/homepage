@@ -1,0 +1,97 @@
+[
+    {
+        "id": "018d937e-fa57-7217-8f92-74a1846666d1",
+        "historyLow": {
+            "all": {
+                "amount": 28.5,
+                "amountInt": 2850,
+                "currency": "TRY"
+            },
+            "y1": {
+                "amount": 288.77,
+                "amountInt": 28877,
+                "currency": "TRY"
+            },
+            "m3": {
+                "amount": 303.38,
+                "amountInt": 30338,
+                "currency": "TRY"
+            }
+        },
+        "deals": [
+            {
+                "shop": {
+                    "id": 61,
+                    "name": "Steam"
+                },
+                "price": {
+                    "amount": 309.42,
+                    "amountInt": 30942,
+                    "currency": "TRY"
+                },
+                "regular": {
+                    "amount": 619.19,
+                    "amountInt": 61919,
+                    "currency": "TRY"
+                },
+                "cut": 50,
+                "voucher": null,
+                "storeLow": {
+                    "amount": 28.5,
+                    "amountInt": 2850,
+                    "currency": "TRY"
+                },
+                "flag": null,
+                "drm": [],
+                "platforms": [
+                    {
+                        "id": 1,
+                        "name": "Windows"
+                    }
+                ],
+                "timestamp": "2024-11-11T19:21:06+01:00",
+                "expiry": "2024-11-18T19:00:00+01:00",
+                "url": "https://itad.link/018d9386-2416-719d-bd6d-c5fc574c50ec/"
+            },
+            {
+                "shop": {
+                    "id": 42,
+                    "name": "IndieGala Store"
+                },
+                "price": {
+                    "amount": 567.56,
+                    "amountInt": 56756,
+                    "currency": "TRY"
+                },
+                "regular": {
+                    "amount": 1204.31,
+                    "amountInt": 120431,
+                    "currency": "TRY"
+                },
+                "cut": 53,
+                "voucher": null,
+                "storeLow": {
+                    "amount": 566.96,
+                    "amountInt": 56696,
+                    "currency": "TRY"
+                },
+                "flag": "S",
+                "drm": [
+                    {
+                        "id": 61,
+                        "name": "Steam"
+                    }
+                ],
+                "platforms": [
+                    {
+                        "id": 1,
+                        "name": "Windows"
+                    }
+                ],
+                "timestamp": "2024-11-12T15:40:38+01:00",
+                "expiry": null,
+                "url": "https://itad.link/0193209a-a185-71f7-a657-d33ff4357b87/"
+            }
+        ]
+    }
+]

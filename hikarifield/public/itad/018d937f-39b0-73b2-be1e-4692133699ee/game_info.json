@@ -1,0 +1,60 @@
+{
+    "id": "018d937f-39b0-73b2-be1e-4692133699ee",
+    "slug": "hello-lady-new-division",
+    "title": "Hello Lady! -New Division",
+    "type": "game",
+    "mature": false,
+    "assets": {
+        "boxart": "https://assets.isthereanydeal.com/018d937f-39b0-73b2-be1e-4692133699ee/boxart.jpg",
+        "banner145": "https://assets.isthereanydeal.com/018d937f-39b0-73b2-be1e-4692133699ee/banner145.jpg",
+        "banner300": "https://assets.isthereanydeal.com/018d937f-39b0-73b2-be1e-4692133699ee/banner300.jpg",
+        "banner400": "https://assets.isthereanydeal.com/018d937f-39b0-73b2-be1e-4692133699ee/banner400.jpg",
+        "banner600": "https://assets.isthereanydeal.com/018d937f-39b0-73b2-be1e-4692133699ee/banner600.jpg"
+    },
+    "earlyAccess": false,
+    "achievements": false,
+    "tradingCards": true,
+    "appid": 1025070,
+    "tags": [
+        "Adventure",
+        "Sexual Content",
+        "Nudity",
+        "Casual",
+        "Visual Novel"
+    ],
+    "releaseDate": "2019-04-19",
+    "developers": [
+        {
+            "id": 25166,
+            "name": "AKATSUKI-WORKS"
+        }
+    ],
+    "publishers": [
+        {
+            "id": 18815,
+            "name": "HIKARI FIELD"
+        }
+    ],
+    "reviews": [
+        {
+            "score": 95,
+            "source": "Steam",
+            "count": 256,
+            "url": "https://store.steampowered.com/app/1025070/"
+        }
+    ],
+    "stats": {
+        "rank": 55806,
+        "waitlisted": 128,
+        "collected": 90
+    },
+    "players": {
+        "recent": 0,
+        "day": 1,
+        "week": 2,
+        "peak": 45
+    },
+    "urls": {
+        "game": "https://isthereanydeal.com/game/hello-lady-new-division/"
+    }
+}

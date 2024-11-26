@@ -1,0 +1,58 @@
+[
+    {
+        "id": "0190ee88-1b12-71c1-8a1e-2b5734b56c86",
+        "historyLow": {
+            "all": {
+                "amount": 58.5,
+                "amountInt": 5850,
+                "currency": "CNY"
+            },
+            "y1": {
+                "amount": 58.5,
+                "amountInt": 5850,
+                "currency": "CNY"
+            },
+            "m3": {
+                "amount": 58.5,
+                "amountInt": 5850,
+                "currency": "CNY"
+            }
+        },
+        "deals": [
+            {
+                "shop": {
+                    "id": 61,
+                    "name": "Steam"
+                },
+                "price": {
+                    "amount": 58.5,
+                    "amountInt": 5850,
+                    "currency": "CNY"
+                },
+                "regular": {
+                    "amount": 78,
+                    "amountInt": 7800,
+                    "currency": "CNY"
+                },
+                "cut": 25,
+                "voucher": null,
+                "storeLow": {
+                    "amount": 58.5,
+                    "amountInt": 5850,
+                    "currency": "CNY"
+                },
+                "flag": "H",
+                "drm": [],
+                "platforms": [
+                    {
+                        "id": 1,
+                        "name": "Windows"
+                    }
+                ],
+                "timestamp": "2024-11-08T11:15:28+01:00",
+                "expiry": "2024-11-18T19:00:57+01:00",
+                "url": "https://itad.link/01930b45-91b1-71da-8cd4-9e83f6e47872/"
+            }
+        ]
+    }
+]
