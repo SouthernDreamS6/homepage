@@ -213,7 +213,7 @@
                 	<tr v-for="galgames in galgames" :key="galgames.id">
 						<!-- 游戏预览图 -->
 						<td v-show="showGalgamesImg" class="image-container">
-							<img :src="imageServerUrl + './public/images/galgames/' + galgames.id + '/' + galgames.id + '.jpg'" alt="galgames.id" height="300%" width="auto">
+							<img :src="'./public/images/galgames/' + galgames.id + '/' + galgames.id + '.jpg'" alt="galgames.id" height="300%" width="auto">
 						</td>
 						<!-- 游戏名称 -->
 						<td v-show="showGalgamesName">
@@ -304,7 +304,7 @@
                 	<tr v-for="audioWorks in audioWorks" :key="audioWorks.id">
 						<!-- 游戏预览图 -->
 						<td v-show="showAudioWorksImg" class="image-container">
-							<img :src="imageServerUrl + './public/images/audio_works/' + audioWorks.id + '/' + audioWorks.id + '.jpg'" alt="audioWorks.id" height="300%" width="auto">
+							<img :src="'./public/images/audio_works/' + audioWorks.id + '/' + audioWorks.id + '.jpg'" alt="audioWorks.id" height="300%" width="auto">
 						</td>
 						<!--游戏名称-->
 						<td v-show="showAudioWorksName">
@@ -383,7 +383,7 @@
 						</td>
 						<!-- 周边预览图 -->
 						<td v-show="show_goods_img" class="image-container">
-							<img :src="imageServerUrl + './public/images/goods/' + goods.imgUrl" alt="goods.imgUrl" height="300%" width="auto">
+							<img :src="'./public/images/goods/' + goods.imgUrl" alt="goods.imgUrl" height="300%" width="auto">
 						</td>
 						<!--周边名称-->
 						<td v-show="show_goods_name">
@@ -459,7 +459,7 @@
 				const audioWorksDiscountEndTime = "2024.11.22";//音声作品折扣结束时间
 				const goodsTableUpdated = "2024.09.27";//实物周边价格表更新时间
 				const goodsDiscountEndTime = "未知";//实物周边折扣结束时间
-				const imageServerUrl = "https://image.hikarifield.aurorb.cn/";//图床
+				const imageServerUrl = "https://image.hikarifield.aurorb.cn/";//图床 //暂时遗弃
 
 				const showGalgamesImg =ref(true);//“视觉小说”游戏预览图
 				const showGalgamesName =ref(true);//“视觉小说”游戏名称
@@ -594,7 +594,7 @@ return {
 					audioWorksDiscountEndTime,
 					goodsTableUpdated,
 					goodsDiscountEndTime,
-					imageServerUrl,
+					imageServerUrl,		//暂时遗弃
 
 					showGalgamesImg,
 					showGalgamesName,
