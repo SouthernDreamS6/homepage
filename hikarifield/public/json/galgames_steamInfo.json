@@ -830,5 +830,21 @@
         "prices":"50.9"
       }
     }
+  },
+  {
+    "id": "hatuyuki",
+    "name": "初雪樱",
+    "steamInfo":{
+      "appId": "3171460",
+      "prices":{
+        "cnLow": "62.40",
+        "country": "南亚",
+        "low": "$8.39"
+      },
+      "steamPy":{
+        "gameId":"9000879574985004302336",
+        "prices":"50.9"
+      }
+    }
   }
 ]

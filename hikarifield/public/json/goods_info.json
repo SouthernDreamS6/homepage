@@ -46,7 +46,7 @@
       ]
     },
     "goodsSize": "B2竖版（约50x70cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "seikano/guahua_1.png",
     "salesTime": ""
   },
@@ -97,7 +97,7 @@
       ]
     },
     "goodsSize": "B2竖版（约50x70cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "seikano/guahua_2.png",
     "salesTime": ""
   },
@@ -148,7 +148,7 @@
       ]
     },
     "goodsSize": "B2竖版（约50x70cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "seikano/guahua_3.png",
     "salesTime": ""
   },
@@ -199,7 +199,7 @@
       ]
     },
     "goodsSize": "B2竖版（约50x70cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "seikano/guahua_4.png",
     "salesTime": ""
   },
@@ -250,7 +250,7 @@
       ]
     },
     "goodsSize": "B2竖版（约50x70cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "seikano/guahua_5.png",
     "salesTime": ""
   },
@@ -301,7 +301,7 @@
       ]
     },
     "goodsSize": "B2竖版（约50x70cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "seikano/guahua_6.png",
     "salesTime": ""
   },
@@ -312,6 +312,10 @@
     "prices": {
       "now": [
         {
+          "date": "2024.12.12",
+          "price": 179
+        },
+        {
           "date": "2024.11.09",
           "price": 186
         },
@@ -380,7 +384,7 @@
       ]
     },
     "goodsSize": "B2竖版（约50x70cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "aokana/guahua_1.png",
     "salesTime": ""
   },
@@ -391,6 +395,10 @@
     "prices": {
       "now": [
         {
+          "date": "2024.12.12",
+          "price": 179
+        },
+        {
           "date": "2024.11.09",
           "price": 186
         },
@@ -459,7 +467,7 @@
       ]
     },
     "goodsSize": "B2竖版（约50x70cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "aokana/guahua_2.png",
     "salesTime": ""
   },
@@ -470,6 +478,10 @@
     "prices": {
       "now": [
         {
+          "date": "2024.12.12",
+          "price": 179
+        },
+        {
           "date": "2024.11.09",
           "price": 186
         },
@@ -538,7 +550,7 @@
       ]
     },
     "goodsSize": "B2竖版（约50x70cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "aokana/guahua_3.png",
     "salesTime": ""
   },
@@ -549,6 +561,10 @@
     "prices": {
       "now": [
         {
+          "date": "2024.12.12",
+          "price": 179
+        },
+        {
           "date": "2024.11.09",
           "price": 186
         },
@@ -617,7 +633,7 @@
       ]
     },
     "goodsSize": "B2竖版（约50x70cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "aokana/guahua_4.png",
     "salesTime": ""
   },
@@ -628,6 +644,10 @@
     "prices": {
       "now": [
         {
+          "date": "2024.12.12",
+          "price": 179
+        },
+        {
           "date": "2024.11.09",
           "price": 186
         },
@@ -696,7 +716,7 @@
       ]
     },
     "goodsSize": "B2竖版（约50x70cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "aokana/guahua_5.png",
     "salesTime": ""
   },
@@ -707,6 +727,10 @@
     "prices": {
       "now": [
         {
+          "date": "2024.12.12",
+          "price": 179
+        },
+        {
           "date": "2024.11.09",
           "price": 186
         },
@@ -775,7 +799,7 @@
       ]
     },
     "goodsSize": "B2竖版（约50x70cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "aokana/guahua_6.png",
     "salesTime": ""
   },
@@ -786,6 +810,10 @@
     "prices": {
       "now": [
         {
+          "date": "2024.12.12",
+          "price": 179
+        },
+        {
           "date": "2024.11.09",
           "price": 186
         },
@@ -854,7 +882,7 @@
       ]
     },
     "goodsSize": "B2竖版（约50x70cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "aokana/guahua_7.png",
     "salesTime": ""
   },
@@ -865,6 +893,10 @@
     "prices": {
       "now": [
         {
+          "date": "2024.12.12",
+          "price": 179
+        },
+        {
           "date": "2024.11.09",
           "price": 186
         },
@@ -933,7 +965,7 @@
       ]
     },
     "goodsSize": "B2竖版（约50x70cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "aokana/guahua_8.png",
     "salesTime": ""
   },
@@ -944,6 +976,10 @@
     "prices": {
       "now": [
         {
+          "date": "2024.12.12",
+          "price": 179
+        },
+        {
           "date": "2024.11.09",
           "price": 186
         },
@@ -1012,7 +1048,7 @@
       ]
     },
     "goodsSize": "B2竖版（约50x70cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "aokana/guahua_9.png",
     "salesTime": ""
   },
@@ -1022,6 +1058,10 @@
     "goodsName": "《苍之彼方的四重奏》主题挂画",
     "prices": {
       "now": [
+        {
+          "date": "2024.12.12",
+          "price": 179
+        },
         {
           "date": "2024.11.09",
           "price": 186
@@ -1091,7 +1131,7 @@
       ]
     },
     "goodsSize": "B2横版（约70x50cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "aokana/guahua_10.png",
     "salesTime": ""
   },
@@ -1102,6 +1142,10 @@
     "prices": {
       "now": [
         {
+          "date": "2024.12.12",
+          "price": 179
+        },
+        {
           "date": "2024.11.09",
           "price": 186
         },
@@ -1170,7 +1214,7 @@
       ]
     },
     "goodsSize": "B2竖版（约50x70cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "kinkoi/guahua_1.png",
     "salesTime": ""
   },
@@ -1181,6 +1225,10 @@
     "prices": {
       "now": [
         {
+          "date": "2024.12.12",
+          "price": 179
+        },
+        {
           "date": "2024.11.09",
           "price": 186
         },
@@ -1249,7 +1297,7 @@
       ]
     },
     "goodsSize": "B2竖版（约50x70cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "kinkoi/guahua_2.png",
     "salesTime": ""
   },
@@ -1260,6 +1308,10 @@
     "prices": {
       "now": [
         {
+          "date": "2024.12.12",
+          "price": 179
+        },
+        {
           "date": "2024.11.09",
           "price": 186
         },
@@ -1328,7 +1380,7 @@
       ]
     },
     "goodsSize": "B2竖版（约50x70cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "kinkoi/guahua_3.png",
     "salesTime": ""
   },
@@ -1339,6 +1391,10 @@
     "prices": {
       "now": [
         {
+          "date": "2024.12.12",
+          "price": 179
+        },
+        {
           "date": "2024.11.09",
           "price": 186
         },
@@ -1407,7 +1463,7 @@
       ]
     },
     "goodsSize": "B2竖版（约50x70cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "kinkoi/guahua_4.png",
     "salesTime": ""
   },
@@ -1418,6 +1474,10 @@
     "prices": {
       "now": [
         {
+          "date": "2024.12.12",
+          "price": 179
+        },
+        {
           "date": "2024.11.09",
           "price": 186
         },
@@ -1486,7 +1546,7 @@
       ]
     },
     "goodsSize": "B2竖版（约50x70cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "maitetsu_lr/guahua_1.png",
     "salesTime": ""
   },
@@ -1497,6 +1557,10 @@
     "prices": {
       "now": [
         {
+          "date": "2024.12.12",
+          "price": 179
+        },
+        {
           "date": "2024.11.09",
           "price": 186
         },
@@ -1565,7 +1629,7 @@
       ]
     },
     "goodsSize": "B2竖版（约50x70cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "maitetsu_lr/guahua_2.png",
     "salesTime": ""
   },
@@ -1576,6 +1640,10 @@
     "prices": {
       "now": [
         {
+          "date": "2024.12.12",
+          "price": 179
+        },
+        {
           "date": "2024.11.09",
           "price": 186
         },
@@ -1644,7 +1712,7 @@
       ]
     },
     "goodsSize": "B2竖版（约50x70cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "maitetsu_lr/guahua_3.png",
     "salesTime": ""
   },
@@ -1654,6 +1722,10 @@
     "goodsName": "《爱上火车 -Pure Station-》主题挂画",
     "prices": {
       "now": [
+        {
+          "date": "2024.12.12",
+          "price": 179
+        },
         {
           "date": "2024.11.09",
           "price": 186
@@ -1734,6 +1806,10 @@
     "prices": {
       "now": [
         {
+          "date": "2024.12.12",
+          "price": 179
+        },
+        {
           "date": "2024.11.09",
           "price": 186
         },
@@ -1802,7 +1878,7 @@
       ]
     },
     "goodsSize": "B2竖版（约50x70cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "maitetsu/guahua_2.png",
     "salesTime": ""
   },
@@ -1892,6 +1968,10 @@
     "prices": {
       "now": [
         {
+          "date": "2024.12.12",
+          "price": 179
+        },
+        {
           "date": "2024.11.09",
           "price": 186
         },
@@ -1960,7 +2040,7 @@
       ]
     },
     "goodsSize": "B2竖版（约50x70cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "maitetsu/guahua_4.png",
     "salesTime": ""
   },
@@ -2011,7 +2091,7 @@
       ]
     },
     "goodsSize": "B2竖版（约50x70cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "making_lovers/guahua_1.png",
     "salesTime": ""
   },
@@ -2062,7 +2142,7 @@
       ]
     },
     "goodsSize": "B2竖版（约50x70cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "making_lovers/guahua_2.png",
     "salesTime": ""
   },
@@ -2113,7 +2193,7 @@
       ]
     },
     "goodsSize": "B2竖版（约50x70cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "making_lovers/guahua_3.png",
     "salesTime": ""
   },
@@ -2164,7 +2244,7 @@
       ]
     },
     "goodsSize": "B2竖版（约50x70cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "making_lovers/guahua_4.png",
     "salesTime": ""
   },
@@ -2215,7 +2295,7 @@
       ]
     },
     "goodsSize": "B2竖版（约50x70cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "making_lovers/guahua_5.png",
     "salesTime": ""
   },
@@ -2266,7 +2346,7 @@
       ]
     },
     "goodsSize": "B2横版（约70x50cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "tsukiniyorisou/guahua_1.png",
     "salesTime": "2024-05-31 18:00:00"
   },
@@ -2317,7 +2397,7 @@
       ]
     },
     "goodsSize": "B2横版（约70x50cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "tsukiniyorisou/guahua_2.png",
     "salesTime": "2024-05-31 18:00:00"
   },
@@ -2368,7 +2448,7 @@
       ]
     },
     "goodsSize": "B2横版（约70x50cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "alias_carnival/guahua_1.png",
     "salesTime": "2024-05-31 18:00:00"
   },
@@ -2419,7 +2499,7 @@
       ]
     },
     "goodsSize": "B2横版（约70x50cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "alias_carnival/guahua_2.png",
     "salesTime": "2024-05-31 18:00:00"
   },
@@ -2470,7 +2550,7 @@
       ]
     },
     "goodsSize": "B2竖版（约50x70cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "tsukikage/guahua_1.png",
     "salesTime": "2024-05-31 18:00:00"
   },
@@ -2521,7 +2601,7 @@
       ]
     },
     "goodsSize": "B2竖版（约50x70cm）",
-    "stockStatus": "现货",
+    "stockStatus": "N/A",
     "imgUrl": "hananono/guahua_1.png",
     "salesTime": "2024-05-31 18:00:00"
   }
