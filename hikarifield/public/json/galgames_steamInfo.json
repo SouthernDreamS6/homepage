@@ -846,5 +846,21 @@
         "prices":"50.9"
       }
     }
+  },
+  {
+    "id": "tenshisouzou",
+    "name": "天使☆嚣嚣 RE-BOOT!",
+    "steamInfo":{
+      "appId": "暂未在Steam发布",
+      "prices":{
+        "cnLow": "暂未在Steam发布",
+        "country": "",
+        "low": ""
+      },
+      "steamPy":{
+        "gameId":"暂未在Steam发布",
+        "prices":"暂未在Steam发布"
+      }
+    }
   }
 ]
