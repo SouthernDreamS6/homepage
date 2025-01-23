@@ -113,7 +113,8 @@ product_ids = [
     "hitme",
     "kakenuke",
     "selectoblige",
-    "hatuyuki"
+    "hatuyuki",
+    "tenshisouzou"
 ]
 
 # 爬取站点数据并与./galgames_prices.json变量中的对应数据做对比
