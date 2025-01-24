@@ -62,7 +62,7 @@ base_url = "https://store.hikarifield.co.jp/goods/"
 
 
 # 爬取站点数据并与./goods_info.json变量中的对应数据做对比
-for product_id in range(1, 61):
+for product_id in range(1, 161):
 
     jsonPrices = {
         "now": next((int(entry["prices"]["now"][0]["price"]) for entry in json_file_data if entry["id"] == str(product_id)), None),
@@ -105,23 +105,28 @@ for product_id in range(1, 61):
             # 获取商品名称和库存状态
             goods_name_with_status = title_tag.get_text(separator=" ", strip=True)
             stock_status_tag = title_tag.find("span", class_="badge presale bg-success")
-            
-            stock_status = stock_status_tag.get_text(strip=True) 
-            # 商品名称可能在前面，库存状态可能在后面，这里假设库存状态标签存在并且出现在名称后面
-            if stock_status != "N/A":
-                goods_name = goods_name_with_status.replace(stock_status, "").strip()
-            else:
-                # 如果库存状态标签不存在，只获取商品名称
-                goods_name = goods_name_with_status
+
+            goods_name = goods_name_with_status
             
             product_info["goodsName"] = goods_name
             print("商品名称:", goods_name)
             
+#            stock_status = stock_status_tag.get_text(strip=True) 
+            # 商品名称可能在前面，库存状态可能在后面，这里假设库存状态标签存在并且出现在名称后面
+#            if stock_status != "N/A":
+#                goods_name = goods_name_with_status.replace(stock_status, "").strip()
+#            else:
+                # 如果库存状态标签不存在，只获取商品名称
+#                goods_name = goods_name_with_status
+            
+#            product_info["goodsName"] = goods_name
+#            print("商品名称:", goods_name)
+            
             # 检查是否需要插入新数据
-            if jsonPrices["stockStatus"] != stock_status:
-                product_info["stockStatus"] = stock_status
-                print("stockStatus原数据:", jsonPrices["stockStatus"])
-                print("数据变动:", stock_status)
+#            if jsonPrices["stockStatus"] != stock_status:
+#                product_info["stockStatus"] = stock_status
+#                print("stockStatus原数据:", jsonPrices["stockStatus"])
+#                print("数据变动:", stock_status)
         
         # 获取当前价格
         discount_price_tag = soup.find("span", class_="discount-price")
