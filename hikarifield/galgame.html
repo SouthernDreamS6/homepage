@@ -371,11 +371,8 @@
 						<th v-show="show_goods_img">周边预览图</th>
 						<th v-show="show_goods_name">周边名称<p class="top">点击名称即可访问HF商城</p></th>
 						<th v-show="show_goods_price">价格<br>更新时间{{ goodsTableUpdated }}<br>本次促销结束时间{{ goodsDiscountEndTime }}</th>
-						<th v-show="show_goods_goodsSize">产品规格</th>
-						<th v-show="show_goods_stockStatus">库存状态</th>
 						<th v-show="show_goods_workName">所属作品</th>
-						<th v-show="show_goods_salesTime">销售时间<p class="top">此处时间采集于HF游戏介绍</p></th>
-					</tr>
+						</tr>
                 	<tr v-for="goods in goods" :key="goods.id">
 						<!--编号-->
 						<td v-show="show_goods_id">
