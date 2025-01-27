@@ -400,21 +400,9 @@
 								<br>
 								原价¥{{ goods.prices.old[0].price }}
 						</td>
-						<!--产品规格-->
-						<td v-show="show_goods_goodsSize">
-							<p>{{ goods.goodsSize }}</p>
-						</td>
-						<!--库存状态-->
-						<td v-show="show_goods_stockStatus">
-							<p>{{ goods.stockStatus }}</p>
-						</td>
 						<!--所属作品-->
 						<td v-show="show_goods_workName">
 							<p>{{ goods.workName }}</p>
-						</td>
-						<!--发售时间-->
-						<td v-show="show_goods_salesTime">
-							{{ goods.salesTime }}
 						</td>
 					</tr>
 				</table>

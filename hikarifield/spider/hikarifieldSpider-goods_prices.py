@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 """
 脚本名称: hikarifield爬虫脚本——实物周边（测试中）
-版本: 0.1
+版本: Ver 0.2
 作者: 南梦故间
-日期: 2024-07-20
+日期: 2025-01-28
 描述: 该脚本用于从hikarifield网站爬取产品价格信息并更新goods_info.json文件。
 用法：使用前请先抓取hikarifield账号cookie并储存于脚本目录下的cookie.txt文件中。
 """
@@ -68,8 +68,7 @@ for product_id in range(1, 161):
         "now": next((int(entry["prices"]["now"][0]["price"]) for entry in json_file_data if entry["id"] == str(product_id)), None),
         "scNow": next((int(entry["prices"]["scNow"][0]["price"]) for entry in json_file_data if entry["id"] == str(product_id)), None),
         "old": next((int(entry["prices"]["old"][0]["price"]) for entry in json_file_data if entry["id"] == str(product_id)), None),
-        "stockStatus": next((entry["stockStatus"] for entry in json_file_data if entry["id"] == str(product_id)), None)
-    }
+       }
     url = f"{base_url}{product_id}"
     
     try:
@@ -93,7 +92,6 @@ for product_id in range(1, 161):
                 "scNow": [],
                 "old": []
             },
-            "stockStatus": "N/A",
             "imgUrl": "N/A"
         }
         
@@ -110,24 +108,7 @@ for product_id in range(1, 161):
             
             product_info["goodsName"] = goods_name
             print("商品名称:", goods_name)
-            
-#            stock_status = stock_status_tag.get_text(strip=True) 
-            # 商品名称可能在前面，库存状态可能在后面，这里假设库存状态标签存在并且出现在名称后面
-#            if stock_status != "N/A":
-#                goods_name = goods_name_with_status.replace(stock_status, "").strip()
-#            else:
-                # 如果库存状态标签不存在，只获取商品名称
-#                goods_name = goods_name_with_status
-            
-#            product_info["goodsName"] = goods_name
-#            print("商品名称:", goods_name)
-            
-            # 检查是否需要插入新数据
-#            if jsonPrices["stockStatus"] != stock_status:
-#                product_info["stockStatus"] = stock_status
-#                print("stockStatus原数据:", jsonPrices["stockStatus"])
-#                print("数据变动:", stock_status)
-        
+          
         # 获取当前价格
         discount_price_tag = soup.find("span", class_="discount-price")
         if discount_price_tag:
@@ -192,7 +173,6 @@ for product_id in range(1, 161):
                 existing_entry["prices"]["scNow"] = product_info["prices"]["scNow"] + existing_entry["prices"]["scNow"]
                 existing_entry["prices"]["old"] = product_info["prices"]["old"] + existing_entry["prices"]["old"]
                 existing_entry["goodsName"] = product_info["goodsName"]
-                existing_entry["stockStatus"] = product_info["stockStatus"]
                 existing_entry["imgUrl"] = product_info["imgUrl"]
                 break
     
