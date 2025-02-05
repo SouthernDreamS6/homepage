@@ -862,5 +862,21 @@
         "prices":"暂未在Steam发布"
       }
     }
+  },
+  {
+    "id": "kirakano",
+    "name": "闪亮☆女友",
+    "steamInfo":{
+      "appId": "暂未在Steam发布",
+      "prices":{
+        "cnLow": "暂未在Steam发布",
+        "country": "",
+        "low": ""
+      },
+      "steamPy":{
+        "gameId":"暂未在Steam发布",
+        "prices":"暂未在Steam发布"
+      }
+    }
   }
 ]
