@@ -867,6 +867,22 @@
     "id": "kirakano",
     "name": "闪亮☆女友",
     "steamInfo":{
+      "appId": "3446120",
+      "prices":{
+        "cnLow": "45.24",
+        "country": "俄罗斯",
+        "low": "429 ₽"
+      },
+      "steamPy":{
+        "gameId":"9000902772211591720960",
+        "prices":"37.5"
+      }
+    }
+  },
+  {
+    "id": "koichoco",
+    "name": "恋爱与选举与巧克力",
+    "steamInfo":{
       "appId": "暂未在Steam发布",
       "prices":{
         "cnLow": "暂未在Steam发布",
