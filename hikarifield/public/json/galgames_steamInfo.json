@@ -883,6 +883,22 @@
     "id": "koichoco",
     "name": "恋爱与选举与巧克力",
     "steamInfo":{
+      "appId": "3027600",
+      "prices":{
+        "cnLow": "69.52",
+        "country": "南亚",
+        "low": "$8.28"
+      },
+      "steamPy":{
+        "gameId":"9000917986075233181696",
+        "prices":"58.40"
+      }
+    }
+  },
+  {
+    "id": "tsukiniyorisou_2nd",
+    "name": "近月少女的礼仪2",
+    "steamInfo":{
       "appId": "暂未在Steam发布",
       "prices":{
         "cnLow": "暂未在Steam发布",
