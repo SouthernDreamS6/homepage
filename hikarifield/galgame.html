@@ -99,13 +99,7 @@
 					class="kz-nav-btn btn btn-danger col-lg-4">
 					<br>查看公告<br><br>///
 				</button>
-				<button @click="show_change_log = !show_change_log"><br>更新日志<br><br>///</button>
-				<div v-show="show_change_log">
-					<br><br>
-					<button onclick="window.open('https://#', '_blank');">日志功能维护中”</button>
-					<br><br>
-					<iframe src="https://#" width="80%" height="500vh"></iframe>
-				</div>
+				<button onclick="window.open('./updatelist.html', '_blank');"><br>更新日志<br><br>///</button>
 				<button @click="show_QandA = !show_QandA"><br>答疑解惑<br><br>///</button>
 				<div v-show="show_QandA">
 					<div class="web_notice_content">
@@ -476,7 +470,6 @@
 				const show_goods_workName = ref([]);//“实物周边”所属作品
 				const show_goods_salesTime = ref([]);//“实物周边”销售时间
 
-				const show_change_log = ref(false);//更新日志
 				const show_QandA = ref(false);//答疑解惑
 				const show_Console = ref(false);//控制台
 				
@@ -611,7 +604,6 @@ return {
 					show_goods_workName,
 					show_goods_salesTime,
 
-					show_change_log,
 					show_QandA,
 					show_Console,
 
