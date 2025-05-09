@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 """
 脚本名称: hikarifield爬虫脚本——实物周边（测试中）
-版本: Ver 0.2
+版本: Ver 0.3
 作者: 南梦故间
-日期: 2025-01-28
+日期: 2025-05-09
 描述: 该脚本用于从hikarifield网站爬取产品价格信息并更新goods_info.json文件。
 用法：使用前请先抓取hikarifield账号cookie并储存于脚本目录下的cookie.txt文件中。
 """
@@ -42,145 +42,145 @@ else:
         print(f"无法下载模板文件: {e}")
         sys.exit(1)
 
-# 读取./goods_info.json中每个数组的第一条数据作为变量用于后续数据对比
+# 读取JSON数据
 with open(json_file, "r", encoding="utf-8") as file:
     json_file_data = json.load(file)
 
-# 读取cookie.txt文件中的cookie
+# 读取cookie
 with open('cookie.txt', 'r', encoding='utf-8') as f:
     cookie = f.read().strip()
 
-# 设置请求头部信息
+# 请求头配置
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
-                  '(KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.360',
+                  '(KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
     'Cookie': cookie,
     'Referer': 'https://store.hikarifield.co.jp/full_games'
 }
 
 base_url = "https://store.hikarifield.co.jp/goods/"
 
+# 价格解析函数
+def parse_price(text):
+    match = re.search(r'(\d+)', text.replace(',', ''))  # 支持处理带逗号的数字
+    return int(match.group(1)) if match else None
 
-# 爬取站点数据并与./goods_info.json变量中的对应数据做对比
-for product_id in range(1, 161):
-
+# 主爬虫逻辑
+for product_id in range(1, 141):
+    product_info = {
+        "id": str(product_id),
+        "goodsName": "N/A",
+        "prices": {"now": [], "scNow": [], "old": []},
+        "imgUrl": "N/A"
+    }
+    
+    # 从JSON获取历史价格
+    existing_entry = next((x for x in json_file_data if x["id"] == str(product_id)), None)
     jsonPrices = {
-        "now": next((int(entry["prices"]["now"][0]["price"]) for entry in json_file_data if entry["id"] == str(product_id)), None),
-        "scNow": next((int(entry["prices"]["scNow"][0]["price"]) for entry in json_file_data if entry["id"] == str(product_id)), None),
-        "old": next((int(entry["prices"]["old"][0]["price"]) for entry in json_file_data if entry["id"] == str(product_id)), None),
-       }
+        "now": existing_entry["prices"]["now"][0]["price"] if existing_entry and existing_entry["prices"]["now"] else None,
+        "scNow": existing_entry["prices"]["scNow"][0]["price"] if existing_entry and existing_entry["prices"]["scNow"] else None,
+        "old": existing_entry["prices"]["old"][0]["price"] if existing_entry and existing_entry["prices"]["old"] else None
+    } if existing_entry else {"now": None, "scNow": None, "old": None}
+
     url = f"{base_url}{product_id}"
     
     try:
-        response = requests.get(url, headers=headers)
-        response.raise_for_status() 
-        
+        response = requests.get(url, headers=headers, timeout=10)
+        response.raise_for_status()
         soup = BeautifulSoup(response.content, "html.parser")
-        
-        # 判断商品ID是否存在
-        error_page = soup.find("div", class_="error-page px-4")
-        if error_page:
-            print(f"商品ID {product_id} 不存在或未上架，跳过")
+
+        # 检查商品是否存在
+        if soup.find("div", class_="error-page"):
+            print(f"商品ID {product_id} 不存在，跳过")
             continue
 
-        # 解析产品信息
-        product_info = {
-            "id": str(product_id),
-            "goodsName": "N/A",
-            "prices": {
-                "now": [],
-                "scNow": [],
-                "old": []
-            },
-            "imgUrl": "N/A"
-        }
-        
-        print(f"正在爬取 {product_id}")
-        
-        # 获取商品名称和库存状态
+        print(f"\n正在处理商品 {product_id}/160")
+
+        # 解析商品名称
         title_tag = soup.find("div", class_="title mt-2")
         if title_tag:
-            # 获取商品名称和库存状态
-            goods_name_with_status = title_tag.get_text(separator=" ", strip=True)
-            stock_status_tag = title_tag.find("span", class_="badge presale bg-success")
+            goods_name = title_tag.get_text(separator=" ", strip=True)
+            product_info["goodsName"] = re.sub(r'\s+', ' ', goods_name).strip()
+            print(f"商品名称: {product_info['goodsName']}")
 
-            goods_name = goods_name_with_status
-            
-            product_info["goodsName"] = goods_name
-            print("商品名称:", goods_name)
-          
-        # 获取当前价格
+        # 解析当前价格
         discount_price_tag = soup.find("span", class_="discount-price")
         if discount_price_tag:
-            discount_price_text = discount_price_tag.get_text(separator=" ", strip=True)
-            product_price = int(re.search(r'\d+', discount_price_text).group())
-            new_price_data = {
-                "date": datetime.now().strftime("%Y.%m.%d"),
-                "price": product_price
-            }
-            
-            # 检查是否需要插入新数据
-            if jsonPrices["now"] != product_price:
-                product_info["prices"]["now"].append(new_price_data)
-                print("now原数据", jsonPrices["now"]) 
-                print("数据变动", product_price) 
-        
-        # 获取原价
+            current_price = parse_price(discount_price_tag.get_text())
+            if current_price and current_price != jsonPrices["now"]:
+                product_info["prices"]["now"].append({
+                    "date": datetime.now().strftime("%Y.%m.%d"),
+                    "price": current_price
+                })
+                print(f"当前价格变动: {jsonPrices['now']} → {current_price}")
+
+        # 解析原价
         original_price_tag = soup.find("span", class_="original-price")
         if original_price_tag:
-            original_price_text = original_price_tag.get_text(separator=" ", strip=True)
-            old_price = int(re.search(r'\d+', original_price_text).group())
-            new_old_price_data = {
-                "date": datetime.now().strftime("%Y.%m.%d"),
-                "price": old_price
-            }
-            
-            # 检查是否需要插入新数据
-            if jsonPrices["old"] != old_price:
-                product_info["prices"]["old"].append(new_old_price_data)
-                print("old原数据", jsonPrices["old"]) 
-                print("数据变动", old_price) 
+            old_price = parse_price(original_price_tag.get_text())
+            if old_price and old_price != jsonPrices["old"]:
+                product_info["prices"]["old"].append({
+                    "date": datetime.now().strftime("%Y.%m.%d"),
+                    "price": old_price
+                })
+                print(f"原价变动: {jsonPrices['old']} → {old_price}")
 
-        # 获取SLAM CARD价格
+        # 优化后的SLAM CARD价格解析
         discount_details = soup.find("div", class_="discount-details mt-2")
-        if discount_details:
-            li_tags = discount_details.find_all("li")
-            for li_tag in li_tags:
-                if "SLAM CARD" in li_tag.get_text():
-                    sc_price_text = li_tag.find("strong", class_="text-danger").get_text(strip=True)
-                    sc_price = int(re.search(r'\d+', sc_price_text).group())
-                    new_sc_price_data = {
-                        "date": datetime.now().strftime("%Y.%m.%d"),
-                        "price": sc_price
-                    }
-            
-                    # 检查是否需要插入新数据
-                    if jsonPrices["scNow"] != sc_price:
-                        product_info["prices"]["scNow"].append(new_sc_price_data)
-                        print("scNow原数据", jsonPrices["scNow"]) 
-                        print("数据变动", sc_price) 
+        sc_price = None
         
-        # 获取图片URL
+        if discount_details:
+            # 使用CSS选择器精准定位包含SLAM CARD的条目
+            slamcard_li = discount_details.select('li:has(a[href*="slam_cards"])')
+            
+            for li in slamcard_li:
+                # 获取所有价格元素，取最后一个包含数字的
+                price_elements = li.find_all("strong", class_="text-danger")
+                for elem in reversed(price_elements):
+                    price = parse_price(elem.get_text(strip=True))
+                    if price:
+                        sc_price = price
+                        break
+                if sc_price:
+                    break
+
+        if sc_price:
+            if sc_price != jsonPrices["scNow"]:
+                product_info["prices"]["scNow"].append({
+                    "date": datetime.now().strftime("%Y.%m.%d"),
+                    "price": sc_price
+                })
+                print(f"SC价格变动: {jsonPrices['scNow']} → {sc_price}")
+        else:
+            print(f"商品ID {product_id} 未找到SLAM CARD价格")
+
+        # 解析图片URL
         link_tag = soup.find("a", class_="link", href=True)
         if link_tag:
-            img_url = re.search(r'goods/(.*)', link_tag['href']).group(1)
-            product_info["imgUrl"] = img_url
-        
-        # 更新./goods_info.json文件中对应数组
-        for existing_entry in json_file_data:
-            if existing_entry["id"] == str(product_id):
-                existing_entry["prices"]["now"] = product_info["prices"]["now"] + existing_entry["prices"]["now"]
-                existing_entry["prices"]["scNow"] = product_info["prices"]["scNow"] + existing_entry["prices"]["scNow"]
-                existing_entry["prices"]["old"] = product_info["prices"]["old"] + existing_entry["prices"]["old"]
-                existing_entry["goodsName"] = product_info["goodsName"]
-                existing_entry["imgUrl"] = product_info["imgUrl"]
-                break
-    
-    except requests.RequestException as e:
-        print(f"Error fetching data for product ID {product_id}: {e}")
+            product_info["imgUrl"] = re.search(r'goods/(.*)', link_tag['href']).group(1)
+            
+            print(f"图片地址: {product_info['imgUrl']}")
 
-# 保存更新后的JSON数据
-with open(json_file, "w", encoding="utf-8") as file:
-    json.dump(json_file_data, file, ensure_ascii=False, indent=2)
+        # 更新JSON数据
+        if existing_entry:
+            # 保留历史数据，只追加新变动
+            for price_type in ["now", "scNow", "old"]:
+                if product_info["prices"][price_type]:
+                    existing_entry["prices"][price_type].insert(0, product_info["prices"][price_type][0])
+                    existing_entry["goodsName"] = product_info["goodsName"]
+                    existing_entry["imgUrl"] = product_info["imgUrl"]
+        else:
+            json_file_data.append(product_info)
 
-print("数据已更新至 goods_info.json 文件中")
+    except Exception as e:
+        print(f"处理商品 {product_id} 时发生错误: {str(e)}")
+        continue
+
+# 保存更新后的数据
+try:
+    with open(json_file, "w", encoding="utf-8") as file:
+        json.dump(json_file_data, file, ensure_ascii=False, indent=2)
+    print("\n数据更新完成！")
+except Exception as e:
+    print(f"保存文件失败: {str(e)}")
+    sys.exit(1)

@@ -899,6 +899,22 @@
     "id": "tsukiniyorisou_2nd",
     "name": "近月少女的礼仪2",
     "steamInfo":{
+      "appId": "3446150",
+      "prices":{
+        "cnLow": "66.00",
+        "country": "中国",
+        "low": "¥ 66"
+      },
+      "steamPy":{
+        "gameId":"9000933206101091667968",
+        "prices":"55.00"
+      }
+    }
+  },
+  {
+    "id": "aozora_refine",
+    "name": "青空下的约定―Refine",
+    "steamInfo":{
       "appId": "暂未在Steam发布",
       "prices":{
         "cnLow": "暂未在Steam发布",
