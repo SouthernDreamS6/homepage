@@ -915,7 +915,23 @@
     "id": "aozora_refine",
     "name": "青空下的约定―Refine",
     "steamInfo":{
-      "appId": "暂未在Steam发布",
+      "appId": "3446170",
+      "prices":{
+        "cnLow": "暂未在Steam发布",
+        "country": "",
+        "low": ""
+      },
+      "steamPy":{
+        "gameId":"暂未在Steam发布",
+        "prices":"暂未在Steam发布"
+      }
+    }
+  },
+  {
+    "id": "sickly_days",
+    "name": "痴情哥哥与病弱妹妹的乡间生活",
+    "steamInfo":{
+      "appId": "3682050",
       "prices":{
         "cnLow": "暂未在Steam发布",
         "country": "",
