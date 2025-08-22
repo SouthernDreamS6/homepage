@@ -933,13 +933,13 @@
     "steamInfo":{
       "appId": "3446170",
       "prices":{
-        "cnLow": "暂未在Steam发布",
-        "country": "",
-        "low": ""
+        "cnLow": "58.50",
+        "country": "南亚",
+        "low": "$7.86"
       },
       "steamPy":{
-        "gameId":"暂未在Steam发布",
-        "prices":"暂未在Steam发布"
+        "gameId":"9000971264342866784256",
+        "prices":"42.20"
       }
     }
   }
