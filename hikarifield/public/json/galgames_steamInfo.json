@@ -942,5 +942,21 @@
         "prices":"42.20"
       }
     }
+  },
+  {
+    "id": "dracuriot",
+    "name": "DRACU-RIOT!",
+    "steamInfo":{
+      "appId": "暂未在Steam发布",
+      "prices":{
+        "cnLow": "",
+        "country": "",
+        "low": ""
+      },
+      "steamPy":{
+        "gameId":"",
+        "prices":""
+      }
+    }
   }
 ]

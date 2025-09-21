@@ -426,6 +426,12 @@
     "id": "aozora_refine",
     "name": "青空下的约定―Refine",
     "developerId": "gigaentergram",
-    "release_time": "2025年第二季度"
+    "release_time": "2025-08-22"
+  },
+  {
+    "id": "dracuriot",
+    "name": "DRACU-RIOT!",
+    "developerId": "yuzusoft",
+    "release_time": "2025年第四季度"
   }
 ]
