@@ -290,7 +290,7 @@
 						<th v-show="showAudioWorksImg">作品预览图</th>
 						<th v-show="showAudioWorksName">作品名称<p class="top">点击名称即可访问HF商城</p></th>
 						<th v-show="showAudioWorksHFPrices">HF价格<br>更新时间{{ audioWorksTableUpdated }}<br>本次促销结束时间{{ audioWorksDiscountEndTime }}</th>
-						<th v-show="showAudioWorksSCPrices">SLAM CARD价格<br>更新时间2024.07.02</th>
+						<th v-show="showAudioWorksSCPrices">SLAM CARD价格</th>
 						<th v-show="showAudioWorksBuyForYouPrices">代购价格<p class="top_redfont">2024.6.1HF修改赠送规则<br>史低代购仅限一次先到先得</p></th>
 						<th v-show="showAudioWorksDeveloper">开发商<p class="top">部分社团资料较少<br>如有错误欢迎指正</p></th>
 						<th v-show="showAudioWorksReleaseTime">发售时间<p class="top">此处时间采集于HF游戏介绍</p></th>
@@ -346,7 +346,6 @@
 				</table>
 			</div>
 			<div id="switchTable3" class="switchTable">
-				<p class="hfSpecialOffer">等待更新</p>
 				<button @click="show_Console = !show_Console"><br>打开/关闭控制台<br>///</button>
 				<div v-show="show_Console">
 					<button @click="show_goods_id = !show_goods_id">编号</button>
@@ -434,7 +433,7 @@
 				const galgamesTableUpdated = "2025.09.30";//视觉小说价格表更新时间
 				const galgamesDiscountEndTime = "2025.10.20";//视觉小说折扣结束时间
 				const steamInfoUpdated = "2024.09.27";//STEAM信息更新时间
-				const audioWorksTableUpdated = "2025.09.30";//音声作品价格表更新时间
+				const audioWorksTableUpdated = "2025.10.03";//音声作品价格表更新时间
 				const audioWorksDiscountEndTime = "2025.10.20";//音声作品折扣结束时间
 				const goodsTableUpdated = "2025.07.27";//实物周边价格表更新时间
 				const goodsDiscountEndTime = "未知";//实物周边折扣结束时间
